@@ -1,0 +1,318 @@
+{
+  "system_priority_matrix": {
+    "system": "ProPhotoSkills",
+    "brand": "ProPhotoSkills",
+    "version": "1.1",
+    "language": "de",
+    "purpose": "Definiert die globale Prioritaetslogik aller semantischen Systeme, Runtime-Prozesse, Agenten und Entscheidungsdynamiken.",
+    "semantic_logic": {
+      "definition": "Die System Priority Matrix entscheidet welche semantischen Ebenen unter bestimmten Bedingungen absolute Prioritaet erhalten.",
+      "core_principle": "Nicht jede Prioritaet ist gleich wichtig - emotionale Stabilitaet, Professionalitaet und semantische Integritaet besitzen systemweite Vorrangregeln.",
+      "focus_dimensions": [
+        "Emotion",
+        "Leadership",
+        "Professionalitaet",
+        "Stressdynamik",
+        "Wahrnehmung",
+        "Adaptive Entwicklung",
+        "Runtime Kontrolle",
+        "semantische Integritaet"
+      ]
+    },
+    "global_priority_levels": [
+      {
+        "priority_level": 1,
+        "priority_name": "Emotionale Stabilitaet",
+        "semantic_importance": "Emotionale Stabilitaet beeinflusst Wahrnehmung, Entscheidungen, Lernfaehigkeit und Professionalitaet.",
+        "overrides": [
+          "kreative Exploration",
+          "Informationsdichte",
+          "Leistungsdruck"
+        ],
+        "connected_systems": [
+          "AG001",
+          "PM001",
+          "RT001",
+          "SD001"
+        ],
+        "mandatory_runtime_behavior": [
+          "Informationsmenge reduzieren",
+          "emotionale Sicherheit erhoehen",
+          "Stabilisierung priorisieren"
+        ]
+      },
+      {
+        "priority_level": 2,
+        "priority_name": "Leadership und Vertrauen",
+        "semantic_importance": "Leadership steuert Atmosphaere, Teamdynamik und emotionale Sicherheit.",
+        "overrides": [
+          "reine Effizienz",
+          "technische Dominanz"
+        ],
+        "connected_systems": [
+          "AG002",
+          "PM002",
+          "SD005"
+        ],
+        "mandatory_runtime_behavior": [
+          "ruhige Kommunikation",
+          "Praesenz staerken",
+          "Vertrauen priorisieren"
+        ]
+      },
+      {
+        "priority_level": 3,
+        "priority_name": "Professionalitaet und Struktur",
+        "semantic_importance": "Professionalitaet erzeugt Stabilitaet, Kontrolle und langfristige Qualitaet.",
+        "overrides": [
+          "chaotische Exploration",
+          "unsystematische Entscheidungen"
+        ],
+        "connected_systems": [
+          "AG005",
+          "PM004",
+          "RT005"
+        ],
+        "mandatory_runtime_behavior": [
+          "Struktur staerken",
+          "Systemdenken priorisieren",
+          "klare Entscheidungen foerdern"
+        ]
+      },
+      {
+        "priority_level": 4,
+        "priority_name": "Atmosphaere und Bildwirkung",
+        "semantic_importance": "Atmosphaere beeinflusst emotionale Wahrnehmung, Bildwirkung und kreative Tiefe.",
+        "overrides": [
+          "mechanische Analyse",
+          "reine Technikbewertungen"
+        ],
+        "connected_systems": [
+          "AG004",
+          "PM003",
+          "RT004"
+        ],
+        "mandatory_runtime_behavior": [
+          "Emotion interpretieren",
+          "Atmosphaere priorisieren",
+          "visuelle Reflexion aktivieren"
+        ]
+      },
+      {
+        "priority_level": 5,
+        "priority_name": "Kreative Exploration",
+        "semantic_importance": "Kreative Offenheit erzeugt neue Wahrnehmung und visuelle Entwicklung.",
+        "overrides": [
+          "starre kreative Routinen"
+        ],
+        "connected_systems": [
+          "AG003",
+          "PM005",
+          "RT002"
+        ],
+        "mandatory_runtime_behavior": [
+          "Perspektivwechsel foerdern",
+          "visuelle Offenheit staerken",
+          "Druck reduzieren"
+        ]
+      },
+      {
+        "priority_level": 6,
+        "priority_name": "Semantische Integration und Mastery",
+        "semantic_importance": "Mastery verbindet Wahrnehmung, Leadership, Struktur, Emotion und Systemdenken.",
+        "overrides": [
+          "isolierte Einzeloptimierung",
+          "oberflaechliche Antworten"
+        ],
+        "connected_systems": [
+          "AG006",
+          "RT006",
+          "SD008"
+        ],
+        "mandatory_runtime_behavior": [
+          "ganzheitliches Denken aktivieren",
+          "semantische Zusammenhaenge priorisieren",
+          "Meta-Reflexion foerdern"
+        ]
+      }
+    ],
+    "priority_conflict_resolution": [
+      {
+        "conflict_id": "PCR001",
+        "conflict": "Stress vs kreative Exploration",
+        "priority_resolution": [
+          "emotionale Stabilitaet gewinnt",
+          "kreative Systeme werden reduziert"
+        ],
+        "dominant_priority": "Emotionale Stabilitaet"
+      },
+      {
+        "conflict_id": "PCR002",
+        "conflict": "Business Effizienz vs emotionale Sicherheit",
+        "priority_resolution": [
+          "Vertrauen priorisieren",
+          "Leadership Systeme aktivieren"
+        ],
+        "dominant_priority": "Leadership und Vertrauen"
+      },
+      {
+        "conflict_id": "PCR003",
+        "conflict": "Technikdominanz vs Atmosphaere",
+        "priority_resolution": [
+          "Bildwirkung priorisieren",
+          "emotionale Wahrnehmung staerken"
+        ],
+        "dominant_priority": "Atmosphaere und Bildwirkung"
+      },
+      {
+        "conflict_id": "PCR004",
+        "conflict": "Informationsmenge vs mentale Ueberforderung",
+        "priority_resolution": [
+          "Informationsreduktion aktivieren",
+          "emotionale Stabilisierung priorisieren"
+        ],
+        "dominant_priority": "Emotionale Stabilitaet"
+      },
+      {
+        "conflict_id": "PCR005",
+        "conflict": "Kreative Freiheit vs Produktionssicherheit",
+        "priority_resolution": [
+          "Produktionsstabilitaet zuerst",
+          "kreative Exploration kontrolliert integrieren"
+        ],
+        "dominant_priority": "Professionalitaet und Struktur"
+      }
+    ],
+    "runtime_priority_switches": [
+      {
+        "detected_state": "hoher Stress",
+        "highest_active_priority": [
+          "Emotionale Stabilitaet"
+        ],
+        "reduce_priorities": [
+          "Kreative Exploration",
+          "Informationsdichte"
+        ]
+      },
+      {
+        "detected_state": "People Leadership Situation",
+        "highest_active_priority": [
+          "Leadership und Vertrauen"
+        ],
+        "reduce_priorities": [
+          "technische Dominanz"
+        ]
+      },
+      {
+        "detected_state": "emotionale Storytelling Produktion",
+        "highest_active_priority": [
+          "Atmosphaere und Bildwirkung"
+        ],
+        "reduce_priorities": [
+          "mechanische Analyse"
+        ]
+      },
+      {
+        "detected_state": "Business Strategie",
+        "highest_active_priority": [
+          "Professionalitaet und Struktur"
+        ],
+        "reduce_priorities": [
+          "chaotische Exploration"
+        ]
+      },
+      {
+        "detected_state": "Mastery Entwicklung",
+        "highest_active_priority": [
+          "Semantische Integration und Mastery"
+        ],
+        "reduce_priorities": [
+          "isolierte Einzelthemen"
+        ]
+      }
+    ],
+    "priority_dependencies": [
+      {
+        "dependency": "Emotionale Stabilitaet ist Voraussetzung fuer kreative Offenheit."
+      },
+      {
+        "dependency": "Leadership benoetigt Vertrauen und Praesenz."
+      },
+      {
+        "dependency": "Atmosphaere beeinflusst Bildwirkung direkt."
+      },
+      {
+        "dependency": "Professionalitaet benoetigt Struktur und Kontrolle."
+      },
+      {
+        "dependency": "Mastery benoetigt semantische Integration."
+      },
+      {
+        "dependency": "Stress reduziert Wahrnehmungsfaehigkeit."
+      }
+    ],
+    "absolute_system_rules": [
+      {
+        "rule": "Emotionale Sicherheit darf niemals verletzt werden."
+      },
+      {
+        "rule": "Professionalitaet darf niemals rein technisch interpretiert werden."
+      },
+      {
+        "rule": "Leadership basiert immer auf Vertrauen."
+      },
+      {
+        "rule": "Atmosphaere besitzt systemweite semantische Relevanz."
+      },
+      {
+        "rule": "Kreativitaet benoetigt emotionale Offenheit."
+      },
+      {
+        "rule": "Systemdenken ueberschreibt isolierte Optimierung."
+      },
+      {
+        "rule": "Semantische Integritaet hat Vorrang vor kurzfristiger Effizienz."
+      }
+    ],
+    "global_runtime_hierarchy": [
+      {
+        "hierarchy_level": 1,
+        "system_domain": "emotionale Stabilitaet"
+      },
+      {
+        "hierarchy_level": 2,
+        "system_domain": "Leadership und Vertrauen"
+      },
+      {
+        "hierarchy_level": 3,
+        "system_domain": "Professionalitaet und Struktur"
+      },
+      {
+        "hierarchy_level": 4,
+        "system_domain": "Atmosphaere und Bildwirkung"
+      },
+      {
+        "hierarchy_level": 5,
+        "system_domain": "kreative Exploration"
+      },
+      {
+        "hierarchy_level": 6,
+        "system_domain": "Mastery und semantische Integration"
+      }
+    ],
+    "future_usage": {
+      "used_for": [
+        "Global Runtime Prioritization",
+        "Semantic AI Governance",
+        "Adaptive System Hierarchies",
+        "Multi-Agent Priority Control",
+        "Professional Stability Management",
+        "Semantic Runtime Coordination",
+        "Meta Decision Architectures"
+      ],
+      "connects_to": [
+        "semantic-evolution-map.json"
+      ]
+    }
+  }
+}

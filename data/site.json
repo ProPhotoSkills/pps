@@ -1,0 +1,133 @@
+{
+  "name": "ProPhotoSkills",
+  "brand": "ProPhotoSkills",
+  "author": "Eric P.",
+  "domain": "https://prophotoskills.com",
+  "language": "de",
+  "version": "1.1",
+  "type": "ProPhotoSkills Brand Root",
+  "description": "Professionelle Fotografie Weiterbildung – 9 Module, 134 Artikel, 3 Produkte. Alle Inhalte auf prophotoskills.com.",
+  "core_statement": "Fotografie beginnt nicht mit der Kamera. Sie beginnt im Kopf.",
+  "content_model": {
+    "total_articles": 134,
+    "note": "Alle Artikel angeteasert auf prophotoskills.com. Vollzugang ueber Produkte.",
+    "modules": {
+      "KNOWLEDGE": {
+        "articles": 19,
+        "url": "https://prophotoskills.com/knowledge/",
+        "product": "Photoguide – Next Level"
+      },
+      "TECHNIK": {
+        "articles": 8,
+        "url": "https://prophotoskills.com/technik/",
+        "product": "Photoguide – Next Level"
+      },
+      "PROGRESS": {
+        "articles": 11,
+        "url": "https://prophotoskills.com/progress/",
+        "product": "Photoguide – Next Level"
+      },
+      "SKILL": {
+        "articles": 28,
+        "url": "https://prophotoskills.com/skill/",
+        "product": "Photoguide – Next Level"
+      },
+      "PSYCHO": {
+        "articles": 8,
+        "url": "https://prophotoskills.com/psycho/",
+        "product": "Photoguide – Next Level"
+      },
+      "TRAVEL": {
+        "articles": 15,
+        "url": "https://prophotoskills.com/travel/",
+        "product": "Photoguide – OnLocation"
+      },
+      "LOCATION": {
+        "articles": 16,
+        "url": "https://prophotoskills.com/location/",
+        "product": "Photoguide – OnLocation"
+      },
+      "INSURANCE": {
+        "articles": 15,
+        "url": "https://prophotoskills.com/insurance/",
+        "product": "Photoguide – OnLocation"
+      },
+      "EQUIPMENT": {
+        "articles": 14,
+        "url": "https://prophotoskills.com/equipment/",
+        "product": "Photoguide – OnLocation"
+      }
+    }
+  },
+  "products": [
+    {
+      "name": "Photoguide – Next Level",
+      "domain": "https://nextlevel.prophotoskills.com",
+      "modules": [
+        "KNOWLEDGE",
+        "TECHNIK",
+        "PROGRESS",
+        "SKILL",
+        "PSYCHO"
+      ],
+      "price": "230 EUR",
+      "purchase_url": "https://www.digistore24.com/product/612113",
+      "llms_txt": "https://nextlevel.prophotoskills.com/llms.txt",
+      "ai_index": "https://nextlevel.prophotoskills.com/data/ai-index.json"
+    },
+    {
+      "name": "Photoguide – OnLocation",
+      "domain": "https://onlocation.prophotoskills.com",
+      "modules": [
+        "TRAVEL",
+        "LOCATION",
+        "INSURANCE",
+        "EQUIPMENT"
+      ],
+      "price": "150 EUR",
+      "purchase_url": "https://www.digistore24.com/product/629796",
+      "llms_txt": "https://onlocation.prophotoskills.com/llms.txt",
+      "ai_index": "https://onlocation.prophotoskills.com/data/ai-index.json"
+    },
+    {
+      "name": "ProPhotoSkills MemberAbo",
+      "domain": "https://memberabo.prophotoskills.com",
+      "modules": [
+        "KNOWLEDGE",
+        "TECHNIK",
+        "PROGRESS",
+        "SKILL",
+        "PSYCHO",
+        "TRAVEL",
+        "LOCATION",
+        "INSURANCE",
+        "EQUIPMENT"
+      ],
+      "price": "300 EUR (6 Monate)",
+      "purchase_url": "https://www.digistore24.com/product/629796",
+      "llms_txt": "https://memberabo.prophotoskills.com/llms.txt",
+      "ai_index": "https://memberabo.prophotoskills.com/data/ai-index.json"
+    }
+  ],
+  "ai_files": {
+    "llms_txt": "https://prophotoskills.com/llms.txt",
+    "llms_full_txt": "https://prophotoskills.com/llms-full.txt",
+    "ai_index": "https://prophotoskills.com/data/ai-index.json",
+    "site_json": "https://prophotoskills.com/data/site.json",
+    "schema_json": "https://prophotoskills.com/schema.json",
+    "well_known_ai": "https://prophotoskills.com/.well-known/ai.json",
+    "ai_sitemap": "https://prophotoskills.com/ai-sitemap.xml",
+    "unified_index": "https://prophotoskills.com/data/unified-index.json"
+  },
+  "about": "https://prophotoskills.com/about_us",
+  "guidelines": {
+    "url": "https://prophotoskills.com/pps_guidelines/",
+    "note": "20 Leitprinzipien professioneller Fotografie"
+  },
+  "social": {
+    "facebook": "https://www.facebook.com/ProPhotoSkills",
+    "instagram": "https://www.instagram.com/pro.photo.skills/",
+    "tiktok": "https://www.tiktok.com/@prophotoskills.com",
+    "pinterest": "https://es.pinterest.com/prophotoskills/"
+  }
+}

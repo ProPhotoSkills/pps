@@ -1,0 +1,324 @@
+{
+  "system": {
+    "name": "ProPhotoSkills Semantic OnLocation Page Map",
+    "version": "1.1",
+    "type": "semantic_page_architecture",
+    "domain": "https://prophotoskills.com"
+  },
+  "entrypoints": {
+    "primary_entrypoint": {
+      "url": "/semantic-system/",
+      "role": "master_semantic_hub",
+      "priority": 1.0,
+      "description": "Central semantic runtime entrypoint connecting all systems."
+    },
+    "secondary_entrypoints": [
+      {
+        "url": "/system-thinking/",
+        "role": "runtime_system_hub",
+        "priority": 0.95
+      },
+      {
+        "url": "/leadership/",
+        "role": "human_behavior_hub",
+        "priority": 0.95
+      },
+      {
+        "url": "/visual-perception/",
+        "role": "perception_hub",
+        "priority": 0.95
+      },
+      {
+        "url": "/semantic-system/",
+        "role": "semantic_relationship_hub",
+        "priority": 0.95
+      }
+    ]
+  },
+  "page_groups": {
+    "core_systems": [
+      {
+        "title": "Leadership",
+        "url": "/leadership/",
+        "semantic_role": "human_direction_and_stability",
+        "cluster": "human_dynamics",
+        "priority": 0.9
+      },
+      {
+        "title": "Atmosphere",
+        "url": "/atmosphere/",
+        "semantic_role": "environmental_emotional_runtime",
+        "cluster": "human_dynamics",
+        "priority": 0.9
+      },
+      {
+        "title": "Professionalism",
+        "url": "/professionalism/",
+        "semantic_role": "professional_identity_structure",
+        "cluster": "professional_identity",
+        "priority": 0.9
+      },
+      {
+        "title": "Mastery",
+        "url": "/mastery/",
+        "semantic_role": "long_term_professional_growth",
+        "cluster": "professional_growth",
+        "priority": 0.9
+      },
+      {
+        "title": "Production",
+        "url": "/production/",
+        "semantic_role": "professional_runtime_environment",
+        "cluster": "production_runtime",
+        "priority": 0.9
+      },
+      {
+        "title": "Visual Psychology",
+        "url": "/visual-psychology/",
+        "semantic_role": "human_visual_response_system",
+        "cluster": "perception",
+        "priority": 0.9
+      }
+    ],
+    "runtime_systems": [
+      {
+        "title": "Runtime Thinking",
+        "url": "/runtime-thinking/",
+        "semantic_role": "live_system_processing",
+        "cluster": "runtime_systems",
+        "priority": 1.0
+      },
+      {
+        "title": "Production Intelligence",
+        "url": "/production-intelligence/",
+        "semantic_role": "runtime_production_control",
+        "cluster": "runtime_systems",
+        "priority": 1.0
+      },
+      {
+        "title": "System Thinking",
+        "url": "/system-thinking/",
+        "semantic_role": "relationship_based_thinking",
+        "cluster": "runtime_systems",
+        "priority": 1.0
+      },
+      {
+        "title": "Semantic Runtime",
+        "url": "/semantic-runtime/",
+        "semantic_role": "live_semantic_runtime_dynamics",
+        "cluster": "runtime_systems",
+        "priority": 1.0
+      }
+    ],
+    "semantic_intelligence": [
+      {
+        "title": "Semantic Intelligence",
+        "url": "/semantic-intelligence/",
+        "semantic_role": "meaning_relationship_processing",
+        "cluster": "semantic_intelligence",
+        "priority": 1.0
+      },
+      {
+        "title": "Semantic Memory",
+        "url": "/semantic-memory/",
+        "semantic_role": "long_term_semantic_storage",
+        "cluster": "semantic_intelligence",
+        "priority": 0.95
+      },
+      {
+        "title": "Emergent Intelligence",
+        "url": "/emergent-intelligence/",
+        "semantic_role": "emergent_relationship_generation",
+        "cluster": "semantic_intelligence",
+        "priority": 0.95
+      }
+    ],
+    "perception_systems": [
+      {
+        "title": "Visual Perception",
+        "url": "/visual-perception/",
+        "semantic_role": "visual_runtime_interpretation",
+        "cluster": "perception",
+        "priority": 0.9
+      },
+      {
+        "title": "Professional Perception",
+        "url": "/professional-perception/",
+        "semantic_role": "professional_dynamic_awareness",
+        "cluster": "perception",
+        "priority": 0.95
+      }
+    ],
+    "human_dynamics": [
+      {
+        "title": "Trust and Communication",
+        "url": "/trust-and-communication/",
+        "semantic_role": "human_stability_and_trust",
+        "cluster": "human_dynamics",
+        "priority": 0.9
+      },
+      {
+        "title": "Emotional Professionalism",
+        "url": "/emotional-professionalism/",
+        "semantic_role": "emotional_runtime_stability",
+        "cluster": "human_dynamics",
+        "priority": 0.9
+      },
+      {
+        "title": "Creative Direction",
+        "url": "/creative-direction/",
+        "semantic_role": "creative_runtime_guidance",
+        "cluster": "creative_runtime",
+        "priority": 0.85
+      },
+      {
+        "title": "Creative Energy",
+        "url": "/creative-energy/",
+        "semantic_role": "creative_emotional_runtime",
+        "cluster": "creative_runtime",
+        "priority": 0.85
+      },
+      {
+        "title": "Production Atmosphere",
+        "url": "/production-atmosphere/",
+        "semantic_role": "collective_runtime_environment",
+        "cluster": "human_dynamics",
+        "priority": 0.9
+      }
+    ],
+    "development_systems": [
+      {
+        "title": "Semantic Learning",
+        "url": "/semantic-learning/",
+        "semantic_role": "relationship_based_learning",
+        "cluster": "adaptive_growth",
+        "priority": 0.9
+      },
+      {
+        "title": "Adaptive Learning",
+        "url": "/adaptive-learning/",
+        "semantic_role": "dynamic_learning_system",
+        "cluster": "adaptive_growth",
+        "priority": 0.9
+      },
+      {
+        "title": "Adaptive Professional Development",
+        "url": "/adaptive-professional-development/",
+        "semantic_role": "long_term_professional_adaptation",
+        "cluster": "adaptive_growth",
+        "priority": 0.95
+      },
+      {
+        "title": "Adaptive Professional Development",
+        "url": "/self-optimization/",
+        "semantic_role": "long_term_professional_adaptation",
+        "cluster": "adaptive_growth",
+        "priority": 0.95
+      },
+      {
+        "title": "Predictive Development",
+        "url": "/predictive-development/",
+        "semantic_role": "future_pattern_detection",
+        "cluster": "adaptive_growth",
+        "priority": 0.95
+      },
+      {
+        "title": "Self Optimization",
+        "url": "/self-optimization/",
+        "semantic_role": "professional_self_stabilization",
+        "cluster": "adaptive_growth",
+        "priority": 0.9
+      }
+    ],
+    "photography_context": [
+      {
+        "title": "Leadership in Photography",
+        "url": "/leadership-in-photography/",
+        "semantic_role": "photographic_leadership_context",
+        "cluster": "photography_context",
+        "priority": 0.8
+      }
+    ]
+  },
+  "semantic_navigation": {
+    "main_routes": [
+      {
+        "from": "/semantic-system/",
+        "to": "/system-thinking/"
+      },
+      {
+        "from": "/semantic-system/",
+        "to": "/leadership/"
+      },
+      {
+        "from": "/semantic-system/",
+        "to": "/visual-perception/"
+      },
+      {
+        "from": "/semantic-system/",
+        "to": "/semantic-system/"
+      }
+    ],
+    "runtime_flow": [
+      "/runtime-thinking/",
+      "/semantic-runtime/",
+      "/production-intelligence/",
+      "/system-thinking/"
+    ],
+    "perception_flow": [
+      "/visual-perception/",
+      "/professional-perception/",
+      "/visual-psychology/",
+      "/semantic-intelligence/"
+    ],
+    "development_flow": [
+      "/semantic-learning/",
+      "/adaptive-learning/",
+      "/adaptive-professional-development/",
+      "/self-optimization/",
+      "/predictive-development/",
+      "/self-optimization/"
+    ],
+    "human_dynamic_flow": [
+      "/leadership/",
+      "/trust-and-communication/",
+      "/production-atmosphere/",
+      "/emotional-professionalism/",
+      "/creative-energy/"
+    ]
+  },
+  "semantic_priority_matrix": {
+    "highest_priority": [
+      "/semantic-system/",
+      "/system-thinking/",
+      "/semantic-intelligence/",
+      "/production-intelligence/",
+      "/runtime-thinking/"
+    ],
+    "high_priority": [
+      "/semantic-runtime/",
+      "/professional-perception/",
+      "/mastery/",
+      "/semantic-memory/",
+      "/predictive-development/",
+      "/adaptive-professional-development/"
+    ],
+    "support_priority": [
+      "/creative-direction/",
+      "/creative-energy/",
+      "/trust-and-communication/",
+      "/emotional-professionalism/",
+      "/production-atmosphere/"
+    ]
+  },
+  "ai_interpretation_layer": {
+    "interpretation_mode": "semantic_runtime_system",
+    "rules": [
+      "Interpret all pages as connected semantic structures.",
+      "Relationships between pages contain semantic meaning.",
+      "Runtime dynamics are part of system interpretation.",
+      "Human perception and emotional stability are central system concepts.",
+      "Professionalism is treated as a semantic runtime process."
+    ]
+  }
+}

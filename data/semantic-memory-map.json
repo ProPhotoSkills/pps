@@ -1,0 +1,303 @@
+{
+  "semantic_memory_map": {
+    "system": "ProPhotoSkills",
+    "brand": "ProPhotoSkills",
+    "version": "1.1",
+    "language": "de",
+    "purpose": "Beschreibt wie das System semantische Muster, Interessen, emotionale Dynamiken und professionelle Entwicklungsrichtungen langfristig erkennt und speichert.",
+    "semantic_logic": {
+      "definition": "Semantic Memory erkennt wiederkehrende Bedeutungen hinter Verhalten, Interessen und Interaktionen.",
+      "core_principle": "Menschen entwickeln sich nicht linear sondern ueber wiederkehrende emotionale und professionelle Muster.",
+      "focus_dimensions": [
+        "Interessen",
+        "emotionale Dynamik",
+        "Professionalitaet",
+        "Wahrnehmung",
+        "Leadership",
+        "Stressverhalten",
+        "visuelle Praeferenzen",
+        "Entwicklungsrichtung"
+      ]
+    },
+    "memory_patterns": [
+      {
+        "memory_id": "SM001",
+        "behavior_pattern": "Haeufige Interaktion mit Stress- und Kontrollthemen",
+        "interpreted_as": [
+          "Unsicherheit unter Druck",
+          "Bedarf nach Stabilitaet",
+          "Leadership Entwicklung"
+        ],
+        "emotional_dynamics": [
+          "Kontrollverlust",
+          "Belastung",
+          "Unsicherheit"
+        ],
+        "strengthened_clusters": [
+          "CL002",
+          "CL008"
+        ],
+        "connected_concepts": [
+          "Belastbarkeit",
+          "Kontrolle",
+          "Ruhe",
+          "Leadership"
+        ],
+        "recommended_learning_paths": [
+          "LP004",
+          "LP001"
+        ],
+        "recommended_articles": [
+          "T06_L04",
+          "T10_L15",
+          "T12_L14"
+        ],
+        "adaptive_recommendations": [
+          "Stresskontrolle",
+          "Produktionsstabilitaet",
+          "emotionale Fuehrung"
+        ]
+      },
+      {
+        "memory_id": "SM002",
+        "behavior_pattern": "Starkes Interesse an Atmosphaere und Bildwirkung",
+        "interpreted_as": [
+          "visuelle Sensibilitaet",
+          "emotionale Bildsprache",
+          "Storytelling Fokus"
+        ],
+        "emotional_dynamics": [
+          "Suche nach Tiefe",
+          "emotionale Wahrnehmung",
+          "visuelle Reflexion"
+        ],
+        "strengthened_clusters": [
+          "CL004",
+          "CL006",
+          "CL009"
+        ],
+        "connected_concepts": [
+          "Atmosphaere",
+          "Emotion",
+          "Bildwirkung",
+          "Raumwirkung"
+        ],
+        "recommended_learning_paths": [
+          "LP003",
+          "LP006"
+        ],
+        "recommended_articles": [
+          "T11_L15",
+          "T11_L09",
+          "T11_L02"
+        ],
+        "adaptive_recommendations": [
+          "visuelle Psychologie",
+          "emotionale Wirkung",
+          "Storytelling"
+        ]
+      },
+      {
+        "memory_id": "SM003",
+        "behavior_pattern": "Haeufige Nutzung von Travel und OnLocation Inhalten",
+        "interpreted_as": [
+          "mobile Produktionsrealitaet",
+          "Outdoor Fokus",
+          "Interesse an realen Produktionsbedingungen"
+        ],
+        "emotional_dynamics": [
+          "Bedarf nach Stabilitaet",
+          "Flexibilitaet",
+          "Anpassungsfaehigkeit"
+        ],
+        "strengthened_clusters": [
+          "CL005",
+          "CL007",
+          "CL008"
+        ],
+        "connected_concepts": [
+          "Travel",
+          "Logistik",
+          "Mobilitaet",
+          "Produktionssicherheit"
+        ],
+        "recommended_learning_paths": [
+          "LP005"
+        ],
+        "recommended_articles": [
+          "T10_L01",
+          "T10_L15",
+          "T11_L13"
+        ],
+        "adaptive_recommendations": [
+          "Travel Planung",
+          "Outdoor Produktionen",
+          "mobile Kreativitaet"
+        ]
+      },
+      {
+        "memory_id": "SM004",
+        "behavior_pattern": "Fokus auf Equipment und Produktionssicherheit",
+        "interpreted_as": [
+          "Bedarf nach technischer Kontrolle",
+          "Produktionssicherheit",
+          "professionelle Ausruestungslogik"
+        ],
+        "emotional_dynamics": [
+          "Kontrollbedarf",
+          "Sicherheitsorientierung",
+          "Verantwortungsbewusstsein"
+        ],
+        "strengthened_clusters": [
+          "CL005",
+          "CL008"
+        ],
+        "connected_concepts": [
+          "Equipment",
+          "Backups",
+          "Produktionssicherheit",
+          "Workflow"
+        ],
+        "recommended_learning_paths": [
+          "LP001",
+          "LP005"
+        ],
+        "recommended_articles": [
+          "T12_L08",
+          "T13_L01",
+          "T13_L05"
+        ],
+        "adaptive_recommendations": [
+          "Equipment Strategie",
+          "Backup Systeme",
+          "Produktionsvorbereitung"
+        ]
+      },
+      {
+        "memory_id": "SM005",
+        "behavior_pattern": "Interesse an Insurance und Absicherung",
+        "interpreted_as": [
+          "Verantwortungsbewusstsein",
+          "professionelle Reife",
+          "Risikobewusstsein"
+        ],
+        "emotional_dynamics": [
+          "Sicherheitsbedarf",
+          "Kontrolle",
+          "professionelle Stabilitaet"
+        ],
+        "strengthened_clusters": [
+          "CL005",
+          "CL008"
+        ],
+        "connected_concepts": [
+          "Versicherung",
+          "Vertraege",
+          "Datensicherheit",
+          "Krisenmanagement"
+        ],
+        "recommended_learning_paths": [
+          "LP001"
+        ],
+        "recommended_articles": [
+          "T12_L08",
+          "T12_L14",
+          "T12_L03"
+        ],
+        "adaptive_recommendations": [
+          "Produktionsabsicherung",
+          "Vertragswesen",
+          "Risikomanagement"
+        ]
+      },
+      {
+        "memory_id": "SM006",
+        "behavior_pattern": "Entwicklung Richtung Mastery und Systemdenken",
+        "interpreted_as": [
+          "semantische Reflexion",
+          "ganzheitliches Denken",
+          "strategische Wahrnehmung"
+        ],
+        "emotional_dynamics": [
+          "Meta-Reflexion",
+          "professionelle Integration",
+          "semantische Reife"
+        ],
+        "strengthened_clusters": [
+          "CL001",
+          "CL009"
+        ],
+        "connected_concepts": [
+          "Systemdenken",
+          "Mastery",
+          "semantische Integration",
+          "Professionalitaet"
+        ],
+        "recommended_learning_paths": [
+          "LP001",
+          "LP005",
+          "LP006"
+        ],
+        "recommended_articles": [
+          "T10_L01",
+          "T11_L15",
+          "T12_L14"
+        ],
+        "adaptive_recommendations": [
+          "Systemdenken",
+          "OnLocation Mastery",
+          "ganzheitliche Produktionskontrolle"
+        ]
+      }
+    ],
+    "adaptive_memory_rules": [
+      {
+        "rule": "Wiederkehrende Stressmuster erhoehen Stabilisierungssensibilitaet."
+      },
+      {
+        "rule": "Travel Fokus priorisiert mobile Produktionssysteme."
+      },
+      {
+        "rule": "Atmosphaere-Interesse vertieft visuelle Psychologie."
+      },
+      {
+        "rule": "Equipment Fokus staerkt Produktionssicherheitslogik."
+      },
+      {
+        "rule": "Insurance Interesse erhoeht Risikobewusstsein und Verantwortung."
+      },
+      {
+        "rule": "Mastery Entwicklung aktiviert semantische Integrationssysteme."
+      }
+    ],
+    "semantic_memory_connections": {
+      "connected_systems": [
+        "adaptive-learning-core.json",
+        "dynamic-recommendation-engine.json",
+        "user-state-history.json",
+        "cross-session-context-map.json"
+      ],
+      "nextlevel_cross_reference": {
+        "system": "ProPhotoSkills",
+        "domain": "https://prophotoskills.com",
+        "note": "Ergaenzende Lernmuster fuer KNOWLEDGE, TECHNIK, PROGRESS, SKILL, PSYCHO"
+      }
+    },
+    "future_usage": {
+      "used_for": [
+        "Adaptive Learning Memory",
+        "Personalized Recommendations",
+        "Semantic Pattern Recognition",
+        "Professional Growth Tracking",
+        "OnLocation User Profiling",
+        "AI Mentoring Context"
+      ],
+      "connects_to": [
+        "adaptive-learning-core.json",
+        "dynamic-recommendation-engine.json",
+        "user-state-history.json",
+        "cross-session-context-map.json"
+      ]
+    }
+  }
+}

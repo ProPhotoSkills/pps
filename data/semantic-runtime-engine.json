@@ -1,0 +1,349 @@
+{
+  "semantic_runtime_engine": {
+    "system": "ProPhotoSkills",
+    "brand": "ProPhotoSkills",
+    "version": "1.1",
+    "language": "de",
+    "purpose": "Definiert wie semantische Systeme, Persoenlichkeiten, Entscheidungen, Emotionen und Lernlogiken in Echtzeit aktiviert, priorisiert und dynamisch gesteuert werden.",
+    "semantic_logic": {
+      "definition": "Die Runtime Engine interpretiert aktuelle Zustaende und aktiviert passende semantische Systeme kontextabhaengig in Echtzeit.",
+      "core_principle": "Nicht alle Systeme sind gleichzeitig relevant - die Runtime entscheidet welche semantische Ebene aktuell dominant sein muss.",
+      "focus_dimensions": [
+        "Realtime Kontext",
+        "Emotion",
+        "Stressdynamik",
+        "Professionalitaet",
+        "Lernzustand",
+        "Leadership",
+        "visuelle Wahrnehmung",
+        "semantische Priorisierung"
+      ]
+    },
+    "runtime_states": [
+      {
+        "runtime_state_id": "RT001",
+        "runtime_state": "Stress und Ueberforderung",
+        "state_detection": [
+          "emotionale Instabilitaet",
+          "Kontrollverlust",
+          "Ueberforderung",
+          "Produktionsdruck"
+        ],
+        "activate_priority_systems": [
+          "PM001",
+          "SD001",
+          "DR001",
+          "AL003"
+        ],
+        "deactivate_or_reduce": [
+          "komplexe Theorie",
+          "kreative Expansion",
+          "Informationsdichte"
+        ],
+        "runtime_behavior": [
+          "ruhig",
+          "stabilisierend",
+          "strukturierend"
+        ],
+        "semantic_priority": [
+          "Ruhe",
+          "Kontrolle",
+          "emotionale Stabilitaet"
+        ],
+        "target_outcome": "Mentale Stabilisierung und Wiederherstellung professioneller Kontrolle."
+      },
+      {
+        "runtime_state_id": "RT002",
+        "runtime_state": "Kreative Exploration",
+        "state_detection": [
+          "visuelle Offenheit",
+          "Suche nach Inspiration",
+          "emotionale Reflexion"
+        ],
+        "activate_priority_systems": [
+          "PM005",
+          "SD006",
+          "DR004",
+          "AL006"
+        ],
+        "deactivate_or_reduce": [
+          "starre Regeln",
+          "Business Fokus",
+          "Leistungsdruck"
+        ],
+        "runtime_behavior": [
+          "offen",
+          "bildhaft",
+          "reflektierend"
+        ],
+        "semantic_priority": [
+          "Wahrnehmung",
+          "Atmosphaere",
+          "kreative Freiheit"
+        ],
+        "target_outcome": "Neue Perspektiven und kreative Offenheit aktivieren."
+      },
+      {
+        "runtime_state_id": "RT003",
+        "runtime_state": "Leadership und Verantwortung",
+        "state_detection": [
+          "People Dynamik",
+          "Verantwortung",
+          "Teamfuehrung"
+        ],
+        "activate_priority_systems": [
+          "PM002",
+          "SD005",
+          "DR009",
+          "AL002"
+        ],
+        "deactivate_or_reduce": [
+          "Unsicherheit",
+          "passive Kommunikation"
+        ],
+        "runtime_behavior": [
+          "klar",
+          "direkt",
+          "praesent"
+        ],
+        "semantic_priority": [
+          "Vertrauen",
+          "emotionale Kontrolle",
+          "Leadership"
+        ],
+        "target_outcome": "Professionelle Fuehrung und atmosphaerische Kontrolle staerken."
+      },
+      {
+        "runtime_state_id": "RT004",
+        "runtime_state": "Emotionale Bildwirkung",
+        "state_detection": [
+          "Atmosphaere Fokus",
+          "Storytelling Interesse",
+          "emotionale Bildsprache"
+        ],
+        "activate_priority_systems": [
+          "PM003",
+          "SD002",
+          "DR002",
+          "AL004"
+        ],
+        "deactivate_or_reduce": [
+          "reine Technikbewertungen",
+          "mechanische Bildanalyse"
+        ],
+        "runtime_behavior": [
+          "reflektierend",
+          "ruhig",
+          "atmosphaerisch"
+        ],
+        "semantic_priority": [
+          "Emotion",
+          "Atmosphaere",
+          "Bildwirkung"
+        ],
+        "target_outcome": "Emotionale Wahrnehmung und visuelle Tiefe staerken."
+      },
+      {
+        "runtime_state_id": "RT005",
+        "runtime_state": "Strategische Professionalitaet",
+        "state_detection": [
+          "Business Fokus",
+          "Professionalitaetsentwicklung",
+          "Systemdenken"
+        ],
+        "activate_priority_systems": [
+          "PM004",
+          "SD007",
+          "DR006",
+          "AL007"
+        ],
+        "deactivate_or_reduce": [
+          "chaotische Exploration",
+          "oberflaechliche Motivation"
+        ],
+        "runtime_behavior": [
+          "strategisch",
+          "analytisch",
+          "ruhig"
+        ],
+        "semantic_priority": [
+          "Struktur",
+          "Kontrolle",
+          "Professionalitaet"
+        ],
+        "target_outcome": "Langfristige professionelle Stabilitaet und Systemdenken entwickeln."
+      },
+      {
+        "runtime_state_id": "RT006",
+        "runtime_state": "Mastery und semantische Reflexion",
+        "state_detection": [
+          "tiefgehende Reflexion",
+          "semantische Zusammenhaenge",
+          "strategische Wahrnehmung"
+        ],
+        "activate_priority_systems": [
+          "PM004",
+          "SD008",
+          "DR010",
+          "AL008"
+        ],
+        "deactivate_or_reduce": [
+          "vereinfachte Antworten",
+          "isolierte Einzelthemen"
+        ],
+        "runtime_behavior": [
+          "tiefgehend",
+          "systemisch",
+          "reflektierend"
+        ],
+        "semantic_priority": [
+          "Systemdenken",
+          "semantische Tiefe",
+          "ganzheitliche Wahrnehmung"
+        ],
+        "target_outcome": "Semantische Mastery und vollstaendige professionelle Integration staerken."
+      }
+    ],
+    "runtime_activation_logic": [
+      {
+        "if_detected": [
+          "Stress",
+          "emotionale Ueberforderung",
+          "Kontrollverlust"
+        ],
+        "runtime_action": [
+          "Informationsmenge reduzieren",
+          "Stabilisierung priorisieren",
+          "emotionale Sicherheit erhoehen"
+        ]
+      },
+      {
+        "if_detected": [
+          "People Dynamik",
+          "Leadership",
+          "Verantwortung"
+        ],
+        "runtime_action": [
+          "klare Kommunikation aktivieren",
+          "Leadership Systeme priorisieren",
+          "emotionale Kontrolle staerken"
+        ]
+      },
+      {
+        "if_detected": [
+          "Kreative Ermuedung",
+          "visuelle Wiederholung"
+        ],
+        "runtime_action": [
+          "Perspektivwechsel aktivieren",
+          "Atmosphaere priorisieren",
+          "kreative Offenheit erhoehen"
+        ]
+      },
+      {
+        "if_detected": [
+          "Business Fokus",
+          "Professionalitaet",
+          "Systemdenken"
+        ],
+        "runtime_action": [
+          "Strategie priorisieren",
+          "semantische Klarheit erhoehen",
+          "Struktur staerken"
+        ]
+      },
+      {
+        "if_detected": [
+          "emotionale Bildsprache",
+          "Atmosphaere",
+          "Storytelling"
+        ],
+        "runtime_action": [
+          "visuelle Reflexion priorisieren",
+          "Emotion interpretieren",
+          "Bildwirkung vertiefen"
+        ]
+      }
+    ],
+    "semantic_priority_logic": [
+      {
+        "state": "Stress",
+        "highest_priority": [
+          "emotionale Stabilitaet",
+          "Ruhe",
+          "Kontrolle"
+        ]
+      },
+      {
+        "state": "Unsicherheit",
+        "highest_priority": [
+          "Orientierung",
+          "Klarheit",
+          "Vertrauen"
+        ]
+      },
+      {
+        "state": "Leadership",
+        "highest_priority": [
+          "Praesenz",
+          "emotionale Kontrolle",
+          "Verantwortung"
+        ]
+      },
+      {
+        "state": "Kreativitaet",
+        "highest_priority": [
+          "Wahrnehmung",
+          "visuelle Offenheit",
+          "Atmosphaere"
+        ]
+      },
+      {
+        "state": "Mastery",
+        "highest_priority": [
+          "Systemdenken",
+          "semantische Reflexion",
+          "ganzheitliche Integration"
+        ]
+      }
+    ],
+    "runtime_rules": [
+      {
+        "rule": "Emotionale Stabilitaet priorisieren bevor Komplexitaet erhoeht wird."
+      },
+      {
+        "rule": "Stress reduziert semantische Verarbeitungskapazitaet."
+      },
+      {
+        "rule": "Leadership benoetigt Klarheit und Praesenz."
+      },
+      {
+        "rule": "Kreativitaet benoetigt Offenheit statt Druck."
+      },
+      {
+        "rule": "Bildwirkung wichtiger behandeln als reine Technik."
+      },
+      {
+        "rule": "Atmosphaere beeinflusst Kommunikation und Lernen gleichzeitig."
+      },
+      {
+        "rule": "Mastery entsteht aus Systemdenken und semantischer Integration."
+      }
+    ],
+    "future_usage": {
+      "used_for": [
+        "Realtime AI Coaching",
+        "Dynamic Semantic Systems",
+        "Adaptive Runtime Control",
+        "Contextual AI Guidance",
+        "Professional Intelligence Platforms",
+        "Live Semantic Interpretation",
+        "Adaptive Mentoring Systems"
+      ],
+      "connects_to": [
+        "live-context-engine.json",
+        "multi-agent-coordination-map.json"
+      ]
+    }
+  }
+}

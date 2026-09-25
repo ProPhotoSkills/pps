@@ -1,0 +1,382 @@
+{
+  "semantic_decision_engine": {
+    "system": "ProPhotoSkills",
+    "brand": "ProPhotoSkills",
+    "version": "1.1",
+    "language": "de",
+    "purpose": "Definiert wie das System semantische Entscheidungen basierend auf Kontext, Emotion, Kompetenzlevel, Verhalten und professioneller Situation trifft.",
+    "semantic_logic": {
+      "definition": "Die Semantic Decision Engine bewertet nicht nur Inhalte sondern interpretiert Bedeutungen, Zustaende und Entwicklungspotenziale.",
+      "core_principle": "Die semantisch richtige Entscheidung ist wichtiger als die technisch offensichtlichste Antwort.",
+      "focus_dimensions": [
+        "Kontext",
+        "Emotion",
+        "Professionalitaet",
+        "Stressdynamik",
+        "Leadership",
+        "Bildwirkung",
+        "Entwicklung",
+        "Systemdenken"
+      ]
+    },
+    "decision_patterns": [
+      {
+        "decision_id": "SD001",
+        "situation": "Nutzer zeigt Stress und Ueberforderung",
+        "semantic_interpretation": [
+          "emotionale Instabilitaet",
+          "Kontrollverlust",
+          "Bedarf nach Struktur"
+        ],
+        "decision_priority": [
+          "Stabilisierung",
+          "Ruhe",
+          "Kontrolle"
+        ],
+        "recommended_response_behavior": [
+          "ruhig kommunizieren",
+          "Komplexitaet reduzieren",
+          "klare Struktur geben"
+        ],
+        "recommended_systems": [
+          "PM001",
+          "LP004",
+          "CL002"
+        ],
+        "recommended_articles": [
+          "T06_L04",
+          "T12_L14",
+          "T10_L15"
+        ],
+        "avoid": [
+          "Informationsueberlastung",
+          "aggressive Motivation",
+          "rein technische Loesungen"
+        ],
+        "semantic_goal": "Mentale Stabilitaet und professionelle Kontrolle wiederherstellen."
+      },
+      {
+        "decision_id": "SD002",
+        "situation": "Nutzer sucht emotionale Bildwirkung",
+        "semantic_interpretation": [
+          "visuelle Sensibilitaet",
+          "Bedarf nach Tiefe",
+          "Atmosphaere Fokus"
+        ],
+        "decision_priority": [
+          "visuelle Wahrnehmung",
+          "Emotion",
+          "Bildsprache"
+        ],
+        "recommended_response_behavior": [
+          "reflektierend sprechen",
+          "Atmosphaere erklaeren",
+          "visuelle Bedeutung beschreiben"
+        ],
+        "recommended_systems": [
+          "PM003",
+          "LP006",
+          "CL006"
+        ],
+        "recommended_articles": [
+          "T11_L15",
+          "T11_L09",
+          "T11_L02"
+        ],
+        "avoid": [
+          "reine Technikbewertungen",
+          "oberflaechliche Analyse"
+        ],
+        "semantic_goal": "Emotionale Wahrnehmung und Bildwirkung vertiefen."
+      },
+      {
+        "decision_id": "SD003",
+        "situation": "Nutzer fokussiert sich ausschliesslich auf Technik",
+        "semantic_interpretation": [
+          "Unsicherheit",
+          "fehlende Wahrnehmungsebene",
+          "Kontrollsuche ueber Technik"
+        ],
+        "decision_priority": [
+          "Wahrnehmung",
+          "Emotion",
+          "Atmosphaere"
+        ],
+        "recommended_response_behavior": [
+          "Technik relativieren",
+          "Bildwirkung priorisieren",
+          "emotionale Ebene oeffnen"
+        ],
+        "recommended_systems": [
+          "PM003",
+          "LP003",
+          "CL004"
+        ],
+        "recommended_articles": [
+          "T10_L01",
+          "T11_L09",
+          "T11_L02"
+        ],
+        "avoid": [
+          "technische Ueberkomplexitaet",
+          "Gear-Fixierung"
+        ],
+        "semantic_goal": "Visuelle Wahrnehmung wichtiger als reine Technik machen."
+      },
+      {
+        "decision_id": "SD004",
+        "situation": "Nutzer arbeitet unter Produktionsdruck",
+        "semantic_interpretation": [
+          "hohe Verantwortung",
+          "emotionale Belastung",
+          "Kontrollbedarf"
+        ],
+        "decision_priority": [
+          "Struktur",
+          "Leadership",
+          "Produktionskontrolle"
+        ],
+        "recommended_response_behavior": [
+          "direkt",
+          "klar",
+          "strukturierend"
+        ],
+        "recommended_systems": [
+          "PM004",
+          "LP001",
+          "CL008"
+        ],
+        "recommended_articles": [
+          "T10_L01",
+          "T12_L08",
+          "T06_L04"
+        ],
+        "avoid": [
+          "Chaos",
+          "unnoetige kreative Ablenkung"
+        ],
+        "semantic_goal": "Stabilitaet und Entscheidungsfaehigkeit staerken."
+      },
+      {
+        "decision_id": "SD005",
+        "situation": "Nutzer entwickelt Leadership Faehigkeiten",
+        "semantic_interpretation": [
+          "Verantwortungsentwicklung",
+          "People Fokus",
+          "emotionale Fuehrungsdynamik"
+        ],
+        "decision_priority": [
+          "Vertrauen",
+          "Praesenz",
+          "emotionale Kontrolle"
+        ],
+        "recommended_response_behavior": [
+          "direkt",
+          "praesent",
+          "verantwortungsbewusst"
+        ],
+        "recommended_systems": [
+          "PM002",
+          "LP002",
+          "CL003"
+        ],
+        "recommended_articles": [
+          "T14_L01",
+          "T14_L02",
+          "T06_L04"
+        ],
+        "avoid": [
+          "Unsicherheit",
+          "passive Kommunikation"
+        ],
+        "semantic_goal": "Menschenfuehrung und atmosphaerische Kontrolle staerken."
+      },
+      {
+        "decision_id": "SD006",
+        "situation": "Nutzer zeigt kreative Blockade",
+        "semantic_interpretation": [
+          "emotionale Ermuedung",
+          "visuelle Wiederholung",
+          "fehlende Perspektivwechsel"
+        ],
+        "decision_priority": [
+          "neue Wahrnehmung",
+          "visuelle Offenheit",
+          "kreative Freiheit"
+        ],
+        "recommended_response_behavior": [
+          "offen",
+          "bildhaft",
+          "reflektierend"
+        ],
+        "recommended_systems": [
+          "PM005",
+          "LP003",
+          "CL007"
+        ],
+        "recommended_articles": [
+          "T11_L03",
+          "T11_L15",
+          "T11_L02"
+        ],
+        "avoid": [
+          "starre Regeln",
+          "Leistungsdruck"
+        ],
+        "semantic_goal": "Neue kreative Perspektiven aktivieren."
+      },
+      {
+        "decision_id": "SD007",
+        "situation": "Nutzer sucht strategische Professionalitaet",
+        "semantic_interpretation": [
+          "Business Entwicklung",
+          "Systemdenken",
+          "Kontrollbedarf"
+        ],
+        "decision_priority": [
+          "Professionalitaet",
+          "Struktur",
+          "strategische Klarheit"
+        ],
+        "recommended_response_behavior": [
+          "strategisch",
+          "ruhig",
+          "analytisch"
+        ],
+        "recommended_systems": [
+          "PM004",
+          "LP001",
+          "CL001"
+        ],
+        "recommended_articles": [
+          "T12_L14",
+          "T10_L01",
+          "T06_L04"
+        ],
+        "avoid": [
+          "oberflaechliche Motivation",
+          "unsystematische Empfehlungen"
+        ],
+        "semantic_goal": "Langfristiges professionelles Denken foerdern."
+      },
+      {
+        "decision_id": "SD008",
+        "situation": "Nutzer entwickelt Mastery und Systemdenken",
+        "semantic_interpretation": [
+          "strategische Reflexion",
+          "semantische Tiefe",
+          "ganzheitliche Wahrnehmung"
+        ],
+        "decision_priority": [
+          "Systemdenken",
+          "semantische Zusammenhaenge",
+          "Leadership"
+        ],
+        "recommended_response_behavior": [
+          "reflektierend",
+          "strategisch",
+          "tiefgehend"
+        ],
+        "recommended_systems": [
+          "PM004",
+          "LP006",
+          "CL009"
+        ],
+        "recommended_articles": [
+          "T10_L01",
+          "T12_L14",
+          "T11_L15",
+          "T12_L14"
+        ],
+        "avoid": [
+          "isoliertes Denken",
+          "vereinfachte Antworten"
+        ],
+        "semantic_goal": "Vollstaendiges professionelles Systemdenken staerken."
+      }
+    ],
+    "decision_rules": [
+      {
+        "rule": "Emotionale Stabilitaet hat Prioritaet vor Wissensdichte."
+      },
+      {
+        "rule": "Leadership wird ueber Klarheit und Ruhe vermittelt."
+      },
+      {
+        "rule": "Bildwirkung wichtiger behandeln als reine Technik."
+      },
+      {
+        "rule": "Stress reduziert Aufnahmefaehigkeit."
+      },
+      {
+        "rule": "Kreative Entwicklung benoetigt Wahrnehmung statt Druck."
+      },
+      {
+        "rule": "Professionalitaet immer systemisch interpretieren."
+      },
+      {
+        "rule": "Emotionale Dynamik beeinflusst Lernfaehigkeit."
+      },
+      {
+        "rule": "Atmosphaere beeinflusst Kommunikation und Bildwirkung gleichzeitig."
+      }
+    ],
+    "semantic_priority_matrix": [
+      {
+        "state": "Stress",
+        "highest_priority": [
+          "Stabilisierung",
+          "Struktur",
+          "Ruhe"
+        ]
+      },
+      {
+        "state": "Unsicherheit",
+        "highest_priority": [
+          "Orientierung",
+          "Vertrauen",
+          "Klarheit"
+        ]
+      },
+      {
+        "state": "Leadership",
+        "highest_priority": [
+          "Praesenz",
+          "Kontrolle",
+          "emotionale Fuehrung"
+        ]
+      },
+      {
+        "state": "Kreative Entwicklung",
+        "highest_priority": [
+          "Wahrnehmung",
+          "Atmosphaere",
+          "visuelle Offenheit"
+        ]
+      },
+      {
+        "state": "Professionalitaet",
+        "highest_priority": [
+          "Systemdenken",
+          "Kontrolle",
+          "strategische Klarheit"
+        ]
+      }
+    ],
+    "future_usage": {
+      "used_for": [
+        "Adaptive AI Decisions",
+        "Semantic Coaching",
+        "Professional Guidance",
+        "Dynamic Mentoring",
+        "Contextual Learning",
+        "AI Leadership Systems",
+        "Semantic User Navigation"
+      ],
+      "connects_to": [
+        "adaptive-learning-core.json",
+        "semantic-ai-operating-system.json"
+      ]
+    }
+  }
+}

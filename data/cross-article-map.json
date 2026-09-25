@@ -1,0 +1,374 @@
+{
+  "cross_article_map": {
+    "system": "ProPhotoSkills",
+    "version": "1.1",
+    "language": "de",
+    "logic": {
+      "purpose": "Verbindet Artikel semantisch miteinander und erzeugt ein intelligentes Wissensnetz.",
+      "relationship_types": [
+        "flagship",
+        "reinforces",
+        "supports",
+        "extends",
+        "contrasts",
+        "emotionally_related",
+        "operationally_related"
+      ],
+      "semantic_priority_logic": {
+        "flagship": 1.0,
+        "reinforces": 0.9,
+        "supports": 0.7,
+        "extends": 0.6,
+        "emotionally_related": 0.5,
+        "operationally_related": 0.5,
+        "contrasts": 0.4
+      }
+    },
+    "article_relationships": [
+      {
+        "article": "T10_L01",
+        "title": "70 Prozent des Fotojobs passieren vor dem ersten Klick",
+        "semantic_concepts": [
+          "Vorbereitung",
+          "Professionalitaet",
+          "Unsichtbare Arbeit",
+          "Produktionskontrolle"
+        ],
+        "flagship_for": [
+          "Vorbereitung",
+          "Unsichtbare professionelle Arbeit"
+        ],
+        "reinforces": [
+          "T09_E01",
+          "T12_L08",
+          "T12_L07"
+        ],
+        "supports": [
+          "T11_L01",
+          "T06_L04",
+          "T12_L14"
+        ],
+        "emotionally_related": [
+          "T14_L01",
+          "T14_L02"
+        ],
+        "relationship_reason": "Dieser Artikel definiert die Kernthese des gesamten Systems."
+      },
+      {
+        "article": "T06_L04",
+        "title": "Mentale Staerke und professionelle Ruhe",
+        "semantic_concepts": [
+          "Belastbarkeit",
+          "Ruhe unter Druck",
+          "Menschenfuehrung",
+          "Stabilitaet"
+        ],
+        "flagship_for": [
+          "Belastbarkeit",
+          "Ruhe unter Druck"
+        ],
+        "reinforces": [
+          "T06_L01",
+          "T12_L14",
+          "T10_L15"
+        ],
+        "supports": [
+          "T12_L10",
+          "T12_L11",
+          "T14_L03"
+        ],
+        "emotionally_related": [
+          "T14_L05",
+          "T11_L09"
+        ],
+        "relationship_reason": "Mentale Stabilitaet verbindet Technik, Fuehrung und Professionalitaet."
+      },
+      {
+        "article": "T10_L01_travel",
+        "title": "Reiseplanung fuer Kreative",
+        "semantic_concepts": [
+          "Vorbereitung",
+          "Mobilitaet",
+          "Produktionssicherheit",
+          "Logistik"
+        ],
+        "flagship_for": [
+          "Travel Planung",
+          "Mobile Produktionen"
+        ],
+        "reinforces": [
+          "T10_L02",
+          "T10_L05",
+          "T10_L13"
+        ],
+        "supports": [
+          "T12_L07",
+          "T12_L09",
+          "T11_L01"
+        ],
+        "operationally_related": [
+          "T11_L13",
+          "T12_L08"
+        ],
+        "relationship_reason": "Travel Planung schuetzt kreative Produktionen vor Chaos."
+      },
+      {
+        "article": "T10_L15",
+        "title": "Travel Mindset Gelassenheit als wichtigste Ressource",
+        "semantic_concepts": [
+          "Belastbarkeit",
+          "Gelassenheit",
+          "Stresskontrolle",
+          "Mobilitaet"
+        ],
+        "flagship_for": [
+          "Travel Belastbarkeit"
+        ],
+        "reinforces": [
+          "T06_L04",
+          "T12_L10"
+        ],
+        "supports": [
+          "T10_L04",
+          "T12_L14"
+        ],
+        "emotionally_related": [
+          "T14_L04",
+          "T11_L09"
+        ],
+        "relationship_reason": "Emotionale Stabilitaet entscheidet ueber kreative Stabilitaet unterwegs."
+      },
+      {
+        "article": "T11_L01",
+        "title": "Location Scouting Basics",
+        "semantic_concepts": [
+          "Wahrnehmung",
+          "Vorbereitung",
+          "Raumwirkung",
+          "Produktion"
+        ],
+        "flagship_for": [
+          "Location Wahrnehmung",
+          "Scouting"
+        ],
+        "reinforces": [
+          "T11_L02",
+          "T11_L03",
+          "T11_L15"
+        ],
+        "supports": [
+          "T10_L01",
+          "T12_L05",
+          "T11_L13"
+        ],
+        "emotionally_related": [
+          "T11_L09",
+          "T14_L01"
+        ],
+        "relationship_reason": "Locations werden als aktive Bildsprache verstanden."
+      },
+      {
+        "article": "T11_L15",
+        "title": "Locations als Co Creator",
+        "semantic_concepts": [
+          "Bildwirkung",
+          "Atmosphaere",
+          "Raumenergie",
+          "Emotion"
+        ],
+        "flagship_for": [
+          "Raum als Co-Regisseur"
+        ],
+        "reinforces": [
+          "T11_L02",
+          "T11_L03",
+          "T11_L09"
+        ],
+        "supports": [
+          "T11_L01",
+          "T14_L03"
+        ],
+        "emotionally_related": [
+          "T14_L05",
+          "T06_L01"
+        ],
+        "relationship_reason": "Der Raum beeinflusst emotionale Wirkung und Bildsprache."
+      },
+      {
+        "article": "T12_L08",
+        "title": "Backups als Versicherung",
+        "semantic_concepts": [
+          "Produktionssicherheit",
+          "Kontrolle",
+          "Datensicherheit",
+          "Professionalitaet"
+        ],
+        "flagship_for": [
+          "Datensicherheit"
+        ],
+        "reinforces": [
+          "T12_L09",
+          "T12_L07",
+          "T10_L05"
+        ],
+        "supports": [
+          "T10_L01",
+          "T13_L05"
+        ],
+        "operationally_related": [
+          "T12_L02",
+          "T12_L03"
+        ],
+        "relationship_reason": "Backups sind ein professioneller Sicherheitsmechanismus."
+      },
+      {
+        "article": "T12_L14",
+        "title": "Reputations Schutz und Krisenkommunikation",
+        "semantic_concepts": [
+          "Kommunikation",
+          "Vertrauen",
+          "Krisenmanagement",
+          "Professionalitaet"
+        ],
+        "flagship_for": [
+          "Krisenkommunikation"
+        ],
+        "reinforces": [
+          "T06_L04",
+          "T12_L11",
+          "T14_L02"
+        ],
+        "supports": [
+          "T09_E01",
+          "T12_L08"
+        ],
+        "emotionally_related": [
+          "T14_L05",
+          "T11_L09"
+        ],
+        "relationship_reason": "Professionelles Verhalten zeigt sich besonders in schwierigen Situationen."
+      },
+      {
+        "article": "T09_E01",
+        "title": "Warum professionelle Fotografie ihren Preis wert ist",
+        "semantic_concepts": [
+          "Professionalitaet",
+          "Unsichtbare Arbeit",
+          "Wertverstaendnis",
+          "Strategie"
+        ],
+        "flagship_for": [
+          "Professioneller Wert"
+        ],
+        "reinforces": [
+          "T10_L01",
+          "T12_L14"
+        ],
+        "supports": [
+          "T12_L06",
+          "T12_L05"
+        ],
+        "emotionally_related": [
+          "T14_L01"
+        ],
+        "relationship_reason": "Professioneller Wert entsteht durch unsichtbare Prozesse."
+      },
+      {
+        "article": "T14_L01",
+        "title": "Vertrauen vor der Kamera",
+        "semantic_concepts": [
+          "Vertrauen",
+          "Menschenfuehrung",
+          "Emotion",
+          "Kommunikation"
+        ],
+        "flagship_for": [
+          "Vertrauen"
+        ],
+        "reinforces": [
+          "T14_L02",
+          "T06_L01",
+          "T12_L11"
+        ],
+        "supports": [
+          "T11_L09",
+          "T11_L15"
+        ],
+        "emotionally_related": [
+          "T06_L04",
+          "T12_L14"
+        ],
+        "relationship_reason": "Emotionale Sicherheit beeinflusst sichtbare Bildwirkung."
+      }
+    ],
+    "semantic_clusters": [
+      {
+        "cluster": "Unsichtbare professionelle Arbeit",
+        "articles": [
+          "T10_L01",
+          "T09_E01",
+          "T12_L08",
+          "T12_L07"
+        ]
+      },
+      {
+        "cluster": "Ruhe unter Druck",
+        "articles": [
+          "T06_L04",
+          "T10_L15",
+          "T12_L14"
+        ]
+      },
+      {
+        "cluster": "Atmosphaere und emotionale Wirkung",
+        "articles": [
+          "T11_L15",
+          "T11_L09",
+          "T14_L01",
+          "T14_L05"
+        ]
+      },
+      {
+        "cluster": "Produktionssicherheit",
+        "articles": [
+          "T12_L08",
+          "T12_L09",
+          "T10_L01",
+          "T12_L07"
+        ]
+      },
+      {
+        "cluster": "Travel und mobile Kreativitaet",
+        "articles": [
+          "T10_L01_travel",
+          "T10_L04",
+          "T10_L15",
+          "T11_L01"
+        ]
+      }
+    ],
+    "future_usage": {
+      "used_for": [
+        "AI Routing",
+        "Crosslink Automation",
+        "Recommendation Systems",
+        "Semantic Search",
+        "Learning Paths",
+        "Homepage Curation",
+        "Topic Authority"
+      ],
+      "connects_to": [
+        "authority-map.json",
+        "topic-cluster.json",
+        "learning-path-map.json",
+        "semantic-routing-map.json",
+        "homepage-curation.json"
+      ]
+    },
+    "system_context": {
+      "product": "ProPhotoSkills",
+      "domain": "https://prophotoskills.com",
+      "brand_root": "https://prophotoskills.com"
+    }
+  }
+}

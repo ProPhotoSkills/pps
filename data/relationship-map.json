@@ -1,0 +1,302 @@
+{
+  "relationship_map": {
+    "system": "ProPhotoSkills",
+    "version": "1.1",
+    "language": "de",
+    "relationships": [
+      {
+        "from": "Emotion",
+        "to": "Bildwirkung",
+        "relationship_type": "amplifies",
+        "strength": 0.96,
+        "meaning": "Emotionale Authentizitaet verstaerkt visuelle Wirkung und Erinnerbarkeit.",
+        "connected_clusters": [
+          "CL004",
+          "CL006",
+          "CL009"
+        ],
+        "connected_modules": [
+          "PSYCHO",
+          "LOCATION",
+          "SKILL"
+        ]
+      },
+      {
+        "from": "Atmosphaere",
+        "to": "Vertrauen",
+        "relationship_type": "influences",
+        "strength": 0.94,
+        "meaning": "Die emotionale Stimmung eines Sets beeinflusst Sicherheit und Offenheit.",
+        "connected_clusters": [
+          "CL004",
+          "CL006"
+        ],
+        "connected_modules": [
+          "LOCATION",
+          "PSYCHO"
+        ]
+      },
+      {
+        "from": "Ruhe",
+        "to": "Kontrolle",
+        "relationship_type": "stabilizes",
+        "strength": 0.95,
+        "meaning": "Professionelle Ruhe verbessert Entscheidungsfaehigkeit unter Druck.",
+        "connected_clusters": [
+          "CL002"
+        ],
+        "connected_modules": [
+          "TECHNIK",
+          "TRAVEL"
+        ]
+      },
+      {
+        "from": "Kontrolle",
+        "to": "Professionalitaet",
+        "relationship_type": "creates",
+        "strength": 0.95,
+        "meaning": "Professionelle Kontrolle erzeugt Stabilitaet, Vertrauen und Qualitaet.",
+        "connected_clusters": [
+          "CL001",
+          "CL005",
+          "CL008"
+        ],
+        "connected_modules": [
+          "PROGRESS",
+          "INSURANCE",
+          "TECHNIK"
+        ]
+      },
+      {
+        "from": "Struktur",
+        "to": "Belastbarkeit",
+        "relationship_type": "protects",
+        "strength": 0.93,
+        "meaning": "Klare Systeme reduzieren mentale Ueberlastung.",
+        "connected_clusters": [
+          "CL005",
+          "CL008"
+        ],
+        "connected_modules": [
+          "TRAVEL",
+          "INSURANCE"
+        ]
+      },
+      {
+        "from": "Logistik",
+        "to": "Kreative Stabilitaet",
+        "relationship_type": "stabilizes",
+        "strength": 0.92,
+        "meaning": "Gute Organisation schuetzt kreative Konzentration unterwegs.",
+        "connected_clusters": [
+          "CL005",
+          "CL007"
+        ],
+        "connected_modules": [
+          "TRAVEL",
+          "INSURANCE"
+        ]
+      },
+      {
+        "from": "Mobilitaet",
+        "to": "Anpassungsfaehigkeit",
+        "relationship_type": "transforms",
+        "strength": 0.9,
+        "meaning": "Mobile Produktionen trainieren flexible kreative Entscheidungen.",
+        "connected_clusters": [
+          "CL007"
+        ],
+        "connected_modules": [
+          "TRAVEL",
+          "LOCATION"
+        ]
+      },
+      {
+        "from": "Anpassungsfaehigkeit",
+        "to": "Professionalitaet",
+        "relationship_type": "amplifies",
+        "strength": 0.9,
+        "meaning": "Professionelle Kreative bleiben auch unter wechselnden Bedingungen stabil.",
+        "connected_clusters": [
+          "CL002",
+          "CL007"
+        ],
+        "connected_modules": [
+          "TRAVEL",
+          "TECHNIK",
+          "PROGRESS"
+        ]
+      },
+      {
+        "from": "Raumwirkung",
+        "to": "Emotion",
+        "relationship_type": "creates",
+        "strength": 0.94,
+        "meaning": "Locations beeinflussen unbewusst emotionale Wahrnehmung.",
+        "connected_clusters": [
+          "CL006",
+          "CL009"
+        ],
+        "connected_modules": [
+          "LOCATION",
+          "PSYCHO"
+        ]
+      },
+      {
+        "from": "Licht",
+        "to": "Atmosphaere",
+        "relationship_type": "creates",
+        "strength": 0.97,
+        "meaning": "Licht beeinflusst direkt emotionale Raumwirkung.",
+        "connected_clusters": [
+          "CL006",
+          "CL009"
+        ],
+        "connected_modules": [
+          "KNOWLEDGE",
+          "LOCATION"
+        ]
+      },
+      {
+        "from": "Atmosphaere",
+        "to": "Bildsprache",
+        "relationship_type": "amplifies",
+        "strength": 0.92,
+        "meaning": "Atmosphaere erzeugt emotionale Tiefe innerhalb visueller Kommunikation.",
+        "connected_clusters": [
+          "CL006",
+          "CL009"
+        ],
+        "connected_modules": [
+          "LOCATION",
+          "SKILL"
+        ]
+      },
+      {
+        "from": "Verantwortung",
+        "to": "Vertrauen",
+        "relationship_type": "creates",
+        "strength": 0.9,
+        "meaning": "Verantwortungsvolles Verhalten stabilisiert professionelle Beziehungen.",
+        "connected_clusters": [
+          "CL004",
+          "CL008"
+        ],
+        "connected_modules": [
+          "INSURANCE",
+          "PSYCHO"
+        ]
+      },
+      {
+        "from": "Sicherheit",
+        "to": "Ruhe",
+        "relationship_type": "stabilizes",
+        "strength": 0.91,
+        "meaning": "Absicherung reduziert Stress und emotionale Instabilitaet.",
+        "connected_clusters": [
+          "CL002",
+          "CL008"
+        ],
+        "connected_modules": [
+          "INSURANCE",
+          "TRAVEL"
+        ]
+      },
+      {
+        "from": "Vorbereitung",
+        "to": "Ruhe",
+        "relationship_type": "protects",
+        "strength": 0.92,
+        "meaning": "Gute Vorbereitung reduziert Unsicherheit vor Produktionen.",
+        "connected_clusters": [
+          "CL001",
+          "CL002"
+        ],
+        "connected_modules": [
+          "KNOWLEDGE",
+          "TRAVEL",
+          "TECHNIK"
+        ]
+      },
+      {
+        "from": "Professionalitaet",
+        "to": "Vertrauen",
+        "relationship_type": "creates",
+        "strength": 0.93,
+        "meaning": "Souveraenes Verhalten erzeugt Sicherheit bei Kunden, Teams und Models.",
+        "connected_clusters": [
+          "CL003",
+          "CL004",
+          "CL008"
+        ],
+        "connected_modules": [
+          "PROGRESS",
+          "PSYCHO",
+          "INSURANCE"
+        ]
+      }
+    ],
+    "semantic_flows": [
+      {
+        "flow_name": "Emotionale Bildwirkung",
+        "path": [
+          "Vertrauen",
+          "Emotion",
+          "Atmosphaere",
+          "Bildwirkung"
+        ],
+        "meaning": "Emotionale Sicherheit beeinflusst sichtbare Bildqualitaet."
+      },
+      {
+        "flow_name": "Professionelle Stabilitaet",
+        "path": [
+          "Vorbereitung",
+          "Struktur",
+          "Sicherheit",
+          "Ruhe",
+          "Kontrolle"
+        ],
+        "meaning": "Professionelle Kontrolle entsteht durch organisatorische Stabilitaet."
+      },
+      {
+        "flow_name": "Leadership am Set",
+        "path": [
+          "Belastbarkeit",
+          "Praesenz",
+          "Menschenfuehrung",
+          "Vertrauen",
+          "Zusammenarbeit"
+        ],
+        "meaning": "Mentale Staerke verbessert Teamdynamik und Kommunikation."
+      },
+      {
+        "flow_name": "Visuelle Wahrnehmung",
+        "path": [
+          "Wahrnehmung",
+          "Licht",
+          "Atmosphaere",
+          "Raumwirkung",
+          "Bildsprache"
+        ],
+        "meaning": "Professionelle Bildwirkung entsteht aus bewusster Wahrnehmung."
+      }
+    ],
+    "future_usage": {
+      "used_for": [
+        "AI Reasoning",
+        "Semantic Routing",
+        "Dynamic Recommendations",
+        "Learning Systems",
+        "Crosslink Intelligence",
+        "LLM Understanding",
+        "Contextual Navigation"
+      ],
+      "connects_to": [
+        "learning-path-map.json",
+        "semantic-routing-map.json",
+        "homepage-curation.json",
+        "onlocation-system.json"
+      ]
+    }
+  }
+}

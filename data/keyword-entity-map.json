@@ -1,0 +1,428 @@
+{
+  "keyword_entity_map": {
+    "system": "ProPhotoSkills",
+    "brand": "ProPhotoSkills",
+    "version": "1.1",
+    "language": "de",
+    "purpose": "Verbindet natuerliche Sprache, Keywords, emotionale Zustaende, professionelle Probleme und semantische Konzepte miteinander.",
+    "semantic_logic": {
+      "definition": "Keywords werden nicht isoliert interpretiert sondern als Ausdruck professioneller Zustaende, Probleme oder Denkweisen verstanden.",
+      "core_principle": "Bedeutung ist wichtiger als das einzelne Wort.",
+      "routing_goal": "Natuerliche Sprache semantisch in Konzepte, Lernpfade, Cluster und professionelle Entwicklungsrichtungen uebersetzen."
+    },
+    "keyword_entities": [
+      {
+        "keyword": "Stress",
+        "semantic_meanings": [
+          "Ueberforderung",
+          "Unsicherheit",
+          "fehlende Kontrolle",
+          "emotionale Instabilitaet"
+        ],
+        "connected_concepts": [
+          "Belastbarkeit",
+          "Ruhe",
+          "Vorbereitung",
+          "Kontrolle"
+        ],
+        "connected_clusters": [
+          "CL002",
+          "CL005",
+          "CL008"
+        ],
+        "recommended_learning_paths": [
+          "LP004"
+        ],
+        "recommended_articles": [
+          "T06_L04",
+          "T10_L15",
+          "T12_L14"
+        ],
+        "semantic_routes": [
+          "SR001"
+        ]
+      },
+      {
+        "keyword": "Chaos",
+        "semantic_meanings": [
+          "fehlende Struktur",
+          "fehlende Planung",
+          "mangelnde Produktionskontrolle"
+        ],
+        "connected_concepts": [
+          "Struktur",
+          "Vorbereitung",
+          "Sicherheit",
+          "Logistik"
+        ],
+        "connected_clusters": [
+          "CL001",
+          "CL005",
+          "CL008"
+        ],
+        "recommended_learning_paths": [
+          "LP001",
+          "LP005"
+        ],
+        "recommended_articles": [
+          "T10_L01",
+          "T12_L08",
+          "T12_L07"
+        ],
+        "semantic_routes": [
+          "SR004",
+          "SR006"
+        ]
+      },
+      {
+        "keyword": "Unsicherheit",
+        "semantic_meanings": [
+          "fehlende Erfahrung",
+          "emotionale Instabilitaet",
+          "mangelnde Praesenz"
+        ],
+        "connected_concepts": [
+          "Vertrauen",
+          "Belastbarkeit",
+          "Ruhe",
+          "Kontrolle"
+        ],
+        "connected_clusters": [
+          "CL002",
+          "CL003",
+          "CL004"
+        ],
+        "recommended_learning_paths": [
+          "LP002",
+          "LP004"
+        ],
+        "recommended_articles": [
+          "T14_L01",
+          "T06_L04",
+          "T10_L15"
+        ],
+        "semantic_routes": [
+          "SR001",
+          "SR002",
+          "SR007"
+        ]
+      },
+      {
+        "keyword": "Bildwirkung",
+        "semantic_meanings": [
+          "emotionale Wirkung",
+          "visuelle Tiefe",
+          "atmosphaerische Kommunikation"
+        ],
+        "connected_concepts": [
+          "Atmosphaere",
+          "Emotion",
+          "Wahrnehmung",
+          "Licht"
+        ],
+        "connected_clusters": [
+          "CL004",
+          "CL006",
+          "CL009"
+        ],
+        "recommended_learning_paths": [
+          "LP003",
+          "LP006"
+        ],
+        "recommended_articles": [
+          "T11_L15",
+          "T11_L09",
+          "T11_L02"
+        ],
+        "semantic_routes": [
+          "SR003",
+          "SR005"
+        ]
+      },
+      {
+        "keyword": "People Fotografie",
+        "semantic_meanings": [
+          "Menschenfuehrung",
+          "emotionale Kommunikation",
+          "Vertrauen"
+        ],
+        "connected_concepts": [
+          "Vertrauen",
+          "Atmosphaere",
+          "Kommunikation",
+          "Praesenz"
+        ],
+        "connected_clusters": [
+          "CL003",
+          "CL004"
+        ],
+        "recommended_learning_paths": [
+          "LP002"
+        ],
+        "recommended_articles": [
+          "T14_L01",
+          "T14_L02",
+          "T06_L01"
+        ],
+        "semantic_routes": [
+          "SR002",
+          "SR007"
+        ]
+      },
+      {
+        "keyword": "Atmosphaere",
+        "semantic_meanings": [
+          "emotionale Raumwirkung",
+          "visuelle Stimmung",
+          "emotionale Bildsprache"
+        ],
+        "connected_concepts": [
+          "Raumwirkung",
+          "Emotion",
+          "Licht",
+          "Vertrauen"
+        ],
+        "connected_clusters": [
+          "CL004",
+          "CL006",
+          "CL009"
+        ],
+        "recommended_learning_paths": [
+          "LP003",
+          "LP006"
+        ],
+        "recommended_articles": [
+          "T11_L09",
+          "T11_L15",
+          "T11_L02"
+        ],
+        "semantic_routes": [
+          "SR003"
+        ]
+      },
+      {
+        "keyword": "Travel",
+        "semantic_meanings": [
+          "mobile Produktionen",
+          "OnLocation Arbeit",
+          "wechselnde Bedingungen"
+        ],
+        "connected_concepts": [
+          "Mobilitaet",
+          "Logistik",
+          "Anpassungsfaehigkeit",
+          "Produktionskontrolle"
+        ],
+        "connected_clusters": [
+          "CL005",
+          "CL007",
+          "CL008"
+        ],
+        "recommended_learning_paths": [
+          "LP005"
+        ],
+        "recommended_articles": [
+          "T10_L01",
+          "T10_L15",
+          "T11_L13"
+        ],
+        "semantic_routes": [
+          "SR004",
+          "SR008"
+        ]
+      },
+      {
+        "keyword": "Outdoor",
+        "semantic_meanings": [
+          "reale Bedingungen",
+          "Wetter",
+          "Instabilitaet",
+          "Flexibilitaet"
+        ],
+        "connected_concepts": [
+          "Anpassungsfaehigkeit",
+          "Belastbarkeit",
+          "Sicherheit",
+          "Mobilitaet"
+        ],
+        "connected_clusters": [
+          "CL002",
+          "CL007",
+          "CL008"
+        ],
+        "recommended_learning_paths": [
+          "LP005"
+        ],
+        "recommended_articles": [
+          "T11_L06",
+          "T10_L13",
+          "T11_L13"
+        ],
+        "semantic_routes": [
+          "SR008"
+        ]
+      },
+      {
+        "keyword": "Professionalitaet",
+        "semantic_meanings": [
+          "Kontrolle",
+          "Verantwortung",
+          "Stabilitaet",
+          "Souveraenitaet"
+        ],
+        "connected_concepts": [
+          "Vorbereitung",
+          "Struktur",
+          "Ruhe",
+          "Fuehrung"
+        ],
+        "connected_clusters": [
+          "CL001",
+          "CL002",
+          "CL003",
+          "CL008"
+        ],
+        "recommended_learning_paths": [
+          "LP001",
+          "LP002",
+          "LP004"
+        ],
+        "recommended_articles": [
+          "T10_L01",
+          "T12_L14",
+          "T06_L04"
+        ],
+        "semantic_routes": [
+          "SR006"
+        ]
+      },
+      {
+        "keyword": "Licht",
+        "semantic_meanings": [
+          "Atmosphaere",
+          "Emotion",
+          "Raumwirkung",
+          "visuelle Wahrnehmung"
+        ],
+        "connected_concepts": [
+          "Wahrnehmung",
+          "Atmosphaere",
+          "Bildwirkung",
+          "Raumwirkung"
+        ],
+        "connected_clusters": [
+          "CL006",
+          "CL009"
+        ],
+        "recommended_learning_paths": [
+          "LP003",
+          "LP006"
+        ],
+        "recommended_articles": [
+          "T11_L02",
+          "T11_L02",
+          "T11_L15"
+        ],
+        "semantic_routes": [
+          "SR003",
+          "SR005"
+        ]
+      },
+      {
+        "keyword": "Vertrauen",
+        "semantic_meanings": [
+          "emotionale Sicherheit",
+          "Offenheit",
+          "Zusammenarbeit"
+        ],
+        "connected_concepts": [
+          "Menschenfuehrung",
+          "Emotion",
+          "Atmosphaere",
+          "Kommunikation"
+        ],
+        "connected_clusters": [
+          "CL003",
+          "CL004"
+        ],
+        "recommended_learning_paths": [
+          "LP002",
+          "LP006"
+        ],
+        "recommended_articles": [
+          "T14_L01",
+          "T14_L02",
+          "T11_L09"
+        ],
+        "semantic_routes": [
+          "SR002",
+          "SR007"
+        ]
+      }
+    ],
+    "semantic_groupings": [
+      {
+        "group": "Emotionale Zustaende",
+        "keywords": [
+          "Stress",
+          "Unsicherheit",
+          "Ueberforderung",
+          "Druck"
+        ]
+      },
+      {
+        "group": "Visuelle Wirkung",
+        "keywords": [
+          "Atmosphaere",
+          "Bildwirkung",
+          "Licht",
+          "Emotion"
+        ]
+      },
+      {
+        "group": "Menschenfuehrung",
+        "keywords": [
+          "People Fotografie",
+          "Vertrauen",
+          "Kommunikation",
+          "Praesenz"
+        ]
+      },
+      {
+        "group": "OnLocation Produktionen",
+        "keywords": [
+          "Travel",
+          "Outdoor",
+          "Logistik",
+          "Mobilitaet"
+        ]
+      },
+      {
+        "group": "Professionelle Entwicklung",
+        "keywords": [
+          "Professionalitaet",
+          "Kontrolle",
+          "Struktur",
+          "Vorbereitung"
+        ]
+      }
+    ],
+    "future_usage": {
+      "used_for": [
+        "AI Search",
+        "Semantic Interpretation",
+        "LLM Routing",
+        "Natural Language Understanding",
+        "Recommendation Systems",
+        "Context Recognition",
+        "Dynamic Navigation"
+      ],
+      "connects_to": [
+        "production-scenario-map.json",
+        "visual-language-map.json",
+        "emotion-trigger-map.json",
+        "expertise-layer-map.json"
+      ]
+    }
+  }
+}

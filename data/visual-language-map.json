@@ -1,0 +1,447 @@
+{
+  "visual_language_map": {
+    "system": "ProPhotoSkills",
+    "brand": "ProPhotoSkills",
+    "version": "1.1",
+    "language": "de",
+    "purpose": "Beschreibt wie visuelle Elemente emotionale, psychologische und atmosphaerische Wirkung erzeugen.",
+    "semantic_logic": {
+      "definition": "Bildsprache entsteht aus der Wechselwirkung visueller Entscheidungen und emotionaler Wahrnehmung.",
+      "core_principle": "Visuelle Wirkung entsteht nicht zufaellig sondern durch bewusste atmosphaerische Steuerung.",
+      "focus_dimensions": [
+        "Licht",
+        "Atmosphaere",
+        "Raumwirkung",
+        "Emotion",
+        "Naehe",
+        "Distanz",
+        "Spannung",
+        "visuelle Kontrolle"
+      ]
+    },
+    "visual_elements": [
+      {
+        "element_id": "VL001",
+        "visual_element": "Hartes Seitenlicht",
+        "visual_effects": [
+          "Spannung",
+          "Dramatik",
+          "Kontrast"
+        ],
+        "psychological_effects": [
+          "Dominanz",
+          "Intensitaet",
+          "emotionale Distanz"
+        ],
+        "connected_concepts": [
+          "Kontrolle",
+          "Spannung",
+          "Praesenz"
+        ],
+        "connected_clusters": [
+          "CL006",
+          "CL009"
+        ],
+        "recommended_articles": [
+          "T11_L02",
+          "T11_L02"
+        ],
+        "professional_usage": [
+          "Fashion",
+          "dramatische Portraits",
+          "cinematische Bildsprache"
+        ]
+      },
+      {
+        "element_id": "VL002",
+        "visual_element": "Weiches diffuses Licht",
+        "visual_effects": [
+          "Ruhe",
+          "Harmonie",
+          "Natuerlichkeit"
+        ],
+        "psychological_effects": [
+          "Vertrauen",
+          "Naehe",
+          "emotionale Offenheit"
+        ],
+        "connected_concepts": [
+          "Atmosphaere",
+          "Emotion",
+          "Vertrauen"
+        ],
+        "connected_clusters": [
+          "CL004",
+          "CL006"
+        ],
+        "recommended_articles": [
+          "T11_L09",
+          "T11_L15"
+        ],
+        "professional_usage": [
+          "People Fotografie",
+          "emotionale Portraits",
+          "Lifestyle"
+        ]
+      },
+      {
+        "element_id": "VL003",
+        "visual_element": "Tiefe Schatten",
+        "visual_effects": [
+          "Geheimnis",
+          "Spannung",
+          "Unsicherheit"
+        ],
+        "psychological_effects": [
+          "emotionale Distanz",
+          "Dramatik",
+          "Intensitaet"
+        ],
+        "connected_concepts": [
+          "Spannung",
+          "Kontrolle",
+          "emotionale Tiefe"
+        ],
+        "connected_clusters": [
+          "CL006",
+          "CL009"
+        ],
+        "recommended_articles": [
+          "T11_L02",
+          "T11_L03"
+        ],
+        "professional_usage": [
+          "cinematische Portraits",
+          "Editorial",
+          "dramatische Storytelling Bildwelten"
+        ]
+      },
+      {
+        "element_id": "VL004",
+        "visual_element": "Grosse negative Raeume",
+        "visual_effects": [
+          "Isolation",
+          "Ruhe",
+          "Leere"
+        ],
+        "psychological_effects": [
+          "Einsamkeit",
+          "Reflexion",
+          "emotionale Distanz"
+        ],
+        "connected_concepts": [
+          "Raumwirkung",
+          "Emotion",
+          "visuelle Spannung"
+        ],
+        "connected_clusters": [
+          "CL006",
+          "CL009"
+        ],
+        "recommended_articles": [
+          "T11_L03",
+          "T11_L15"
+        ],
+        "professional_usage": [
+          "Editorial",
+          "Mood Kampagnen",
+          "Storytelling"
+        ]
+      },
+      {
+        "element_id": "VL005",
+        "visual_element": "Symmetrische Komposition",
+        "visual_effects": [
+          "Ordnung",
+          "Ruhe",
+          "Stabilitaet"
+        ],
+        "psychological_effects": [
+          "Kontrolle",
+          "Professionalitaet",
+          "Sicherheit"
+        ],
+        "connected_concepts": [
+          "Struktur",
+          "Kontrolle",
+          "Professionalitaet"
+        ],
+        "connected_clusters": [
+          "CL001",
+          "CL009"
+        ],
+        "recommended_articles": [
+          "T11_L15",
+          "T12_L14"
+        ],
+        "professional_usage": [
+          "Architektur",
+          "Corporate",
+          "Brand Kommunikation"
+        ]
+      },
+      {
+        "element_id": "VL006",
+        "visual_element": "Asymmetrische Komposition",
+        "visual_effects": [
+          "Dynamik",
+          "Bewegung",
+          "Instabilitaet"
+        ],
+        "psychological_effects": [
+          "Energie",
+          "Unsicherheit",
+          "Spannung"
+        ],
+        "connected_concepts": [
+          "Bewegung",
+          "Emotion",
+          "Improvisation"
+        ],
+        "connected_clusters": [
+          "CL007",
+          "CL009"
+        ],
+        "recommended_articles": [
+          "T11_L15",
+          "T10_L15"
+        ],
+        "professional_usage": [
+          "Street",
+          "Travel",
+          "dynamische Kampagnen"
+        ]
+      },
+      {
+        "element_id": "VL007",
+        "visual_element": "Warme Farbstimmung",
+        "visual_effects": [
+          "Naehe",
+          "Waerme",
+          "Verbindung"
+        ],
+        "psychological_effects": [
+          "Vertrauen",
+          "emotionale Offenheit",
+          "Geborgenheit"
+        ],
+        "connected_concepts": [
+          "Emotion",
+          "Atmosphaere",
+          "Vertrauen"
+        ],
+        "connected_clusters": [
+          "CL004",
+          "CL006"
+        ],
+        "recommended_articles": [
+          "T11_L09",
+          "T14_L01"
+        ],
+        "professional_usage": [
+          "Lifestyle",
+          "People",
+          "emotionale Markenkommunikation"
+        ]
+      },
+      {
+        "element_id": "VL008",
+        "visual_element": "Kalte Farbstimmung",
+        "visual_effects": [
+          "Distanz",
+          "Ruhe",
+          "Sachlichkeit"
+        ],
+        "psychological_effects": [
+          "Kontrolle",
+          "Isolation",
+          "Professionalitaet"
+        ],
+        "connected_concepts": [
+          "Struktur",
+          "Kontrolle",
+          "emotionale Distanz"
+        ],
+        "connected_clusters": [
+          "CL001",
+          "CL009"
+        ],
+        "recommended_articles": [
+          "T11_L03",
+          "T12_L14"
+        ],
+        "professional_usage": [
+          "Corporate",
+          "Tech",
+          "minimalistische Kampagnen"
+        ]
+      },
+      {
+        "element_id": "VL009",
+        "visual_element": "Geringe Tiefenschaerfe",
+        "visual_effects": [
+          "Fokus",
+          "Naehe",
+          "Isolation"
+        ],
+        "psychological_effects": [
+          "emotionale Konzentration",
+          "Intimitaet",
+          "visuelle Fuehrung"
+        ],
+        "connected_concepts": [
+          "Wahrnehmung",
+          "Emotion",
+          "visuelle Kontrolle"
+        ],
+        "connected_clusters": [
+          "CL006",
+          "CL009"
+        ],
+        "recommended_articles": [
+          "T11_L15",
+          "T11_L15"
+        ],
+        "professional_usage": [
+          "Portrait",
+          "cinematische Bildsprache",
+          "Storytelling"
+        ]
+      },
+      {
+        "element_id": "VL010",
+        "visual_element": "Weitwinkel Perspektive",
+        "visual_effects": [
+          "Dynamik",
+          "Raumtiefe",
+          "Naehe"
+        ],
+        "psychological_effects": [
+          "Immersion",
+          "Bewegung",
+          "Unmittelbarkeit"
+        ],
+        "connected_concepts": [
+          "Raumwirkung",
+          "Atmosphaere",
+          "Dynamik"
+        ],
+        "connected_clusters": [
+          "CL006",
+          "CL007"
+        ],
+        "recommended_articles": [
+          "T11_L01",
+          "T11_L15"
+        ],
+        "professional_usage": [
+          "Travel",
+          "Reportage",
+          "OnLocation Storytelling"
+        ]
+      },
+      {
+        "element_id": "VL011",
+        "visual_element": "Tele Perspektive",
+        "visual_effects": [
+          "Kompression",
+          "Isolation",
+          "visuelle Ruhe"
+        ],
+        "psychological_effects": [
+          "Distanz",
+          "Beobachtung",
+          "emotionale Kontrolle"
+        ],
+        "connected_concepts": [
+          "Kontrolle",
+          "Wahrnehmung",
+          "emotionale Distanz"
+        ],
+        "connected_clusters": [
+          "CL001",
+          "CL009"
+        ],
+        "recommended_articles": [
+          "T11_L15",
+          "T11_L03"
+        ],
+        "professional_usage": [
+          "Fashion",
+          "Editorial",
+          "cinematische Portraits"
+        ]
+      }
+    ],
+    "visual_psychology_rules": [
+      {
+        "rule": "Licht beeinflusst emotionale Temperatur."
+      },
+      {
+        "rule": "Komposition steuert visuelle Kontrolle."
+      },
+      {
+        "rule": "Farben erzeugen psychologische Stimmung."
+      },
+      {
+        "rule": "Raumwirkung beeinflusst emotionale Wahrnehmung."
+      },
+      {
+        "rule": "Naehe und Distanz veraendern emotionale Verbindung."
+      },
+      {
+        "rule": "Unschaerfe steuert Aufmerksamkeit und Emotionalitaet."
+      }
+    ],
+    "semantic_visual_clusters": [
+      {
+        "cluster": "Emotionale Naehe",
+        "elements": [
+          "VL002",
+          "VL007",
+          "VL009"
+        ]
+      },
+      {
+        "cluster": "Kontrolle und Professionalitaet",
+        "elements": [
+          "VL005",
+          "VL008",
+          "VL011"
+        ]
+      },
+      {
+        "cluster": "Spannung und Dynamik",
+        "elements": [
+          "VL001",
+          "VL003",
+          "VL006"
+        ]
+      },
+      {
+        "cluster": "Raum und Atmosphaere",
+        "elements": [
+          "VL004",
+          "VL010",
+          "VL002"
+        ]
+      }
+    ],
+    "future_usage": {
+      "used_for": [
+        "AI Image Interpretation",
+        "Creative Direction",
+        "Visual Prompting",
+        "Mood Analysis",
+        "Semantic Image Systems",
+        "Visual Storytelling",
+        "Atmosphere Generation"
+      ],
+      "connects_to": [
+        "emotion-trigger-map.json",
+        "expertise-layer-map.json",
+        "citation-index.json"
+      ]
+    }
+  }
+}

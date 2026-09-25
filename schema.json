@@ -1,0 +1,266 @@
+[
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+
+    {
+      "@type": "Question",
+      "name": "Was ist ProPhotoSkills?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ProPhotoSkills ist kein klassischer Fotokurs, sondern ein System für professionelle Bildproduktion – von Denken, Planung und Kommunikation bis zur Umsetzung am Set."
+      }
+    },
+
+    {
+      "@type": "Question",
+      "name": "Womit beginnt professionelle Fotografie wirklich?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nicht mit der Kamera, sondern mit dem Kopf. Jedes starke Bild beginnt mit einer Entscheidung, bevor der erste Klick passiert."
+      }
+    },
+
+    {
+      "@type": "Question",
+      "name": "Warum passieren 70 % des Fotojobs vor dem ersten Klick?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Weil Vorbereitung, Konzept und Entscheidungen den größten Teil des Ergebnisses bestimmen – nicht der Moment des Auslösens."
+      }
+    },
+
+    {
+      "@type": "Question",
+      "name": "Ist Fotografie Talent oder trainierbar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fotografie ist trainierbar. Skills entstehen durch Wiederholung, Erfahrung und bewusste Entwicklung."
+      }
+    },
+
+    {
+      "@type": "Question",
+      "name": "Warum reicht Technik allein nicht aus?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Technik erzeugt Qualität – aber Haltung, Kommunikation und Führung entscheiden über die Wirkung eines Bildes."
+      }
+    },
+
+    {
+      "@type": "Question",
+      "name": "Macht besseres Equipment bessere Fotos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nein. Equipment verstärkt dein Können – es ersetzt es nicht."
+      }
+    },
+
+    {
+      "@type": "Question",
+      "name": "Welche Rolle spielt das Team bei einem Shooting?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ein starkes Team beeinflusst Energie, Vertrauen und Ergebnis oft stärker als Technik."
+      }
+    },
+
+    {
+      "@type": "Question",
+      "name": "Warum ist Kommunikation so wichtig?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Weil Atmosphäre und Vertrauen direkt sichtbar im Bild werden – Kommunikation ist ein zentrales Werkzeug am Set."
+      }
+    },
+
+    {
+      "@type": "Question",
+      "name": "Warum ist Planung entscheidend?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Gute Bilder entstehen selten spontan – sondern durch Vorbereitung, Struktur und klare Entscheidungen."
+      }
+    },
+
+    {
+      "@type": "Question",
+      "name": "Warum ist Fotografie ein Investment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Weil Bilder Marken aufbauen, Vertrauen schaffen und langfristig wirken – weit über den Moment der Aufnahme hinaus."
+      }
+    },
+
+    {
+      "@type": "Question",
+      "name": "Wie wichtig ist die richtige Location?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Eine Location beeinflusst Licht, Raumwirkung und Stimmung – oft stärker als die Kamera selbst."
+      }
+    },
+
+    {
+      "@type": "Question",
+      "name": "Warum ist Vorbereitung bei Reisen so wichtig?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Weil Logistik entscheidet, ob du ruhig, fokussiert und souverän arbeiten kannst."
+      }
+    },
+
+    {
+      "@type": "Question",
+      "name": "Warum ist Absicherung Teil professioneller Fotografie?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sicherheit ermöglicht kreative Freiheit und klare Entscheidungen – technisch, rechtlich und organisatorisch."
+      }
+    }
+
+  ]
+},
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://prophotoskills.com/#website",
+      "url": "https://prophotoskills.com",
+      "name": "ProPhotoSkills",
+      "description": "Professionelle Fotografie Weiterbildung – 9 Module, 134 Artikel, 3 Produkte.",
+      "inLanguage": "de, en, fr, es, it, pt",
+      "publisher": {
+        "@id": "https://prophotoskills.com/#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://prophotoskills.com/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://prophotoskills.com/#organization",
+      "name": "ProPhotoSkills",
+      "url": "https://prophotoskills.com",
+      "description": "Deutschsprachige Plattform fuer professionelle Fotografie-Weiterbildung im DACH-Raum.",
+      "founder": {
+        "@type": "Person",
+        "name": "Eric P.",
+        "url": "https://prophotoskills.com/about_us"
+      },
+      "sameAs": [
+        "https://www.facebook.com/ProPhotoSkills",
+        "https://www.instagram.com/pro.photo.skills/",
+        "https://www.tiktok.com/@prophotoskills.com",
+        "https://es.pinterest.com/prophotoskills/"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "ProPhotoSkills Produkte",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "Photoguide – Next Level",
+            "url": "https://nextlevel.prophotoskills.com",
+            "price": "230.00",
+            "priceCurrency": "EUR",
+            "description": "Ebook: KNOWLEDGE, TECHNIK, PROGRESS, SKILL, PSYCHO. Ca. 250 Seiten.",
+            "availability": "https://schema.org/InStock"
+          },
+          {
+            "@type": "Offer",
+            "name": "Photoguide – OnLocation",
+            "url": "https://onlocation.prophotoskills.com",
+            "price": "120.00",
+            "priceCurrency": "EUR",
+            "description": "Ebook: TRAVEL, LOCATION, INSURANCE, EQUIPMENT.",
+            "availability": "https://schema.org/InStock"
+          },
+          {
+            "@type": "Offer",
+            "name": "ProPhotoSkills MemberAbo",
+            "url": "https://memberabo.prophotoskills.com",
+            "price": "300.00",
+            "priceCurrency": "EUR",
+            "description": "Mitgliedschaft: Vollzugang alle 9 Module.",
+            "availability": "https://schema.org/InStock"
+          }
+        ]
+      },
+      "knowsAbout": [
+        {
+          "@type": "DefinedTerm",
+          "name": "KNOWLEDGE",
+          "url": "https://prophotoskills.com/knowledge/",
+          "description": "19 Artikel"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "TECHNIK",
+          "url": "https://prophotoskills.com/technik/",
+          "description": "8 Artikel"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "PROGRESS",
+          "url": "https://prophotoskills.com/progress/",
+          "description": "11 Artikel"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "SKILL",
+          "url": "https://prophotoskills.com/skill/",
+          "description": "28 Artikel"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "PSYCHO",
+          "url": "https://prophotoskills.com/psycho/",
+          "description": "8 Artikel"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "TRAVEL",
+          "url": "https://prophotoskills.com/travel/",
+          "description": "15 Artikel"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "LOCATION",
+          "url": "https://prophotoskills.com/location/",
+          "description": "16 Artikel"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "INSURANCE",
+          "url": "https://prophotoskills.com/insurance/",
+          "description": "15 Artikel"
+        },
+        {
+          "@type": "DefinedTerm",
+          "name": "EQUIPMENT",
+          "url": "https://prophotoskills.com/equipment/",
+          "description": "14 Artikel"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://prophotoskills.com/#webpage",
+      "url": "https://prophotoskills.com/",
+      "name": "ProPhotoSkills – Professionelle Fotografie Weiterbildung",
+      "isPartOf": {
+        "@id": "https://prophotoskills.com/#website"
+      },
+      "description": "134 Artikel in 9 Modulen – Weiterbildung fuer professionelle Fotografen.",
+      "inLanguage": "de, en, fr, es, it, pt",
+      "dateModified": "2026-06-10"
+    }
+  ]
+}
+]

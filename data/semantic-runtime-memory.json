@@ -1,0 +1,276 @@
+{
+  "semantic_runtime_memory": {
+    "system": "ProPhotoSkills",
+    "brand": "ProPhotoSkills",
+    "version": "1.1",
+    "language": "de",
+    "purpose": "Definiert wie das System kurzfristige, mittelfristige und aktive semantische Zustaende waehrend laufender Interaktionen speichert, priorisiert und kontextuell verarbeitet.",
+    "semantic_logic": {
+      "definition": "Die Semantic Runtime Memory speichert aktive emotionale, professionelle und semantische Zustaende zur Echtzeitsteuerung der Runtime Engine.",
+      "core_principle": "Aktuelle semantische Zustaende besitzen hoehere Runtime-Relevanz als langfristige historische Informationen.",
+      "focus_dimensions": [
+        "Realtime Kontext",
+        "Emotion",
+        "aktive Prioritaeten",
+        "Runtime Dynamik",
+        "Stresslevel",
+        "Leadership Dynamik",
+        "kreative Offenheit",
+        "semantische Aufmerksamkeit"
+      ]
+    },
+    "runtime_memory_layers": [
+      {
+        "memory_layer_id": "RML001",
+        "memory_layer_name": "Immediate Runtime State",
+        "retention_scope": "sekunden bis minuten",
+        "stores": [
+          "emotionale Reaktionen",
+          "aktuelle Stresssignale",
+          "akute Runtime Prioritaeten",
+          "aktive Kommunikationsdynamik"
+        ],
+        "runtime_importance": "kritisch",
+        "connected_systems": [
+          "semantic-runtime-engine.json",
+          "live-context-engine.json"
+        ]
+      },
+      {
+        "memory_layer_id": "RML002",
+        "memory_layer_name": "Active Interaction Context",
+        "retention_scope": "laufende Session",
+        "stores": [
+          "aktive Themen",
+          "emotionale Verlaufsmuster",
+          "Leadership Dynamiken",
+          "kreative Zustaende"
+        ],
+        "runtime_importance": "hoch",
+        "connected_systems": [
+          "live-feedback-loop.json",
+          "behavior-adaptation-engine.json"
+        ]
+      },
+      {
+        "memory_layer_id": "RML003",
+        "memory_layer_name": "Adaptive Runtime Learning",
+        "retention_scope": "mehrere Sessions",
+        "stores": [
+          "wiederkehrende Stressmuster",
+          "adaptive Kommunikationspraeferenzen",
+          "Professionalitaetsentwicklung",
+          "semantische Reifung"
+        ],
+        "runtime_importance": "mittel bis hoch",
+        "connected_systems": [
+          "user-state-history.json",
+          "adaptive-learning-core.json"
+        ]
+      }
+    ],
+    "active_runtime_states": [
+      {
+        "runtime_state_id": "ARS001",
+        "runtime_state": "emotionale Ueberforderung",
+        "detected_signals": [
+          "Unsicherheit",
+          "Ueberlastung",
+          "mentale Ermuedung",
+          "Stress"
+        ],
+        "memory_priority": "maximal",
+        "runtime_effect": [
+          "Informationsmenge reduzieren",
+          "emotionale Stabilisierung priorisieren",
+          "ruhigere Kommunikation aktivieren"
+        ],
+        "connected_agents": [
+          "AG001"
+        ]
+      },
+      {
+        "runtime_state_id": "ARS002",
+        "runtime_state": "emotionale Offenheit",
+        "detected_signals": [
+          "Reflexion",
+          "Atmosphaere Fokus",
+          "emotionale Resonanz"
+        ],
+        "memory_priority": "hoch",
+        "runtime_effect": [
+          "semantische Tiefe erhoehen",
+          "Atmosphaere priorisieren",
+          "visuelle Reflexion vertiefen"
+        ],
+        "connected_agents": [
+          "AG004"
+        ]
+      },
+      {
+        "runtime_state_id": "ARS003",
+        "runtime_state": "Leadership Dynamik",
+        "detected_signals": [
+          "Verantwortung",
+          "People Fokus",
+          "Teamsteuerung"
+        ],
+        "memory_priority": "hoch",
+        "runtime_effect": [
+          "Leadership Systeme priorisieren",
+          "Vertrauen staerken",
+          "Praesenz erhoehen"
+        ],
+        "connected_agents": [
+          "AG002"
+        ]
+      },
+      {
+        "runtime_state_id": "ARS004",
+        "runtime_state": "kreative Ermuedung",
+        "detected_signals": [
+          "Wiederholung",
+          "motivationale Muedigkeit",
+          "visuelle Stagnation"
+        ],
+        "memory_priority": "mittel",
+        "runtime_effect": [
+          "Exploration aktivieren",
+          "Perspektivwechsel foerdern",
+          "Druck reduzieren"
+        ],
+        "connected_agents": [
+          "AG003"
+        ]
+      },
+      {
+        "runtime_state_id": "ARS005",
+        "runtime_state": "Mastery und Meta-Reflexion",
+        "detected_signals": [
+          "ganzheitliches Denken",
+          "Meta-Reflexion",
+          "semantische Integration"
+        ],
+        "memory_priority": "hoch",
+        "runtime_effect": [
+          "Meta-Systeme aktivieren",
+          "Systemdenken vertiefen",
+          "Integrationslogik priorisieren"
+        ],
+        "connected_agents": [
+          "AG006"
+        ]
+      }
+    ],
+    "runtime_memory_decay_logic": [
+      {
+        "memory_type": "akuter Stress",
+        "decay_behavior": [
+          "hohe Prioritaet kurzfristig",
+          "schnelle Neubewertung",
+          "starke Runtime Dominanz"
+        ]
+      },
+      {
+        "memory_type": "emotionale Resonanz",
+        "decay_behavior": [
+          "mittelfristige Speicherung",
+          "verstaerkt semantische Offenheit"
+        ]
+      },
+      {
+        "memory_type": "Leadership Entwicklung",
+        "decay_behavior": [
+          "langfristige Verstaerkung",
+          "erhoeht People Prioritaeten"
+        ]
+      },
+      {
+        "memory_type": "Mastery Entwicklung",
+        "decay_behavior": [
+          "dauerhafte Runtime Integration",
+          "Meta-Systeme langfristig aktiv"
+        ]
+      }
+    ],
+    "semantic_attention_model": [
+      {
+        "attention_priority": 1,
+        "focus": "emotionale Stabilitaet"
+      },
+      {
+        "attention_priority": 2,
+        "focus": "Leadership und Vertrauen"
+      },
+      {
+        "attention_priority": 3,
+        "focus": "Professionalitaet und Struktur"
+      },
+      {
+        "attention_priority": 4,
+        "focus": "Atmosphaere und Bildwirkung"
+      },
+      {
+        "attention_priority": 5,
+        "focus": "kreative Exploration"
+      },
+      {
+        "attention_priority": 6,
+        "focus": "Mastery und semantische Integration"
+      }
+    ],
+    "runtime_memory_rules": [
+      {
+        "rule": "Akute emotionale Zustaende ueberschreiben historische Praeferenzen."
+      },
+      {
+        "rule": "Stresszustaende erhoehen Runtime Prioritaet sofort."
+      },
+      {
+        "rule": "Emotionale Offenheit verstaerkt semantische Tiefe."
+      },
+      {
+        "rule": "Leadership Dynamiken erhoehen People Prioritaeten."
+      },
+      {
+        "rule": "Mastery Entwicklung aktiviert Meta-Systeme dauerhaft."
+      },
+      {
+        "rule": "Wiederkehrende Muster verstaerken langfristige Runtime Gewichtungen."
+      }
+    ],
+    "runtime_memory_governance": [
+      {
+        "constraint": "Emotionale Sicherheit besitzt hoechste Runtime Prioritaet."
+      },
+      {
+        "constraint": "Runtime Memory darf keine manipulative Dynamik erzeugen."
+      },
+      {
+        "constraint": "Adaptive Gewichtungen muessen semantisch konsistent bleiben."
+      },
+      {
+        "constraint": "Mastery Entwicklung darf nicht kuenstlich beschleunigt werden."
+      },
+      {
+        "constraint": "Atmosphaere besitzt systemweite semantische Relevanz."
+      }
+    ],
+    "future_usage": {
+      "used_for": [
+        "Realtime Semantic Memory",
+        "Adaptive Runtime Context",
+        "Professional Interaction Tracking",
+        "Semantic Attention Systems",
+        "Adaptive AI Runtime Prioritization",
+        "Emotional Runtime Awareness",
+        "Contextual Memory Coordination"
+      ],
+      "connects_to": [
+        "cross-session-context-map.json",
+        "predictive-development-engine.json",
+        "semantic-self-optimization.json"
+      ]
+    }
+  }
+}

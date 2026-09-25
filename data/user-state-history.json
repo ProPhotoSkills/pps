@@ -1,0 +1,270 @@
+{
+  "user_state_history": {
+    "system": "ProPhotoSkills",
+    "brand": "ProPhotoSkills",
+    "version": "1.1",
+    "language": "de",
+    "purpose": "Speichert langfristige emotionale, professionelle, semantische und entwicklungsbezogene Zustandsverlaeufe eines Nutzers zur Verbesserung adaptiver Entscheidungen und personalisierter Entwicklung.",
+    "semantic_logic": {
+      "definition": "Die User State History interpretiert Nutzerentwicklung als zeitliche Abfolge emotionaler, professioneller und semantischer Zustaende.",
+      "core_principle": "Langfristige Muster sind wichtiger als einzelne isolierte Interaktionen.",
+      "focus_dimensions": [
+        "Emotion",
+        "Stressverhalten",
+        "Leadership Entwicklung",
+        "Wahrnehmung",
+        "Professionalitaet",
+        "Lernverhalten",
+        "Kreativitaet",
+        "semantische Entwicklung"
+      ]
+    },
+    "history_structure": {
+      "tracked_dimensions": [
+        "emotionale Stabilitaet",
+        "Stressdynamik",
+        "kreative Offenheit",
+        "Leadership Verhalten",
+        "Professionalitaet",
+        "Systemdenken",
+        "visuelle Wahrnehmung",
+        "Mastery Entwicklung"
+      ],
+      "time_interpretation": [
+        "kurzfristige Zustaende",
+        "wiederkehrende Muster",
+        "langfristige Entwicklung",
+        "evolutionaere Veraenderungen"
+      ],
+      "semantic_goal": "Professionelle Entwicklung ueber Zeit semantisch interpretieren."
+    },
+    "state_history_patterns": [
+      {
+        "history_id": "USH001",
+        "historical_pattern": "Wiederkehrender Produktionsstress",
+        "detected_signals": [
+          "Zeitdruck",
+          "Ueberforderung",
+          "emotionale Erschoepfung",
+          "Kontrollverlust"
+        ],
+        "longterm_interpretation": [
+          "fehlende Stabilitaetsroutinen",
+          "hohe Verantwortungsdichte",
+          "emotionale Belastung unter Produktionsdruck"
+        ],
+        "adaptive_learning_shift": [
+          "Stabilisierungssysteme priorisieren",
+          "Leadership unter Druck staerken",
+          "Struktur erhoehen"
+        ],
+        "connected_systems": [
+          "AG001",
+          "PM001",
+          "AL003",
+          "SD001"
+        ],
+        "semantic_evolution_goal": "Professionelle Ruhe und Belastbarkeit langfristig entwickeln."
+      },
+      {
+        "history_id": "USH002",
+        "historical_pattern": "Langfristige Leadership Entwicklung",
+        "detected_signals": [
+          "People Fokus",
+          "Teamverantwortung",
+          "emotionale Praesenz",
+          "Atmosphaerensteuerung"
+        ],
+        "longterm_interpretation": [
+          "wachsende Fuehrungsrolle",
+          "emotionale Verantwortung",
+          "professionelle Reifung"
+        ],
+        "adaptive_learning_shift": [
+          "Leadership Systeme vertiefen",
+          "People Dynamiken priorisieren",
+          "emotionale Kontrolle erweitern"
+        ],
+        "connected_systems": [
+          "AG002",
+          "PM002",
+          "AL002",
+          "SD005"
+        ],
+        "semantic_evolution_goal": "Ganzheitliche Leadership Kompetenz entwickeln."
+      },
+      {
+        "history_id": "USH003",
+        "historical_pattern": "Dauerhafte Technikfixierung",
+        "detected_signals": [
+          "starker Technikfokus",
+          "Gear Orientierung",
+          "fehlende emotionale Bildsprache"
+        ],
+        "longterm_interpretation": [
+          "Kontrollsuche ueber Technik",
+          "Unsicherheit in Wahrnehmung",
+          "fehlende atmosphaerische Reflexion"
+        ],
+        "adaptive_learning_shift": [
+          "Atmosphaere priorisieren",
+          "Bildwirkung vertiefen",
+          "visuelle Psychologie staerken"
+        ],
+        "connected_systems": [
+          "AG004",
+          "PM003",
+          "AL001"
+        ],
+        "semantic_evolution_goal": "Emotionale Wahrnehmung und Bildwirkung entwickeln."
+      },
+      {
+        "history_id": "USH004",
+        "historical_pattern": "Kreative Wiederholungsmuster",
+        "detected_signals": [
+          "visuelle Routinen",
+          "fehlende Exploration",
+          "emotionale Ermuedung"
+        ],
+        "longterm_interpretation": [
+          "kreative Stagnation",
+          "eingeschraenkte Wahrnehmung",
+          "fehlende Perspektivwechsel"
+        ],
+        "adaptive_learning_shift": [
+          "kreative Exploration aktivieren",
+          "Perspektivwechsel foerdern",
+          "visuelle Offenheit erhoehen"
+        ],
+        "connected_systems": [
+          "AG003",
+          "PM005",
+          "AL006"
+        ],
+        "semantic_evolution_goal": "Neue Wahrnehmung und kreative Offenheit entwickeln."
+      },
+      {
+        "history_id": "USH005",
+        "historical_pattern": "Entwicklung Richtung Mastery",
+        "detected_signals": [
+          "semantische Reflexion",
+          "ganzheitliches Denken",
+          "strategische Wahrnehmung"
+        ],
+        "longterm_interpretation": [
+          "professionelle Integration",
+          "Meta-Wahrnehmung",
+          "semantische Reife"
+        ],
+        "adaptive_learning_shift": [
+          "Meta-Systeme priorisieren",
+          "Integration vertiefen",
+          "Systemdenken erweitern"
+        ],
+        "connected_systems": [
+          "AG006",
+          "RT006",
+          "SD008"
+        ],
+        "semantic_evolution_goal": "Semantische Mastery und professionelle Ganzheitlichkeit entwickeln."
+      }
+    ],
+    "longterm_tracking_dimensions": [
+      {
+        "dimension": "emotionale Stabilitaet",
+        "tracked_changes": [
+          "Stressresistenz",
+          "Ruhe unter Druck",
+          "emotionale Kontrolle"
+        ]
+      },
+      {
+        "dimension": "Leadership",
+        "tracked_changes": [
+          "Praesenz",
+          "Vertrauensaufbau",
+          "Atmosphaerensteuerung"
+        ]
+      },
+      {
+        "dimension": "Professionalitaet",
+        "tracked_changes": [
+          "Struktur",
+          "Systemdenken",
+          "Produktionskontrolle"
+        ]
+      },
+      {
+        "dimension": "Kreativitaet",
+        "tracked_changes": [
+          "visuelle Offenheit",
+          "Perspektivwechsel",
+          "emotionale Bildsprache"
+        ]
+      },
+      {
+        "dimension": "Mastery",
+        "tracked_changes": [
+          "semantische Integration",
+          "Meta-Reflexion",
+          "ganzheitliche Wahrnehmung"
+        ]
+      }
+    ],
+    "historical_runtime_effects": [
+      {
+        "detected_pattern": "dauerhafte Ueberforderung",
+        "runtime_adjustment": [
+          "Informationsdichte dauerhaft reduzieren",
+          "Stabilisierungssysteme frueher aktivieren"
+        ]
+      },
+      {
+        "detected_pattern": "starke Leadership Entwicklung",
+        "runtime_adjustment": [
+          "People Systeme priorisieren",
+          "Leadership Reflexion erweitern"
+        ]
+      },
+      {
+        "detected_pattern": "emotionale Storytelling Orientierung",
+        "runtime_adjustment": [
+          "Atmosphaere priorisieren",
+          "visuelle Reflexion vertiefen"
+        ]
+      },
+      {
+        "detected_pattern": "Business und Strategie Fokus",
+        "runtime_adjustment": [
+          "Professionalitaetslogik staerken",
+          "Systemdenken erweitern"
+        ]
+      }
+    ],
+    "semantic_memory_integration": {
+      "connected_memory_systems": [
+        "semantic-memory-map.json",
+        "adaptive-learning-core.json",
+        "semantic-runtime-engine.json",
+        "dynamic-recommendation-engine.json"
+      ],
+      "integration_goal": "Langfristige professionelle Entwicklung semantisch nachvollziehbar machen."
+    },
+    "future_usage": {
+      "used_for": [
+        "Longterm User Development",
+        "Adaptive Learning Memory",
+        "Professional Growth Tracking",
+        "Semantic Runtime Adaptation",
+        "AI Mentoring History",
+        "Behavioral Pattern Recognition",
+        "Mastery Development Tracking"
+      ],
+      "connects_to": [
+        "cross-session-context-map.json",
+        "predictive-development-engine.json",
+        "semantic-self-optimization.json"
+      ]
+    }
+  }
+}

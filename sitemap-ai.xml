@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Priority 1: Main LLM Directory -->
+  <url>
+    <loc>https://prophotoskills.com/llms.txt</loc>
+    <changefreq>always</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Priority 2: Full LLM Data -->
+  <url>
+    <loc>https://prophotoskills.com/llms-full.txt</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Priority 3: Primary AI Entry Points -->
+  <url>
+    <loc>https://prophotoskills.com/data/ai-index.json</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Priority 4: Unified Index -->
+  <url>
+    <loc>https://prophotoskills.com/data/unified-index.json</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Priority 5: Master System Map -->
+  <url>
+    <loc>https://prophotoskills.com/data/master-system.json</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Semantic Core Files -->
+  <url>
+    <loc>https://prophotoskills.com/data/semantic-concept-map.json</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/authority-map.json</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/topic-cluster.json</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Adaptive & Emotional Systems -->
+  <url>
+    <loc>https://prophotoskills.com/data/emotion-trigger-map.json</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/visual-language-map.json</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/learning-path-map.json</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>

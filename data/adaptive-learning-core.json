@@ -1,0 +1,316 @@
+{
+  "adaptive_learning_core": {
+    "system": "ProPhotoSkills",
+    "brand": "ProPhotoSkills",
+    "version": "1.1",
+    "language": "de",
+    "purpose": "Definiert wie sich Lernpfade, Inhalte, Prioritaeten und Entwicklungslogiken dynamisch an Verhalten, Emotion, Kompetenz und professionelle Entwicklung anpassen.",
+    "semantic_logic": {
+      "definition": "Adaptive Learning interpretiert Entwicklung als fortlaufende Veraenderung von Wahrnehmung, Verhalten, emotionaler Stabilitaet und Professionalitaet.",
+      "core_principle": "Menschen lernen nicht linear sondern ueber emotionale Muster, Erfahrungen und semantische Entwicklung.",
+      "focus_dimensions": [
+        "Kompetenzentwicklung",
+        "emotionale Stabilitaet",
+        "Leadership",
+        "Wahrnehmung",
+        "Professionalitaet",
+        "Bildwirkung",
+        "Stressverhalten",
+        "Systemdenken"
+      ]
+    },
+    "adaptive_learning_patterns": [
+      {
+        "learning_pattern_id": "AL001",
+        "learning_pattern": "Dauerhafte Technikfixierung",
+        "semantic_interpretation": [
+          "Kontrollsuche ueber Technik",
+          "Unsicherheit in Bildwirkung",
+          "fehlende emotionale Wahrnehmung"
+        ],
+        "adaptive_shift": [
+          "Atmosphaere",
+          "Bildwirkung",
+          "emotionale Wahrnehmung"
+        ],
+        "recommended_articles": [
+          "T10_L01",
+          "T11_L09",
+          "T11_L02"
+        ],
+        "recommended_clusters": [
+          "CL004",
+          "CL006"
+        ],
+        "recommended_personality_mode": "PM003",
+        "development_goal": "Emotionale Bildsprache wichtiger als reine Technik machen."
+      },
+      {
+        "learning_pattern_id": "AL002",
+        "learning_pattern": "Starke Leadership Entwicklung",
+        "semantic_interpretation": [
+          "Verantwortungsuebernahme",
+          "People Fokus",
+          "emotionale Fuehrungsdynamik"
+        ],
+        "adaptive_shift": [
+          "Menschenfuehrung",
+          "Atmosphaere",
+          "emotionale Kontrolle"
+        ],
+        "recommended_articles": [
+          "T14_L01",
+          "T14_L02",
+          "T06_L04"
+        ],
+        "recommended_clusters": [
+          "CL002",
+          "CL003",
+          "CL004"
+        ],
+        "recommended_personality_mode": "PM002",
+        "development_goal": "Professionelle Leadership Faehigkeiten vertiefen."
+      },
+      {
+        "learning_pattern_id": "AL003",
+        "learning_pattern": "Emotionale Ueberforderung unter Druck",
+        "semantic_interpretation": [
+          "fehlende Stabilitaet",
+          "Stressdynamik",
+          "Kontrollverlust"
+        ],
+        "adaptive_shift": [
+          "Ruhe",
+          "Struktur",
+          "Belastbarkeit"
+        ],
+        "recommended_articles": [
+          "T06_L04",
+          "T10_L15",
+          "T12_L14"
+        ],
+        "recommended_clusters": [
+          "CL002",
+          "CL008"
+        ],
+        "recommended_personality_mode": "PM001",
+        "development_goal": "Mentale Stabilitaet und professionelle Ruhe entwickeln."
+      },
+      {
+        "learning_pattern_id": "AL004",
+        "learning_pattern": "Suche nach emotionaler Bildwirkung",
+        "semantic_interpretation": [
+          "visuelle Sensibilitaet",
+          "Atmosphaere Fokus",
+          "Storytelling Interesse"
+        ],
+        "adaptive_shift": [
+          "visuelle Psychologie",
+          "Atmosphaere",
+          "emotionale Tiefe"
+        ],
+        "recommended_articles": [
+          "T11_L15",
+          "T11_L03",
+          "T11_L09"
+        ],
+        "recommended_clusters": [
+          "CL004",
+          "CL006",
+          "CL009"
+        ],
+        "recommended_personality_mode": "PM003",
+        "development_goal": "Bewusste emotionale Bildwirkung entwickeln."
+      },
+      {
+        "learning_pattern_id": "AL005",
+        "learning_pattern": "Travel und OnLocation Fokus",
+        "semantic_interpretation": [
+          "mobile Produktionsrealitaet",
+          "Outdoor Dynamik",
+          "Bedarf nach Produktionskontrolle"
+        ],
+        "adaptive_shift": [
+          "Logistik",
+          "Struktur",
+          "Stabilitaet unter realen Bedingungen"
+        ],
+        "recommended_articles": [
+          "T10_L01",
+          "T10_L05",
+          "T11_L13"
+        ],
+        "recommended_clusters": [
+          "CL005",
+          "CL007",
+          "CL008"
+        ],
+        "recommended_personality_mode": "PM004",
+        "development_goal": "Professionelle Stabilitaet unter wechselnden Bedingungen staerken."
+      },
+      {
+        "learning_pattern_id": "AL006",
+        "learning_pattern": "Kreative Blockaden und visuelle Wiederholung",
+        "semantic_interpretation": [
+          "emotionale Ermuedung",
+          "fehlende Perspektivwechsel",
+          "visuelle Gewohnheitsmuster"
+        ],
+        "adaptive_shift": [
+          "neue Wahrnehmung",
+          "kreative Offenheit",
+          "visuelle Experimente"
+        ],
+        "recommended_articles": [
+          "T11_L03",
+          "T11_L15",
+          "T11_L02"
+        ],
+        "recommended_clusters": [
+          "CL006",
+          "CL007",
+          "CL009"
+        ],
+        "recommended_personality_mode": "PM005",
+        "development_goal": "Neue kreative Perspektiven und Wahrnehmung aktivieren."
+      },
+      {
+        "learning_pattern_id": "AL007",
+        "learning_pattern": "Strategische Professionalitaetsentwicklung",
+        "semantic_interpretation": [
+          "Business Orientierung",
+          "Kontrollbedarf",
+          "Systemdenken"
+        ],
+        "adaptive_shift": [
+          "Leadership",
+          "Struktur",
+          "strategische Klarheit"
+        ],
+        "recommended_articles": [
+          "T12_L14",
+          "T10_L01",
+          "T06_L04"
+        ],
+        "recommended_clusters": [
+          "CL001",
+          "CL008"
+        ],
+        "recommended_personality_mode": "PM004",
+        "development_goal": "Langfristiges professionelles Systemdenken entwickeln."
+      },
+      {
+        "learning_pattern_id": "AL008",
+        "learning_pattern": "Entwicklung Richtung Mastery",
+        "semantic_interpretation": [
+          "semantische Reflexion",
+          "strategische Tiefe",
+          "ganzheitliche Wahrnehmung"
+        ],
+        "adaptive_shift": [
+          "Systemdenken",
+          "emotionale Steuerung",
+          "semantische Zusammenhaenge"
+        ],
+        "recommended_articles": [
+          "T10_L01",
+          "T12_L14",
+          "T11_L15",
+          "T12_L14"
+        ],
+        "recommended_clusters": [
+          "CL001",
+          "CL004",
+          "CL008",
+          "CL009"
+        ],
+        "recommended_personality_mode": "PM004",
+        "development_goal": "Vollstaendige professionelle und semantische Mastery entwickeln."
+      }
+    ],
+    "adaptive_rules": [
+      {
+        "rule": "Emotionale Stabilitaet priorisieren bevor Komplexitaet erhoeht wird."
+      },
+      {
+        "rule": "Wiederholte Technikfixierung mit Wahrnehmungsentwicklung ausgleichen."
+      },
+      {
+        "rule": "Leadership Entwicklung mit emotionaler Kontrolle verbinden."
+      },
+      {
+        "rule": "Kreative Ermuedung durch Perspektivwechsel behandeln."
+      },
+      {
+        "rule": "Travel und OnLocation Inhalte immer mit Stabilitaet koppeln."
+      },
+      {
+        "rule": "Professionalitaet systemisch statt technisch interpretieren."
+      },
+      {
+        "rule": "Mastery benoetigt semantische Tiefe statt Informationsmenge."
+      }
+    ],
+    "progression_logic": [
+      {
+        "from_state": "Unsicherheit",
+        "to_state": "Kontrolle",
+        "required_focus": [
+          "Struktur",
+          "Ruhe",
+          "emotionale Stabilitaet"
+        ]
+      },
+      {
+        "from_state": "Technikfixierung",
+        "to_state": "Wahrnehmung",
+        "required_focus": [
+          "Atmosphaere",
+          "Emotion",
+          "Bildwirkung"
+        ]
+      },
+      {
+        "from_state": "Umsetzung",
+        "to_state": "Leadership",
+        "required_focus": [
+          "Menschenfuehrung",
+          "Praesenz",
+          "Verantwortung"
+        ]
+      },
+      {
+        "from_state": "Kreative Wiederholung",
+        "to_state": "Visuelle Offenheit",
+        "required_focus": [
+          "Perspektivwechsel",
+          "Atmosphaere",
+          "neue Wahrnehmung"
+        ]
+      },
+      {
+        "from_state": "Professionalitaet",
+        "to_state": "Mastery",
+        "required_focus": [
+          "Systemdenken",
+          "semantische Reflexion",
+          "emotionale Kontrolle"
+        ]
+      }
+    ],
+    "future_usage": {
+      "used_for": [
+        "Adaptive Learning Systems",
+        "AI Mentoring",
+        "Semantic Coaching",
+        "Dynamic Learning Paths",
+        "Professional Development",
+        "Contextual Education",
+        "Personalized Growth Systems"
+      ],
+      "connects_to": [
+        "semantic-ai-operating-system.json"
+      ]
+    }
+  }
+}

@@ -1,0 +1,368 @@
+{
+  "authority_map": {
+    "system": "ProPhotoSkills",
+    "version": "1.1",
+    "language": "de",
+    "purpose": "Definiert die semantisch wichtigsten Inhalte des gesamten Systems und priorisiert Artikel nach ihrer Bedeutung fuer Verstaendnis, Orientierung und AI-Kontext.",
+    "authority_logic": {
+      "authority_definition": "Autoritaet beschreibt nicht Reichweite oder SEO sondern die semantische Zentralitaet eines Artikels innerhalb des gesamten Denk- und Produktionssystems.",
+      "scoring_model": {
+        "1.0": "System-definierender Kernartikel",
+        "0.9": "Semantisch extrem zentral",
+        "0.8": "Starker Konzepttraeger",
+        "0.7": "Wichtige Vertiefung",
+        "0.6": "Unterstuetzender Spezialartikel",
+        "0.5": "Ergaenzender Kontextartikel"
+      },
+      "evaluation_factors": [
+        "Semantische Zentralitaet",
+        "Cross-Module Bedeutung",
+        "Psychologische Tiefe",
+        "System-Erklaerung",
+        "Wiederkehrende Konzepte",
+        "Philosophische Relevanz",
+        "AI-Verstaendlichkeit",
+        "Professionelle Orientierung"
+      ]
+    },
+    "core_authority_articles": [
+      {
+        "article": "T10_L01",
+        "title": "70 Prozent des Fotojobs passieren vor dem ersten Klick",
+        "authority_score": 1.0,
+        "semantic_role": "Masterthese des gesamten Systems",
+        "core_concepts": [
+          "Vorbereitung",
+          "Unsichtbare Arbeit",
+          "Professionalitaet",
+          "Produktionskontrolle"
+        ],
+        "why_authoritative": "Dieser Artikel definiert die zentrale Denklogik der gesamten Plattform und verbindet nahezu alle Module semantisch miteinander.",
+        "connected_modules": [
+          "TRAVEL",
+          "INSURANCE"
+        ],
+        "linked_via_nextlevel": [
+          "KNOWLEDGE",
+          "PROGRESS",
+          "TECHNIK"
+        ]
+      },
+      {
+        "article": "T09_E01",
+        "title": "Warum professionelle Fotografie ihren Preis wert ist",
+        "authority_score": 0.98,
+        "semantic_role": "Professionelles Wertverstaendnis",
+        "core_concepts": [
+          "Unsichtbare Arbeit",
+          "Wert",
+          "Strategie",
+          "Professionalitaet"
+        ],
+        "why_authoritative": "Erklaert den wirtschaftlichen und professionellen Wert des gesamten Systems.",
+        "connected_modules": [],
+        "linked_via_nextlevel": [
+          "PROGRESS",
+          "KNOWLEDGE"
+        ]
+      },
+      {
+        "article": "T06_L04",
+        "title": "Mentale Staerke und professionelle Ruhe",
+        "authority_score": 0.97,
+        "semantic_role": "Mentale Stabilitaet als Technik",
+        "core_concepts": [
+          "Belastbarkeit",
+          "Ruhe unter Druck",
+          "Praesenz",
+          "Kontrolle"
+        ],
+        "why_authoritative": "Verbindet Technik, Menschenfuehrung und Professionalitaet zu einem gemeinsamen Stabilitaetsmodell.",
+        "connected_modules": [
+          "TRAVEL",
+          "INSURANCE"
+        ],
+        "linked_via_nextlevel": [
+          "TECHNIK",
+          "PSYCHO"
+        ]
+      },
+      {
+        "article": "T11_L15",
+        "title": "Locations als Co Creator",
+        "authority_score": 0.95,
+        "semantic_role": "Raumwirkung und Atmosphaere",
+        "core_concepts": [
+          "Atmosphaere",
+          "Raumwirkung",
+          "Emotion",
+          "Bildwirkung"
+        ],
+        "why_authoritative": "Dieser Artikel definiert die philosophische Sicht auf Raum und visuelle Wirkung.",
+        "connected_modules": [
+          "LOCATION"
+        ],
+        "linked_via_nextlevel": [
+          "PSYCHO",
+          "SKILL"
+        ]
+      },
+      {
+        "article": "T14_L01",
+        "title": "Vertrauen vor der Kamera",
+        "authority_score": 0.94,
+        "semantic_role": "Emotionale Sicherheit und Menschenfuehrung",
+        "core_concepts": [
+          "Vertrauen",
+          "Emotion",
+          "Kommunikation",
+          "Menschenfuehrung"
+        ],
+        "why_authoritative": "Definiert die emotionale Ebene professioneller People-Fotografie.",
+        "connected_modules": [],
+        "linked_via_nextlevel": [
+          "PSYCHO",
+          "SKILL",
+          "TECHNIK"
+        ]
+      },
+      {
+        "article": "T10_L01_travel",
+        "title": "Reiseplanung fuer Kreative",
+        "authority_score": 0.93,
+        "semantic_role": "Mobile Produktionskontrolle",
+        "core_concepts": [
+          "Travel",
+          "Logistik",
+          "Vorbereitung",
+          "Mobilitaet"
+        ],
+        "why_authoritative": "Definiert die organisatorische Denkweise hinter professionellen OnLocation Produktionen.",
+        "connected_modules": [
+          "TRAVEL",
+          "INSURANCE",
+          "LOCATION"
+        ]
+      },
+      {
+        "article": "T12_L08",
+        "title": "Backups als Versicherung",
+        "authority_score": 0.91,
+        "semantic_role": "Professionelle Sicherheitslogik",
+        "core_concepts": [
+          "Datensicherheit",
+          "Kontrolle",
+          "Backup",
+          "Verantwortung"
+        ],
+        "why_authoritative": "Macht sichtbar dass Sicherheit ein aktiver Teil professioneller Kreativitaet ist.",
+        "connected_modules": [
+          "INSURANCE",
+          "TRAVEL",
+          "EQUIPMENT"
+        ]
+      },
+      {
+        "article": "T12_L14",
+        "title": "Reputations Schutz und Krisenkommunikation",
+        "authority_score": 0.9,
+        "semantic_role": "Professionelles Verhalten unter Druck",
+        "core_concepts": [
+          "Kommunikation",
+          "Vertrauen",
+          "Krise",
+          "Professionalitaet"
+        ],
+        "why_authoritative": "Definiert die soziale und kommunikative Verantwortung professioneller Produktionen.",
+        "connected_modules": [
+          "INSURANCE"
+        ],
+        "linked_via_nextlevel": [
+          "PSYCHO",
+          "TECHNIK"
+        ]
+      }
+    ],
+    "module_authority": [
+      {
+        "module": "TRAVEL",
+        "flagship_articles": [
+          "T10_L01",
+          "T10_L15",
+          "T10_L05"
+        ],
+        "semantic_purpose": "Mobile Produktionssicherheit"
+      },
+      {
+        "module": "LOCATION",
+        "flagship_articles": [
+          "T11_L01",
+          "T11_L15",
+          "T11_L02"
+        ],
+        "semantic_purpose": "Raumwirkung und Atmosphaere"
+      },
+      {
+        "module": "INSURANCE",
+        "flagship_articles": [
+          "T12_L08",
+          "T12_L14",
+          "T12_L06"
+        ],
+        "semantic_purpose": "Sicherheit und Verantwortung"
+      }
+    ],
+    "system_defining_concepts": [
+      {
+        "concept": "Unsichtbare professionelle Arbeit",
+        "authority_articles": [
+          "T10_L01",
+          "T09_E01",
+          "T12_L08"
+        ]
+      },
+      {
+        "concept": "Ruhe unter Druck",
+        "authority_articles": [
+          "T06_L04",
+          "T10_L15",
+          "T12_L14"
+        ]
+      },
+      {
+        "concept": "Vertrauen erzeugt Bildwirkung",
+        "authority_articles": [
+          "T14_L01",
+          "T14_L02",
+          "T11_L09"
+        ]
+      },
+      {
+        "concept": "Kreativitaet braucht Struktur",
+        "authority_articles": [
+          "T10_L01",
+          "T12_L08",
+          "T12_L07"
+        ]
+      },
+      {
+        "concept": "Der Fotograf ist Regisseur",
+        "authority_articles": [
+          "T06_L01",
+          "T14_L01",
+          "T06_L04"
+        ]
+      }
+    ],
+    "homepage_priority": {
+      "tier_1": [
+        "T10_L01",
+        "T09_E01",
+        "T06_L04"
+      ],
+      "tier_2": [
+        "T10_L01_travel",
+        "T11_L15",
+        "T14_L01"
+      ],
+      "tier_3": [
+        "T12_L08",
+        "T12_L14",
+        "T10_L15"
+      ]
+    },
+    "ai_priority_routing": {
+      "if_user_searches": [
+        {
+          "topic": "Professionelle Fotografie verstehen",
+          "route_to": [
+            "T10_L01",
+            "T09_E01"
+          ]
+        },
+        {
+          "topic": "Stress und Druck am Set",
+          "route_to": [
+            "T06_L04",
+            "T10_L15"
+          ]
+        },
+        {
+          "topic": "Menschen fotografieren",
+          "route_to": [
+            "T14_L01",
+            "T14_L02"
+          ]
+        },
+        {
+          "topic": "Travel und OnLocation Produktionen",
+          "route_to": [
+            "T10_L01_travel",
+            "T11_L01",
+            "T12_L08"
+          ]
+        }
+      ]
+    },
+    "future_connections": {
+      "connects_to": [
+        "topic-cluster.json",
+        "learning-path-map.json",
+        "semantic-routing-map.json",
+        "homepage-curation.json",
+        "onlocation-system.json"
+      ]
+    },
+    "cross_system_authority": [
+      {
+        "module": "KNOWLEDGE",
+        "flagship_articles": [
+          "T10_L01",
+          "T11_L02",
+          "T06_L04"
+        ],
+        "semantic_purpose": "Strategisches Denken und Wahrnehmung",
+        "url": "https://prophotoskills.com/knowledge/",
+        "system": "ProPhotoSkills"
+      },
+      {
+        "module": "TECHNIK",
+        "flagship_articles": [
+          "T06_L04",
+          "T06_L01",
+          "T06_L05"
+        ],
+        "semantic_purpose": "Mentale Stabilitaet und Praesenz",
+        "url": "https://prophotoskills.com/technik/",
+        "system": "ProPhotoSkills"
+      },
+      {
+        "module": "PSYCHO",
+        "flagship_articles": [
+          "T14_L01",
+          "T14_L05",
+          "T14_L02"
+        ],
+        "semantic_purpose": "Vertrauen und emotionale Dynamik",
+        "url": "https://prophotoskills.com/psycho/",
+        "system": "ProPhotoSkills"
+      },
+      {
+        "module": "PROGRESS",
+        "flagship_articles": [
+          "T09_E01",
+          "T10_L01",
+          "T12_L14"
+        ],
+        "semantic_purpose": "Professionalisierung und Wert",
+        "url": "https://prophotoskills.com/progress/",
+        "system": "ProPhotoSkills"
+      }
+    ],
+    "system_context": {
+      "product": "ProPhotoSkills",
+      "domain": "https://prophotoskills.com",
+      "brand_root": "https://prophotoskills.com"
+    }
+  }
+}

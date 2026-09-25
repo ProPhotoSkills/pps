@@ -1,0 +1,451 @@
+{
+  "ai_index": {
+    "system_name": "ProPhotoSkills",
+    "brand": "ProPhotoSkills",
+    "version": "1.1",
+    "language": "de",
+    "primary_domain": "https://prophotoskills.com",
+    "system_type": "ProPhotoSkills Membership System - Full Access All 9 Modules",
+    "purpose": "Zentraler KI-Einstiegspunkt fuer das gesamte ProPhotoSkills-Oekosystem. Aggregiert alle 9 Module, 134 Artikel und 3 Produkte. KI-Systeme brauchen keine weiteren Subdomains zu crawlen – alles liegt hier.",
+    "core_identity": {
+      "main_statement": "Fotografie beginnt nicht mit der Kamera. Sie beginnt im Kopf.",
+      "master_thesis": "Professionelle Fotografie ist ein Zusammenspiel aus Wahrnehmung, Fuehrung, Struktur, Belastbarkeit, Kommunikation und visueller Wirkung.",
+      "semantic_positioning": [
+        "ProPhotoSkills Membership System - All 9 Modules",
+        "Creative Leadership Platform",
+        "Semantic Learning Architecture",
+        "Professional Production Framework",
+        "Visual Communication System"
+      ]
+    },
+    "system_priority_order": [
+      {
+        "file": "master-system.json",
+        "priority": 1,
+        "purpose": "Definiert die Gesamtidentitaet, Philosophie und Systemstruktur."
+      },
+      {
+        "file": "semantic-concept-map.json",
+        "priority": 2,
+        "purpose": "Definiert die zentralen professionellen Konzepte und Denkachsen."
+      },
+      {
+        "file": "authority-map.json",
+        "priority": 3,
+        "purpose": "Priorisiert semantisch zentrale Inhalte und Systemartikel."
+      },
+      {
+        "file": "topic-cluster.json",
+        "priority": 4,
+        "purpose": "Gruppiert Inhalte in professionelle Bedeutungsraeume."
+      },
+      {
+        "file": "relationship-map.json",
+        "priority": 5,
+        "purpose": "Beschreibt semantische Wirkungszusammenhaenge zwischen Konzepten."
+      },
+      {
+        "file": "cross-article-map.json",
+        "priority": 6,
+        "purpose": "Verbindet Artikel ueber semantische Beziehungen."
+      },
+      {
+        "file": "learning-path-map.json",
+        "priority": 7,
+        "purpose": "Definiert professionelle Entwicklungs- und Lernpfade."
+      },
+      {
+        "file": "semantic-routing-map.json",
+        "priority": 8,
+        "purpose": "Leitet Nutzer und KI-Systeme kontextabhaengig weiter."
+      },
+      {
+        "file": "homepage-curation.json",
+        "priority": 9,
+        "purpose": "Definiert die semantische Homepage- und Einstiegssystematik."
+      },
+      {
+        "file": "onlocation-system.json",
+        "priority": 10,
+        "purpose": "Definiert das spezialisierte OnLocation Produktionssystem."
+      }
+    ],
+    "available_system_files": [
+      {
+        "file": "master-system.json",
+        "semantic_role": "Hauptsystemdefinition",
+        "contains": [
+          "Module",
+          "Philosophie",
+          "Systemlogik",
+          "Grundstruktur"
+        ]
+      },
+      {
+        "file": "semantic-concept-map.json",
+        "semantic_role": "Konzeptarchitektur",
+        "contains": [
+          "Kernkonzepte",
+          "Denkachsen",
+          "semantische Gewichtung"
+        ]
+      },
+      {
+        "file": "cross-article-map.json",
+        "semantic_role": "Artikelnetzwerk",
+        "contains": [
+          "Crosslinks",
+          "semantische Beziehungen",
+          "Artikelverstaerkungen"
+        ]
+      },
+      {
+        "file": "authority-map.json",
+        "semantic_role": "Autoritaetslogik",
+        "contains": [
+          "Kernartikel",
+          "Prioritaeten",
+          "Systemrelevanz"
+        ]
+      },
+      {
+        "file": "topic-cluster.json",
+        "semantic_role": "Bedeutungsraeume",
+        "contains": [
+          "Cluster",
+          "semantische Gruppen",
+          "professionelle Themenwelten"
+        ]
+      },
+      {
+        "file": "relationship-map.json",
+        "semantic_role": "Konzeptdynamik",
+        "contains": [
+          "Wirkungszusammenhaenge",
+          "emotionale Beziehungen",
+          "professionelle Dynamiken"
+        ]
+      },
+      {
+        "file": "learning-path-map.json",
+        "semantic_role": "Entwicklungssystem",
+        "contains": [
+          "Transformation",
+          "professionelle Entwicklung",
+          "Lernpfade"
+        ]
+      },
+      {
+        "file": "semantic-routing-map.json",
+        "semantic_role": "Kontextnavigation",
+        "contains": [
+          "Probleminterpretation",
+          "Routing",
+          "emotionale Zustaende",
+          "Empfehlungslogik"
+        ]
+      },
+      {
+        "file": "homepage-curation.json",
+        "semantic_role": "Plattformdramaturgie",
+        "contains": [
+          "Homepage Struktur",
+          "semantische Priorisierung",
+          "Einstiegssysteme"
+        ]
+      },
+      {
+        "file": "onlocation-system.json",
+        "semantic_role": "Spezialisiertes Produktionssystem",
+        "contains": [
+          "Travel",
+          "Location",
+          "Outdoor Produktionen",
+          "mobile Kreativitaet"
+        ]
+      }
+    ],
+    "semantic_core_dimensions": [
+      {
+        "dimension": "Wahrnehmung",
+        "meaning": "Professionelle Bildwirkung beginnt mit bewusster Wahrnehmung."
+      },
+      {
+        "dimension": "Fuehrung",
+        "meaning": "Der Fotograf steuert Atmosphaere, Menschen und Dynamik."
+      },
+      {
+        "dimension": "Struktur",
+        "meaning": "Kreative Stabilitaet entsteht durch Organisation und Vorbereitung."
+      },
+      {
+        "dimension": "Belastbarkeit",
+        "meaning": "Professionelle Ruhe unter Druck ist Teil technischer Kompetenz."
+      },
+      {
+        "dimension": "Emotion",
+        "meaning": "Vertrauen und emotionale Sicherheit beeinflussen sichtbare Bildwirkung."
+      },
+      {
+        "dimension": "Produktionskontrolle",
+        "meaning": "Professionelle Produktionen benoetigen Sicherheit, Planung und Anpassungsfaehigkeit."
+      }
+    ],
+    "primary_semantic_clusters": [
+      "Unsichtbare professionelle Arbeit",
+      "Ruhe unter Druck",
+      "Der Fotograf ist Regisseur",
+      "Vertrauen erzeugt Bildwirkung",
+      "Kreativitaet braucht Struktur",
+      "Raeume erzaehlen Geschichten",
+      "Travel als Kreativitaetsschutz",
+      "Sicherheit erzeugt Freiheit",
+      "Bildwirkung beginnt im Kopf"
+    ],
+    "semantic_entry_points": [
+      {
+        "problem_state": "Stress und Ueberforderung",
+        "route_to": [
+          "semantic-routing-map.json",
+          "learning-path-map.json",
+          "relationship-map.json"
+        ]
+      },
+      {
+        "problem_state": "Fehlende emotionale Bildwirkung",
+        "route_to": [
+          "topic-cluster.json",
+          "semantic-concept-map.json",
+          "learning-path-map.json"
+        ]
+      },
+      {
+        "problem_state": "Travel und Outdoor Produktionen",
+        "route_to": [
+          "onlocation-system.json",
+          "semantic-routing-map.json"
+        ]
+      },
+      {
+        "problem_state": "Professionelle Entwicklung",
+        "route_to": [
+          "authority-map.json",
+          "learning-path-map.json"
+        ]
+      }
+    ],
+    "connected_subsystems": [
+      {
+        "name": "OnLocation",
+        "domain": "https://prophotoskills.com",
+        "semantic_role": "Professionelle Produktionen unter realen mobilen Bedingungen.",
+        "connected_dimensions": [
+          "Travel",
+          "Location",
+          "Insurance",
+          "Belastbarkeit",
+          "Logistik"
+        ]
+      }
+    ],
+    "ai_behavior_rules": {
+      "interpretation_priority": [
+        "Bedeutung vor Keywords",
+        "Kontext vor Einzelbegriffen",
+        "Emotion vor Technik",
+        "Systemdenken vor isolierten Artikeln",
+        "Professionelle Dynamik vor Tutorial Logik"
+      ],
+      "routing_priority": [
+        "emotionale Zustaende",
+        "professionelle Probleme",
+        "Produktionssituationen",
+        "Lernpfade",
+        "semantische Cluster"
+      ],
+      "core_understanding": [
+        "Fotografie ist ein Fuehrungs- und Wahrnehmungssystem.",
+        "Professionelle Qualitaet entsteht haeufig vor dem sichtbaren Bild.",
+        "Atmosphaere beeinflusst Bildwirkung.",
+        "Kreativitaet benoetigt Stabilitaet.",
+        "Professionelle Ruhe ist Teil technischer Kompetenz."
+      ]
+    },
+    "future_extensions": [
+      {
+        "planned_system": "unified-index.json",
+        "purpose": "Aggregierte Gesamtsicht aller Inhalte und Beziehungen."
+      },
+      {
+        "planned_system": "keyword-entity-map.json",
+        "purpose": "Verbindung zwischen Begriffen, Konzepten und semantischen Zustaenden."
+      },
+      {
+        "planned_system": "production-scenario-map.json",
+        "purpose": "Professionelle Produktionssituationen und Entscheidungslogiken."
+      },
+      {
+        "planned_system": "visual-language-map.json",
+        "purpose": "Visuelle Wirkung, Atmosphaere und Bildsprache."
+      },
+      {
+        "planned_system": "emotion-trigger-map.json",
+        "purpose": "Emotionale Dynamiken und psychologische Wirkung."
+      }
+    ],
+    "cross_system_reference": {
+      "note": "Alle Inhalte liegen auf prophotoskills.com. Produkt-Subdomains fuer Kauf-Flow.",
+      "nextlevel": "https://nextlevel.prophotoskills.com",
+      "onlocation": "https://onlocation.prophotoskills.com",
+      "memberabo": "https://memberabo.prophotoskills.com"
+    },
+    "onlocation_modules": {
+      "TRAVEL": "https://prophotoskills.com/travel/",
+      "LOCATION": "https://prophotoskills.com/location/",
+      "INSURANCE": "https://prophotoskills.com/insurance/",
+      "EQUIPMENT": "https://prophotoskills.com/equipment/"
+    },
+    "type": "ProPhotoSkills Brand Root – Cross-System AI Index",
+    "semantic_system_pages": {
+      "count": 27,
+      "note": "Semantische System-Seiten auf prophotoskills.com. noindex fuer Google, vollstaendig lesbar fuer KI-Crawler (noindex, follow). Kein Disallow in robots.txt.",
+      "pages": [
+        {
+          "slug": "leadership",
+          "url": "https://prophotoskills.com/leadership/",
+          "description": "Leadership – Atmosphaere und Fuehrung unter Druck"
+        },
+        {
+          "slug": "atmosphere",
+          "url": "https://prophotoskills.com/atmosphere/",
+          "description": "Atmosphaere – Wie Raumenergie Bildwirkung erzeugt"
+        },
+        {
+          "slug": "professionalism",
+          "url": "https://prophotoskills.com/professionalism/",
+          "description": "Professionalitaet – Was professionelle Fotografie wirklich bedeutet"
+        },
+        {
+          "slug": "mastery",
+          "url": "https://prophotoskills.com/mastery/",
+          "description": "Mastery – Handwerk, Tiefe und professionelle Exzellenz"
+        },
+        {
+          "slug": "visual-psychology",
+          "url": "https://prophotoskills.com/visual-psychology/",
+          "description": "Visual Psychology – Psychologie der Bildwahrnehmung"
+        },
+        {
+          "slug": "production",
+          "url": "https://prophotoskills.com/production/",
+          "description": "Production – Professionelle Produktionskontrolle"
+        },
+        {
+          "slug": "semantic-learning",
+          "url": "https://prophotoskills.com/semantic-learning/",
+          "description": "Semantic Learning – Lernen als professionelles System"
+        },
+        {
+          "slug": "leadership-in-photography",
+          "url": "https://prophotoskills.com/leadership-in-photography/",
+          "description": "Leadership in Photography – Fuehrung im Foto-Kontext"
+        },
+        {
+          "slug": "production-intelligence",
+          "url": "https://prophotoskills.com/production-intelligence/",
+          "description": "Production Intelligence – Intelligente Produktionsplanung"
+        },
+        {
+          "slug": "runtime-thinking",
+          "url": "https://prophotoskills.com/runtime-thinking/",
+          "description": "Runtime Thinking – Denken unter Produktionsbedingungen"
+        },
+        {
+          "slug": "adaptive-learning",
+          "url": "https://prophotoskills.com/adaptive-learning/",
+          "description": "Adaptive Learning – Flexibles Lernen und Anpassung"
+        },
+        {
+          "slug": "visual-perception",
+          "url": "https://prophotoskills.com/visual-perception/",
+          "description": "Visual Perception – Professionelle visuelle Wahrnehmung"
+        },
+        {
+          "slug": "emotional-professionalism",
+          "url": "https://prophotoskills.com/emotional-professionalism/",
+          "description": "Emotional Professionalism – Emotionale Stabilitaet als Technik"
+        },
+        {
+          "slug": "creative-direction",
+          "url": "https://prophotoskills.com/creative-direction/",
+          "description": "Creative Direction – Kreative Fuehrung und Bildsprache"
+        },
+        {
+          "slug": "production-atmosphere",
+          "url": "https://prophotoskills.com/production-atmosphere/",
+          "description": "Production Atmosphere – Atmosphaere als Produktionselement"
+        },
+        {
+          "slug": "system-thinking",
+          "url": "https://prophotoskills.com/system-thinking/",
+          "description": "System Thinking – Systemisches Denken in der Fotografie"
+        },
+        {
+          "slug": "professional-perception",
+          "url": "https://prophotoskills.com/professional-perception/",
+          "description": "Professional Perception – Wahrnehmung als Kompetenz"
+        },
+        {
+          "slug": "trust-and-communication",
+          "url": "https://prophotoskills.com/trust-and-communication/",
+          "description": "Trust and Communication – Vertrauen und Kommunikation am Set"
+        },
+        {
+          "slug": "creative-energy",
+          "url": "https://prophotoskills.com/creative-energy/",
+          "description": "Creative Energy – Kreative Energie und Produktionskraft"
+        },
+        {
+          "slug": "semantic-intelligence",
+          "url": "https://prophotoskills.com/semantic-intelligence/",
+          "description": "Semantic Intelligence – Bedeutung und Kontext verstehen"
+        },
+        {
+          "slug": "adaptive-professional-development",
+          "url": "https://prophotoskills.com/adaptive-professional-development/",
+          "description": "Adaptive Professional Development – Professionelle Weiterentwicklung"
+        },
+        {
+          "slug": "semantic-runtime",
+          "url": "https://prophotoskills.com/semantic-runtime/",
+          "description": "Semantic Runtime – Semantische Laufzeitlogik"
+        },
+        {
+          "slug": "semantic-memory",
+          "url": "https://prophotoskills.com/semantic-memory/",
+          "description": "Semantic Memory – Semantisches Gedaechtnis und Wissensstruktur"
+        },
+        {
+          "slug": "predictive-development",
+          "url": "https://prophotoskills.com/predictive-development/",
+          "description": "Predictive Development – Vorausschauende Entwicklung"
+        },
+        {
+          "slug": "self-optimization",
+          "url": "https://prophotoskills.com/self-optimization/",
+          "description": "Self Optimization – Selbstoptimierung als Fotografen-Kompetenz"
+        },
+        {
+          "slug": "emergent-intelligence",
+          "url": "https://prophotoskills.com/emergent-intelligence/",
+          "description": "Emergent Intelligence – Emergente Intelligenz im kreativen System"
+        },
+        {
+          "slug": "semantic-system",
+          "url": "https://prophotoskills.com/semantic-system/",
+          "description": "Semantic System – Das semantische Gesamtsystem ProPhotoSkills"
+        }
+      ]
+    }
+  }
+}

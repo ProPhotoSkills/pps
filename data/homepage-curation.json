@@ -1,0 +1,285 @@
+{
+  "homepage_curation": {
+    "system": "ProPhotoSkills",
+    "version": "1.1",
+    "language": "de",
+    "purpose": "Definiert die semantische, emotionale und strategische Struktur der Homepage und kuratiert Inhalte nach Bedeutung, Nutzerzustaenden und professionellen Entwicklungszielen.",
+    "semantic_logic": {
+      "definition": "Die Homepage ist kein Blog Feed sondern ein intelligentes Einstiegssystem in professionelle Denk- und Produktionswelten.",
+      "core_principle": "Die Homepage soll Orientierung, Vertrauen, Professionalitaet und semantische Tiefe vermitteln.",
+      "homepage_identity": [
+        "ProPhotoSkills Membership System - All 9 Modules",
+        "Creative Leadership Platform",
+        "Semantisches Lernsystem",
+        "Visuelle Entwicklungsplattform"
+      ]
+    },
+    "homepage_structure": [
+      {
+        "section_id": "HP001",
+        "section_name": "Hero Area",
+        "semantic_role": "Philosophischer Einstieg",
+        "headline_focus": "Fotografie beginnt nicht mit der Kamera. Sie beginnt im Kopf.",
+        "purpose": "Die zentrale Denkweise der gesamten Plattform kommunizieren.",
+        "featured_articles": [
+          "T10_L01",
+          "T12_L14",
+          "T06_L04"
+        ],
+        "connected_clusters": [
+          "CL001",
+          "CL002",
+          "CL009"
+        ],
+        "emotional_goal": [
+          "Vertrauen",
+          "Tiefe",
+          "Professionalitaet"
+        ]
+      },
+      {
+        "section_id": "HP002",
+        "section_name": "Professionelle Realitaet",
+        "semantic_role": "Problembewusstsein erzeugen",
+        "headline_focus": "Warum professionelle Fotografie weit mehr ist als Technik.",
+        "purpose": "Unsichtbare Arbeit, Verantwortung und Produktionsrealitaet sichtbar machen.",
+        "featured_articles": [
+          "T10_L01",
+          "T12_L08",
+          "T10_L01"
+        ],
+        "connected_clusters": [
+          "CL001",
+          "CL005",
+          "CL008"
+        ],
+        "emotional_goal": [
+          "Erkenntnis",
+          "Respekt",
+          "Verstaendnis"
+        ]
+      },
+      {
+        "section_id": "HP003",
+        "section_name": "Ruhe unter Druck",
+        "semantic_role": "Mentale Stabilitaet",
+        "headline_focus": "Professionelle Ruhe ist eine Form von Technik.",
+        "purpose": "Stress, Druck und emotionale Kontrolle als Teil professioneller Fotografie positionieren.",
+        "featured_articles": [
+          "T06_L04",
+          "T10_L15",
+          "T12_L14"
+        ],
+        "connected_clusters": [
+          "CL002",
+          "CL008"
+        ],
+        "recommended_learning_path": "LP004",
+        "emotional_goal": [
+          "Sicherheit",
+          "Stabilitaet",
+          "Kontrolle"
+        ]
+      },
+      {
+        "section_id": "HP004",
+        "section_name": "Menschen und Atmosphaere",
+        "semantic_role": "Emotionale Bildwirkung",
+        "headline_focus": "Vertrauen wird sichtbar im Bild.",
+        "purpose": "Menschenfuehrung und Atmosphaere als Grundlage professioneller Bildwirkung erklaeren.",
+        "featured_articles": [
+          "T14_L01",
+          "T11_L09",
+          "T11_L15"
+        ],
+        "connected_clusters": [
+          "CL003",
+          "CL004",
+          "CL006"
+        ],
+        "recommended_learning_path": "LP002",
+        "emotional_goal": [
+          "Emotion",
+          "Naehe",
+          "Verbindung"
+        ]
+      },
+      {
+        "section_id": "HP005",
+        "section_name": "Travel und OnLocation",
+        "semantic_role": "Mobile Produktionsrealitaet",
+        "headline_focus": "Kreativitaet braucht Stabilitaet unterwegs.",
+        "purpose": "Travel, Logistik und OnLocation Produktionen als professionelles System darstellen.",
+        "featured_articles": [
+          "T10_L01",
+          "T10_L15",
+          "T11_L13"
+        ],
+        "connected_clusters": [
+          "CL005",
+          "CL007",
+          "CL008"
+        ],
+        "recommended_learning_path": "LP005",
+        "emotional_goal": [
+          "Sicherheit",
+          "Flexibilitaet",
+          "Professionalitaet"
+        ]
+      },
+      {
+        "section_id": "HP006",
+        "section_name": "Wahrnehmung und Bildwirkung",
+        "semantic_role": "Visuelles Denken",
+        "headline_focus": "Bildwirkung entsteht aus Wahrnehmung.",
+        "purpose": "Licht, Atmosphaere und visuelle Sensibilitaet als professionelle Kernkompetenzen vermitteln.",
+        "featured_articles": [
+          "T11_L02",
+          "T11_L02",
+          "T11_L15"
+        ],
+        "connected_clusters": [
+          "CL006",
+          "CL009"
+        ],
+        "recommended_learning_path": "LP003",
+        "emotional_goal": [
+          "Inspiration",
+          "Tiefe",
+          "visuelle Sensibilitaet"
+        ]
+      },
+      {
+        "section_id": "HP007",
+        "section_name": "Professionalitaet und Entwicklung",
+        "semantic_role": "Professionelle Transformation",
+        "headline_focus": "Vom Fotografen zum professionellen System.",
+        "purpose": "Die langfristige Entwicklung professioneller Identitaet sichtbar machen.",
+        "featured_articles": [
+          "T12_L14",
+          "T12_L14",
+          "T10_L01"
+        ],
+        "connected_clusters": [
+          "CL001",
+          "CL005",
+          "CL009"
+        ],
+        "recommended_learning_path": "LP001",
+        "emotional_goal": [
+          "Wachstum",
+          "Klarheit",
+          "Professionalitaet"
+        ]
+      },
+      {
+        "section_id": "HP008",
+        "section_name": "Learning Paths",
+        "semantic_role": "Transformationsnavigation",
+        "headline_focus": "Lerne nicht nur Fotografie. Entwickle Professionalitaet.",
+        "purpose": "Besucher abhaengig von Problemen, Zielen und Situationen intelligent weiterleiten.",
+        "featured_learning_paths": [
+          "LP001",
+          "LP002",
+          "LP004",
+          "LP005"
+        ],
+        "connected_clusters": [
+          "CL001",
+          "CL002",
+          "CL003",
+          "CL005"
+        ],
+        "emotional_goal": [
+          "Orientierung",
+          "Entwicklung",
+          "Transformation"
+        ]
+      },
+      {
+        "section_id": "HP009",
+        "section_name": "Core Philosophy",
+        "semantic_role": "Systemidentitaet",
+        "headline_focus": "Professionelle Fotografie ist ein Zusammenspiel aus Wahrnehmung, Fuehrung, Struktur und Wirkung.",
+        "purpose": "Die gesamte Plattform als geschlossenes professionelles Denkmodell positionieren.",
+        "featured_articles": [
+          "T10_L01",
+          "T06_L04",
+          "T14_L01",
+          "T11_L15"
+        ],
+        "connected_clusters": [
+          "CL001",
+          "CL002",
+          "CL003",
+          "CL004",
+          "CL009"
+        ],
+        "emotional_goal": [
+          "Identitaet",
+          "Vertrauen",
+          "semantische Tiefe"
+        ]
+      }
+    ],
+    "homepage_navigation_logic": {
+      "primary_navigation": [
+        "TRAVEL",
+        "LOCATION",
+        "INSURANCE",
+        "EQUIPMENT"
+      ],
+      "cross_system_navigation": {
+        "system": "ProPhotoSkills",
+        "url": "https://prophotoskills.com",
+        "modules": [
+          "KNOWLEDGE",
+          "TECHNIK",
+          "PROGRESS",
+          "SKILL",
+          "PSYCHO"
+        ]
+      },
+      "secondary_navigation": [
+        "Learning Paths",
+        "OnLocation",
+        "Professional Mindset",
+        "Leadership",
+        "Atmosphaere",
+        "Produktionskontrolle"
+      ],
+      "entry_by_problem": [
+        {
+          "problem": "Stress",
+          "route_to": "HP003"
+        },
+        {
+          "problem": "Unsicherheit mit Menschen",
+          "route_to": "HP004"
+        },
+        {
+          "problem": "Travel Produktionen",
+          "route_to": "HP005"
+        },
+        {
+          "problem": "Fehlende Bildwirkung",
+          "route_to": "HP006"
+        },
+        {
+          "problem": "Fehlende Struktur",
+          "route_to": "HP007"
+        }
+      ]
+    },
+    "semantic_ai_behavior": {
+      "interpretation_mode": "onlocation_curation",
+      "rules": [
+        "Homepage ist Einstieg in professionelle OnLocation Produktionswelt.",
+        "Travel, Location, Insurance, Equipment sind primaere Themenwelten.",
+        "NextLevel Module (KNOWLEDGE, TECHNIK, PROGRESS, SKILL, PSYCHO) als Querverweise integrieren.",
+        "Emotionale Stabilitaet und Produktionskontrolle priorisieren.",
+        "Kreativitaet unter realen Bedingungen als Kernbotschaft."
+      ]
+    }
+  }
+}

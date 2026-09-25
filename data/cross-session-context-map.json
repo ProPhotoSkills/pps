@@ -1,0 +1,273 @@
+{
+  "cross_session_context_map": {
+    "system": "ProPhotoSkills",
+    "brand": "ProPhotoSkills",
+    "version": "1.1",
+    "language": "de",
+    "purpose": "Definiert wie emotionale, professionelle, semantische und entwicklungsbezogene Kontexte ueber mehrere Sessions hinweg verbunden, interpretiert und langfristig integriert werden.",
+    "semantic_logic": {
+      "definition": "Die Cross Session Context Map verbindet einzelne Sessions zu einer kontinuierlichen professionellen Entwicklungsdynamik.",
+      "core_principle": "Professionelle Entwicklung entsteht ueber Zeit - nicht innerhalb isolierter Interaktionen.",
+      "focus_dimensions": [
+        "Langzeitentwicklung",
+        "emotionale Kontinuitaet",
+        "Leadership Reifung",
+        "Professionalitaet",
+        "Wahrnehmung",
+        "Mastery",
+        "Runtime Kontinuitaet",
+        "semantische Integration"
+      ]
+    },
+    "cross_session_context_layers": [
+      {
+        "layer_id": "CSL001",
+        "layer_name": "Emotional Continuity Layer",
+        "purpose": "Verbindet emotionale Muster und Stabilitaetsentwicklungen ueber Sessions hinweg.",
+        "tracked_elements": [
+          "Stressverhalten",
+          "emotionale Stabilitaet",
+          "Ueberforderung",
+          "emotionale Offenheit"
+        ],
+        "connected_systems": [
+          "user-state-history.json",
+          "semantic-runtime-memory.json",
+          "live-feedback-loop.json"
+        ]
+      },
+      {
+        "layer_id": "CSL002",
+        "layer_name": "Professional Development Layer",
+        "purpose": "Speichert langfristige Professionalitaets- und Leadership Entwicklung.",
+        "tracked_elements": [
+          "Leadership",
+          "Systemdenken",
+          "Produktionskontrolle",
+          "strategische Entwicklung"
+        ],
+        "connected_systems": [
+          "adaptive-learning-core.json",
+          "behavior-adaptation-engine.json"
+        ]
+      },
+      {
+        "layer_id": "CSL003",
+        "layer_name": "Creative Evolution Layer",
+        "purpose": "Verbindet kreative Entwicklungsdynamiken und Wahrnehmungsveraenderungen.",
+        "tracked_elements": [
+          "visuelle Offenheit",
+          "kreative Exploration",
+          "Atmosphaere Fokus",
+          "Bildwirkung"
+        ],
+        "connected_systems": [
+          "visual-language-map.json",
+          "emotion-trigger-map.json",
+          "behavior-adaptation-engine.json"
+        ]
+      },
+      {
+        "layer_id": "CSL004",
+        "layer_name": "Mastery Integration Layer",
+        "purpose": "Speichert semantische Reife, Meta-Reflexion und ganzheitliche Entwicklung.",
+        "tracked_elements": [
+          "Meta-Wahrnehmung",
+          "semantische Integration",
+          "Mastery",
+          "ganzheitliches Denken"
+        ],
+        "connected_systems": [
+          "semantic-consciousness-layer.json",
+          "semantic-evolution-map.json",
+          "semantic-runtime-memory.json"
+        ]
+      }
+    ],
+    "persistent_context_patterns": [
+      {
+        "pattern_id": "PCP001",
+        "persistent_pattern": "wiederkehrender Produktionsstress",
+        "cross_session_detection": [
+          "Zeitdruck",
+          "Ueberforderung",
+          "emotionale Belastung",
+          "Kontrollverlust"
+        ],
+        "longterm_interpretation": [
+          "Belastungsdynamik stabil",
+          "emotionale Stabilitaet gefaehrdet",
+          "Professionalitaet unter Druck"
+        ],
+        "persistent_runtime_effect": [
+          "Stabilisierungssysteme frueher aktivieren",
+          "Informationsdichte reduzieren",
+          "emotionale Sicherheit priorisieren"
+        ],
+        "connected_agents": [
+          "AG001"
+        ]
+      },
+      {
+        "pattern_id": "PCP002",
+        "persistent_pattern": "langfristige Leadership Entwicklung",
+        "cross_session_detection": [
+          "People Fokus",
+          "Praesenz",
+          "Verantwortung",
+          "Teamreflexion"
+        ],
+        "longterm_interpretation": [
+          "Leadership Reifung",
+          "emotionale Fuehrungsentwicklung",
+          "Professionalitaetssteigerung"
+        ],
+        "persistent_runtime_effect": [
+          "People Systeme priorisieren",
+          "Leadership Reflexion vertiefen",
+          "Vertrauensdynamiken erweitern"
+        ],
+        "connected_agents": [
+          "AG002"
+        ]
+      },
+      {
+        "pattern_id": "PCP003",
+        "persistent_pattern": "Technikdominanz",
+        "cross_session_detection": [
+          "Gear Fokus",
+          "technische Fixierung",
+          "fehlende Atmosphaerenreflexion"
+        ],
+        "longterm_interpretation": [
+          "Kontrollorientierung",
+          "Unsicherheit in Wahrnehmung",
+          "emotionale Bildwirkung unterentwickelt"
+        ],
+        "persistent_runtime_effect": [
+          "Atmosphaere priorisieren",
+          "Bildwirkung vertiefen",
+          "visuelle Psychologie staerken"
+        ],
+        "connected_agents": [
+          "AG004"
+        ]
+      },
+      {
+        "pattern_id": "PCP004",
+        "persistent_pattern": "semantische Mastery Entwicklung",
+        "cross_session_detection": [
+          "Meta-Reflexion",
+          "Integrationsdenken",
+          "strategische Wahrnehmung"
+        ],
+        "longterm_interpretation": [
+          "semantische Reife",
+          "professionelle Ganzheitlichkeit",
+          "Mastery Dynamik"
+        ],
+        "persistent_runtime_effect": [
+          "Meta-Systeme priorisieren",
+          "Integrationslogik erweitern",
+          "Systemdenken vertiefen"
+        ],
+        "connected_agents": [
+          "AG006"
+        ]
+      }
+    ],
+    "cross_session_memory_links": [
+      {
+        "memory_link_id": "ML001",
+        "memory_connection": "emotionale Zustaende ↔ Runtime Prioritaeten",
+        "semantic_effect": [
+          "Stress erhoeht Stabilisierung",
+          "emotionale Offenheit erhoeht Reflexion"
+        ]
+      },
+      {
+        "memory_link_id": "ML002",
+        "memory_connection": "Leadership Entwicklung ↔ Kommunikationsverhalten",
+        "semantic_effect": [
+          "People Fokus verstaerkt Praesenz",
+          "Leadership erhoeht Vertrauensprioritaet"
+        ]
+      },
+      {
+        "memory_link_id": "ML003",
+        "memory_connection": "Kreative Entwicklung ↔ Wahrnehmungslogik",
+        "semantic_effect": [
+          "Exploration erhoeht visuelle Offenheit",
+          "Wiederholung reduziert kreative Dynamik"
+        ]
+      },
+      {
+        "memory_link_id": "ML004",
+        "memory_connection": "Mastery ↔ Meta-Systeme",
+        "semantic_effect": [
+          "Meta-Reflexion aktiviert Integrationssysteme",
+          "Systemdenken verstaerkt semantische Tiefe"
+        ]
+      }
+    ],
+    "cross_session_runtime_rules": [
+      {
+        "rule": "Wiederkehrende Stressmuster erhoehen Runtime Sensibilitaet."
+      },
+      {
+        "rule": "Langfristige Leadership Entwicklung verstaerkt People Prioritaeten."
+      },
+      {
+        "rule": "Emotionale Offenheit erhoeht semantische Reflexion."
+      },
+      {
+        "rule": "Kreative Stagnation aktiviert Explorationssysteme."
+      },
+      {
+        "rule": "Mastery Entwicklung aktiviert Meta-Systeme dauerhaft."
+      },
+      {
+        "rule": "Langfristige Muster besitzen hoehere Bedeutung als Einzelreaktionen."
+      }
+    ],
+    "cross_session_governance": [
+      {
+        "constraint": "Langzeitentwicklung darf emotionale Stabilitaet niemals gefaehrden."
+      },
+      {
+        "constraint": "Cross Session Anpassungen muessen semantisch konsistent bleiben."
+      },
+      {
+        "constraint": "Professionalitaet muss ganzheitlich interpretiert werden."
+      },
+      {
+        "constraint": "Mastery Entwicklung darf nicht kuenstlich erzwungen werden."
+      },
+      {
+        "constraint": "Atmosphaere besitzt langfristige semantische Relevanz."
+      }
+    ],
+    "development_continuity_model": {
+      "from_sessions": "isolierte Interaktionen",
+      "to_continuity": "verbundene professionelle Entwicklung",
+      "to_semantic_growth": "langfristige semantische Reifung",
+      "to_mastery": "ganzheitliche adaptive Entwicklung"
+    },
+    "future_usage": {
+      "used_for": [
+        "Longterm Context Awareness",
+        "Cross Session AI Memory",
+        "Adaptive Development Continuity",
+        "Professional Growth Tracking",
+        "Semantic Runtime Persistence",
+        "AI Mentoring Continuity",
+        "Mastery Evolution Systems"
+      ],
+      "connects_to": [
+        "predictive-development-engine.json",
+        "semantic-self-optimization.json",
+        "multi-user-dynamics-map.json"
+      ]
+    }
+  }
+}

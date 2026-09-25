@@ -1,0 +1,314 @@
+{
+  "expertise_layer_map": {
+    "system": "ProPhotoSkills",
+    "brand": "ProPhotoSkills",
+    "version": "1.1",
+    "language": "de",
+    "purpose": "Definiert professionelle Entwicklungs- und Kompetenzstufen innerhalb des Systems und beschreibt typische Denkweisen, Probleme, emotionale Dynamiken und empfohlene Inhalte je Erfahrungslevel.",
+    "semantic_logic": {
+      "definition": "Professionalitaet entsteht nicht nur durch Wissen sondern durch Wahrnehmung, Kontrolle, emotionale Stabilitaet und Systemdenken.",
+      "core_principle": "Jede Kompetenzstufe benoetigt andere Denkmodelle, Lernpfade und psychologische Unterstuetzung.",
+      "focus_dimensions": [
+        "Orientierung",
+        "Kontrolle",
+        "Leadership",
+        "Bildwirkung",
+        "emotionale Stabilitaet",
+        "Produktionskontrolle",
+        "Systemdenken"
+      ]
+    },
+    "expertise_layers": [
+      {
+        "layer_id": "EL001",
+        "expertise_level": "Beginner",
+        "core_identity": "Erste Orientierung innerhalb professioneller Fotografie.",
+        "typical_thinking": [
+          "Kamera und Technik stehen im Mittelpunkt.",
+          "Professionelle Prozesse sind noch unsichtbar.",
+          "Bildqualitaet wird primaer technisch bewertet."
+        ],
+        "typical_problems": [
+          "Unsicherheit",
+          "Ueberforderung",
+          "fehlende Struktur",
+          "Technikfixierung"
+        ],
+        "emotional_dynamics": [
+          "Selbstzweifel",
+          "Vergleich mit anderen",
+          "Angst vor Fehlern"
+        ],
+        "core_needs": [
+          "Orientierung",
+          "Verstaendnis",
+          "emotionale Sicherheit",
+          "Grundstruktur"
+        ],
+        "connected_concepts": [
+          "Vorbereitung",
+          "Ruhe",
+          "Grundverstaendnis",
+          "Wahrnehmung"
+        ],
+        "recommended_articles": [
+          "T10_L01",
+          "T11_L01",
+          "T11_L02"
+        ],
+        "recommended_learning_paths": [
+          "LP001",
+          "LP003"
+        ],
+        "target_transformation": "Von Technikdenken zu professionellem Verstaendnis."
+      },
+      {
+        "layer_id": "EL002",
+        "expertise_level": "Advanced",
+        "core_identity": "Bewusstes Arbeiten mit Struktur, Wahrnehmung und Atmosphaere.",
+        "typical_thinking": [
+          "Technik alleine reicht nicht.",
+          "Atmosphaere beeinflusst Bildwirkung.",
+          "Planung verbessert kreative Freiheit."
+        ],
+        "typical_problems": [
+          "instabile Produktionen",
+          "fehlende Menschenfuehrung",
+          "unsichere Bildwirkung"
+        ],
+        "emotional_dynamics": [
+          "Unsicherheit unter Druck",
+          "Stress",
+          "Kontrollverlust"
+        ],
+        "core_needs": [
+          "Kontrolle",
+          "Struktur",
+          "visuelle Sicherheit",
+          "Ruhe"
+        ],
+        "connected_concepts": [
+          "Atmosphaere",
+          "Kontrolle",
+          "Belastbarkeit",
+          "Struktur"
+        ],
+        "recommended_articles": [
+          "T06_L04",
+          "T11_L09",
+          "T10_L01"
+        ],
+        "recommended_learning_paths": [
+          "LP001",
+          "LP004",
+          "LP005"
+        ],
+        "target_transformation": "Von reiner Umsetzung zu kontrollierter professioneller Produktion."
+      },
+      {
+        "layer_id": "EL003",
+        "expertise_level": "Professional",
+        "core_identity": "Der Fotograf wird zum Regisseur emotionaler und organisatorischer Dynamik.",
+        "typical_thinking": [
+          "Menschenfuehrung beeinflusst Bildwirkung.",
+          "Atmosphaere ist steuerbar.",
+          "Professionelle Ruhe ist Teil technischer Kompetenz."
+        ],
+        "typical_problems": [
+          "Teamdynamik",
+          "emotionale Instabilitaet am Set",
+          "Stress unter realen Bedingungen"
+        ],
+        "emotional_dynamics": [
+          "Verantwortungsdruck",
+          "Belastung",
+          "emotionale Kontrolle"
+        ],
+        "core_needs": [
+          "Leadership",
+          "emotionale Kontrolle",
+          "Produktionsstabilitaet",
+          "Praesenz"
+        ],
+        "connected_concepts": [
+          "Leadership",
+          "Vertrauen",
+          "Belastbarkeit",
+          "Kontrolle"
+        ],
+        "recommended_articles": [
+          "T14_L01",
+          "T06_L04",
+          "T12_L14"
+        ],
+        "recommended_learning_paths": [
+          "LP002",
+          "LP004",
+          "LP005"
+        ],
+        "target_transformation": "Von Bildproduktion zu emotionaler und organisatorischer Fuehrung."
+      },
+      {
+        "layer_id": "EL004",
+        "expertise_level": "Expert",
+        "core_identity": "Bewusste Steuerung von Wirkung, Atmosphaere und visueller Psychologie.",
+        "typical_thinking": [
+          "Jedes visuelle Element erzeugt emotionale Bedeutung.",
+          "Bildsprache ist psychologische Kommunikation.",
+          "Wirkung entsteht vor dem sichtbaren Bild."
+        ],
+        "typical_problems": [
+          "emotionale Wiederholung",
+          "fehlende Tiefe",
+          "visuelle Beliebigkeit"
+        ],
+        "emotional_dynamics": [
+          "Perfektionsdruck",
+          "kreative Ermuedung",
+          "Suche nach Tiefe"
+        ],
+        "core_needs": [
+          "visuelle Praezision",
+          "emotionale Wirkung",
+          "semantische Tiefe",
+          "kreative Kontrolle"
+        ],
+        "connected_concepts": [
+          "Atmosphaere",
+          "Emotion",
+          "Bildwirkung",
+          "visuelle Wahrnehmung"
+        ],
+        "recommended_articles": [
+          "T11_L15",
+          "T11_L03",
+          "T11_L02"
+        ],
+        "recommended_learning_paths": [
+          "LP003",
+          "LP006"
+        ],
+        "target_transformation": "Von schoenen Bildern zu bewusster emotionaler Wirkung."
+      },
+      {
+        "layer_id": "EL005",
+        "expertise_level": "Mastery",
+        "core_identity": "Fotografie wird als vollstaendiges Wahrnehmungs-, Fuehrungs- und Produktionssystem verstanden.",
+        "typical_thinking": [
+          "Kreativitaet benoetigt Stabilitaet.",
+          "Atmosphaere ist steuerbar.",
+          "Professionalitaet entsteht systemisch.",
+          "Menschen, Raeume, Emotionen und Struktur sind verbunden."
+        ],
+        "typical_problems": [
+          "Komplexitaetsmanagement",
+          "grosse Produktionsdynamiken",
+          "mentale Dauerbelastung"
+        ],
+        "emotional_dynamics": [
+          "Verantwortung",
+          "kontrollierte Ruhe",
+          "strategisches Denken"
+        ],
+        "core_needs": [
+          "Systemkontrolle",
+          "mentale Stabilitaet",
+          "strategische Klarheit",
+          "semantische Fuehrung"
+        ],
+        "connected_concepts": [
+          "Systemdenken",
+          "Leadership",
+          "Produktionskontrolle",
+          "emotionale Steuerung"
+        ],
+        "recommended_articles": [
+          "T10_L01",
+          "T12_L14",
+          "T11_L15",
+          "T12_L14"
+        ],
+        "recommended_learning_paths": [
+          "LP001",
+          "LP002",
+          "LP004",
+          "LP006"
+        ],
+        "target_transformation": "Von professioneller Fotografie zu vollstaendigem kreativen Systemdenken."
+      }
+    ],
+    "layer_progression_logic": [
+      {
+        "from": "Beginner",
+        "to": "Advanced",
+        "required_shift": "Von Technikfixierung zu Wahrnehmung und Struktur."
+      },
+      {
+        "from": "Advanced",
+        "to": "Professional",
+        "required_shift": "Von Umsetzung zu Leadership und Kontrolle."
+      },
+      {
+        "from": "Professional",
+        "to": "Expert",
+        "required_shift": "Von Kontrolle zu emotionaler Bildwirkung."
+      },
+      {
+        "from": "Expert",
+        "to": "Mastery",
+        "required_shift": "Von Bildsprache zu vollstaendigem Systemdenken."
+      }
+    ],
+    "semantic_layer_connections": [
+      {
+        "layer": "Beginner",
+        "strongest_connections": [
+          "keyword-entity-map.json",
+          "learning-path-map.json"
+        ]
+      },
+      {
+        "layer": "Advanced",
+        "strongest_connections": [
+          "production-scenario-map.json",
+          "semantic-routing-map.json"
+        ]
+      },
+      {
+        "layer": "Professional",
+        "strongest_connections": [
+          "relationship-map.json",
+          "emotion-trigger-map.json"
+        ]
+      },
+      {
+        "layer": "Expert",
+        "strongest_connections": [
+          "visual-language-map.json",
+          "emotion-trigger-map.json"
+        ]
+      },
+      {
+        "layer": "Mastery",
+        "strongest_connections": [
+          "unified-index.json",
+          "master-system.json"
+        ]
+      }
+    ],
+    "future_usage": {
+      "used_for": [
+        "Adaptive Learning Systems",
+        "AI Coaching",
+        "Dynamic Recommendations",
+        "Semantic User Profiling",
+        "Professional Skill Mapping",
+        "Personalized Learning Paths",
+        "Expert Systems"
+      ],
+      "connects_to": [
+        "citation-index.json"
+      ]
+    }
+  }
+}

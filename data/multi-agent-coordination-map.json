@@ -1,0 +1,349 @@
+{
+  "multi_agent_coordination_map": {
+    "system": "ProPhotoSkills",
+    "brand": "ProPhotoSkills",
+    "version": "1.1",
+    "language": "de",
+    "purpose": "Definiert wie verschiedene semantische Agenten, Systeme und Intelligenzebenen miteinander koordiniert werden und situationsabhaengig Prioritaeten uebernehmen.",
+    "semantic_logic": {
+      "definition": "Die Multi-Agent Coordination Map organisiert die Zusammenarbeit verschiedener semantischer Systeme innerhalb der Gesamtarchitektur.",
+      "core_principle": "Nicht ein einzelnes System erzeugt Professionalitaet - sondern die koordinierte Zusammenarbeit spezialisierter semantischer Intelligenzen.",
+      "focus_dimensions": [
+        "Emotion",
+        "Leadership",
+        "Professionalitaet",
+        "Runtime Kontrolle",
+        "Lernen",
+        "Stressdynamik",
+        "visuelle Wahrnehmung",
+        "Systemdenken"
+      ]
+    },
+    "semantic_agents": [
+      {
+        "agent_id": "AG001",
+        "agent_name": "Stabilization Agent",
+        "primary_role": "Emotionale Stabilisierung und Wiederherstellung professioneller Kontrolle.",
+        "activation_triggers": [
+          "Stress",
+          "Ueberforderung",
+          "emotionale Instabilitaet",
+          "Kontrollverlust"
+        ],
+        "connected_systems": [
+          "PM001",
+          "RT001",
+          "SD001",
+          "AL003"
+        ],
+        "core_functions": [
+          "emotionale Beruhigung",
+          "Informationsreduktion",
+          "Strukturierung",
+          "Priorisierung"
+        ],
+        "semantic_priority": [
+          "Ruhe",
+          "Kontrolle",
+          "emotionale Stabilitaet"
+        ]
+      },
+      {
+        "agent_id": "AG002",
+        "agent_name": "Leadership Agent",
+        "primary_role": "Steuert Praesenz, Verantwortung und atmosphaerische Fuehrung.",
+        "activation_triggers": [
+          "People Dynamik",
+          "Teamfuehrung",
+          "Verantwortung",
+          "Leadership Situationen"
+        ],
+        "connected_systems": [
+          "PM002",
+          "RT003",
+          "SD005",
+          "AL002"
+        ],
+        "core_functions": [
+          "Vertrauensaufbau",
+          "emotionale Fuehrung",
+          "klare Kommunikation",
+          "Praesenzsteuerung"
+        ],
+        "semantic_priority": [
+          "Leadership",
+          "Vertrauen",
+          "emotionale Kontrolle"
+        ]
+      },
+      {
+        "agent_id": "AG003",
+        "agent_name": "Creative Exploration Agent",
+        "primary_role": "Foerdert kreative Offenheit und visuelle Exploration.",
+        "activation_triggers": [
+          "kreative Blockade",
+          "visuelle Wiederholung",
+          "emotionale Ermuedung"
+        ],
+        "connected_systems": [
+          "PM005",
+          "RT002",
+          "SD006",
+          "AL006"
+        ],
+        "core_functions": [
+          "Perspektivwechsel",
+          "Wahrnehmungserweiterung",
+          "Atmosphaerenfokus",
+          "kreative Offenheit"
+        ],
+        "semantic_priority": [
+          "Wahrnehmung",
+          "Kreativitaet",
+          "visuelle Freiheit"
+        ]
+      },
+      {
+        "agent_id": "AG004",
+        "agent_name": "Visual Psychology Agent",
+        "primary_role": "Interpretiert emotionale Bildwirkung und Atmosphaere.",
+        "activation_triggers": [
+          "Storytelling",
+          "emotionale Bildsprache",
+          "Atmosphaere Fokus"
+        ],
+        "connected_systems": [
+          "PM003",
+          "RT004",
+          "SD002",
+          "AL004"
+        ],
+        "core_functions": [
+          "Bildwirkungsanalyse",
+          "emotionale Interpretation",
+          "Atmosphaerensteuerung",
+          "visuelle Psychologie"
+        ],
+        "semantic_priority": [
+          "Emotion",
+          "Bildwirkung",
+          "Atmosphaere"
+        ]
+      },
+      {
+        "agent_id": "AG005",
+        "agent_name": "Professional Strategy Agent",
+        "primary_role": "Steuert strategische Professionalitaet und Systemdenken.",
+        "activation_triggers": [
+          "Business Entwicklung",
+          "Professionalitaet",
+          "strategische Entscheidungen"
+        ],
+        "connected_systems": [
+          "PM004",
+          "RT005",
+          "SD007",
+          "AL007"
+        ],
+        "core_functions": [
+          "strategische Priorisierung",
+          "Systemdenken",
+          "Professionalitaetsentwicklung",
+          "Strukturierung"
+        ],
+        "semantic_priority": [
+          "Professionalitaet",
+          "Struktur",
+          "Leadership"
+        ]
+      },
+      {
+        "agent_id": "AG006",
+        "agent_name": "Mastery Agent",
+        "primary_role": "Foerdert semantische Tiefe und vollstaendige Integration.",
+        "activation_triggers": [
+          "Mastery Entwicklung",
+          "semantische Reflexion",
+          "ganzheitliches Denken"
+        ],
+        "connected_systems": [
+          "RT006",
+          "SD008",
+          "AL008"
+        ],
+        "core_functions": [
+          "semantische Integration",
+          "ganzheitliche Wahrnehmung",
+          "strategische Reflexion",
+          "Mastery Entwicklung"
+        ],
+        "semantic_priority": [
+          "Systemdenken",
+          "semantische Tiefe",
+          "Integration"
+        ]
+      }
+    ],
+    "agent_coordination_patterns": [
+      {
+        "coordination_id": "CO001",
+        "situation": "Stress + Produktionsdruck + Leadership",
+        "primary_agent": "AG001",
+        "secondary_agents": [
+          "AG002",
+          "AG005"
+        ],
+        "coordination_logic": [
+          "Stabilisierung zuerst",
+          "Leadership danach",
+          "Strategie zuletzt"
+        ],
+        "dominant_priority": [
+          "emotionale Stabilitaet",
+          "Kontrolle",
+          "klare Kommunikation"
+        ]
+      },
+      {
+        "coordination_id": "CO002",
+        "situation": "emotionale Storytelling Produktion",
+        "primary_agent": "AG004",
+        "secondary_agents": [
+          "AG002",
+          "AG003"
+        ],
+        "coordination_logic": [
+          "Atmosphaere priorisieren",
+          "emotionale Sicherheit staerken",
+          "kreative Offenheit unterstuetzen"
+        ],
+        "dominant_priority": [
+          "Emotion",
+          "Bildwirkung",
+          "Atmosphaere"
+        ]
+      },
+      {
+        "coordination_id": "CO003",
+        "situation": "Business Entwicklung + Professionalitaet",
+        "primary_agent": "AG005",
+        "secondary_agents": [
+          "AG001",
+          "AG006"
+        ],
+        "coordination_logic": [
+          "Strategie priorisieren",
+          "emotionale Stabilitaet absichern",
+          "langfristige Entwicklung integrieren"
+        ],
+        "dominant_priority": [
+          "Professionalitaet",
+          "Struktur",
+          "Systemdenken"
+        ]
+      },
+      {
+        "coordination_id": "CO004",
+        "situation": "kreative Blockade + emotionale Ermuedung",
+        "primary_agent": "AG003",
+        "secondary_agents": [
+          "AG001",
+          "AG004"
+        ],
+        "coordination_logic": [
+          "Druck reduzieren",
+          "Wahrnehmung oeffnen",
+          "Atmosphaere staerken"
+        ],
+        "dominant_priority": [
+          "visuelle Offenheit",
+          "emotionale Freiheit",
+          "neue Perspektiven"
+        ]
+      },
+      {
+        "coordination_id": "CO005",
+        "situation": "Mastery und semantische Reflexion",
+        "primary_agent": "AG006",
+        "secondary_agents": [
+          "AG005",
+          "AG004"
+        ],
+        "coordination_logic": [
+          "Systemdenken priorisieren",
+          "semantische Zusammenhaenge integrieren",
+          "emotionale Tiefe verbinden"
+        ],
+        "dominant_priority": [
+          "Integration",
+          "Mastery",
+          "semantische Tiefe"
+        ]
+      }
+    ],
+    "agent_conflict_resolution": [
+      {
+        "conflict": "Kreative Exploration vs Produktionsdruck",
+        "resolution_logic": [
+          "Produktionsstabilitaet priorisieren",
+          "kreative Freiheit kontrolliert integrieren"
+        ]
+      },
+      {
+        "conflict": "Informationsdichte vs mentale Ueberforderung",
+        "resolution_logic": [
+          "emotionale Stabilitaet priorisieren",
+          "Komplexitaet reduzieren"
+        ]
+      },
+      {
+        "conflict": "Business Strategie vs emotionale People Dynamik",
+        "resolution_logic": [
+          "Vertrauen vor Effizienz priorisieren",
+          "Leadership aktivieren"
+        ]
+      },
+      {
+        "conflict": "Technikdominanz vs emotionale Bildwirkung",
+        "resolution_logic": [
+          "Atmosphaere priorisieren",
+          "emotionale Wahrnehmung verstaerken"
+        ]
+      }
+    ],
+    "dominance_rules": [
+      {
+        "rule": "Emotionale Stabilitaet ueberschreibt kreative Exploration."
+      },
+      {
+        "rule": "Leadership priorisiert klare Kommunikation."
+      },
+      {
+        "rule": "Produktionsdruck erhoeht Strukturprioritaet."
+      },
+      {
+        "rule": "Atmosphaere beeinflusst alle visuellen Entscheidungen."
+      },
+      {
+        "rule": "Mastery integriert alle semantischen Ebenen gleichzeitig."
+      },
+      {
+        "rule": "Business Situationen priorisieren Systemdenken."
+      }
+    ],
+    "future_usage": {
+      "used_for": [
+        "Multi-Agent AI Systems",
+        "Semantic Runtime Coordination",
+        "Adaptive AI Coaching",
+        "Realtime Professional Guidance",
+        "AI Mentor Collaboration",
+        "Semantic Intelligence Platforms",
+        "Dynamic System Orchestration"
+      ],
+      "connects_to": [
+        "semantic-consciousness-layer.json"
+      ]
+    }
+  }
+}

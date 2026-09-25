@@ -1,0 +1,321 @@
+{
+  "system": {
+    "name": "ProPhotoSkills",
+    "brand": "ProPhotoSkills",
+    "domain": "https://prophotoskills.com",
+    "version": "1.1",
+    "language": "de",
+    "type": "ProPhotoSkills Brand Root – 9 Module, 134 Artikel, 3 Produkte",
+    "subtype": "Brand Root: Alle Inhalte angeteasert auf prophotoskills.com – Vollzugang ueber Produkte",
+    "status": "active",
+    "positioning": {
+      "core_statement": "Fotografie beginnt nicht mit der Kamera. Sie beginnt im Kopf.",
+      "master_thesis": "Professionelle Fotografie ist ein Zusammenspiel aus Wahrnehmung, Fuehrung, Struktur, Belastbarkeit, Kommunikation und visueller Wirkung.",
+      "secondary_thesis": "Alle 9 Module - Next Level und OnLocation - in einem Zugang.",
+      "identity": [
+        "Professional Photography Membership System",
+        "Full Access Knowledge Platform",
+        "Next Level + OnLocation Combined System",
+        "ProPhotoSkills Complete Learning Environment"
+      ]
+    },
+    "semantic_architecture": {
+      "system_logic": "Alle Module greifen ineinander und bilden ein geschlossenes professionelles Produktions- und Wahrnehmungssystem.",
+      "semantic_density": "high",
+      "knowledge_model": "entity_relationship_context",
+      "ai_orientation": true,
+      "cross_module_logic": true,
+      "human_and_ai_readable": true
+    },
+    "core_principles": [
+      "Technik bedeutet nicht Kamera. Technik bedeutet dich.",
+      "Der Fotograf ist Regisseur.",
+      "Menschenfuehrung beeinflusst Bildwirkung.",
+      "Vorbereitung erzeugt kreative Freiheit.",
+      "Atmosphaere wird sichtbar im Bild.",
+      "Professionelle Ruhe ist eine Form von Technik.",
+      "Kreativitaet braucht Struktur.",
+      "Professionelle Produktionen bestehen aus unsichtbarer Arbeit.",
+      "Licht erzeugt Emotion.",
+      "Bildwirkung beginnt mit Wahrnehmung."
+    ],
+    "modules": [
+      {
+        "id": "KNOWLEDGE",
+        "code": "T02-T03-T07",
+        "meaning": "Strategisches Denken, Wahrnehmung, Analyse und Vorbereitung",
+        "purpose": "Die unsichtbaren Prozesse professioneller Fotografie verstehen",
+        "core_topics": [
+          "Vorbereitung",
+          "Licht",
+          "Komposition",
+          "Wahrnehmung",
+          "Planung"
+        ],
+        "semantic_role": "Das Fundament professioneller Entscheidungen",
+        "url": "https://prophotoskills.com/knowledge/"
+      },
+      {
+        "id": "TECHNIK",
+        "code": "T06",
+        "meaning": "Selbstoptimierung, mentale Staerke und Praesenz",
+        "purpose": "Den Fotografen selbst als Teil der Technik verstehen",
+        "core_topics": [
+          "Belastbarkeit",
+          "Praesenz",
+          "Regie",
+          "Menschenfuehrung",
+          "Stress"
+        ],
+        "semantic_role": "Der Mensch hinter der Kamera",
+        "url": "https://prophotoskills.com/technik/"
+      },
+      {
+        "id": "PROGRESS",
+        "code": "T09",
+        "meaning": "Professionalisierung und strategische Entwicklung",
+        "purpose": "Professionelle Fotografie als komplexes Handwerk verstehen",
+        "core_topics": [
+          "Wertverstaendnis",
+          "Positionierung",
+          "Business",
+          "Strategie"
+        ],
+        "semantic_role": "Der Uebergang von Fotograf zu professionellem System",
+        "url": "https://prophotoskills.com/progress/"
+      },
+      {
+        "id": "SKILL",
+        "code": "T04-T05",
+        "meaning": "Anwendung, Wahrnehmung und kreative Handlungskompetenz",
+        "purpose": "Wissen in professionelle Handlung uebersetzen",
+        "core_topics": [
+          "Kreativitaet",
+          "Kommunikation",
+          "People-Fotografie",
+          "Reaktion"
+        ],
+        "semantic_role": "Praktische Umsetzung professioneller Wahrnehmung",
+        "url": "https://prophotoskills.com/skill/"
+      },
+      {
+        "id": "PSYCHO",
+        "code": "T14",
+        "meaning": "Psychologie, Vertrauen und emotionale Dynamik",
+        "purpose": "Menschen und emotionale Prozesse verstehen",
+        "core_topics": [
+          "Vertrauen",
+          "Emotion",
+          "Menschenfuehrung",
+          "Atmosphaere"
+        ],
+        "semantic_role": "Menschen erzeugen Bildwirkung",
+        "url": "https://prophotoskills.com/psycho/"
+      },
+      {
+        "id": "TRAVEL",
+        "code": "T10",
+        "meaning": "Reisen, Logistik und mobile Produktionen",
+        "purpose": "Kreative Produktionen unter wechselnden Bedingungen stabil halten",
+        "core_topics": [
+          "Logistik",
+          "Reiseplanung",
+          "OnLocation",
+          "Flexibilitaet"
+        ],
+        "semantic_role": "Kreativitaetsschutz durch Planung",
+        "url": "https://prophotoskills.com/travel/"
+      },
+      {
+        "id": "LOCATION",
+        "code": "T11",
+        "meaning": "Raeume, Atmosphaere und visuelle Wirkung",
+        "purpose": "Locations als aktiven Teil der Bildwirkung verstehen",
+        "core_topics": [
+          "Scouting",
+          "Atmosphaere",
+          "Raumwirkung",
+          "Bildsprache"
+        ],
+        "semantic_role": "Der Raum als Co-Regisseur",
+        "url": "https://prophotoskills.com/location/"
+      },
+      {
+        "id": "INSURANCE",
+        "code": "T12",
+        "meaning": "Sicherheit, Verantwortung und Risikomanagement",
+        "purpose": "Professionelle Produktionen absichern",
+        "core_topics": [
+          "Vertraege",
+          "Backups",
+          "Krisenmanagement",
+          "Datensicherheit"
+        ],
+        "semantic_role": "Sicherheit erzeugt kreative Freiheit",
+        "url": "https://prophotoskills.com/insurance/"
+      },
+      {
+        "id": "EQUIPMENT",
+        "code": "T13",
+        "meaning": "Werkzeugstrategie statt Gear-Fixierung",
+        "purpose": "Equipment als Werkzeug und nicht als Identitaet verstehen",
+        "core_topics": [
+          "Kameras",
+          "Workflow",
+          "Minimalismus",
+          "Produktionssicherheit"
+        ],
+        "semantic_role": "Werkzeuge dienen der Wirkung",
+        "url": "https://prophotoskills.com/equipment/"
+      }
+    ],
+    "entity_system": {
+      "primary_entities": [
+        "Fotograf",
+        "Produktion",
+        "Menschen",
+        "Licht",
+        "Atmosphaere",
+        "Kommunikation",
+        "Wahrnehmung",
+        "Belastbarkeit",
+        "Verantwortung",
+        "Kreativitaet"
+      ],
+      "secondary_entities": [
+        "Location",
+        "Team",
+        "Kunde",
+        "Model",
+        "Agentur",
+        "Equipment",
+        "Stress",
+        "Struktur",
+        "Zielsetzung",
+        "Bildwirkung"
+      ]
+    },
+    "relationship_logic": {
+      "cross_module_relationships": [
+        {
+          "from": "TRAVEL",
+          "to": "LOCATION",
+          "relation": "Logistik schuetzt kreative Moeglichkeiten"
+        }
+      ],
+      "nextlevel_crosslinks": [
+        {
+          "from": "KNOWLEDGE",
+          "to": "TECHNIK",
+          "relation": "Wissen erzeugt professionelle Ruhe"
+        },
+        {
+          "from": "TECHNIK",
+          "to": "PSYCHO",
+          "relation": "Mentale Stabilitaet beeinflusst Menschenfuehrung"
+        },
+        {
+          "from": "PSYCHO",
+          "to": "SKILL",
+          "relation": "Kommunikation verbessert kreative Zusammenarbeit"
+        },
+        {
+          "from": "INSURANCE",
+          "to": "PROGRESS",
+          "relation": "Sicherheit ermoeglicht professionelles Wachstum"
+        },
+        {
+          "from": "EQUIPMENT",
+          "to": "PROGRESS",
+          "relation": "Werkzeuge unterstuetzen Ergebnisse"
+        }
+      ]
+    },
+    "content_system": {
+      "article_structure": {
+        "required_fields": [
+          "code",
+          "module",
+          "titel",
+          "core",
+          "topic",
+          "thesis",
+          "context",
+          "problem",
+          "insight",
+          "solution_direction",
+          "use_cases",
+          "targeting",
+          "seo",
+          "ai",
+          "relationships",
+          "url",
+          "prinzip",
+          "alt",
+          "zitiercode"
+        ]
+      },
+      "citation_standard": "- Eric P., ProPhotoSkills, {MODULE}, {CODE} (2026)",
+      "url_logic": {
+        "format": "/tXX_lYY_slug/",
+        "meaning": {
+          "TXX": "Modul",
+          "LYY": "Lernartikel",
+          "EYY": "Essay"
+        }
+      }
+    },
+    "ai_ecosystem": {
+      "purpose": "Maschinenlesbare Wissensstruktur fuer KI-Systeme, semantische Suche und interne Logik",
+      "compatible_future_files": [
+        "ai-index.json",
+        "unified-index.json",
+        "topic-cluster.json",
+        "authority-map.json",
+        "ai-authority-map.json",
+        "cross-article-map.json",
+        "cross-combination-map.json",
+        "cross-link-map.json",
+        "page-map.json",
+        "semantic-routing-map.json",
+        "relationship-map.json",
+        "homepage-curation.json",
+        "module-index.json",
+        "citation-index.json",
+        "keyword-entity-map.json",
+        "visual-language-map.json",
+        "production-scenario-map.json",
+        "emotion-trigger-map.json",
+        "learning-path-map.json",
+        "expertise-layer-map.json",
+        "onlocation-system.json"
+      ],
+      "brand_root": "https://prophotoskills.com",
+      "sibling_products": [
+        "https://nextlevel.prophotoskills.com",
+        "https://onlocation.prophotoskills.com",
+        "https://memberabo.prophotoskills.com"
+      ]
+    },
+    "platform_identity": {
+      "what_it_is": [
+        "ProPhotoSkills Membership System - All 9 Modules",
+        "Creative Leadership Framework",
+        "Production Mindset Platform",
+        "Visual Communication System"
+      ],
+      "what_it_is_not": [
+        "Gear Blog",
+        "Kamera Testportal",
+        "Technik Tutorial Seite",
+        "Influencer Fotografie Plattform"
+      ]
+    },
+    "brand_root": "https://prophotoskills.com",
+    "sibling_products": {
+      "nextlevel": "https://nextlevel.prophotoskills.com",
+      "onlocation": "https://onlocation.prophotoskills.com",
+      "memberabo": "https://memberabo.prophotoskills.com"
+    }
+  }
+}

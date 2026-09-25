@@ -1,0 +1,489 @@
+{
+  "system": {
+    "name": "ProPhotoSkills Semantic OnLocation Crosslink Engine",
+    "version": "1.1",
+    "type": "semantic_crosslink_network",
+    "domain": "https://prophotoskills.com"
+  },
+  "crosslink_rules": {
+    "flagship_links": {
+      "description": "Highest authority semantic targets",
+      "max_links": 3
+    },
+    "reinforcement_links": {
+      "description": "Strong semantic reinforcement connections",
+      "max_links": 5
+    },
+    "support_links": {
+      "description": "Contextual support and semantic depth",
+      "max_links": 8
+    }
+  },
+  "pages": {
+    "leadership": {
+      "flagship": [
+        "/system-thinking/",
+        "/production-intelligence/"
+      ],
+      "reinforcement": [
+        "/atmosphere/",
+        "/trust-and-communication/",
+        "/emotional-professionalism/"
+      ],
+      "support": [
+        "/professionalism/",
+        "/creative-direction/",
+        "/production-atmosphere/",
+        "/runtime-thinking/",
+        "/mastery/"
+      ]
+    },
+    "atmosphere": {
+      "flagship": [
+        "/leadership/",
+        "/production-atmosphere/"
+      ],
+      "reinforcement": [
+        "/trust-and-communication/",
+        "/creative-energy/",
+        "/leadership/"
+      ],
+      "support": [
+        "/visual-psychology/",
+        "/emotional-professionalism/",
+        "/production/",
+        "/runtime-thinking/",
+        "/semantic-runtime/"
+      ]
+    },
+    "professionalism": {
+      "flagship": [
+        "/mastery/",
+        "/self-optimization/"
+      ],
+      "reinforcement": [
+        "/self-optimization/",
+        "/emotional-professionalism/",
+        "/leadership/",
+        "/adaptive-professional-development/"
+      ],
+      "support": [
+        "/runtime-thinking/",
+        "/semantic-intelligence/",
+        "/professional-perception/",
+        "/production-intelligence/",
+        "/system-thinking/"
+      ]
+    },
+    "mastery": {
+      "flagship": [
+        "/semantic-intelligence/",
+        "/system-thinking/"
+      ],
+      "reinforcement": [
+        "/professional-perception/",
+        "/self-optimization/",
+        "/self-optimization/",
+        "/adaptive-professional-development/"
+      ],
+      "support": [
+        "/semantic-memory/",
+        "/predictive-development/",
+        "/runtime-thinking/",
+        "/production-intelligence/",
+        "/emergent-intelligence/"
+      ]
+    },
+    "visual-psychology": {
+      "flagship": [
+        "/professional-perception/",
+        "/visual-perception/"
+      ],
+      "reinforcement": [
+        "/creative-direction/",
+        "/trust-and-communication/",
+        "/production-atmosphere/"
+      ],
+      "support": [
+        "/semantic-intelligence/",
+        "/atmosphere/",
+        "/creative-energy/",
+        "/leadership/",
+        "/semantic-runtime/"
+      ]
+    },
+    "production": {
+      "flagship": [
+        "/production-intelligence/",
+        "/runtime-thinking/"
+      ],
+      "reinforcement": [
+        "/production-atmosphere/",
+        "/semantic-runtime/",
+        "/leadership/"
+      ],
+      "support": [
+        "/system-thinking/",
+        "/trust-and-communication/",
+        "/creative-direction/",
+        "/atmosphere/",
+        "/emotional-professionalism/"
+      ]
+    },
+    "semantic-learning": {
+      "flagship": [
+        "/semantic-intelligence/",
+        "/adaptive-learning/"
+      ],
+      "reinforcement": [
+        "/semantic-memory/",
+        "/emergent-intelligence/",
+        "/predictive-development/",
+        "/adaptive-professional-development/"
+      ],
+      "support": [
+        "/system-thinking/",
+        "/mastery/",
+        "/professional-perception/",
+        "/self-optimization/",
+        "/runtime-thinking/"
+      ]
+    },
+    "runtime-thinking": {
+      "flagship": [
+        "/semantic-runtime/",
+        "/production-intelligence/"
+      ],
+      "reinforcement": [
+        "/system-thinking/",
+        "/professional-perception/",
+        "/leadership/"
+      ],
+      "support": [
+        "/semantic-intelligence/",
+        "/trust-and-communication/",
+        "/production-atmosphere/",
+        "/creative-energy/",
+        "/emergent-intelligence/"
+      ]
+    },
+    "production-intelligence": {
+      "flagship": [
+        "/runtime-thinking/",
+        "/system-thinking/"
+      ],
+      "reinforcement": [
+        "/semantic-runtime/",
+        "/production-atmosphere/",
+        "/leadership/"
+      ],
+      "support": [
+        "/trust-and-communication/",
+        "/professionalism/",
+        "/creative-direction/",
+        "/semantic-intelligence/",
+        "/mastery/"
+      ]
+    },
+    "system-thinking": {
+      "flagship": [
+        "/semantic-intelligence/",
+        "/semantic-runtime/"
+      ],
+      "reinforcement": [
+        "/production-intelligence/",
+        "/runtime-thinking/",
+        "/mastery/"
+      ],
+      "support": [
+        "/semantic-memory/",
+        "/predictive-development/",
+        "/professional-perception/",
+        "/adaptive-learning/",
+        "/emergent-intelligence/"
+      ]
+    },
+    "semantic-runtime": {
+      "flagship": [
+        "/runtime-thinking/",
+        "/production-intelligence/"
+      ],
+      "reinforcement": [
+        "/system-thinking/",
+        "/trust-and-communication/",
+        "/atmosphere/"
+      ],
+      "support": [
+        "/professional-perception/",
+        "/creative-energy/",
+        "/production-atmosphere/",
+        "/leadership/",
+        "/semantic-intelligence/"
+      ]
+    },
+    "semantic-intelligence": {
+      "flagship": [
+        "/emergent-intelligence/",
+        "/semantic-memory/"
+      ],
+      "reinforcement": [
+        "/system-thinking/",
+        "/professional-perception/",
+        "/predictive-development/"
+      ],
+      "support": [
+        "/adaptive-learning/",
+        "/mastery/",
+        "/runtime-thinking/",
+        "/semantic-runtime/",
+        "/visual-perception/"
+      ]
+    },
+    "semantic-memory": {
+      "flagship": [
+        "/semantic-intelligence/",
+        "/predictive-development/"
+      ],
+      "reinforcement": [
+        "/adaptive-learning/",
+        "/mastery/",
+        "/emergent-intelligence/"
+      ],
+      "support": [
+        "/runtime-thinking/",
+        "/professional-perception/",
+        "/self-optimization/",
+        "/system-thinking/",
+        "/semantic-learning/"
+      ]
+    },
+    "emergent-intelligence": {
+      "flagship": [
+        "/semantic-intelligence/",
+        "/system-thinking/"
+      ],
+      "reinforcement": [
+        "/semantic-memory/",
+        "/predictive-development/",
+        "/adaptive-learning/"
+      ],
+      "support": [
+        "/mastery/",
+        "/professional-perception/",
+        "/runtime-thinking/",
+        "/semantic-runtime/",
+        "/semantic-learning/"
+      ]
+    },
+    "visual-perception": {
+      "flagship": [
+        "/professional-perception/",
+        "/visual-psychology/"
+      ],
+      "reinforcement": [
+        "/semantic-intelligence/",
+        "/creative-direction/",
+        "/atmosphere/"
+      ],
+      "support": [
+        "/trust-and-communication/",
+        "/production-atmosphere/",
+        "/runtime-thinking/",
+        "/mastery/",
+        "/semantic-runtime/"
+      ]
+    },
+    "professional-perception": {
+      "flagship": [
+        "/visual-perception/",
+        "/semantic-intelligence/"
+      ],
+      "reinforcement": [
+        "/system-thinking/",
+        "/mastery/",
+        "/predictive-development/"
+      ],
+      "support": [
+        "/runtime-thinking/",
+        "/semantic-memory/",
+        "/self-optimization/",
+        "/leadership/",
+        "/production-intelligence/"
+      ]
+    },
+    "trust-and-communication": {
+      "flagship": [
+        "/leadership/",
+        "/leadership/"
+      ],
+      "reinforcement": [
+        "/atmosphere/",
+        "/emotional-professionalism/",
+        "/production-atmosphere/"
+      ],
+      "support": [
+        "/creative-energy/",
+        "/semantic-runtime/",
+        "/runtime-thinking/",
+        "/professionalism/",
+        "/visual-psychology/"
+      ]
+    },
+    "creative-direction": {
+      "flagship": [
+        "/creative-energy/",
+        "/visual-psychology/"
+      ],
+      "reinforcement": [
+        "/production-atmosphere/",
+        "/atmosphere/",
+        "/leadership/"
+      ],
+      "support": [
+        "/professional-perception/",
+        "/runtime-thinking/",
+        "/semantic-runtime/",
+        "/production/",
+        "/trust-and-communication/"
+      ]
+    },
+    "creative-energy": {
+      "flagship": [
+        "/production-atmosphere/",
+        "/atmosphere/"
+      ],
+      "reinforcement": [
+        "/creative-direction/",
+        "/trust-and-communication/",
+        "/leadership/"
+      ],
+      "support": [
+        "/semantic-runtime/",
+        "/runtime-thinking/",
+        "/visual-psychology/",
+        "/emotional-professionalism/",
+        "/production/"
+      ]
+    },
+    "production-atmosphere": {
+      "flagship": [
+        "/atmosphere/",
+        "/leadership/"
+      ],
+      "reinforcement": [
+        "/creative-energy/",
+        "/trust-and-communication/",
+        "/leadership/"
+      ],
+      "support": [
+        "/semantic-runtime/",
+        "/production-intelligence/",
+        "/creative-direction/",
+        "/runtime-thinking/",
+        "/visual-psychology/"
+      ]
+    },
+    "emotional-professionalism": {
+      "flagship": [
+        "/professionalism/",
+        "/trust-and-communication/"
+      ],
+      "reinforcement": [
+        "/self-optimization/",
+        "/leadership/",
+        "/atmosphere/"
+      ],
+      "support": [
+        "/runtime-thinking/",
+        "/production-atmosphere/",
+        "/creative-energy/",
+        "/self-optimization/",
+        "/semantic-runtime/"
+      ]
+    },
+    "adaptive-learning": {
+      "flagship": [
+        "/semantic-learning/",
+        "/semantic-intelligence/",
+        "/adaptive-professional-development/"
+      ],
+      "reinforcement": [
+        "/semantic-memory/",
+        "/predictive-development/",
+        "/self-optimization/"
+      ],
+      "support": [
+        "/mastery/",
+        "/system-thinking/",
+        "/emergent-intelligence/",
+        "/professional-perception/",
+        "/runtime-thinking/"
+      ]
+    },
+    "adaptive-professional-development": {
+      "flagship": [
+        "/mastery/",
+        "/self-optimization/"
+      ],
+      "reinforcement": [
+        "/predictive-development/",
+        "/professional-perception/",
+        "/semantic-memory/"
+      ],
+      "support": [
+        "/runtime-thinking/",
+        "/semantic-intelligence/",
+        "/system-thinking/",
+        "/emotional-professionalism/",
+        "/leadership/"
+      ]
+    },
+    "predictive-development": {
+      "flagship": [
+        "/semantic-memory/",
+        "/semantic-intelligence/"
+      ],
+      "reinforcement": [
+        "/professional-perception/",
+        "/adaptive-learning/",
+        "/system-thinking/"
+      ],
+      "support": [
+        "/runtime-thinking/",
+        "/mastery/",
+        "/emergent-intelligence/",
+        "/semantic-runtime/",
+        "/self-optimization/"
+      ]
+    },
+    "self-optimization": {
+      "flagship": [
+        "/professionalism/",
+        "/self-optimization/",
+        "/adaptive-professional-development/"
+      ],
+      "reinforcement": [
+        "/emotional-professionalism/",
+        "/mastery/",
+        "/leadership/"
+      ],
+      "support": [
+        "/runtime-thinking/",
+        "/semantic-intelligence/",
+        "/trust-and-communication/",
+        "/system-thinking/",
+        "/predictive-development/"
+      ]
+    }
+  },
+  "semantic_crosslink_logic": {
+    "primary_goal": "Build semantic contextual understanding between all runtime and perception systems.",
+    "secondary_goal": "Strengthen AI interpretation through relationship density.",
+    "crosslink_strategy": "Every page should connect vertically and horizontally through semantic meaning.",
+    "relationship_weighting": {
+      "flagship": 1.0,
+      "reinforcement": 0.8,
+      "support": 0.6
+    }
+  }
+}

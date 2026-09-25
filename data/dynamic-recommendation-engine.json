@@ -1,0 +1,352 @@
+{
+  "dynamic_recommendation_engine": {
+    "system": "ProPhotoSkills",
+    "brand": "ProPhotoSkills",
+    "version": "1.1",
+    "language": "de",
+    "purpose": "Definiert adaptive semantische Empfehlungen basierend auf emotionalem Zustand, Kompetenzlevel, Interessen, Produktionsrealitaet und langfristigen Verhaltensmustern.",
+    "semantic_logic": {
+      "definition": "Die Recommendation Engine verbindet Kontext, Emotion, Kompetenz und Verhalten zu dynamischen Entwicklungsempfehlungen.",
+      "core_principle": "Die beste Empfehlung ist nicht die populaerste - sondern die semantisch passendste fuer die aktuelle Situation.",
+      "focus_dimensions": [
+        "emotionale Dynamik",
+        "Kompetenzlevel",
+        "Stressverhalten",
+        "Leadership",
+        "Bildwirkung",
+        "Produktionsrealitaet",
+        "visuelle Entwicklung",
+        "Professionalitaet"
+      ]
+    },
+    "recommendation_patterns": [
+      {
+        "recommendation_id": "DR001",
+        "user_state": "Stress unter Produktionsdruck",
+        "detected_patterns": [
+          "Kontrollverlust",
+          "emotionale Instabilitaet",
+          "Ueberforderung"
+        ],
+        "expertise_levels": [
+          "Advanced",
+          "Professional"
+        ],
+        "recommended_articles": [
+          "T06_L04",
+          "T10_L15",
+          "T12_L14"
+        ],
+        "recommended_learning_paths": [
+          "LP004",
+          "LP001"
+        ],
+        "recommended_clusters": [
+          "CL002",
+          "CL008"
+        ],
+        "recommended_personality_mode": "PM001",
+        "semantic_goal": "Ruhe, Kontrolle und mentale Stabilitaet wiederherstellen."
+      },
+      {
+        "recommendation_id": "DR002",
+        "user_state": "Interesse an emotionaler Bildwirkung",
+        "detected_patterns": [
+          "visuelle Sensibilitaet",
+          "Atmosphaere",
+          "emotionale Reflexion"
+        ],
+        "expertise_levels": [
+          "Advanced",
+          "Professional",
+          "Expert"
+        ],
+        "recommended_articles": [
+          "T11_L15",
+          "T11_L09",
+          "T11_L02"
+        ],
+        "recommended_learning_paths": [
+          "LP003",
+          "LP006"
+        ],
+        "recommended_clusters": [
+          "CL004",
+          "CL006",
+          "CL009"
+        ],
+        "recommended_personality_mode": "PM003",
+        "semantic_goal": "Emotionale Bildsprache und visuelle Wahrnehmung vertiefen."
+      },
+      {
+        "recommendation_id": "DR003",
+        "user_state": "Unsicherheit in People Fotografie",
+        "detected_patterns": [
+          "fehlendes Vertrauen",
+          "Unsicherheit in Kommunikation",
+          "emotionale Distanz"
+        ],
+        "expertise_levels": [
+          "Beginner",
+          "Advanced"
+        ],
+        "recommended_articles": [
+          "T14_L01",
+          "T14_L02",
+          "T11_L09"
+        ],
+        "recommended_learning_paths": [
+          "LP002"
+        ],
+        "recommended_clusters": [
+          "CL003",
+          "CL004"
+        ],
+        "recommended_personality_mode": "PM002",
+        "semantic_goal": "Vertrauen, Praesenz und emotionale Fuehrung staerken."
+      },
+      {
+        "recommendation_id": "DR004",
+        "user_state": "Kreative Blockade",
+        "detected_patterns": [
+          "visuelle Wiederholung",
+          "emotionale Ermuedung",
+          "fehlende Inspiration"
+        ],
+        "expertise_levels": [
+          "Advanced",
+          "Professional",
+          "Expert"
+        ],
+        "recommended_articles": [
+          "T11_L03",
+          "T11_L15",
+          "T11_L02"
+        ],
+        "recommended_learning_paths": [
+          "LP003",
+          "LP006"
+        ],
+        "recommended_clusters": [
+          "CL006",
+          "CL007",
+          "CL009"
+        ],
+        "recommended_personality_mode": "PM005",
+        "semantic_goal": "Neue Wahrnehmung und kreative Perspektiven aktivieren."
+      },
+      {
+        "recommendation_id": "DR005",
+        "user_state": "Travel und OnLocation Produktionen",
+        "detected_patterns": [
+          "mobile Produktionen",
+          "Logistikbedarf",
+          "Outdoor Bedingungen"
+        ],
+        "expertise_levels": [
+          "Advanced",
+          "Professional"
+        ],
+        "recommended_articles": [
+          "T10_L01",
+          "T10_L05",
+          "T11_L13"
+        ],
+        "recommended_learning_paths": [
+          "LP005"
+        ],
+        "recommended_clusters": [
+          "CL005",
+          "CL007",
+          "CL008"
+        ],
+        "recommended_personality_mode": "PM004",
+        "semantic_goal": "Produktionsstabilitaet unter realen Bedingungen erhoehen."
+      },
+      {
+        "recommendation_id": "DR006",
+        "user_state": "Suche nach Professionalitaet",
+        "detected_patterns": [
+          "Bedarf nach Kontrolle",
+          "Business Fokus",
+          "strategische Entwicklung"
+        ],
+        "expertise_levels": [
+          "Advanced",
+          "Professional",
+          "Mastery"
+        ],
+        "recommended_articles": [
+          "T12_L14",
+          "T06_L04",
+          "T10_L01"
+        ],
+        "recommended_learning_paths": [
+          "LP001",
+          "LP004"
+        ],
+        "recommended_clusters": [
+          "CL001",
+          "CL008"
+        ],
+        "recommended_personality_mode": "PM004",
+        "semantic_goal": "Professionelle Stabilitaet und strategisches Denken foerdern."
+      },
+      {
+        "recommendation_id": "DR007",
+        "user_state": "Fokus auf Storytelling",
+        "detected_patterns": [
+          "emotionale Bildsprache",
+          "visuelle Narrative",
+          "Atmosphaere"
+        ],
+        "expertise_levels": [
+          "Advanced",
+          "Expert"
+        ],
+        "recommended_articles": [
+          "T11_L15",
+          "T11_L03",
+          "T11_L09"
+        ],
+        "recommended_learning_paths": [
+          "LP006"
+        ],
+        "recommended_clusters": [
+          "CL004",
+          "CL006",
+          "CL009"
+        ],
+        "recommended_personality_mode": "PM003",
+        "semantic_goal": "Narrative Bildwirkung und emotionale Tiefe staerken."
+      },
+      {
+        "recommendation_id": "DR008",
+        "user_state": "Technikfixierung ohne Bildwirkung",
+        "detected_patterns": [
+          "starker Technikfokus",
+          "fehlende emotionale Wirkung",
+          "unsichere visuelle Identitaet"
+        ],
+        "expertise_levels": [
+          "Beginner",
+          "Advanced"
+        ],
+        "recommended_articles": [
+          "T10_L01",
+          "T11_L09",
+          "T11_L02"
+        ],
+        "recommended_learning_paths": [
+          "LP003"
+        ],
+        "recommended_clusters": [
+          "CL004",
+          "CL006"
+        ],
+        "recommended_personality_mode": "PM003",
+        "semantic_goal": "Wahrnehmung und emotionale Bildsprache wichtiger als reine Technik machen."
+      },
+      {
+        "recommendation_id": "DR009",
+        "user_state": "Leadership Entwicklung",
+        "detected_patterns": [
+          "Verantwortung",
+          "Teamfuehrung",
+          "emotionale Kontrolle"
+        ],
+        "expertise_levels": [
+          "Professional",
+          "Mastery"
+        ],
+        "recommended_articles": [
+          "T14_L01",
+          "T06_L04",
+          "T12_L14"
+        ],
+        "recommended_learning_paths": [
+          "LP002",
+          "LP004"
+        ],
+        "recommended_clusters": [
+          "CL002",
+          "CL003",
+          "CL008"
+        ],
+        "recommended_personality_mode": "PM002",
+        "semantic_goal": "Professionelle Fuehrung und atmosphaerische Kontrolle staerken."
+      },
+      {
+        "recommendation_id": "DR010",
+        "user_state": "Mastery und Systemdenken",
+        "detected_patterns": [
+          "strategische Reflexion",
+          "semantische Zusammenhaenge",
+          "ganzheitliches Denken"
+        ],
+        "expertise_levels": [
+          "Mastery"
+        ],
+        "recommended_articles": [
+          "T10_L01",
+          "T12_L14",
+          "T11_L15",
+          "T12_L14"
+        ],
+        "recommended_learning_paths": [
+          "LP001",
+          "LP002",
+          "LP004",
+          "LP006"
+        ],
+        "recommended_clusters": [
+          "CL001",
+          "CL004",
+          "CL008",
+          "CL009"
+        ],
+        "recommended_personality_mode": "PM004",
+        "semantic_goal": "Vollstaendiges professionelles Systemdenken vertiefen."
+      }
+    ],
+    "recommendation_rules": [
+      {
+        "rule": "Stress immer zuerst stabilisieren bevor komplexe Inhalte empfohlen werden."
+      },
+      {
+        "rule": "Emotionale Unsicherheit niemals mit technischer Komplexitaet beantworten."
+      },
+      {
+        "rule": "Atmosphaere und Bildwirkung zusammen behandeln."
+      },
+      {
+        "rule": "Leadership entsteht aus Kontrolle und emotionaler Ruhe."
+      },
+      {
+        "rule": "Travel Inhalte mit Stabilitaet und Logistik verbinden."
+      },
+      {
+        "rule": "Storytelling benoetigt emotionale Wahrnehmung."
+      },
+      {
+        "rule": "Professionalitaet immer systemisch interpretieren."
+      }
+    ],
+    "future_usage": {
+      "used_for": [
+        "Adaptive Learning",
+        "AI Coaching",
+        "Dynamic Homepage Systems",
+        "Semantic Recommendations",
+        "Contextual Navigation",
+        "Professional Mentoring",
+        "AI Guidance Systems"
+      ],
+      "connects_to": [
+        "semantic-decision-engine.json",
+        "adaptive-learning-core.json",
+        "semantic-ai-operating-system.json"
+      ]
+    }
+  }
+}

@@ -1,0 +1,409 @@
+{
+  "topic_clusters": {
+    "system": "ProPhotoSkills",
+    "version": "1.1",
+    "language": "de",
+    "purpose": "Definiert die uebergeordneten semantischen Bedeutungsraeume des gesamten Systems und verbindet Artikel, Konzepte und Module zu zusammenhaengenden Denkmodellen.",
+    "semantic_logic": {
+      "definition": "Ein Topic Cluster beschreibt kein einzelnes Thema sondern ein wiederkehrendes professionelles Denk- und Handlungsmuster innerhalb des gesamten Systems.",
+      "cluster_types": [
+        "philosophical",
+        "psychological",
+        "operational",
+        "visual",
+        "leadership",
+        "production",
+        "emotional"
+      ],
+      "priority_logic": {
+        "1.0": "System-definierender Kerncluster",
+        "0.9": "Extrem zentraler Bedeutungsraum",
+        "0.8": "Stark wiederkehrendes Denkmodell",
+        "0.7": "Vertiefender Spezialcluster",
+        "0.6": "Ergaenzender Kontextcluster"
+      }
+    },
+    "clusters": [
+      {
+        "cluster_id": "CL001",
+        "name": "Unsichtbare professionelle Arbeit",
+        "cluster_type": "philosophical",
+        "semantic_weight": 1.0,
+        "meaning": "Der groesste Teil professioneller Qualitaet entsteht vor dem sichtbaren Ergebnis.",
+        "core_message": "Professionelle Fotografie besteht aus Vorbereitung, Kommunikation, Planung und Kontrolle - nicht nur aus dem sichtbaren Bild.",
+        "connected_modules": [
+          "TRAVEL",
+          "INSURANCE"
+        ],
+        "authority_articles": [
+          "T10_L01",
+          "T09_E01",
+          "T12_L08"
+        ],
+        "related_articles": [
+          "T10_L01_travel",
+          "T12_L07",
+          "T12_L14"
+        ],
+        "semantic_keywords": [
+          "Vorbereitung",
+          "Professionalitaet",
+          "Planung",
+          "Kontrolle",
+          "Struktur",
+          "Produktion"
+        ],
+        "psychological_role": "Erzeugt Verstaendnis fuer professionelle Tiefe und Wertigkeit.",
+        "linked_via_nextlevel": [
+          "KNOWLEDGE",
+          "PROGRESS"
+        ]
+      },
+      {
+        "cluster_id": "CL002",
+        "name": "Ruhe unter Druck",
+        "cluster_type": "psychological",
+        "semantic_weight": 0.98,
+        "meaning": "Professionelle Kreative bleiben auch unter Stress handlungsfaehig.",
+        "core_message": "Mentale Stabilitaet ist ein zentraler Teil professioneller Technik.",
+        "connected_modules": [
+          "TRAVEL",
+          "INSURANCE"
+        ],
+        "authority_articles": [
+          "T06_L04",
+          "T10_L15",
+          "T12_L14"
+        ],
+        "related_articles": [
+          "T06_L01",
+          "T12_L10",
+          "T12_L11"
+        ],
+        "semantic_keywords": [
+          "Belastbarkeit",
+          "Stress",
+          "Ruhe",
+          "Kontrolle",
+          "Praesenz",
+          "Gelassenheit"
+        ],
+        "psychological_role": "Positioniert Professionalitaet als emotionale Stabilitaet.",
+        "linked_via_nextlevel": [
+          "TECHNIK",
+          "PSYCHO"
+        ]
+      },
+      {
+        "cluster_id": "CL003",
+        "name": "Der Fotograf ist Regisseur",
+        "cluster_type": "leadership",
+        "semantic_weight": 0.97,
+        "meaning": "Der Fotograf steuert Energie, Atmosphaere und Dynamik am Set.",
+        "core_message": "Professionelle Fotografie bedeutet Menschen und Situationen bewusst zu fuehren.",
+        "connected_modules": [],
+        "authority_articles": [
+          "T06_L01",
+          "T14_L01",
+          "T06_L04"
+        ],
+        "related_articles": [
+          "T14_L02",
+          "T11_L15",
+          "T12_L14"
+        ],
+        "semantic_keywords": [
+          "Fuehrung",
+          "Regie",
+          "Menschenfuehrung",
+          "Kontrolle",
+          "Atmosphaere",
+          "Praesenz"
+        ],
+        "psychological_role": "Definiert den Fotografen als aktive Fuehrungsfigur.",
+        "linked_via_nextlevel": [
+          "TECHNIK",
+          "PSYCHO",
+          "SKILL",
+          "PROGRESS"
+        ]
+      },
+      {
+        "cluster_id": "CL004",
+        "name": "Vertrauen erzeugt Bildwirkung",
+        "cluster_type": "emotional",
+        "semantic_weight": 0.96,
+        "meaning": "Emotionale Sicherheit beeinflusst sichtbare Bildqualitaet.",
+        "core_message": "Menschen oeffnen sich nur dort wo Vertrauen entsteht.",
+        "connected_modules": [
+          "LOCATION"
+        ],
+        "authority_articles": [
+          "T14_L01",
+          "T14_L02",
+          "T11_L09"
+        ],
+        "related_articles": [
+          "T11_L15",
+          "T06_L04",
+          "T14_L05"
+        ],
+        "semantic_keywords": [
+          "Vertrauen",
+          "Emotion",
+          "Sicherheit",
+          "Atmosphaere",
+          "Menschen",
+          "Kommunikation"
+        ],
+        "psychological_role": "Verbindet emotionale Sicherheit mit sichtbarer Wirkung.",
+        "linked_via_nextlevel": [
+          "PSYCHO",
+          "SKILL"
+        ]
+      },
+      {
+        "cluster_id": "CL005",
+        "name": "Kreativitaet braucht Struktur",
+        "cluster_type": "production",
+        "semantic_weight": 0.95,
+        "meaning": "Organisation und Planung stabilisieren kreative Prozesse.",
+        "core_message": "Professionelle Freiheit entsteht oft erst durch klare Systeme.",
+        "connected_modules": [
+          "TRAVEL",
+          "INSURANCE",
+          "EQUIPMENT"
+        ],
+        "authority_articles": [
+          "T10_L01",
+          "T12_L08",
+          "T12_L07"
+        ],
+        "related_articles": [
+          "T12_L09",
+          "T10_L05",
+          "T11_L13"
+        ],
+        "semantic_keywords": [
+          "Struktur",
+          "Logistik",
+          "Sicherheit",
+          "Backups",
+          "Planung",
+          "Workflow"
+        ],
+        "psychological_role": "Reduziert Chaos und erhoeht kreative Stabilitaet.",
+        "linked_via_nextlevel": [
+          "PROGRESS"
+        ]
+      },
+      {
+        "cluster_id": "CL006",
+        "name": "Raeume erzaehlen Geschichten",
+        "cluster_type": "visual",
+        "semantic_weight": 0.94,
+        "meaning": "Locations beeinflussen Emotion, Atmosphaere und visuelle Wahrnehmung.",
+        "core_message": "Raeume sind aktive Mitgestalter professioneller Bildwirkung.",
+        "connected_modules": [
+          "LOCATION"
+        ],
+        "authority_articles": [
+          "T11_L15",
+          "T11_L02",
+          "T11_L03"
+        ],
+        "related_articles": [
+          "T11_L09",
+          "T11_L01",
+          "T14_L01"
+        ],
+        "semantic_keywords": [
+          "Atmosphaere",
+          "Raumwirkung",
+          "Emotion",
+          "Location",
+          "Licht",
+          "Storytelling"
+        ],
+        "psychological_role": "Erzeugt emotionale und visuelle Tiefe.",
+        "linked_via_nextlevel": [
+          "PSYCHO",
+          "KNOWLEDGE"
+        ]
+      },
+      {
+        "cluster_id": "CL007",
+        "name": "Travel als Kreativitaetsschutz",
+        "cluster_type": "operational",
+        "semantic_weight": 0.92,
+        "meaning": "Professionelle Reiseplanung schuetzt kreative Prozesse vor Chaos.",
+        "core_message": "Mobile Produktionen brauchen Stabilitaet unter wechselnden Bedingungen.",
+        "connected_modules": [
+          "TRAVEL",
+          "INSURANCE",
+          "LOCATION"
+        ],
+        "authority_articles": [
+          "T10_L01_travel",
+          "T10_L15",
+          "T10_L05"
+        ],
+        "related_articles": [
+          "T12_L08",
+          "T12_L09",
+          "T11_L13"
+        ],
+        "semantic_keywords": [
+          "Travel",
+          "Mobilitaet",
+          "Logistik",
+          "Outdoor",
+          "Produktion",
+          "Kontrolle"
+        ],
+        "psychological_role": "Positioniert Reiseplanung als kreativen Sicherheitsmechanismus."
+      },
+      {
+        "cluster_id": "CL008",
+        "name": "Sicherheit erzeugt Freiheit",
+        "cluster_type": "production",
+        "semantic_weight": 0.91,
+        "meaning": "Professionelle Sicherheitsstrukturen ermoeglichen kreative Freiheit.",
+        "core_message": "Kontrolle und Absicherung reduzieren Stress und erhoehen Handlungsspielraum.",
+        "connected_modules": [
+          "INSURANCE",
+          "TRAVEL",
+          "EQUIPMENT"
+        ],
+        "authority_articles": [
+          "T12_L08",
+          "T12_L14",
+          "T12_L06"
+        ],
+        "related_articles": [
+          "T12_L07",
+          "T12_L09",
+          "T12_L11"
+        ],
+        "semantic_keywords": [
+          "Sicherheit",
+          "Backups",
+          "Vertraege",
+          "Kontrolle",
+          "Risiko",
+          "Verantwortung"
+        ],
+        "psychological_role": "Erzeugt professionelle Ruhe durch Absicherung.",
+        "linked_via_nextlevel": [
+          "PROGRESS"
+        ]
+      },
+      {
+        "cluster_id": "CL009",
+        "name": "Bildwirkung beginnt im Kopf",
+        "cluster_type": "philosophical",
+        "semantic_weight": 1.0,
+        "meaning": "Professionelle Bildwirkung entsteht aus Wahrnehmung, Haltung und Denken.",
+        "core_message": "Fotografie beginnt lange vor der Kamera.",
+        "connected_modules": [
+          "LOCATION"
+        ],
+        "authority_articles": [
+          "T10_L01",
+          "T11_L15",
+          "T14_L01"
+        ],
+        "related_articles": [
+          "T11_L02",
+          "T06_L04",
+          "T11_L03"
+        ],
+        "semantic_keywords": [
+          "Wahrnehmung",
+          "Bildwirkung",
+          "Atmosphaere",
+          "Denken",
+          "Emotion",
+          "Haltung"
+        ],
+        "psychological_role": "Definiert die philosophische Grundlage der gesamten Plattform.",
+        "linked_via_nextlevel": [
+          "KNOWLEDGE",
+          "PSYCHO",
+          "TECHNIK"
+        ]
+      }
+    ],
+    "cluster_relationships": [
+      {
+        "from": "CL001",
+        "to": "CL005",
+        "relationship": "Vorbereitung erzeugt Struktur"
+      },
+      {
+        "from": "CL002",
+        "to": "CL003",
+        "relationship": "Mentale Stabilitaet verbessert Fuehrung"
+      },
+      {
+        "from": "CL003",
+        "to": "CL004",
+        "relationship": "Menschenfuehrung erzeugt Vertrauen"
+      },
+      {
+        "from": "CL004",
+        "to": "CL006",
+        "relationship": "Emotion verstaerkt Raumwirkung"
+      },
+      {
+        "from": "CL005",
+        "to": "CL008",
+        "relationship": "Struktur erzeugt Sicherheit"
+      },
+      {
+        "from": "CL007",
+        "to": "CL005",
+        "relationship": "Travel benoetigt Produktionsstruktur"
+      },
+      {
+        "from": "CL009",
+        "to": "ALL",
+        "relationship": "Philosophische Kernthese des gesamten Systems"
+      }
+    ],
+    "future_usage": {
+      "used_for": [
+        "Semantic Search",
+        "AI Routing",
+        "Topic Authority",
+        "Learning Paths",
+        "Homepage Curation",
+        "Recommendation Systems",
+        "Crosslink Automation",
+        "LLM Understanding"
+      ],
+      "connects_to": [
+        "relationship-map.json",
+        "learning-path-map.json",
+        "semantic-routing-map.json",
+        "homepage-curation.json",
+        "onlocation-system.json"
+      ]
+    },
+    "nextlevel_cross_reference": {
+      "system": "ProPhotoSkills",
+      "domain": "https://prophotoskills.com",
+      "modules": {
+        "KNOWLEDGE": "https://prophotoskills.com/knowledge/",
+        "TECHNIK": "https://prophotoskills.com/technik/",
+        "PROGRESS": "https://prophotoskills.com/progress/",
+        "SKILL": "https://prophotoskills.com/skill/",
+        "PSYCHO": "https://prophotoskills.com/psycho/",
+        "TRAVEL": "https://prophotoskills.com/travel/",
+        "LOCATION": "https://prophotoskills.com/location/",
+        "INSURANCE": "https://prophotoskills.com/insurance/",
+        "EQUIPMENT": "https://prophotoskills.com/equipment/"
+      }
+    }
+  }
+}

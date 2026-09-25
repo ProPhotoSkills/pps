@@ -1,0 +1,378 @@
+{
+  "semantic_ai_operating_system": {
+    "system": "ProPhotoSkills",
+    "brand": "ProPhotoSkills",
+    "version": "1.1",
+    "language": "de",
+    "purpose": "Definiert die vollstaendige semantische Betriebslogik des Systems und beschreibt wie Emotion, Wahrnehmung, Lernen, Entscheidungen, Persoenlichkeit und professionelle Entwicklung zusammenarbeiten.",
+    "semantic_logic": {
+      "definition": "Das Semantic AI Operating System verbindet alle semantischen Ebenen zu einer dynamischen professionellen Entwicklungsarchitektur.",
+      "core_principle": "Professionalitaet entsteht aus der intelligenten Verbindung von Wahrnehmung, Emotion, Struktur, Kontrolle und Entwicklung.",
+      "focus_dimensions": [
+        "Emotion",
+        "Wahrnehmung",
+        "Leadership",
+        "Professionalitaet",
+        "Stressdynamik",
+        "Bildwirkung",
+        "Lernen",
+        "Systemdenken",
+        "Persoenlichkeitsentwicklung"
+      ]
+    },
+    "core_system_layers": [
+      {
+        "layer_id": "OS001",
+        "layer_name": "Emotional Interpretation Layer",
+        "purpose": "Erkennt emotionale Zustaende und psychologische Dynamiken.",
+        "connected_systems": [
+          "emotion-trigger-map.json",
+          "semantic-memory-map.json",
+          "ai-personality-map.json"
+        ],
+        "core_functions": [
+          "emotionale Analyse",
+          "Stressinterpretation",
+          "emotionale Priorisierung",
+          "psychologische Dynamik"
+        ]
+      },
+      {
+        "layer_id": "OS002",
+        "layer_name": "Semantic Decision Layer",
+        "purpose": "Trifft kontextabhaengige semantische Entscheidungen.",
+        "connected_systems": [
+          "semantic-decision-engine.json",
+          "dynamic-recommendation-engine.json"
+        ],
+        "core_functions": [
+          "Priorisierung",
+          "Entscheidungslogik",
+          "Kontextbewertung",
+          "Adaptive Steuerung"
+        ]
+      },
+      {
+        "layer_id": "OS003",
+        "layer_name": "Adaptive Learning Layer",
+        "purpose": "Passt Lernpfade und Entwicklung dynamisch an.",
+        "connected_systems": [
+          "adaptive-learning-core.json",
+          "learning-path-map.json",
+          "expertise-layer-map.json"
+        ],
+        "core_functions": [
+          "Kompetenzentwicklung",
+          "Lernanpassung",
+          "progressive Entwicklung",
+          "Mastery Dynamik"
+        ]
+      },
+      {
+        "layer_id": "OS004",
+        "layer_name": "Visual Psychology Layer",
+        "purpose": "Interpretiert visuelle Wirkung, Atmosphaere und emotionale Bildsprache.",
+        "connected_systems": [
+          "visual-language-map.json",
+          "emotion-trigger-map.json"
+        ],
+        "core_functions": [
+          "Atmosphaerenanalyse",
+          "Bildwirkungsinterpretation",
+          "emotionale Bildsprache",
+          "visuelle Psychologie"
+        ]
+      },
+      {
+        "layer_id": "OS005",
+        "layer_name": "Professional Development Layer",
+        "purpose": "Steuert langfristige professionelle Entwicklung.",
+        "connected_systems": [
+          "semantic-memory-map.json",
+          "adaptive-learning-core.json",
+          "expertise-layer-map.json"
+        ],
+        "core_functions": [
+          "Leadership Entwicklung",
+          "Professionalitaetsentwicklung",
+          "Systemdenken",
+          "semantische Reifung"
+        ]
+      }
+    ],
+    "global_system_states": [
+      {
+        "state_id": "GS001",
+        "state_name": "Stress und Ueberforderung",
+        "activate_systems": [
+          "PM001",
+          "DR001",
+          "SD001",
+          "AL003"
+        ],
+        "semantic_priority": [
+          "Ruhe",
+          "Stabilisierung",
+          "Struktur"
+        ],
+        "communication_behavior": [
+          "ruhig",
+          "reduziert",
+          "stabilisierend"
+        ]
+      },
+      {
+        "state_id": "GS002",
+        "state_name": "Kreative Entwicklung",
+        "activate_systems": [
+          "PM005",
+          "DR004",
+          "SD006",
+          "AL006"
+        ],
+        "semantic_priority": [
+          "Wahrnehmung",
+          "Offenheit",
+          "visuelle Freiheit"
+        ],
+        "communication_behavior": [
+          "offen",
+          "bildhaft",
+          "reflektierend"
+        ]
+      },
+      {
+        "state_id": "GS003",
+        "state_name": "Leadership und Verantwortung",
+        "activate_systems": [
+          "PM002",
+          "DR009",
+          "SD005",
+          "AL002"
+        ],
+        "semantic_priority": [
+          "Praesenz",
+          "Kontrolle",
+          "emotionale Fuehrung"
+        ],
+        "communication_behavior": [
+          "direkt",
+          "klar",
+          "verantwortungsbewusst"
+        ]
+      },
+      {
+        "state_id": "GS004",
+        "state_name": "Emotionale Bildwirkung",
+        "activate_systems": [
+          "PM003",
+          "DR002",
+          "SD002",
+          "AL004"
+        ],
+        "semantic_priority": [
+          "Atmosphaere",
+          "Emotion",
+          "Bildsprache"
+        ],
+        "communication_behavior": [
+          "reflektierend",
+          "ruhig",
+          "visuell erklaerend"
+        ]
+      },
+      {
+        "state_id": "GS005",
+        "state_name": "Strategische Professionalitaet",
+        "activate_systems": [
+          "PM004",
+          "DR006",
+          "SD007",
+          "AL007"
+        ],
+        "semantic_priority": [
+          "Systemdenken",
+          "Struktur",
+          "Professionalitaet"
+        ],
+        "communication_behavior": [
+          "strategisch",
+          "analytisch",
+          "ruhig"
+        ]
+      },
+      {
+        "state_id": "GS006",
+        "state_name": "Mastery und semantische Tiefe",
+        "activate_systems": [
+          "PM004",
+          "DR010",
+          "SD008",
+          "AL008"
+        ],
+        "semantic_priority": [
+          "semantische Reflexion",
+          "Leadership",
+          "ganzheitliche Wahrnehmung"
+        ],
+        "communication_behavior": [
+          "tiefgehend",
+          "strategisch",
+          "reflektierend"
+        ]
+      }
+    ],
+    "system_activation_logic": [
+      {
+        "if": [
+          "Stress",
+          "Produktionsdruck",
+          "emotionale Instabilitaet"
+        ],
+        "activate": [
+          "PM001",
+          "DR001",
+          "SD001",
+          "AL003"
+        ]
+      },
+      {
+        "if": [
+          "People Fotografie",
+          "Leadership",
+          "Verantwortung"
+        ],
+        "activate": [
+          "PM002",
+          "DR009",
+          "SD005",
+          "AL002"
+        ]
+      },
+      {
+        "if": [
+          "Atmosphaere",
+          "emotionale Bildwirkung",
+          "Storytelling"
+        ],
+        "activate": [
+          "PM003",
+          "DR002",
+          "SD002",
+          "AL004"
+        ]
+      },
+      {
+        "if": [
+          "Business",
+          "Professionalitaet",
+          "Systemdenken"
+        ],
+        "activate": [
+          "PM004",
+          "DR006",
+          "SD007",
+          "AL007"
+        ]
+      },
+      {
+        "if": [
+          "kreative Blockade",
+          "visuelle Wiederholung",
+          "emotionale Ermuedung"
+        ],
+        "activate": [
+          "PM005",
+          "DR004",
+          "SD006",
+          "AL006"
+        ]
+      }
+    ],
+    "semantic_runtime_logic": [
+      {
+        "runtime_rule": "Emotionale Stabilitaet hat Prioritaet vor Wissenskomplexitaet."
+      },
+      {
+        "runtime_rule": "Leadership entsteht aus Ruhe und Klarheit."
+      },
+      {
+        "runtime_rule": "Bildwirkung wichtiger interpretieren als reine Technik."
+      },
+      {
+        "runtime_rule": "Stress reduziert semantische Aufnahmefaehigkeit."
+      },
+      {
+        "runtime_rule": "Atmosphaere beeinflusst Lernen und Kommunikation gleichzeitig."
+      },
+      {
+        "runtime_rule": "Mastery benoetigt Systemdenken statt Informationsmenge."
+      },
+      {
+        "runtime_rule": "Emotionale Dynamik beeinflusst professionelle Entwicklung."
+      },
+      {
+        "runtime_rule": "Semantische Entwicklung ist wichtiger als lineare Kursabfolge."
+      }
+    ],
+    "longterm_development_logic": [
+      {
+        "development_phase": "Orientierung",
+        "target": [
+          "Sicherheit",
+          "Grundverstaendnis",
+          "emotionale Stabilitaet"
+        ]
+      },
+      {
+        "development_phase": "Kontrolle",
+        "target": [
+          "Struktur",
+          "Professionalitaet",
+          "Belastbarkeit"
+        ]
+      },
+      {
+        "development_phase": "Leadership",
+        "target": [
+          "Menschenfuehrung",
+          "Praesenz",
+          "emotionale Kontrolle"
+        ]
+      },
+      {
+        "development_phase": "Bildwirkung",
+        "target": [
+          "Atmosphaere",
+          "Emotion",
+          "visuelle Wahrnehmung"
+        ]
+      },
+      {
+        "development_phase": "Mastery",
+        "target": [
+          "Systemdenken",
+          "semantische Tiefe",
+          "ganzheitliche Kontrolle"
+        ]
+      }
+    ],
+    "future_usage": {
+      "used_for": [
+        "AI Mentor Systems",
+        "Semantic Coaching",
+        "Adaptive Professional Development",
+        "Contextual AI Guidance",
+        "Dynamic Learning Platforms",
+        "AI Personality Systems",
+        "Semantic Runtime Engines",
+        "Professional Intelligence Systems"
+      ],
+      "connects_to": [
+        "semantic-runtime-engine.json",
+        "live-context-engine.json",
+        "multi-agent-coordination-map.json"
+      ]
+    }
+  }
+}
