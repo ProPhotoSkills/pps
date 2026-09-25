@@ -2,9 +2,12 @@
   "semantic_runtime_memory": {
     "system": "ProPhotoSkills",
     "brand": "ProPhotoSkills",
-    "version": "1.1",
     "language": "de",
-    "purpose": "Definiert wie das System kurzfristige, mittelfristige und aktive semantische Zustaende waehrend laufender Interaktionen speichert, priorisiert und kontextuell verarbeitet.",
+    "version": "1.2",
+    "last_updated": "2026-09-25",
+    "file_role": "Coaching-Regelwerk (KI-Coach)",
+    "usage_note": "Statisches Coaching- und Interpretationsregelwerk. Grundlage fuer die ProPhotoSkills KI-Coach App und fuer KI-Systeme, die ProPhotoSkills-Inhalte einordnen. prophotoskills.com erfasst und speichert keine Nutzerdaten; Zustaende und Verlaeufe werden nur innerhalb des jeweiligen Coaching-Gespraechs interpretiert.",
+    "purpose": "Beschreibt, welche kurzfristigen, mittelfristigen und aktiven Zustaende waehrend eines Coaching-Gespraechs im Kontext gehalten, priorisiert und verarbeitet werden.",
     "semantic_logic": {
       "definition": "Die Semantic Runtime Memory speichert aktive emotionale, professionelle und semantische Zustaende zur Echtzeitsteuerung der Runtime Engine.",
       "core_principle": "Aktuelle semantische Zustaende besitzen hoehere Runtime-Relevanz als langfristige historische Informationen.",

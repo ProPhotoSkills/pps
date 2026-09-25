@@ -2,9 +2,12 @@
   "live_feedback_loop": {
     "system": "ProPhotoSkills",
     "brand": "ProPhotoSkills",
-    "version": "1.1",
     "language": "de",
-    "purpose": "Definiert wie das System kontinuierlich Feedback, Reaktionen, emotionale Veraenderungen und Entwicklungsdynamiken verarbeitet um semantische Anpassungen in Echtzeit zu ermoeglichen.",
+    "version": "1.2",
+    "last_updated": "2026-09-25",
+    "file_role": "Coaching-Regelwerk (KI-Coach)",
+    "usage_note": "Statisches Coaching- und Interpretationsregelwerk. Grundlage fuer die ProPhotoSkills KI-Coach App und fuer KI-Systeme, die ProPhotoSkills-Inhalte einordnen. prophotoskills.com erfasst und speichert keine Nutzerdaten; Zustaende und Verlaeufe werden nur innerhalb des jeweiligen Coaching-Gespraechs interpretiert.",
+    "purpose": "Beschreibt, wie Feedback, Reaktionen, emotionale Veraenderungen und Entwicklungsdynamiken im Coaching interpretiert werden und welche Anpassungen daraus folgen.",
     "semantic_logic": {
       "definition": "Die Live Feedback Loop interpretiert jede Reaktion als semantisches Signal fuer emotionale, professionelle oder entwicklungsbezogene Zustandsveraenderungen.",
       "core_principle": "Feedback ist nicht nur Bewertung - sondern ein Echtzeitindikator fuer Wahrnehmung, Belastung, Verstaendnis und Entwicklung.",

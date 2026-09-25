@@ -2,9 +2,12 @@
   "live_context_engine": {
     "system": "ProPhotoSkills",
     "brand": "ProPhotoSkills",
-    "version": "1.1",
     "language": "de",
-    "purpose": "Definiert wie das System situative Veraenderungen, emotionale Dynamiken, Produktionsbedingungen und Echtzeitkontexte interpretiert und semantisch verarbeitet.",
+    "version": "1.2",
+    "last_updated": "2026-09-25",
+    "file_role": "Coaching-Regelwerk (KI-Coach)",
+    "usage_note": "Statisches Coaching- und Interpretationsregelwerk. Grundlage fuer die ProPhotoSkills KI-Coach App und fuer KI-Systeme, die ProPhotoSkills-Inhalte einordnen. prophotoskills.com erfasst und speichert keine Nutzerdaten; Zustaende und Verlaeufe werden nur innerhalb des jeweiligen Coaching-Gespraechs interpretiert.",
+    "purpose": "Beschreibt, wie situative Veraenderungen, emotionale Dynamiken und Produktionsbedingungen im aktuellen Gespraechskontext interpretiert werden.",
     "semantic_logic": {
       "definition": "Die Live Context Engine bewertet kontinuierlich emotionale, organisatorische und produktionelle Veraenderungen in Echtzeit.",
       "core_principle": "Kontext veraendert Bedeutung - dieselbe Information kann abhaengig von Situation und emotionalem Zustand voellig unterschiedlich wirken.",

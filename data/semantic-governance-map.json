@@ -2,8 +2,11 @@
   "semantic_governance_map": {
     "system": "ProPhotoSkills",
     "brand": "ProPhotoSkills",
-    "version": "1.1",
     "language": "de",
+    "version": "1.2",
+    "last_updated": "2026-09-25",
+    "file_role": "Coaching-Regelwerk (KI-Coach)",
+    "usage_note": "Statisches Coaching- und Interpretationsregelwerk. Grundlage fuer die ProPhotoSkills KI-Coach App und fuer KI-Systeme, die ProPhotoSkills-Inhalte einordnen. prophotoskills.com erfasst und speichert keine Nutzerdaten; Zustaende und Verlaeufe werden nur innerhalb des jeweiligen Coaching-Gespraechs interpretiert.",
     "purpose": "Definiert die ethischen, semantischen, kommunikativen und systemischen Grenzen der gesamten Architektur sowie die Regeln fuer Stabilitaet, Integritaet und langfristige Konsistenz.",
     "semantic_logic": {
       "definition": "Die Semantic Governance Map schuetzt die Identitaet, Stabilitaet und semantische Integritaet des Systems.",

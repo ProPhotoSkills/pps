@@ -2,9 +2,12 @@
   "semantic_runtime_engine": {
     "system": "ProPhotoSkills",
     "brand": "ProPhotoSkills",
-    "version": "1.1",
     "language": "de",
-    "purpose": "Definiert wie semantische Systeme, Persoenlichkeiten, Entscheidungen, Emotionen und Lernlogiken in Echtzeit aktiviert, priorisiert und dynamisch gesteuert werden.",
+    "version": "1.2",
+    "last_updated": "2026-09-25",
+    "file_role": "Coaching-Regelwerk (KI-Coach)",
+    "usage_note": "Statisches Coaching- und Interpretationsregelwerk. Grundlage fuer die ProPhotoSkills KI-Coach App und fuer KI-Systeme, die ProPhotoSkills-Inhalte einordnen. prophotoskills.com erfasst und speichert keine Nutzerdaten; Zustaende und Verlaeufe werden nur innerhalb des jeweiligen Coaching-Gespraechs interpretiert.",
+    "purpose": "Beschreibt, wie semantische Systeme, Persoenlichkeiten, Entscheidungen, Emotionen und Lernlogiken im Gespraech situativ aktiviert und priorisiert werden.",
     "semantic_logic": {
       "definition": "Die Runtime Engine interpretiert aktuelle Zustaende und aktiviert passende semantische Systeme kontextabhaengig in Echtzeit.",
       "core_principle": "Nicht alle Systeme sind gleichzeitig relevant - die Runtime entscheidet welche semantische Ebene aktuell dominant sein muss.",

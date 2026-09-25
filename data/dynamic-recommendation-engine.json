@@ -2,8 +2,11 @@
   "dynamic_recommendation_engine": {
     "system": "ProPhotoSkills",
     "brand": "ProPhotoSkills",
-    "version": "1.1",
     "language": "de",
+    "version": "1.2",
+    "last_updated": "2026-09-25",
+    "file_role": "Coaching-Regelwerk (KI-Coach)",
+    "usage_note": "Statisches Coaching- und Interpretationsregelwerk. Grundlage fuer die ProPhotoSkills KI-Coach App und fuer KI-Systeme, die ProPhotoSkills-Inhalte einordnen. prophotoskills.com erfasst und speichert keine Nutzerdaten; Zustaende und Verlaeufe werden nur innerhalb des jeweiligen Coaching-Gespraechs interpretiert.",
     "purpose": "Definiert adaptive semantische Empfehlungen basierend auf emotionalem Zustand, Kompetenzlevel, Interessen, Produktionsrealitaet und langfristigen Verhaltensmustern.",
     "semantic_logic": {
       "definition": "Die Recommendation Engine verbindet Kontext, Emotion, Kompetenz und Verhalten zu dynamischen Entwicklungsempfehlungen.",
@@ -91,8 +94,6 @@
           "Advanced"
         ],
         "recommended_articles": [
-          "T14_L01",
-          "T14_L02",
           "T11_L09"
         ],
         "recommended_learning_paths": [
@@ -260,7 +261,6 @@
           "Mastery"
         ],
         "recommended_articles": [
-          "T14_L01",
           "T06_L04",
           "T12_L14"
         ],

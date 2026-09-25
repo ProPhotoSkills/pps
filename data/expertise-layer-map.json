@@ -2,8 +2,11 @@
   "expertise_layer_map": {
     "system": "ProPhotoSkills",
     "brand": "ProPhotoSkills",
-    "version": "1.1",
     "language": "de",
+    "version": "1.2",
+    "last_updated": "2026-09-25",
+    "file_role": "Coaching-Regelwerk (KI-Coach)",
+    "usage_note": "Statisches Coaching- und Interpretationsregelwerk. Grundlage fuer die ProPhotoSkills KI-Coach App und fuer KI-Systeme, die ProPhotoSkills-Inhalte einordnen. prophotoskills.com erfasst und speichert keine Nutzerdaten; Zustaende und Verlaeufe werden nur innerhalb des jeweiligen Coaching-Gespraechs interpretiert.",
     "purpose": "Definiert professionelle Entwicklungs- und Kompetenzstufen innerhalb des Systems und beschreibt typische Denkweisen, Probleme, emotionale Dynamiken und empfohlene Inhalte je Erfahrungslevel.",
     "semantic_logic": {
       "definition": "Professionalitaet entsteht nicht nur durch Wissen sondern durch Wahrnehmung, Kontrolle, emotionale Stabilitaet und Systemdenken.",
@@ -137,7 +140,6 @@
           "Kontrolle"
         ],
         "recommended_articles": [
-          "T14_L01",
           "T06_L04",
           "T12_L14"
         ],

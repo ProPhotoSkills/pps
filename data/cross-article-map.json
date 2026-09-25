@@ -1,8 +1,10 @@
 {
   "cross_article_map": {
     "system": "ProPhotoSkills",
-    "version": "1.1",
     "language": "de",
+    "version": "1.2",
+    "last_updated": "2026-09-25",
+    "file_role": "Struktur & Navigation",
     "logic": {
       "purpose": "Verbindet Artikel semantisch miteinander und erzeugt ein intelligentes Wissensnetz.",
       "relationship_types": [
@@ -26,8 +28,8 @@
     },
     "article_relationships": [
       {
-        "article": "T10_L01",
-        "title": "70 Prozent des Fotojobs passieren vor dem ersten Klick",
+        "article": "T02_E01",
+        "title": "70 % des Fotojobs passieren vor dem ersten Klick",
         "semantic_concepts": [
           "Vorbereitung",
           "Professionalitaet",
@@ -48,10 +50,7 @@
           "T06_L04",
           "T12_L14"
         ],
-        "emotionally_related": [
-          "T14_L01",
-          "T14_L02"
-        ],
+        "emotionally_related": [],
         "relationship_reason": "Dieser Artikel definiert die Kernthese des gesamten Systems."
       },
       {
@@ -74,17 +73,15 @@
         ],
         "supports": [
           "T12_L10",
-          "T12_L11",
-          "T14_L03"
+          "T12_L11"
         ],
         "emotionally_related": [
-          "T14_L05",
           "T11_L09"
         ],
         "relationship_reason": "Mentale Stabilitaet verbindet Technik, Fuehrung und Professionalitaet."
       },
       {
-        "article": "T10_L01_travel",
+        "article": "T10_L01",
         "title": "Reiseplanung fuer Kreative",
         "semantic_concepts": [
           "Vorbereitung",
@@ -133,7 +130,6 @@
           "T12_L14"
         ],
         "emotionally_related": [
-          "T14_L04",
           "T11_L09"
         ],
         "relationship_reason": "Emotionale Stabilitaet entscheidet ueber kreative Stabilitaet unterwegs."
@@ -162,8 +158,7 @@
           "T11_L13"
         ],
         "emotionally_related": [
-          "T11_L09",
-          "T14_L01"
+          "T11_L09"
         ],
         "relationship_reason": "Locations werden als aktive Bildsprache verstanden."
       },
@@ -185,11 +180,9 @@
           "T11_L09"
         ],
         "supports": [
-          "T11_L01",
-          "T14_L03"
+          "T11_L01"
         ],
         "emotionally_related": [
-          "T14_L05",
           "T06_L01"
         ],
         "relationship_reason": "Der Raum beeinflusst emotionale Wirkung und Bildsprache."
@@ -235,15 +228,13 @@
         ],
         "reinforces": [
           "T06_L04",
-          "T12_L11",
-          "T14_L02"
+          "T12_L11"
         ],
         "supports": [
           "T09_E01",
           "T12_L08"
         ],
         "emotionally_related": [
-          "T14_L05",
           "T11_L09"
         ],
         "relationship_reason": "Professionelles Verhalten zeigt sich besonders in schwierigen Situationen."
@@ -268,37 +259,8 @@
           "T12_L06",
           "T12_L05"
         ],
-        "emotionally_related": [
-          "T14_L01"
-        ],
+        "emotionally_related": [],
         "relationship_reason": "Professioneller Wert entsteht durch unsichtbare Prozesse."
-      },
-      {
-        "article": "T14_L01",
-        "title": "Vertrauen vor der Kamera",
-        "semantic_concepts": [
-          "Vertrauen",
-          "Menschenfuehrung",
-          "Emotion",
-          "Kommunikation"
-        ],
-        "flagship_for": [
-          "Vertrauen"
-        ],
-        "reinforces": [
-          "T14_L02",
-          "T06_L01",
-          "T12_L11"
-        ],
-        "supports": [
-          "T11_L09",
-          "T11_L15"
-        ],
-        "emotionally_related": [
-          "T06_L04",
-          "T12_L14"
-        ],
-        "relationship_reason": "Emotionale Sicherheit beeinflusst sichtbare Bildwirkung."
       }
     ],
     "semantic_clusters": [
@@ -323,9 +285,7 @@
         "cluster": "Atmosphaere und emotionale Wirkung",
         "articles": [
           "T11_L15",
-          "T11_L09",
-          "T14_L01",
-          "T14_L05"
+          "T11_L09"
         ]
       },
       {

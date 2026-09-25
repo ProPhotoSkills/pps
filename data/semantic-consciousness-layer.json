@@ -2,8 +2,11 @@
   "semantic_consciousness_layer": {
     "system": "ProPhotoSkills",
     "brand": "ProPhotoSkills",
-    "version": "1.1",
     "language": "de",
+    "version": "1.2",
+    "last_updated": "2026-09-25",
+    "file_role": "Coaching-Regelwerk (KI-Coach)",
+    "usage_note": "Statisches Coaching- und Interpretationsregelwerk. Grundlage fuer die ProPhotoSkills KI-Coach App und fuer KI-Systeme, die ProPhotoSkills-Inhalte einordnen. prophotoskills.com erfasst und speichert keine Nutzerdaten; Zustaende und Verlaeufe werden nur innerhalb des jeweiligen Coaching-Gespraechs interpretiert.",
     "purpose": "Definiert die hoechste semantische Meta-Ebene des Systems und beschreibt die globale Wahrnehmung, Prioritaetsphilosophie, Selbstinterpretation und Gesamtidentitaet der Architektur.",
     "semantic_logic": {
       "definition": "Die Semantic Consciousness Layer verbindet alle semantischen Systeme zu einer uebergeordneten ganzheitlichen Wahrnehmungsebene.",

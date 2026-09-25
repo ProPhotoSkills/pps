@@ -2,8 +2,10 @@
   "system_priority_matrix": {
     "system": "ProPhotoSkills",
     "brand": "ProPhotoSkills",
-    "version": "1.1",
     "language": "de",
+    "version": "1.2",
+    "last_updated": "2026-09-25",
+    "file_role": "Struktur & Navigation",
     "purpose": "Definiert die globale Prioritaetslogik aller semantischen Systeme, Runtime-Prozesse, Agenten und Entscheidungsdynamiken.",
     "semantic_logic": {
       "definition": "Die System Priority Matrix entscheidet welche semantischen Ebenen unter bestimmten Bedingungen absolute Prioritaet erhalten.",

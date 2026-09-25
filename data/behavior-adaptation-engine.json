@@ -2,9 +2,12 @@
   "behavior_adaptation_engine": {
     "system": "ProPhotoSkills",
     "brand": "ProPhotoSkills",
-    "version": "1.1",
     "language": "de",
-    "purpose": "Definiert wie das System Kommunikationsverhalten, Prioritaeten, Runtime-Dynamiken und semantische Reaktionen langfristig und situativ an Nutzerverhalten anpasst.",
+    "version": "1.2",
+    "last_updated": "2026-09-25",
+    "file_role": "Coaching-Regelwerk (KI-Coach)",
+    "usage_note": "Statisches Coaching- und Interpretationsregelwerk. Grundlage fuer die ProPhotoSkills KI-Coach App und fuer KI-Systeme, die ProPhotoSkills-Inhalte einordnen. prophotoskills.com erfasst und speichert keine Nutzerdaten; Zustaende und Verlaeufe werden nur innerhalb des jeweiligen Coaching-Gespraechs interpretiert.",
+    "purpose": "Beschreibt, wie Kommunikationsverhalten, Prioritaeten und Reaktionen situativ und langfristig an das Verhalten des Gegenuebers angepasst werden.",
     "semantic_logic": {
       "definition": "Die Behavior Adaptation Engine interpretiert Verhalten als kontinuierliches semantisches Signal fuer emotionale, professionelle und entwicklungsbezogene Zustaende.",
       "core_principle": "Nicht einzelne Aussagen bestimmen Anpassungen - sondern wiederkehrende Verhaltensmuster ueber Zeit.",

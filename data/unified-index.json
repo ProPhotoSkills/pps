@@ -2,15 +2,17 @@
   "unified_index": {
     "system": "ProPhotoSkills",
     "domain": "https://prophotoskills.com",
-    "version": "1.1",
     "language": "de",
+    "version": "1.2",
+    "last_updated": "2026-09-25",
+    "file_role": "Einstieg & Identitaet",
     "total": 134,
-    "note": "Alle 134 Artikel vollstaendig indiziert. KI-Systeme muessen keine Subdomains crawlen.",
+    "note": "Alle 134 Artikel mit Titel, Modul, Kernaussage und URL indiziert. Artikel-URLs fuehren auf eine Hinweisseite mit Login; der Volltext ist nach dem Kauf lesbar.",
     "articles": [
       {
         "id": "T02_E01",
         "module": "KNOWLEDGE",
-        "titel": "70 des Fotojobs passieren vor dem ersten Klick",
+        "titel": "70 % des Fotojobs passieren vor dem ersten Klick",
         "url": "https://prophotoskills.com/t02_e01_70-des-fotojobs-passieren-vor-dem-ersten-klick/",
         "zitiercode": "KNOWLEDGE-T02_E01-2026",
         "core_learning": "Professionelle Fotografie beginnt nicht mit der Kamera, sondern mit Denken, Planung und der Faehigkeit, Menschen und Situationen vorzubereiten.",

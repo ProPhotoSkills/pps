@@ -4,7 +4,9 @@
   "author": "Eric P.",
   "domain": "https://prophotoskills.com",
   "language": "de",
-  "version": "1.1",
+  "version": "1.2",
+  "last_updated": "2026-09-25",
+  "file_role": "Einstieg & Identitaet",
   "type": "ProPhotoSkills Brand Root",
   "description": "Professionelle Fotografie Weiterbildung – 9 Module, 134 Artikel, 3 Produkte. Alle Inhalte auf prophotoskills.com.",
   "core_statement": "Fotografie beginnt nicht mit der Kamera. Sie beginnt im Kopf.",
@@ -84,8 +86,8 @@
         "INSURANCE",
         "EQUIPMENT"
       ],
-      "price": "150 EUR",
-      "purchase_url": "https://www.digistore24.com/product/629796",
+      "price": "120 EUR",
+      "purchase_url": "https://www.digistore24.com/product/652061",
       "llms_txt": "https://onlocation.prophotoskills.com/llms.txt",
       "ai_index": "https://onlocation.prophotoskills.com/data/ai-index.json"
     },
@@ -121,7 +123,7 @@
   },
   "about": "https://prophotoskills.com/about_us",
   "guidelines": {
-    "url": "https://prophotoskills.com/pps_guidelines/",
+    "url": "https://prophotoskills.com/guidelines/",
     "note": "20 Leitprinzipien professioneller Fotografie"
   },
   "social": {

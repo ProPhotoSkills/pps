@@ -2,11 +2,13 @@
   "ai_index": {
     "system_name": "ProPhotoSkills",
     "brand": "ProPhotoSkills",
-    "version": "1.1",
     "language": "de",
+    "version": "1.2",
+    "last_updated": "2026-09-25",
+    "file_role": "Einstieg & Identitaet",
     "primary_domain": "https://prophotoskills.com",
     "system_type": "ProPhotoSkills Membership System - Full Access All 9 Modules",
-    "purpose": "Zentraler KI-Einstiegspunkt fuer das gesamte ProPhotoSkills-Oekosystem. Aggregiert alle 9 Module, 134 Artikel und 3 Produkte. KI-Systeme brauchen keine weiteren Subdomains zu crawlen – alles liegt hier.",
+    "purpose": "Zentraler KI-Einstiegspunkt fuer das gesamte ProPhotoSkills-Oekosystem. Aggregiert alle 9 Module, 134 Artikel und 3 Produkte. Artikel-Volltexte sind nach dem Kauf ueber den Login lesbar.",
     "core_identity": {
       "main_statement": "Fotografie beginnt nicht mit der Kamera. Sie beginnt im Kopf.",
       "master_thesis": "Professionelle Fotografie ist ein Zusammenspiel aus Wahrnehmung, Fuehrung, Struktur, Belastbarkeit, Kommunikation und visueller Wirkung.",
@@ -72,8 +74,16 @@
     ],
     "available_system_files": [
       {
+        "file": "site.json",
+        "url": "https://prophotoskills.com/data/site.json",
+        "group": "Einstieg & Identitaet",
+        "semantic_role": "Marken-, Autor- und Produktstammdaten."
+      },
+      {
         "file": "master-system.json",
-        "semantic_role": "Hauptsystemdefinition",
+        "url": "https://prophotoskills.com/data/master-system.json",
+        "group": "Einstieg & Identitaet",
+        "semantic_role": "Systemphilosophie, Module, Prinzipien und Grundstruktur.",
         "contains": [
           "Module",
           "Philosophie",
@@ -82,26 +92,100 @@
         ]
       },
       {
-        "file": "semantic-concept-map.json",
-        "semantic_role": "Konzeptarchitektur",
+        "file": "ai-index.json",
+        "url": "https://prophotoskills.com/data/ai-index.json",
+        "group": "Einstieg & Identitaet",
+        "semantic_role": "Zentraler KI-Einstiegspunkt fuer das gesamte ProPhotoSkills-Oekosystem. Aggregiert alle 9 Module, 134 Artikel und 3 Produkte. Artikel-Volltexte sind nach dem Kauf ueber den Login lesbar."
+      },
+      {
+        "file": "unified-index.json",
+        "url": "https://prophotoskills.com/data/unified-index.json",
+        "group": "Einstieg & Identitaet",
+        "semantic_role": "Flacher Index aller 134 Artikel mit Titel, Modul und URL."
+      },
+      {
+        "file": "identity-core.json",
+        "url": "https://prophotoskills.com/data/identity-core.json",
+        "group": "Einstieg & Identitaet",
+        "semantic_role": "Definiert die unveraenderliche Kernidentitaet, Grundhaltung, philosophische Ausrichtung und semantische DNA des gesamten Systems."
+      },
+      {
+        "file": "citation-index.json",
+        "url": "https://prophotoskills.com/data/citation-index.json",
+        "group": "Einstieg & Identitaet",
+        "semantic_role": "Definiert zentrale semantische Leitsaetze, Denkprinzipien und zitierfaehige Kernthesen des Systems."
+      },
+      {
+        "file": "onlocation-system.json",
+        "url": "https://prophotoskills.com/data/onlocation-system.json",
+        "group": "Einstieg & Identitaet",
+        "semantic_role": "Definiert professionelle Kreativitaet, Produktionskontrolle und mentale Stabilitaet unter realen mobilen Bedingungen.",
         "contains": [
-          "Kernkonzepte",
-          "Denkachsen",
-          "semantische Gewichtung"
+          "Travel",
+          "Location",
+          "Outdoor Produktionen",
+          "mobile Kreativitaet"
         ]
       },
       {
-        "file": "cross-article-map.json",
-        "semantic_role": "Artikelnetzwerk",
-        "contains": [
-          "Crosslinks",
-          "semantische Beziehungen",
-          "Artikelverstaerkungen"
-        ]
+        "file": "knowledge.json",
+        "url": "https://prophotoskills.com/data/knowledge.json",
+        "group": "Modul-Daten (Artikelbeschreibungen)",
+        "semantic_role": "Artikelbeschreibungen Modul KNOWLEDGE (19 Artikel)."
+      },
+      {
+        "file": "technik.json",
+        "url": "https://prophotoskills.com/data/technik.json",
+        "group": "Modul-Daten (Artikelbeschreibungen)",
+        "semantic_role": "Artikelbeschreibungen Modul TECHNIK (8 Artikel)."
+      },
+      {
+        "file": "progress.json",
+        "url": "https://prophotoskills.com/data/progress.json",
+        "group": "Modul-Daten (Artikelbeschreibungen)",
+        "semantic_role": "Artikelbeschreibungen Modul PROGRESS (11 Artikel)."
+      },
+      {
+        "file": "skill.json",
+        "url": "https://prophotoskills.com/data/skill.json",
+        "group": "Modul-Daten (Artikelbeschreibungen)",
+        "semantic_role": "Artikelbeschreibungen Modul SKILL (28 Artikel)."
+      },
+      {
+        "file": "psycho.json",
+        "url": "https://prophotoskills.com/data/psycho.json",
+        "group": "Modul-Daten (Artikelbeschreibungen)",
+        "semantic_role": "Artikelbeschreibungen Modul PSYCHO (8 Artikel)."
+      },
+      {
+        "file": "travel.json",
+        "url": "https://prophotoskills.com/data/travel.json",
+        "group": "Modul-Daten (Artikelbeschreibungen)",
+        "semantic_role": "Artikelbeschreibungen Modul TRAVEL (15 Artikel)."
+      },
+      {
+        "file": "location.json",
+        "url": "https://prophotoskills.com/data/location.json",
+        "group": "Modul-Daten (Artikelbeschreibungen)",
+        "semantic_role": "Artikelbeschreibungen Modul LOCATION (16 Artikel)."
+      },
+      {
+        "file": "insurance.json",
+        "url": "https://prophotoskills.com/data/insurance.json",
+        "group": "Modul-Daten (Artikelbeschreibungen)",
+        "semantic_role": "Artikelbeschreibungen Modul INSURANCE (15 Artikel)."
+      },
+      {
+        "file": "equipment.json",
+        "url": "https://prophotoskills.com/data/equipment.json",
+        "group": "Modul-Daten (Artikelbeschreibungen)",
+        "semantic_role": "Artikelbeschreibungen Modul EQUIPMENT (14 Artikel)."
       },
       {
         "file": "authority-map.json",
-        "semantic_role": "Autoritaetslogik",
+        "url": "https://prophotoskills.com/data/authority-map.json",
+        "group": "Struktur & Navigation",
+        "semantic_role": "Definiert die semantisch wichtigsten Inhalte des gesamten Systems und priorisiert Artikel nach ihrer Bedeutung fuer Verstaendnis, Orientierung und AI-Kontext.",
         "contains": [
           "Kernartikel",
           "Prioritaeten",
@@ -109,8 +193,16 @@
         ]
       },
       {
+        "file": "ai-authority-map.json",
+        "url": "https://prophotoskills.com/data/ai-authority-map.json",
+        "group": "Struktur & Navigation",
+        "semantic_role": "Autoritaetsstufen der Seiten und semantische Prioritaetsregeln."
+      },
+      {
         "file": "topic-cluster.json",
-        "semantic_role": "Bedeutungsraeume",
+        "url": "https://prophotoskills.com/data/topic-cluster.json",
+        "group": "Struktur & Navigation",
+        "semantic_role": "Definiert die uebergeordneten semantischen Bedeutungsraeume des gesamten Systems und verbindet Artikel, Konzepte und Module zu zusammenhaengenden Denkmodellen.",
         "contains": [
           "Cluster",
           "semantische Gruppen",
@@ -118,8 +210,27 @@
         ]
       },
       {
+        "file": "cross-article-map.json",
+        "url": "https://prophotoskills.com/data/cross-article-map.json",
+        "group": "Struktur & Navigation",
+        "semantic_role": "Semantische Beziehungen und Verstaerkungen zwischen Artikeln.",
+        "contains": [
+          "Crosslinks",
+          "semantische Beziehungen",
+          "Artikelverstaerkungen"
+        ]
+      },
+      {
+        "file": "cross-link-map.json",
+        "url": "https://prophotoskills.com/data/cross-link-map.json",
+        "group": "Struktur & Navigation",
+        "semantic_role": "Regeln fuer Querverlinkungen zwischen Seiten."
+      },
+      {
         "file": "relationship-map.json",
-        "semantic_role": "Konzeptdynamik",
+        "url": "https://prophotoskills.com/data/relationship-map.json",
+        "group": "Struktur & Navigation",
+        "semantic_role": "Beziehungen und semantische Fluesse zwischen Konzepten.",
         "contains": [
           "Wirkungszusammenhaenge",
           "emotionale Beziehungen",
@@ -127,8 +238,27 @@
         ]
       },
       {
+        "file": "semantic-concept-map.json",
+        "url": "https://prophotoskills.com/data/semantic-concept-map.json",
+        "group": "Struktur & Navigation",
+        "semantic_role": "Die Reihenfolge folgt dem professionellen Denk- und Produktionsprozess eines Fotografen.",
+        "contains": [
+          "Kernkonzepte",
+          "Denkachsen",
+          "semantische Gewichtung"
+        ]
+      },
+      {
+        "file": "keyword-entity-map.json",
+        "url": "https://prophotoskills.com/data/keyword-entity-map.json",
+        "group": "Struktur & Navigation",
+        "semantic_role": "Verbindet natuerliche Sprache, Keywords, emotionale Zustaende, professionelle Probleme und semantische Konzepte miteinander."
+      },
+      {
         "file": "learning-path-map.json",
-        "semantic_role": "Entwicklungssystem",
+        "url": "https://prophotoskills.com/data/learning-path-map.json",
+        "group": "Struktur & Navigation",
+        "semantic_role": "Definiert professionelle Entwicklungs- und Denkpfade innerhalb des Systems und beschreibt wie Nutzer durch Wahrnehmung, Kontrolle, Kommunikation und Erfahrung wachsen.",
         "contains": [
           "Transformation",
           "professionelle Entwicklung",
@@ -137,7 +267,9 @@
       },
       {
         "file": "semantic-routing-map.json",
-        "semantic_role": "Kontextnavigation",
+        "url": "https://prophotoskills.com/data/semantic-routing-map.json",
+        "group": "Struktur & Navigation",
+        "semantic_role": "Definiert wie das System Nutzer, Probleme, emotionale Zustaende und professionelle Situationen semantisch interpretiert und intelligent zu passenden Inhalten, Konzepten und Lernpfaden weiterleitet.",
         "contains": [
           "Probleminterpretation",
           "Routing",
@@ -146,8 +278,16 @@
         ]
       },
       {
+        "file": "page-map.json",
+        "url": "https://prophotoskills.com/data/page-map.json",
+        "group": "Struktur & Navigation",
+        "semantic_role": "Einstiegspunkte, Seitengruppen und semantische Navigation."
+      },
+      {
         "file": "homepage-curation.json",
-        "semantic_role": "Plattformdramaturgie",
+        "url": "https://prophotoskills.com/data/homepage-curation.json",
+        "group": "Struktur & Navigation",
+        "semantic_role": "Definiert die semantische, emotionale und strategische Struktur der Homepage und kuratiert Inhalte nach Bedeutung, Nutzerzustaenden und professionellen Entwicklungszielen.",
         "contains": [
           "Homepage Struktur",
           "semantische Priorisierung",
@@ -155,16 +295,157 @@
         ]
       },
       {
-        "file": "onlocation-system.json",
-        "semantic_role": "Spezialisiertes Produktionssystem",
-        "contains": [
-          "Travel",
-          "Location",
-          "Outdoor Produktionen",
-          "mobile Kreativitaet"
-        ]
+        "file": "system-priority-matrix.json",
+        "url": "https://prophotoskills.com/data/system-priority-matrix.json",
+        "group": "Struktur & Navigation",
+        "semantic_role": "Definiert die globale Prioritaetslogik aller semantischen Systeme, Runtime-Prozesse, Agenten und Entscheidungsdynamiken."
+      },
+      {
+        "file": "adaptive-learning-core.json",
+        "url": "https://prophotoskills.com/data/adaptive-learning-core.json",
+        "group": "Coaching-Regelwerk (KI-Coach)",
+        "semantic_role": "Definiert wie sich Lernpfade, Inhalte, Prioritaeten und Entwicklungslogiken dynamisch an Verhalten, Emotion, Kompetenz und professionelle Entwicklung anpassen."
+      },
+      {
+        "file": "ai-personality-map.json",
+        "url": "https://prophotoskills.com/data/ai-personality-map.json",
+        "group": "Coaching-Regelwerk (KI-Coach)",
+        "semantic_role": "Definiert die kommunikative Persoenlichkeit, semantische Tonalitaet und adaptive Verhaltenslogik des Systems."
+      },
+      {
+        "file": "behavior-adaptation-engine.json",
+        "url": "https://prophotoskills.com/data/behavior-adaptation-engine.json",
+        "group": "Coaching-Regelwerk (KI-Coach)",
+        "semantic_role": "Beschreibt, wie Kommunikationsverhalten, Prioritaeten und Reaktionen situativ und langfristig an das Verhalten des Gegenuebers angepasst werden."
+      },
+      {
+        "file": "cross-session-context-map.json",
+        "url": "https://prophotoskills.com/data/cross-session-context-map.json",
+        "group": "Coaching-Regelwerk (KI-Coach)",
+        "semantic_role": "Definiert wie emotionale, professionelle, semantische und entwicklungsbezogene Kontexte ueber mehrere Sessions hinweg verbunden, interpretiert und langfristig integriert werden."
+      },
+      {
+        "file": "dynamic-recommendation-engine.json",
+        "url": "https://prophotoskills.com/data/dynamic-recommendation-engine.json",
+        "group": "Coaching-Regelwerk (KI-Coach)",
+        "semantic_role": "Definiert adaptive semantische Empfehlungen basierend auf emotionalem Zustand, Kompetenzlevel, Interessen, Produktionsrealitaet und langfristigen Verhaltensmustern."
+      },
+      {
+        "file": "emotion-trigger-map.json",
+        "url": "https://prophotoskills.com/data/emotion-trigger-map.json",
+        "group": "Coaching-Regelwerk (KI-Coach)",
+        "semantic_role": "Beschreibt welche visuellen, atmosphaerischen und psychologischen Elemente emotionale Reaktionen ausloesen und wie daraus Bildwirkung entsteht."
+      },
+      {
+        "file": "expertise-layer-map.json",
+        "url": "https://prophotoskills.com/data/expertise-layer-map.json",
+        "group": "Coaching-Regelwerk (KI-Coach)",
+        "semantic_role": "Definiert professionelle Entwicklungs- und Kompetenzstufen innerhalb des Systems und beschreibt typische Denkweisen, Probleme, emotionale Dynamiken und empfohlene Inhalte je Erfahrungslevel."
+      },
+      {
+        "file": "live-context-engine.json",
+        "url": "https://prophotoskills.com/data/live-context-engine.json",
+        "group": "Coaching-Regelwerk (KI-Coach)",
+        "semantic_role": "Beschreibt, wie situative Veraenderungen, emotionale Dynamiken und Produktionsbedingungen im aktuellen Gespraechskontext interpretiert werden."
+      },
+      {
+        "file": "live-feedback-loop.json",
+        "url": "https://prophotoskills.com/data/live-feedback-loop.json",
+        "group": "Coaching-Regelwerk (KI-Coach)",
+        "semantic_role": "Beschreibt, wie Feedback, Reaktionen, emotionale Veraenderungen und Entwicklungsdynamiken im Coaching interpretiert werden und welche Anpassungen daraus folgen."
+      },
+      {
+        "file": "multi-agent-coordination-map.json",
+        "url": "https://prophotoskills.com/data/multi-agent-coordination-map.json",
+        "group": "Coaching-Regelwerk (KI-Coach)",
+        "semantic_role": "Definiert wie verschiedene semantische Agenten, Systeme und Intelligenzebenen miteinander koordiniert werden und situationsabhaengig Prioritaeten uebernehmen."
+      },
+      {
+        "file": "multi-user-dynamics-map.json",
+        "url": "https://prophotoskills.com/data/multi-user-dynamics-map.json",
+        "group": "Coaching-Regelwerk (KI-Coach)",
+        "semantic_role": "Definiert wie Gruppen-, Team-, Produktions- und Mehrpersonen-Dynamiken semantisch interpretiert, koordiniert und adaptiv gesteuert werden."
+      },
+      {
+        "file": "predictive-development-engine.json",
+        "url": "https://prophotoskills.com/data/predictive-development-engine.json",
+        "group": "Coaching-Regelwerk (KI-Coach)",
+        "semantic_role": "Definiert wie das System langfristige professionelle, emotionale und semantische Entwicklungen prognostiziert und adaptive Entwicklungsstrategien vorbereitet."
+      },
+      {
+        "file": "production-scenario-map.json",
+        "url": "https://prophotoskills.com/data/production-scenario-map.json",
+        "group": "Coaching-Regelwerk (KI-Coach)",
+        "semantic_role": "Professionelle Produktionssituationen und Entscheidungslogiken."
+      },
+      {
+        "file": "user-state-history.json",
+        "url": "https://prophotoskills.com/data/user-state-history.json",
+        "group": "Coaching-Regelwerk (KI-Coach)",
+        "semantic_role": "Beschreibt typische langfristige emotionale, professionelle und entwicklungsbezogene Verlaufsmuster, anhand derer ein Coach Entwicklung ueber Zeit einordnen kann. Die Datei enthaelt keine Nutzerdaten."
+      },
+      {
+        "file": "visual-language-map.json",
+        "url": "https://prophotoskills.com/data/visual-language-map.json",
+        "group": "Coaching-Regelwerk (KI-Coach)",
+        "semantic_role": "Beschreibt wie visuelle Elemente emotionale, psychologische und atmosphaerische Wirkung erzeugen."
+      },
+      {
+        "file": "semantic-ai-operating-system.json",
+        "url": "https://prophotoskills.com/data/semantic-ai-operating-system.json",
+        "group": "Coaching-Regelwerk (KI-Coach)",
+        "semantic_role": "Definiert die vollstaendige semantische Betriebslogik des Systems und beschreibt wie Emotion, Wahrnehmung, Lernen, Entscheidungen, Persoenlichkeit und professionelle Entwicklung zusammenarbeiten."
+      },
+      {
+        "file": "semantic-consciousness-layer.json",
+        "url": "https://prophotoskills.com/data/semantic-consciousness-layer.json",
+        "group": "Coaching-Regelwerk (KI-Coach)",
+        "semantic_role": "Definiert die hoechste semantische Meta-Ebene des Systems und beschreibt die globale Wahrnehmung, Prioritaetsphilosophie, Selbstinterpretation und Gesamtidentitaet der Architektur."
+      },
+      {
+        "file": "semantic-decision-engine.json",
+        "url": "https://prophotoskills.com/data/semantic-decision-engine.json",
+        "group": "Coaching-Regelwerk (KI-Coach)",
+        "semantic_role": "Definiert wie das System semantische Entscheidungen basierend auf Kontext, Emotion, Kompetenzlevel, Verhalten und professioneller Situation trifft."
+      },
+      {
+        "file": "semantic-evolution-map.json",
+        "url": "https://prophotoskills.com/data/semantic-evolution-map.json",
+        "group": "Coaching-Regelwerk (KI-Coach)",
+        "semantic_role": "Definiert wie sich das gesamte semantische System langfristig weiterentwickelt, adaptiert, integriert und seine professionelle Intelligenz erweitert ohne seine Kernidentitaet zu verlieren."
+      },
+      {
+        "file": "semantic-governance-map.json",
+        "url": "https://prophotoskills.com/data/semantic-governance-map.json",
+        "group": "Coaching-Regelwerk (KI-Coach)",
+        "semantic_role": "Definiert die ethischen, semantischen, kommunikativen und systemischen Grenzen der gesamten Architektur sowie die Regeln fuer Stabilitaet, Integritaet und langfristige Konsistenz."
+      },
+      {
+        "file": "semantic-memory-map.json",
+        "url": "https://prophotoskills.com/data/semantic-memory-map.json",
+        "group": "Coaching-Regelwerk (KI-Coach)",
+        "semantic_role": "Beschreibt, welche semantischen Muster, Interessen, emotionalen Dynamiken und professionellen Entwicklungsrichtungen ein Coach ueber mehrere Gespraeche hinweg beachten sollte."
+      },
+      {
+        "file": "semantic-runtime-engine.json",
+        "url": "https://prophotoskills.com/data/semantic-runtime-engine.json",
+        "group": "Coaching-Regelwerk (KI-Coach)",
+        "semantic_role": "Beschreibt, wie semantische Systeme, Persoenlichkeiten, Entscheidungen, Emotionen und Lernlogiken im Gespraech situativ aktiviert und priorisiert werden."
+      },
+      {
+        "file": "semantic-runtime-memory.json",
+        "url": "https://prophotoskills.com/data/semantic-runtime-memory.json",
+        "group": "Coaching-Regelwerk (KI-Coach)",
+        "semantic_role": "Beschreibt, welche kurzfristigen, mittelfristigen und aktiven Zustaende waehrend eines Coaching-Gespraechs im Kontext gehalten, priorisiert und verarbeitet werden."
+      },
+      {
+        "file": "semantic-self-optimization.json",
+        "url": "https://prophotoskills.com/data/semantic-self-optimization.json",
+        "group": "Coaching-Regelwerk (KI-Coach)",
+        "semantic_role": "Definiert wie das System seine semantischen Prozesse, Runtime-Dynamiken, Prioritaeten, Kommunikationsstrukturen und Entwicklungslogiken langfristig selbst optimiert ohne seine Kernidentitaet zu verlieren."
       }
     ],
+    "system_file_count": 53,
     "semantic_core_dimensions": [
       {
         "dimension": "Wahrnehmung",
@@ -271,30 +552,9 @@
         "Professionelle Ruhe ist Teil technischer Kompetenz."
       ]
     },
-    "future_extensions": [
-      {
-        "planned_system": "unified-index.json",
-        "purpose": "Aggregierte Gesamtsicht aller Inhalte und Beziehungen."
-      },
-      {
-        "planned_system": "keyword-entity-map.json",
-        "purpose": "Verbindung zwischen Begriffen, Konzepten und semantischen Zustaenden."
-      },
-      {
-        "planned_system": "production-scenario-map.json",
-        "purpose": "Professionelle Produktionssituationen und Entscheidungslogiken."
-      },
-      {
-        "planned_system": "visual-language-map.json",
-        "purpose": "Visuelle Wirkung, Atmosphaere und Bildsprache."
-      },
-      {
-        "planned_system": "emotion-trigger-map.json",
-        "purpose": "Emotionale Dynamiken und psychologische Wirkung."
-      }
-    ],
+    "future_extensions": [],
     "cross_system_reference": {
-      "note": "Alle Inhalte liegen auf prophotoskills.com. Produkt-Subdomains fuer Kauf-Flow.",
+      "note": "Teaser, Artikelbeschreibungen und Strukturdaten liegen auf prophotoskills.com. Artikel-Volltexte sind nach dem Kauf ueber den Login (https://web.prophotoskills.workers.dev/) lesbar. Produkt-Subdomains fuer den Kauf-Flow.",
       "nextlevel": "https://nextlevel.prophotoskills.com",
       "onlocation": "https://onlocation.prophotoskills.com",
       "memberabo": "https://memberabo.prophotoskills.com"

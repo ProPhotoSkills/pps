@@ -2,9 +2,12 @@
   "user_state_history": {
     "system": "ProPhotoSkills",
     "brand": "ProPhotoSkills",
-    "version": "1.1",
     "language": "de",
-    "purpose": "Speichert langfristige emotionale, professionelle, semantische und entwicklungsbezogene Zustandsverlaeufe eines Nutzers zur Verbesserung adaptiver Entscheidungen und personalisierter Entwicklung.",
+    "version": "1.2",
+    "last_updated": "2026-09-25",
+    "file_role": "Coaching-Regelwerk (KI-Coach)",
+    "usage_note": "Statisches Coaching- und Interpretationsregelwerk. Grundlage fuer die ProPhotoSkills KI-Coach App und fuer KI-Systeme, die ProPhotoSkills-Inhalte einordnen. prophotoskills.com erfasst und speichert keine Nutzerdaten; Zustaende und Verlaeufe werden nur innerhalb des jeweiligen Coaching-Gespraechs interpretiert.",
+    "purpose": "Beschreibt typische langfristige emotionale, professionelle und entwicklungsbezogene Verlaufsmuster, anhand derer ein Coach Entwicklung ueber Zeit einordnen kann. Die Datei enthaelt keine Nutzerdaten.",
     "semantic_logic": {
       "definition": "Die User State History interpretiert Nutzerentwicklung als zeitliche Abfolge emotionaler, professioneller und semantischer Zustaende.",
       "core_principle": "Langfristige Muster sind wichtiger als einzelne isolierte Interaktionen.",

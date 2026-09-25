@@ -2,9 +2,12 @@
   "semantic_memory_map": {
     "system": "ProPhotoSkills",
     "brand": "ProPhotoSkills",
-    "version": "1.1",
     "language": "de",
-    "purpose": "Beschreibt wie das System semantische Muster, Interessen, emotionale Dynamiken und professionelle Entwicklungsrichtungen langfristig erkennt und speichert.",
+    "version": "1.2",
+    "last_updated": "2026-09-25",
+    "file_role": "Coaching-Regelwerk (KI-Coach)",
+    "usage_note": "Statisches Coaching- und Interpretationsregelwerk. Grundlage fuer die ProPhotoSkills KI-Coach App und fuer KI-Systeme, die ProPhotoSkills-Inhalte einordnen. prophotoskills.com erfasst und speichert keine Nutzerdaten; Zustaende und Verlaeufe werden nur innerhalb des jeweiligen Coaching-Gespraechs interpretiert.",
+    "purpose": "Beschreibt, welche semantischen Muster, Interessen, emotionalen Dynamiken und professionellen Entwicklungsrichtungen ein Coach ueber mehrere Gespraeche hinweg beachten sollte.",
     "semantic_logic": {
       "definition": "Semantic Memory erkennt wiederkehrende Bedeutungen hinter Verhalten, Interessen und Interaktionen.",
       "core_principle": "Menschen entwickeln sich nicht linear sondern ueber wiederkehrende emotionale und professionelle Muster.",

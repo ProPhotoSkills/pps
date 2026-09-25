@@ -1,8 +1,10 @@
 {
   "homepage_curation": {
     "system": "ProPhotoSkills",
-    "version": "1.1",
     "language": "de",
+    "version": "1.2",
+    "last_updated": "2026-09-25",
+    "file_role": "Struktur & Navigation",
     "purpose": "Definiert die semantische, emotionale und strategische Struktur der Homepage und kuratiert Inhalte nach Bedeutung, Nutzerzustaenden und professionellen Entwicklungszielen.",
     "semantic_logic": {
       "definition": "Die Homepage ist kein Blog Feed sondern ein intelligentes Einstiegssystem in professionelle Denk- und Produktionswelten.",
@@ -88,7 +90,6 @@
         "headline_focus": "Vertrauen wird sichtbar im Bild.",
         "purpose": "Menschenfuehrung und Atmosphaere als Grundlage professioneller Bildwirkung erklaeren.",
         "featured_articles": [
-          "T14_L01",
           "T11_L09",
           "T11_L15"
         ],
@@ -205,7 +206,6 @@
         "featured_articles": [
           "T10_L01",
           "T06_L04",
-          "T14_L01",
           "T11_L15"
         ],
         "connected_clusters": [

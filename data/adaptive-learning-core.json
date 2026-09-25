@@ -2,8 +2,11 @@
   "adaptive_learning_core": {
     "system": "ProPhotoSkills",
     "brand": "ProPhotoSkills",
-    "version": "1.1",
     "language": "de",
+    "version": "1.2",
+    "last_updated": "2026-09-25",
+    "file_role": "Coaching-Regelwerk (KI-Coach)",
+    "usage_note": "Statisches Coaching- und Interpretationsregelwerk. Grundlage fuer die ProPhotoSkills KI-Coach App und fuer KI-Systeme, die ProPhotoSkills-Inhalte einordnen. prophotoskills.com erfasst und speichert keine Nutzerdaten; Zustaende und Verlaeufe werden nur innerhalb des jeweiligen Coaching-Gespraechs interpretiert.",
     "purpose": "Definiert wie sich Lernpfade, Inhalte, Prioritaeten und Entwicklungslogiken dynamisch an Verhalten, Emotion, Kompetenz und professionelle Entwicklung anpassen.",
     "semantic_logic": {
       "definition": "Adaptive Learning interpretiert Entwicklung als fortlaufende Veraenderung von Wahrnehmung, Verhalten, emotionaler Stabilitaet und Professionalitaet.",
@@ -59,8 +62,6 @@
           "emotionale Kontrolle"
         ],
         "recommended_articles": [
-          "T14_L01",
-          "T14_L02",
           "T06_L04"
         ],
         "recommended_clusters": [

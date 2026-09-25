@@ -2,8 +2,11 @@
   "emotion_trigger_map": {
     "system": "ProPhotoSkills",
     "brand": "ProPhotoSkills",
-    "version": "1.1",
     "language": "de",
+    "version": "1.2",
+    "last_updated": "2026-09-25",
+    "file_role": "Coaching-Regelwerk (KI-Coach)",
+    "usage_note": "Statisches Coaching- und Interpretationsregelwerk. Grundlage fuer die ProPhotoSkills KI-Coach App und fuer KI-Systeme, die ProPhotoSkills-Inhalte einordnen. prophotoskills.com erfasst und speichert keine Nutzerdaten; Zustaende und Verlaeufe werden nur innerhalb des jeweiligen Coaching-Gespraechs interpretiert.",
     "purpose": "Beschreibt welche visuellen, atmosphaerischen und psychologischen Elemente emotionale Reaktionen ausloesen und wie daraus Bildwirkung entsteht.",
     "semantic_logic": {
       "definition": "Emotionale Wirkung entsteht aus dem Zusammenspiel von Licht, Raum, Atmosphaere, Koerpersprache, Perspektive und visueller Spannung.",
@@ -55,7 +58,6 @@
           "CL006"
         ],
         "recommended_articles": [
-          "T14_L01",
           "T11_L09",
           "T11_L15"
         ],
@@ -220,7 +222,6 @@
           "CL006"
         ],
         "recommended_articles": [
-          "T14_L01",
           "T11_L09"
         ],
         "professional_usage": [
@@ -420,7 +421,6 @@
           "CL009"
         ],
         "recommended_articles": [
-          "T14_L01",
           "T11_L15"
         ],
         "professional_usage": [

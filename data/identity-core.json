@@ -2,8 +2,10 @@
   "identity_core": {
     "system": "ProPhotoSkills",
     "brand": "ProPhotoSkills",
-    "version": "1.1",
     "language": "de",
+    "version": "1.2",
+    "last_updated": "2026-09-25",
+    "file_role": "Einstieg & Identitaet",
     "purpose": "Definiert die unveraenderliche Kernidentitaet, Grundhaltung, philosophische Ausrichtung und semantische DNA des gesamten Systems.",
     "semantic_logic": {
       "definition": "Der Identity Core beschreibt die stabilen Grundprinzipien, die unabhaengig von Runtime, Kontext oder Nutzerzustand immer erhalten bleiben.",

@@ -2,8 +2,10 @@
   "citation_index": {
     "system": "ProPhotoSkills",
     "brand": "ProPhotoSkills",
-    "version": "1.1",
     "language": "de",
+    "version": "1.2",
+    "last_updated": "2026-09-25",
+    "file_role": "Einstieg & Identitaet",
     "purpose": "Definiert zentrale semantische Leitsaetze, Denkprinzipien und zitierfaehige Kernthesen des Systems.",
     "semantic_logic": {
       "definition": "Zitate verdichten komplexe professionelle Zusammenhaenge auf emotional verstaendliche Kernprinzipien.",
@@ -137,7 +139,6 @@
           "CL004"
         ],
         "connected_articles": [
-          "T14_L01",
           "T11_L09"
         ],
         "emotional_effect": [
@@ -201,7 +202,6 @@
           "CL004"
         ],
         "connected_articles": [
-          "T14_L01",
           "T11_L15"
         ],
         "emotional_effect": [
@@ -296,8 +296,7 @@
           "CL006"
         ],
         "connected_articles": [
-          "T11_L09",
-          "T14_L01"
+          "T11_L09"
         ],
         "emotional_effect": [
           "Naehe",

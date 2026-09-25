@@ -1,8 +1,10 @@
 {
   "authority_map": {
     "system": "ProPhotoSkills",
-    "version": "1.1",
     "language": "de",
+    "version": "1.2",
+    "last_updated": "2026-09-25",
+    "file_role": "Struktur & Navigation",
     "purpose": "Definiert die semantisch wichtigsten Inhalte des gesamten Systems und priorisiert Artikel nach ihrer Bedeutung fuer Verstaendnis, Orientierung und AI-Kontext.",
     "authority_logic": {
       "authority_definition": "Autoritaet beschreibt nicht Reichweite oder SEO sondern die semantische Zentralitaet eines Artikels innerhalb des gesamten Denk- und Produktionssystems.",
@@ -105,25 +107,6 @@
         "linked_via_nextlevel": [
           "PSYCHO",
           "SKILL"
-        ]
-      },
-      {
-        "article": "T14_L01",
-        "title": "Vertrauen vor der Kamera",
-        "authority_score": 0.94,
-        "semantic_role": "Emotionale Sicherheit und Menschenfuehrung",
-        "core_concepts": [
-          "Vertrauen",
-          "Emotion",
-          "Kommunikation",
-          "Menschenfuehrung"
-        ],
-        "why_authoritative": "Definiert die emotionale Ebene professioneller People-Fotografie.",
-        "connected_modules": [],
-        "linked_via_nextlevel": [
-          "PSYCHO",
-          "SKILL",
-          "TECHNIK"
         ]
       },
       {
@@ -232,8 +215,6 @@
       {
         "concept": "Vertrauen erzeugt Bildwirkung",
         "authority_articles": [
-          "T14_L01",
-          "T14_L02",
           "T11_L09"
         ]
       },
@@ -249,7 +230,6 @@
         "concept": "Der Fotograf ist Regisseur",
         "authority_articles": [
           "T06_L01",
-          "T14_L01",
           "T06_L04"
         ]
       }
@@ -262,8 +242,7 @@
       ],
       "tier_2": [
         "T10_L01_travel",
-        "T11_L15",
-        "T14_L01"
+        "T11_L15"
       ],
       "tier_3": [
         "T12_L08",
@@ -289,10 +268,7 @@
         },
         {
           "topic": "Menschen fotografieren",
-          "route_to": [
-            "T14_L01",
-            "T14_L02"
-          ]
+          "route_to": []
         },
         {
           "topic": "Travel und OnLocation Produktionen",
@@ -338,11 +314,7 @@
       },
       {
         "module": "PSYCHO",
-        "flagship_articles": [
-          "T14_L01",
-          "T14_L05",
-          "T14_L02"
-        ],
+        "flagship_articles": [],
         "semantic_purpose": "Vertrauen und emotionale Dynamik",
         "url": "https://prophotoskills.com/psycho/",
         "system": "ProPhotoSkills"

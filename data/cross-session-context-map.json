@@ -2,8 +2,11 @@
   "cross_session_context_map": {
     "system": "ProPhotoSkills",
     "brand": "ProPhotoSkills",
-    "version": "1.1",
     "language": "de",
+    "version": "1.2",
+    "last_updated": "2026-09-25",
+    "file_role": "Coaching-Regelwerk (KI-Coach)",
+    "usage_note": "Statisches Coaching- und Interpretationsregelwerk. Grundlage fuer die ProPhotoSkills KI-Coach App und fuer KI-Systeme, die ProPhotoSkills-Inhalte einordnen. prophotoskills.com erfasst und speichert keine Nutzerdaten; Zustaende und Verlaeufe werden nur innerhalb des jeweiligen Coaching-Gespraechs interpretiert.",
     "purpose": "Definiert wie emotionale, professionelle, semantische und entwicklungsbezogene Kontexte ueber mehrere Sessions hinweg verbunden, interpretiert und langfristig integriert werden.",
     "semantic_logic": {
       "definition": "Die Cross Session Context Map verbindet einzelne Sessions zu einer kontinuierlichen professionellen Entwicklungsdynamik.",

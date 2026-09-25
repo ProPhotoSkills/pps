@@ -6,6 +6,9 @@
     "type": "semantic_authority_network",
     "description": "Semantic authority architecture for professional photography, perception systems, runtime intelligence, leadership, atmosphere and adaptive professional development."
   },
+  "version": "1.2",
+  "last_updated": "2026-09-25",
+  "file_role": "Struktur & Navigation",
   "authority_levels": {
     "flagship": {
       "score": 1.0,

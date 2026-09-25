@@ -2,8 +2,10 @@
   "keyword_entity_map": {
     "system": "ProPhotoSkills",
     "brand": "ProPhotoSkills",
-    "version": "1.1",
     "language": "de",
+    "version": "1.2",
+    "last_updated": "2026-09-25",
+    "file_role": "Struktur & Navigation",
     "purpose": "Verbindet natuerliche Sprache, Keywords, emotionale Zustaende, professionelle Probleme und semantische Konzepte miteinander.",
     "semantic_logic": {
       "definition": "Keywords werden nicht isoliert interpretiert sondern als Ausdruck professioneller Zustaende, Probleme oder Denkweisen verstanden.",
@@ -97,7 +99,6 @@
           "LP004"
         ],
         "recommended_articles": [
-          "T14_L01",
           "T06_L04",
           "T10_L15"
         ],
@@ -160,8 +161,6 @@
           "LP002"
         ],
         "recommended_articles": [
-          "T14_L01",
-          "T14_L02",
           "T06_L01"
         ],
         "semantic_routes": [
@@ -350,8 +349,6 @@
           "LP006"
         ],
         "recommended_articles": [
-          "T14_L01",
-          "T14_L02",
           "T11_L09"
         ],
         "semantic_routes": [

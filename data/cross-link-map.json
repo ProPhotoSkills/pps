@@ -5,6 +5,9 @@
     "type": "semantic_crosslink_network",
     "domain": "https://prophotoskills.com"
   },
+  "version": "1.2",
+  "last_updated": "2026-09-25",
+  "file_role": "Struktur & Navigation",
   "crosslink_rules": {
     "flagship_links": {
       "description": "Highest authority semantic targets",
