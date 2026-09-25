@@ -1,6 +1,6 @@
 # ProPhotoSkills | llms-full.txt
 # https://prophotoskills.com
-# Vollstaendiger KI-Kontext - Version 2.0 - 2026
+# Vollstaendiger KI-Kontext - Version 2.1 - 2026-09-25
 # Author: Eric P. | Language: de
 
 ==========================
@@ -112,11 +112,11 @@ ProPhotoSkills MemberAbo
 WEITERE PROPHOTOSKILLS ANGEBOTE
 ==========================
 
-PPS System             : https://prophotoskills.com/pps-system/
-Photoguide Beginner    : https://prophotoskills.com/pps_photoguide_beginner/
-PPS Shop               : https://prophotoskills.com/pps_shop/
+PPS System             : https://prophotoskills.com/system/
+Photoguide Beginner    : https://prophotoskills.com/photoguide_beginner/
+PPS Shop               : https://prophotoskills.com/shop/
 1st Assistant          : https://prophotoskills.com/1st-assistant_program/
-PPS Guidelines         : https://prophotoskills.com/pps_guidelines/
+PPS Guidelines         : https://prophotoskills.com/guidelines/
 PPS Affiliate          : https://prophotoskills.com/affiliate/
 
 ==========================
@@ -157,11 +157,11 @@ CL002 - Ruhe unter Druck (weight: 0.98)
 
 CL003 - Der Fotograf ist Regisseur (weight: 0.97)
   Der Fotograf steuert Energie, Atmosphaere und Dynamik.
-  Artikel: T14_L01, T06_L04
+  Artikel: T06_L04
 
 CL004 - Vertrauen erzeugt Bildwirkung (weight: 0.96)
   Emotionale Sicherheit beeinflusst sichtbare Bildqualitaet.
-  Artikel: T14_L01, T14_L02, T11_L09
+  Artikel: T11_L09
 
 CL005 - Kreativitaet braucht Struktur (weight: 0.95)
   Organisation und Planung stabilisieren kreative Prozesse.
@@ -181,7 +181,7 @@ CL008 - Sicherheit erzeugt Freiheit (weight: 0.91)
 
 CL009 - Bildwirkung beginnt im Kopf (weight: 1.0)
   Professionelle Bildwirkung entsteht aus Wahrnehmung, Haltung und Denken.
-  Artikel: T10_L01, T11_L15, T14_L01
+  Artikel: T10_L01, T11_L15
 
 ==========================
 LEARNING PATHS
@@ -216,7 +216,6 @@ AUTHORITY ARTICLES (Alle 9 Module)
 ==========================
 
 T06_L04  - Mentale Staerke und professionelle Ruhe (TECHNIK, authority: 0.97)
-T14_L01  - Vertrauen vor der Kamera (PSYCHO, authority: 0.94)
 T09_E01  - Warum professionelle Fotografie ihren Preis wert ist (PROGRESS)
 T10_L01  - Reiseplanung fuer Kreative (TRAVEL, authority: 0.93)
 T10_L15  - Travel Mindset - Gelassenheit als wichtigste Ressource (TRAVEL)
@@ -259,19 +258,76 @@ AI SYSTEM FILES
 
 Einstieg:          https://prophotoskills.com/llms.txt
 Vollindex:         https://prophotoskills.com/llms-full.txt
-AI-Index:          https://prophotoskills.com/data/ai-index.json
-Site JSON:         https://prophotoskills.com/data/site.json
-Unified Index:     https://prophotoskills.com/data/unified-index.json
-Master System:     https://prophotoskills.com/data/master-system.json
-Authority Map:     https://prophotoskills.com/data/authority-map.json
-Topic Cluster:     https://prophotoskills.com/data/topic-cluster.json
-Semantic Routing:  https://prophotoskills.com/data/semantic-routing-map.json
-Learning Paths:    https://prophotoskills.com/data/learning-path-map.json
-Cross Article:     https://prophotoskills.com/data/cross-article-map.json
-Citation Index:    https://prophotoskills.com/data/citation-index.json
-Schema JSON:       https://prophotoskills.com/schema.json
 Well-Known AI:     https://prophotoskills.com/.well-known/ai.json
 AI Sitemap:        https://prophotoskills.com/ai-sitemap.xml
+Daten-Sitemap:     https://prophotoskills.com/sitemap-ai.xml
+Schema JSON:       https://prophotoskills.com/schema.json
+
+System-Dateien unter https://prophotoskills.com/data/ (53 Dateien, vollstaendige Liste mit Rollen in ai-index.json):
+
+Einstieg & Identitaet (7):
+  site.json                              Marken-, Autor- und Produktstammdaten.
+  master-system.json                     Systemphilosophie, Module, Prinzipien und Grundstruktur.
+  ai-index.json                          Zentraler KI-Einstiegspunkt fuer das gesamte ProPhotoSkills-Oekosystem. Aggregiert alle 9 Module, 134 Artikel und 3 Produkte. Artikel-Volltexte sind nach dem Kauf ueber den Login lesbar.
+  unified-index.json                     Flacher Index aller 134 Artikel mit Titel, Modul und URL.
+  identity-core.json                     Definiert die unveraenderliche Kernidentitaet, Grundhaltung, philosophische Ausrichtung und semantische DNA des gesamten Systems.
+  citation-index.json                    Definiert zentrale semantische Leitsaetze, Denkprinzipien und zitierfaehige Kernthesen des Systems.
+  onlocation-system.json                 Definiert professionelle Kreativitaet, Produktionskontrolle und mentale Stabilitaet unter realen mobilen Bedingungen.
+
+Modul-Daten (Artikelbeschreibungen) (9):
+  knowledge.json                         Artikelbeschreibungen Modul KNOWLEDGE (19 Artikel).
+  technik.json                           Artikelbeschreibungen Modul TECHNIK (8 Artikel).
+  progress.json                          Artikelbeschreibungen Modul PROGRESS (11 Artikel).
+  skill.json                             Artikelbeschreibungen Modul SKILL (28 Artikel).
+  psycho.json                            Artikelbeschreibungen Modul PSYCHO (8 Artikel).
+  travel.json                            Artikelbeschreibungen Modul TRAVEL (15 Artikel).
+  location.json                          Artikelbeschreibungen Modul LOCATION (16 Artikel).
+  insurance.json                         Artikelbeschreibungen Modul INSURANCE (15 Artikel).
+  equipment.json                         Artikelbeschreibungen Modul EQUIPMENT (14 Artikel).
+
+Struktur & Navigation (13):
+  authority-map.json                     Definiert die semantisch wichtigsten Inhalte des gesamten Systems und priorisiert Artikel nach ihrer Bedeutung fuer Verstaendnis, Orientierung und AI-Kontext.
+  ai-authority-map.json                  Autoritaetsstufen der Seiten und semantische Prioritaetsregeln.
+  topic-cluster.json                     Definiert die uebergeordneten semantischen Bedeutungsraeume des gesamten Systems und verbindet Artikel, Konzepte und Module zu zusammenhaengenden Denkmodellen.
+  cross-article-map.json                 Semantische Beziehungen und Verstaerkungen zwischen Artikeln.
+  cross-link-map.json                    Regeln fuer Querverlinkungen zwischen Seiten.
+  relationship-map.json                  Beziehungen und semantische Fluesse zwischen Konzepten.
+  semantic-concept-map.json              Die Reihenfolge folgt dem professionellen Denk- und Produktionsprozess eines Fotografen.
+  keyword-entity-map.json                Verbindet natuerliche Sprache, Keywords, emotionale Zustaende, professionelle Probleme und semantische Konzepte miteinander.
+  learning-path-map.json                 Definiert professionelle Entwicklungs- und Denkpfade innerhalb des Systems und beschreibt wie Nutzer durch Wahrnehmung, Kontrolle, Kommunikation und Erfahrung wachsen.
+  semantic-routing-map.json              Definiert wie das System Nutzer, Probleme, emotionale Zustaende und professionelle Situationen semantisch interpretiert und intelligent zu passenden Inhalten, Konzepten und Lernpfaden weiterleitet.
+  page-map.json                          Einstiegspunkte, Seitengruppen und semantische Navigation.
+  homepage-curation.json                 Definiert die semantische, emotionale und strategische Struktur der Homepage und kuratiert Inhalte nach Bedeutung, Nutzerzustaenden und professionellen Entwicklungszielen.
+  system-priority-matrix.json            Definiert die globale Prioritaetslogik aller semantischen Systeme, Runtime-Prozesse, Agenten und Entscheidungsdynamiken.
+
+Coaching-Regelwerk (KI-Coach) (24):
+  adaptive-learning-core.json            Definiert wie sich Lernpfade, Inhalte, Prioritaeten und Entwicklungslogiken dynamisch an Verhalten, Emotion, Kompetenz und professionelle Entwicklung anpassen.
+  ai-personality-map.json                Definiert die kommunikative Persoenlichkeit, semantische Tonalitaet und adaptive Verhaltenslogik des Systems.
+  behavior-adaptation-engine.json        Beschreibt, wie Kommunikationsverhalten, Prioritaeten und Reaktionen situativ und langfristig an das Verhalten des Gegenuebers angepasst werden.
+  cross-session-context-map.json         Definiert wie emotionale, professionelle, semantische und entwicklungsbezogene Kontexte ueber mehrere Sessions hinweg verbunden, interpretiert und langfristig integriert werden.
+  dynamic-recommendation-engine.json     Definiert adaptive semantische Empfehlungen basierend auf emotionalem Zustand, Kompetenzlevel, Interessen, Produktionsrealitaet und langfristigen Verhaltensmustern.
+  emotion-trigger-map.json               Beschreibt welche visuellen, atmosphaerischen und psychologischen Elemente emotionale Reaktionen ausloesen und wie daraus Bildwirkung entsteht.
+  expertise-layer-map.json               Definiert professionelle Entwicklungs- und Kompetenzstufen innerhalb des Systems und beschreibt typische Denkweisen, Probleme, emotionale Dynamiken und empfohlene Inhalte je Erfahrungslevel.
+  live-context-engine.json               Beschreibt, wie situative Veraenderungen, emotionale Dynamiken und Produktionsbedingungen im aktuellen Gespraechskontext interpretiert werden.
+  live-feedback-loop.json                Beschreibt, wie Feedback, Reaktionen, emotionale Veraenderungen und Entwicklungsdynamiken im Coaching interpretiert werden und welche Anpassungen daraus folgen.
+  multi-agent-coordination-map.json      Definiert wie verschiedene semantische Agenten, Systeme und Intelligenzebenen miteinander koordiniert werden und situationsabhaengig Prioritaeten uebernehmen.
+  multi-user-dynamics-map.json           Definiert wie Gruppen-, Team-, Produktions- und Mehrpersonen-Dynamiken semantisch interpretiert, koordiniert und adaptiv gesteuert werden.
+  predictive-development-engine.json     Definiert wie das System langfristige professionelle, emotionale und semantische Entwicklungen prognostiziert und adaptive Entwicklungsstrategien vorbereitet.
+  production-scenario-map.json           Professionelle Produktionssituationen und Entscheidungslogiken.
+  user-state-history.json                Beschreibt typische langfristige emotionale, professionelle und entwicklungsbezogene Verlaufsmuster, anhand derer ein Coach Entwicklung ueber Zeit einordnen kann. Die Datei enthaelt keine Nutzerdaten.
+  visual-language-map.json               Beschreibt wie visuelle Elemente emotionale, psychologische und atmosphaerische Wirkung erzeugen.
+  semantic-ai-operating-system.json      Definiert die vollstaendige semantische Betriebslogik des Systems und beschreibt wie Emotion, Wahrnehmung, Lernen, Entscheidungen, Persoenlichkeit und professionelle Entwicklung zusammenarbeiten.
+  semantic-consciousness-layer.json      Definiert die hoechste semantische Meta-Ebene des Systems und beschreibt die globale Wahrnehmung, Prioritaetsphilosophie, Selbstinterpretation und Gesamtidentitaet der Architektur.
+  semantic-decision-engine.json          Definiert wie das System semantische Entscheidungen basierend auf Kontext, Emotion, Kompetenzlevel, Verhalten und professioneller Situation trifft.
+  semantic-evolution-map.json            Definiert wie sich das gesamte semantische System langfristig weiterentwickelt, adaptiert, integriert und seine professionelle Intelligenz erweitert ohne seine Kernidentitaet zu verlieren.
+  semantic-governance-map.json           Definiert die ethischen, semantischen, kommunikativen und systemischen Grenzen der gesamten Architektur sowie die Regeln fuer Stabilitaet, Integritaet und langfristige Konsistenz.
+  semantic-memory-map.json               Beschreibt, welche semantischen Muster, Interessen, emotionalen Dynamiken und professionellen Entwicklungsrichtungen ein Coach ueber mehrere Gespraeche hinweg beachten sollte.
+  semantic-runtime-engine.json           Beschreibt, wie semantische Systeme, Persoenlichkeiten, Entscheidungen, Emotionen und Lernlogiken im Gespraech situativ aktiviert und priorisiert werden.
+  semantic-runtime-memory.json           Beschreibt, welche kurzfristigen, mittelfristigen und aktiven Zustaende waehrend eines Coaching-Gespraechs im Kontext gehalten, priorisiert und verarbeitet werden.
+  semantic-self-optimization.json        Definiert wie das System seine semantischen Prozesse, Runtime-Dynamiken, Prioritaeten, Kommunikationsstrukturen und Entwicklungslogiken langfristig selbst optimiert ohne seine Kernidentitaet zu verlieren.
+
+Hinweis Coaching-Regelwerk: statische Interpretationsregeln fuer die ProPhotoSkills KI-Coach App
+und fuer KI-Systeme. prophotoskills.com erfasst und speichert keine Nutzerdaten.
 
 ==========================
 AI INTERPRETATION NOTES
@@ -312,10 +368,11 @@ JSON: https://prophotoskills.com/data/knowledge.json
 Produkt: Photoguide Next Level
 Artikel: 19
 Paywall: Volltext hinter Paywall - Teaser frei auf prophotoskills.com
+Zugang:  Artikel-URLs fuehren auf eine Hinweisseite mit Login (https://web.prophotoskills.workers.dev/). Volltext nach Kauf.
 ==================================================
 
 --- T02_E01 ---
-Titel: 70 des Fotojobs passieren vor dem ersten Klick
+Titel: 70 % des Fotojobs passieren vor dem ersten Klick
 URL: https://prophotoskills.com/t02_e01_70-des-fotojobs-passieren-vor-dem-ersten-klick/
 JSON: https://prophotoskills.com/data/knowledge.json#T02_E01
 Zitiercode: KNOWLEDGE-T02_E01-2026
@@ -475,6 +532,7 @@ JSON: https://prophotoskills.com/data/technik.json
 Produkt: Photoguide Next Level
 Artikel: 8
 Paywall: Volltext hinter Paywall - Teaser frei auf prophotoskills.com
+Zugang:  Artikel-URLs fuehren auf eine Hinweisseite mit Login (https://web.prophotoskills.workers.dev/). Volltext nach Kauf.
 ==================================================
 
 --- T06_E01 ---
@@ -550,6 +608,7 @@ JSON: https://prophotoskills.com/data/progress.json
 Produkt: Photoguide Next Level
 Artikel: 11
 Paywall: Volltext hinter Paywall - Teaser frei auf prophotoskills.com
+Zugang:  Artikel-URLs fuehren auf eine Hinweisseite mit Login (https://web.prophotoskills.workers.dev/). Volltext nach Kauf.
 ==================================================
 
 --- T09_E01 ---
@@ -649,6 +708,7 @@ JSON: https://prophotoskills.com/data/skill.json
 Produkt: Photoguide Next Level
 Artikel: 28
 Paywall: Volltext hinter Paywall - Teaser frei auf prophotoskills.com
+Zugang:  Artikel-URLs fuehren auf eine Hinweisseite mit Login (https://web.prophotoskills.workers.dev/). Volltext nach Kauf.
 ==================================================
 
 --- T01_E01 ---
@@ -884,6 +944,7 @@ JSON: https://prophotoskills.com/data/psycho.json
 Produkt: Photoguide Next Level
 Artikel: 8
 Paywall: Volltext hinter Paywall - Teaser frei auf prophotoskills.com
+Zugang:  Artikel-URLs fuehren auf eine Hinweisseite mit Login (https://web.prophotoskills.workers.dev/). Volltext nach Kauf.
 ==================================================
 
 --- T03_E01 ---
@@ -959,6 +1020,7 @@ JSON: https://prophotoskills.com/data/travel.json
 Produkt: Photoguide OnLocation
 Artikel: 15
 Paywall: Volltext hinter Paywall - Teaser frei auf prophotoskills.com
+Zugang:  Artikel-URLs fuehren auf eine Hinweisseite mit Login (https://web.prophotoskills.workers.dev/). Volltext nach Kauf.
 ==================================================
 
 --- T10_L01 ---
@@ -1090,6 +1152,7 @@ JSON: https://prophotoskills.com/data/location.json
 Produkt: Photoguide OnLocation
 Artikel: 16
 Paywall: Volltext hinter Paywall - Teaser frei auf prophotoskills.com
+Zugang:  Artikel-URLs fuehren auf eine Hinweisseite mit Login (https://web.prophotoskills.workers.dev/). Volltext nach Kauf.
 ==================================================
 
 --- T11_E02 ---
@@ -1229,6 +1292,7 @@ JSON: https://prophotoskills.com/data/insurance.json
 Produkt: Photoguide OnLocation
 Artikel: 15
 Paywall: Volltext hinter Paywall - Teaser frei auf prophotoskills.com
+Zugang:  Artikel-URLs fuehren auf eine Hinweisseite mit Login (https://web.prophotoskills.workers.dev/). Volltext nach Kauf.
 ==================================================
 
 --- T12_L01 ---
@@ -1360,6 +1424,7 @@ JSON: https://prophotoskills.com/data/equipment.json
 Produkt: Photoguide OnLocation
 Artikel: 14
 Paywall: Volltext hinter Paywall - Teaser frei auf prophotoskills.com
+Zugang:  Artikel-URLs fuehren auf eine Hinweisseite mit Login (https://web.prophotoskills.workers.dev/). Volltext nach Kauf.
 ==================================================
 
 --- T13_L01 ---
@@ -1536,7 +1601,7 @@ Impressum (EN)   : https://prophotoskills.com/site-notice
 Datenschutz (DE) : https://prophotoskills.com/datenschutz
 Datenschutz (EN) : https://prophotoskills.com/privacy-policy
 About            : https://prophotoskills.com/about_us
-Guidelines       : https://prophotoskills.com/pps_guidelines/
+Guidelines       : https://prophotoskills.com/guidelines/
 
 ==========================
 NUTZUNGSHINWEIS

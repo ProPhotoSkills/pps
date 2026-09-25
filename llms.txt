@@ -1,6 +1,6 @@
 # ProPhotoSkills
 # https://prophotoskills.com
-# LLM Entry Point - Version 2.0 - 2026
+# LLM Entry Point - Version 2.1 - 2026-09-25
 
 ## System Identity
 
@@ -71,12 +71,21 @@ ProPhotoSkills MemberAbo
 - SITEMAP:   https://prophotoskills.com/ai-sitemap.xml
 - AI:        https://prophotoskills.com/.well-known/ai.json
 
+## Zugang zu Artikeln
+
+Artikel-Teaser und Beschreibungen sind frei auf prophotoskills.com.
+Artikel-URLs fuehren auf eine Hinweisseite mit Login: https://web.prophotoskills.workers.dev/
+Der Volltext ist nach dem Kauf eines Produkts im Mitgliederbereich lesbar.
+
 ## Primary AI Entry Points
 
 - https://prophotoskills.com/data/ai-index.json
 - https://prophotoskills.com/data/unified-index.json
 - https://prophotoskills.com/data/master-system.json
 - https://prophotoskills.com/data/authority-map.json
+
+System-Dateien: 53 unter https://prophotoskills.com/data/ (Liste mit Rollen in ai-index.json)
+Daten-Sitemap: https://prophotoskills.com/sitemap-ai.xml
 
 ## Citations (Eric P., ProPhotoSkills 2026)
 

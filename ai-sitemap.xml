@@ -284,4 +284,77 @@
     <ai:type>module_page</ai:type>
   </url>
 
+
+  <!-- LESBARE SEITEN UND ARTIKEL -->
+  <url>
+    <loc>https://prophotoskills.com/about_us/</loc>
+    <priority>0.8</priority>
+    <lastmod>2026-09-25</lastmod>
+    <ai:description>Ueber ProPhotoSkills und den Autor Eric P.</ai:description>
+    <ai:language>de</ai:language>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/guidelines/</loc>
+    <priority>0.8</priority>
+    <lastmod>2026-09-25</lastmod>
+    <ai:description>Die 20 Leitprinzipien von ProPhotoSkills</ai:description>
+    <ai:language>de</ai:language>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/faq/</loc>
+    <priority>0.8</priority>
+    <lastmod>2026-09-25</lastmod>
+    <ai:description>Haeufige Fragen zu ProPhotoSkills</ai:description>
+    <ai:language>de</ai:language>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/system/</loc>
+    <priority>0.8</priority>
+    <lastmod>2026-09-25</lastmod>
+    <ai:description>Das PPS System fuer Fotografen</ai:description>
+    <ai:language>de</ai:language>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/t03_l04_achte-auf-dein-umfeld/</loc>
+    <priority>0.8</priority>
+    <lastmod>2026-09-25</lastmod>
+    <ai:description>Lesbarer Artikel: Achte auf dein Umfeld (PSYCHO)</ai:description>
+    <ai:language>de</ai:language>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/t05_e02_entwicklung-dein-unsichtbarer-next-level-trigger/</loc>
+    <priority>0.8</priority>
+    <lastmod>2026-09-25</lastmod>
+    <ai:description>Lesbarer Artikel: Entwicklung - dein unsichtbarer Next Level Trigger (SKILL)</ai:description>
+    <ai:language>de</ai:language>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/t05_e03_all_die_coaches/</loc>
+    <priority>0.8</priority>
+    <lastmod>2026-09-25</lastmod>
+    <ai:description>Lesbarer Artikel: All die Coaches (SKILL)</ai:description>
+    <ai:language>de</ai:language>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/t05_e04_vorurteile-vs-erfahrungen/</loc>
+    <priority>0.8</priority>
+    <lastmod>2026-09-25</lastmod>
+    <ai:description>Lesbarer Artikel: Vorurteile vs Erfahrungen (SKILL)</ai:description>
+    <ai:language>de</ai:language>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/t09_l09_kunden-blick-wenn-aus-vertrauen-ploetzlich-budget-wird/</loc>
+    <priority>0.8</priority>
+    <lastmod>2026-09-25</lastmod>
+    <ai:description>Lesbarer Artikel: Kunden-Blick - wenn aus Vertrauen ploetzlich Budget wird (PROGRESS)</ai:description>
+    <ai:language>de</ai:language>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/t11_e02_30-ikonische-orte-die-du-als-fotograf-einmal-bereist-haben-solltest/</loc>
+    <priority>0.8</priority>
+    <lastmod>2026-09-25</lastmod>
+    <ai:description>Lesbarer Artikel: 30 ikonische Orte (LOCATION)</ai:description>
+    <ai:language>de</ai:language>
+  </url>
+
 </urlset>

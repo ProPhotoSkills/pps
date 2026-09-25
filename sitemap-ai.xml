@@ -1,74 +1,284 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<!-- Daten-Sitemap: LLM-Dateien und alle System-JSONs unter /data/ -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <!-- Priority 1: Main LLM Directory -->
   <url>
     <loc>https://prophotoskills.com/llms.txt</loc>
-    <changefreq>always</changefreq>
+    <lastmod>2026-09-25</lastmod>
     <priority>1.0</priority>
   </url>
-
-  <!-- Priority 2: Full LLM Data -->
   <url>
     <loc>https://prophotoskills.com/llms-full.txt</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-09-25</lastmod>
     <priority>0.9</priority>
   </url>
-
-  <!-- Priority 3: Primary AI Entry Points -->
   <url>
-    <loc>https://prophotoskills.com/data/ai-index.json</loc>
-    <changefreq>daily</changefreq>
+    <loc>https://prophotoskills.com/.well-known/ai.json</loc>
+    <lastmod>2026-09-25</lastmod>
     <priority>0.9</priority>
   </url>
-
-  <!-- Priority 4: Unified Index -->
   <url>
-    <loc>https://prophotoskills.com/data/unified-index.json</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <loc>https://prophotoskills.com/data/site.json</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.9</priority>
   </url>
-
-  <!-- Priority 5: Master System Map -->
   <url>
     <loc>https://prophotoskills.com/data/master-system.json</loc>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/ai-index.json</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/unified-index.json</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/identity-core.json</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/citation-index.json</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/onlocation-system.json</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/knowledge.json</loc>
+    <lastmod>2026-09-25</lastmod>
     <priority>0.8</priority>
   </url>
-
-  <!-- Semantic Core Files -->
   <url>
-    <loc>https://prophotoskills.com/data/semantic-concept-map.json</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://prophotoskills.com/data/technik.json</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/progress.json</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/skill.json</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/psycho.json</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/travel.json</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/location.json</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/insurance.json</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/equipment.json</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://prophotoskills.com/data/authority-map.json</loc>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/ai-authority-map.json</loc>
+    <lastmod>2026-09-25</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://prophotoskills.com/data/topic-cluster.json</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- Adaptive & Emotional Systems -->
-  <url>
-    <loc>https://prophotoskills.com/data/emotion-trigger-map.json</loc>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-09-25</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://prophotoskills.com/data/visual-language-map.json</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
+    <loc>https://prophotoskills.com/data/cross-article-map.json</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/cross-link-map.json</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/relationship-map.json</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/semantic-concept-map.json</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/keyword-entity-map.json</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://prophotoskills.com/data/learning-path-map.json</loc>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/semantic-routing-map.json</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/page-map.json</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/homepage-curation.json</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/system-priority-matrix.json</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/adaptive-learning-core.json</loc>
+    <lastmod>2026-09-25</lastmod>
     <priority>0.6</priority>
   </url>
-
+  <url>
+    <loc>https://prophotoskills.com/data/ai-personality-map.json</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/behavior-adaptation-engine.json</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/cross-session-context-map.json</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/dynamic-recommendation-engine.json</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/emotion-trigger-map.json</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/expertise-layer-map.json</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/live-context-engine.json</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/live-feedback-loop.json</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/multi-agent-coordination-map.json</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/multi-user-dynamics-map.json</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/predictive-development-engine.json</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/production-scenario-map.json</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/user-state-history.json</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/visual-language-map.json</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/semantic-ai-operating-system.json</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/semantic-consciousness-layer.json</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/semantic-decision-engine.json</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/semantic-evolution-map.json</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/semantic-governance-map.json</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/semantic-memory-map.json</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/semantic-runtime-engine.json</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/semantic-runtime-memory.json</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/data/semantic-self-optimization.json</loc>
+    <lastmod>2026-09-25</lastmod>
+    <priority>0.6</priority>
+  </url>
 </urlset>
