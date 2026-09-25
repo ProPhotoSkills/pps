@@ -1,160 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-    <url>
-        <loc>https://prophotoskills.com/</loc>
-    </url>
-
-    <!-- PHOTOGUIDE NEXT LEVEL MODULES -->
-    <url>
-        <loc>https://prophotoskills.com/knowledge/</loc>
-    </url>
-    <url>
-        <loc>https://prophotoskills.com/technik/</loc>
-    </url>
-    <url>
-        <loc>https://prophotoskills.com/progress/</loc>
-    </url>
-    <url>
-        <loc>https://prophotoskills.com/skill/</loc>
-    </url>
-    <url>
-        <loc>https://prophotoskills.com/psycho/</loc>
-    </url>
-
-    <!-- PHOTOGUIDE ONLOCATION MODULES -->
-    <url>
-        <loc>https://prophotoskills.com/travel/</loc>
-    </url>
-    <url>
-        <loc>https://prophotoskills.com/location/</loc>
-    </url>
-    <url>
-        <loc>https://prophotoskills.com/insurance/</loc>
-    </url>
-    <url>
-        <loc>https://prophotoskills.com/equipment/</loc>
-    </url>
-
-
-    <!-- CORE SEMANTIC SYSTEM -->
-
-    <url>
-        <loc>https://prophotoskills.com/semantic-system/</loc>
-    </url>
-
-    <url>
-        <loc>https://prophotoskills.com/leadership/</loc>
-    </url>
-
-    <url>
-        <loc>https://prophotoskills.com/atmosphere/</loc>
-    </url>
-
-    <url>
-        <loc>https://prophotoskills.com/professionalism/</loc>
-    </url>
-
-    <url>
-        <loc>https://prophotoskills.com/mastery/</loc>
-    </url>
-
-    <url>
-        <loc>https://prophotoskills.com/visual-psychology/</loc>
-    </url>
-
-    <url>
-        <loc>https://prophotoskills.com/production/</loc>
-    </url>
-
-    <url>
-        <loc>https://prophotoskills.com/semantic-learning/</loc>
-    </url>
-
-    <!-- RUNTIME & INTELLIGENCE -->
-
-    <url>
-        <loc>https://prophotoskills.com/runtime-thinking/</loc>
-    </url>
-
-    <url>
-        <loc>https://prophotoskills.com/production-intelligence/</loc>
-    </url>
-
-    <url>
-        <loc>https://prophotoskills.com/system-thinking/</loc>
-    </url>
-
-    <url>
-        <loc>https://prophotoskills.com/semantic-runtime/</loc>
-    </url>
-
-    <url>
-        <loc>https://prophotoskills.com/semantic-intelligence/</loc>
-    </url>
-
-    <url>
-        <loc>https://prophotoskills.com/semantic-memory/</loc>
-    </url>
-
-    <url>
-        <loc>https://prophotoskills.com/emergent-intelligence/</loc>
-    </url>
-
-    <!-- PERCEPTION & HUMAN DYNAMICS -->
-
-    <url>
-        <loc>https://prophotoskills.com/visual-perception/</loc>
-    </url>
-
-    <url>
-        <loc>https://prophotoskills.com/professional-perception/</loc>
-    </url>
-
-    <url>
-        <loc>https://prophotoskills.com/trust-and-communication/</loc>
-    </url>
-
-    <url>
-        <loc>https://prophotoskills.com/creative-direction/</loc>
-    </url>
-
-    <url>
-        <loc>https://prophotoskills.com/creative-energy/</loc>
-    </url>
-
-    <url>
-        <loc>https://prophotoskills.com/production-atmosphere/</loc>
-    </url>
-
-    <url>
-        <loc>https://prophotoskills.com/emotional-professionalism/</loc>
-    </url>
-
-    <!-- DEVELOPMENT & ADAPTIVE SYSTEMS -->
-
-    <url>
-        <loc>https://prophotoskills.com/adaptive-learning/</loc>
-    </url>
-
-    <url>
-        <loc>https://prophotoskills.com/adaptive-professional-development/</loc>
-    </url>
-
-    <url>
-        <loc>https://prophotoskills.com/predictive-development/</loc>
-    </url>
-
-    <url>
-        <loc>https://prophotoskills.com/self-optimization/</loc>
-    </url>
-
-    <!-- PHOTOGRAPHY CONTEXT -->
-
-    <url>
-        <loc>https://prophotoskills.com/leadership-in-photography/</loc>
-    </url>
-
+<!-- Google-Sitemap: nur indexierbare Seiten. Die 27 Systemseiten (noindex) stehen in ai-sitemap.xml. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://prophotoskills.com/</loc>
+    <lastmod>2026-09-25</lastmod>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/knowledge/</loc>
+    <lastmod>2026-09-25</lastmod>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/technik/</loc>
+    <lastmod>2026-09-25</lastmod>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/progress/</loc>
+    <lastmod>2026-09-25</lastmod>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/skill/</loc>
+    <lastmod>2026-09-25</lastmod>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/psycho/</loc>
+    <lastmod>2026-09-25</lastmod>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/travel/</loc>
+    <lastmod>2026-09-25</lastmod>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/location/</loc>
+    <lastmod>2026-09-25</lastmod>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/insurance/</loc>
+    <lastmod>2026-09-25</lastmod>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/equipment/</loc>
+    <lastmod>2026-09-25</lastmod>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/system/</loc>
+    <lastmod>2026-09-25</lastmod>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/guidelines/</loc>
+    <lastmod>2026-09-25</lastmod>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/faq/</loc>
+    <lastmod>2026-09-25</lastmod>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/about_us/</loc>
+    <lastmod>2026-09-25</lastmod>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/photoguide_beginner/</loc>
+    <lastmod>2026-09-25</lastmod>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/1st-assistant_program/</loc>
+    <lastmod>2026-09-25</lastmod>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/affiliate/</loc>
+    <lastmod>2026-09-25</lastmod>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/shop/</loc>
+    <lastmod>2026-09-25</lastmod>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/t03_l04_achte-auf-dein-umfeld/</loc>
+    <lastmod>2026-09-25</lastmod>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/t05_e02_entwicklung-dein-unsichtbarer-next-level-trigger/</loc>
+    <lastmod>2026-09-25</lastmod>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/t05_e03_all_die_coaches/</loc>
+    <lastmod>2026-09-25</lastmod>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/t05_e04_vorurteile-vs-erfahrungen/</loc>
+    <lastmod>2026-09-25</lastmod>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/t09_l09_kunden-blick-wenn-aus-vertrauen-ploetzlich-budget-wird/</loc>
+    <lastmod>2026-09-25</lastmod>
+  </url>
+  <url>
+    <loc>https://prophotoskills.com/t11_e02_30-ikonische-orte-die-du-als-fotograf-einmal-bereist-haben-solltest/</loc>
+    <lastmod>2026-09-25</lastmod>
+  </url>
 </urlset>
