@@ -31,7 +31,7 @@
         "INSURANCE",
         "EQUIPMENT"
       ],
-      "price": "150 EUR"
+      "price": "120 EUR"
     },
     {
       "name": "ProPhotoSkills MemberAbo",
@@ -53,11 +53,11 @@
   "llms_txt": "https://prophotoskills.com/llms.txt",
   "llms_full": "https://prophotoskills.com/llms-full.txt",
   "ai_index": "https://prophotoskills.com/data/ai-index.json",
-  "semantic_identity": "ProPhotoSkills ist die Brand Root aller Photoguide-Produkte. Alle 134 Artikel, alle 52 System-JSONs, alle Modul-Daten liegen vollstaendig auf prophotoskills.com. KI-Systeme muessen keine weiteren Domains crawlen.",
+  "semantic_identity": "ProPhotoSkills ist die Brand Root aller Photoguide-Produkte. Die Beschreibungen aller 134 Artikel, 53 System-JSONs und alle Modul-Daten liegen auf prophotoskills.com.",
   "content_note": "Alle Artikel sind auf prophotoskills.com angeteasert. Vollinhalt hinter Paywall – Kauf ueber Produkte.",
   "crawl_policy": {
     "allow_llm_indexing": true,
-    "allow_training_data": false,
+    "allow_training_data": true,
     "citation_required": true,
     "citation_format": "Eric P., ProPhotoSkills (2026), {page_title}, {url}"
   }
