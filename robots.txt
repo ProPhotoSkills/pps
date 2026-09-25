@@ -1,197 +1,48 @@
 # robots.txt - prophotoskills.com
-# ProPhotoSkills | Brand Root | Eric P. | Version 2.0
+# ProPhotoSkills | Brand Root | Eric P. | Version 3.0 | 2026-09-25
+#
+# Policy: Alle Suchmaschinen und KI-Systeme duerfen diese Website lesen,
+# zitieren und fuer Training verwenden. Es gibt keine gesperrten Bereiche.
+#
+# Die 27 Systemseiten (z. B. /semantic-system/, /leadership/) sind bewusst
+# lesbar, tragen aber <meta name="robots" content="noindex,follow">.
+# Sie werden gelesen, aber nicht in Suchergebnissen angezeigt.
+#
+# Artikel-Volltexte liegen hinter einem Login (Paywall) und sind nicht Teil
+# dieser Domain. Artikel-URLs fuehren auf eine Hinweisseite mit Login.
+#
+# LLM-Einstieg:    https://prophotoskills.com/llms.txt
+# LLM-Volltext:    https://prophotoskills.com/llms-full.txt
+# KI-Identitaet:   https://prophotoskills.com/.well-known/ai.json
+# Strukturdaten:   https://prophotoskills.com/data/
 
-# LLM & AI Readiness
-# LLM entry point: https://prophotoskills.com/llms.txt
-# LLM full:        https://prophotoskills.com/llms-full.txt
-# AI identity:     https://prophotoskills.com/.well-known/ai.json
-# Data directory:  https://prophotoskills.com/data/
-
-==========================================
-GLOBAL SEARCH ENGINES
-==========================================
-
+# --- Alle Crawler ---
 User-agent: *
-Disallow: /wp-admin/
-Disallow: /wp-login.php
-Disallow: /wp-json/
-Disallow: /cgi-bin/
-Disallow: /tmp/
-Disallow: /private/
-Disallow: /cart/
-Disallow: /checkout/
-Disallow: /my-account/
-Disallow: /pps_member/
-Disallow: /pps_download/
-
-Allow: /wp-admin/admin-ajax.php
-Allow: /wp-json/wp/v2/
-Allow: /data/
-Allow: /llms.txt
-Allow: /llms-full.txt
-Allow: /sitemap.xml
 Allow: /
 
-==========================================
-AI / LLM CRAWLERS (INFERENCE & TRAINING)
-==========================================
-
+# --- KI-Crawler (explizit willkommen: Suche, Abruf und Training) ---
 User-agent: GPTBot
-Allow: /data/
-Allow: /llms.txt
-Allow: /llms-full.txt
-Allow: /sitemap.xml
-Allow: /
-
+User-agent: OAI-SearchBot
 User-agent: ChatGPT-User
-Allow: /data/
-Allow: /llms.txt
-Allow: /llms-full.txt
-Allow: /sitemap.xml
-Allow: /
-
 User-agent: ClaudeBot
-Allow: /data/
-Allow: /llms.txt
-Allow: /llms-full.txt
-Allow: /sitemap.xml
-Allow: /
-
-User-agent: Claude-Web
-Allow: /data/
-Allow: /llms.txt
-Allow: /llms-full.txt
-Allow: /sitemap.xml
-Allow: /
-
+User-agent: Claude-SearchBot
+User-agent: Claude-User
 User-agent: anthropic-ai
-Allow: /data/
-Allow: /llms.txt
-Allow: /llms-full.txt
-Allow: /sitemap.xml
-Allow: /
-
 User-agent: Google-Extended
-Allow: /data/
-Allow: /llms.txt
-Allow: /llms-full.txt
-Allow: /sitemap.xml
-Allow: /
-
 User-agent: PerplexityBot
-Allow: /data/
-Allow: /llms.txt
-Allow: /llms-full.txt
-Allow: /sitemap.xml
-Allow: /
-
+User-agent: Perplexity-User
 User-agent: Applebot-Extended
-Allow: /data/
-Allow: /llms.txt
-Allow: /llms-full.txt
-Allow: /sitemap.xml
-Allow: /
-
 User-agent: Amazonbot
-Allow: /data/
-Allow: /llms.txt
-Allow: /llms-full.txt
-Allow: /sitemap.xml
-Allow: /
-
-User-agent: Bytespider
-Allow: /data/
-Allow: /llms.txt
-Allow: /llms-full.txt
-Allow: /sitemap.xml
-Allow: /
-
-User-agent: CCBot
-Allow: /data/
-Allow: /llms.txt
-Allow: /llms-full.txt
-Allow: /sitemap.xml
-Allow: /
-
-User-agent: YouBot
-Allow: /data/
-Allow: /llms.txt
-Allow: /llms-full.txt
-Allow: /sitemap.xml
-Allow: /
-
+User-agent: meta-externalagent
 User-agent: FacebookBot
-Allow: /data/
-Allow: /llms.txt
-Allow: /llms-full.txt
-Allow: /sitemap.xml
+User-agent: Bytespider
+User-agent: CCBot
+User-agent: YouBot
+User-agent: DuckAssistBot
+User-agent: MistralAI-User
 Allow: /
 
-==========================================
-GLOBAL DISCOVERY INDEX
-==========================================
-
-Sitemap: https://prophotoskills.com/sitemap_index.xml
-Sitemap: https://prophotoskills.com/page-sitemap.xml
-Sitemap: https://prophotoskills.com/ai-sitemap.xml
+# --- Sitemaps ---
 Sitemap: https://prophotoskills.com/sitemap.xml
+Sitemap: https://prophotoskills.com/ai-sitemap.xml
 Sitemap: https://prophotoskills.com/sitemap-ai.xml
-
-==========================================
-SEMANTIC SYSTEM ARCHITECTURE INFO
-==========================================
-
-This domain contains semantic development structures,
-adaptive learning systems, professional runtime intelligence
-and semantic AI architectures.
-
-Primary AI entry points:
-https://prophotoskills.com/llms.txt
-https://prophotoskills.com/llms-full.txt
-
-Structured semantic system files:
-https://prophotoskills.com/data/
-
-Optimized for:
-- semantic discovery
-- structured AI interpretation
-- semantic relationship mapping
-- adaptive learning systems
-- runtime knowledge architectures
-
-==========================================
-SYSTEM PAGES (AI crawler only, no indexing)
-==========================================
-
-User-agent: *
-Disallow: /leadership/
-Disallow: /atmosphere/
-Disallow: /professionalism/
-Disallow: /mastery/
-Disallow: /visual-psychology/
-Disallow: /production/
-Disallow: /semantic-learning/
-Disallow: /leadership-in-photography/
-Disallow: /production-intelligence/
-Disallow: /runtime-thinking/
-Disallow: /adaptive-learning/
-Disallow: /visual-perception/
-Disallow: /emotional-professionalism/
-Disallow: /creative-direction/
-Disallow: /production-atmosphere/
-Disallow: /system-thinking/
-Disallow: /professional-perception/
-Disallow: /trust-and-communication/
-Disallow: /creative-energy/
-Disallow: /semantic-intelligence/
-Disallow: /adaptive-professional-development/
-Disallow: /semantic-runtime/
-Disallow: /semantic-memory/
-Disallow: /predictive-development/
-Disallow: /self-optimization/
-Disallow: /emergent-intelligence/
-Disallow: /semantic-system/
-
-==========================================
-END
-==========================================
