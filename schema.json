@@ -131,8 +131,8 @@
       "@id": "https://prophotoskills.com/#website",
       "url": "https://prophotoskills.com",
       "name": "ProPhotoSkills",
-      "description": "Professionelle Fotografie Weiterbildung – 9 Module, 134 Artikel, 3 Produkte.",
-      "inLanguage": "de, en, fr, es, it, pt",
+      "description": "Professionelle Fotografie Weiterbildung – 9 Module, 135 Artikel, 3 Produkte.",
+      "inLanguage": "de",
       "publisher": {
         "@id": "https://prophotoskills.com/#organization"
       },
@@ -257,8 +257,8 @@
       "isPartOf": {
         "@id": "https://prophotoskills.com/#website"
       },
-      "description": "134 Artikel in 9 Modulen – Weiterbildung fuer professionelle Fotografen.",
-      "inLanguage": "de, en, fr, es, it, pt",
+      "description": "135 Artikel in 9 Modulen – Weiterbildung fuer professionelle Fotografen.",
+      "inLanguage": "de",
       "dateModified": "2026-06-10"
     }
   ]

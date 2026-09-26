@@ -9,8 +9,8 @@
 Brand:    ProPhotoSkills
 Domain:   https://prophotoskills.com
 Author:   Eric P.
-Language: de, en, fr, es, it, pt
-Type:     Professionelle Fotografie Weiterbildung - 9 Module, 134 Artikel, 3 Produkte
+Language: de (Originaltexte). Uebersetzung per Browser-Widget: en, fr, es, pt, it, el, ja
+Type:     Professionelle Fotografie Weiterbildung - 9 Module, 135 Artikel, 3 Produkte
 
 Master Thesis:
   Professionelle Fotografie ist ein Zusammenspiel aus Wahrnehmung, Fuehrung,
@@ -39,17 +39,17 @@ ProPhotoSkills MemberAbo
   LLMs:    https://memberabo.prophotoskills.com/llms.txt
   Module:  Alle 9
 
-## 9 Module (134 Artikel gesamt)
+## 9 Module (135 Artikel gesamt)
 
-- KNOWLEDGE  - Strategisches Denken, Wahrnehmung, Licht, Vorbereitung (19 Artikel)
-- TECHNIK    - Mentale Staerke, Praesenz, Belastbarkeit, Selbstoptimierung (8 Artikel)
+- KNOWLEDGE  - Strategisches Denken, Wahrnehmung, Licht, Vorbereitung (21 Artikel)
+- TECHNIK    - Mentale Staerke, Praesenz, Belastbarkeit, Selbstoptimierung (11 Artikel)
 - PROGRESS   - Professionalisierung, Business, Wertverstaendnis (11 Artikel)
-- SKILL      - Kreative Anwendung, Kommunikation, People-Fotografie (28 Artikel)
-- PSYCHO     - Psychologie, Vertrauen, emotionale Dynamik (8 Artikel)
+- SKILL      - Kreative Anwendung, Kommunikation, People-Fotografie (26 Artikel)
+- PSYCHO     - Psychologie, Vertrauen, emotionale Dynamik (5 Artikel)
 - TRAVEL     - Reiseplanung, Logistik, mobile Produktionen (15 Artikel)
 - LOCATION   - Scouting, Atmosphaere, Raumwirkung (16 Artikel)
 - INSURANCE  - Absicherung, Vertraege, Datensicherheit (15 Artikel)
-- EQUIPMENT  - Werkzeugstrategie, mobile Sets (14 Artikel)
+- EQUIPMENT  - Werkzeugstrategie, mobile Sets (15 Artikel)
 
 ## Module URLs
 

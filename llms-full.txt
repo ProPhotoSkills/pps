@@ -24,8 +24,8 @@ SYSTEM IDENTITY
 Name:        ProPhotoSkills
 Domain:      https://prophotoskills.com
 Author:      Eric P.
-Language:    de, en, fr, es, it, pt
-Type:        Professionelle Fotografie Weiterbildung - 9 Module, 134 Artikel, 3 Produkte
+Language:    de (Originaltexte). Uebersetzung per Browser-Widget: en, fr, es, pt, it, el, ja
+Type:        Professionelle Fotografie Weiterbildung - 9 Module, 135 Artikel, 3 Produkte
 Brand Root:  ProPhotoSkills ist die Hauptdomain - alle Subdomains sind gleichrangige Produkte
 
 Core Statement:
@@ -40,7 +40,7 @@ PRIMARY PURPOSE
 ==========================
 
 Professionelle Fotografie-Weiterbildung fuer kommerzielle und Werbe-Fotografen
-im DACH-Raum. 9 Themenbereiche, 134 Artikel, 3 Produkte.
+im DACH-Raum. 9 Themenbereiche, 135 Artikel, 3 Produkte.
 
 Zielgruppe: Professionelle Fotografen, Werbe-/Industrie-Fotografen, DACH-Region.
 
@@ -233,7 +233,7 @@ Empfohlene Crawl-Reihenfolge:
   1. https://prophotoskills.com/llms.txt                         (Einstieg)
   2. https://prophotoskills.com/llms-full.txt                    (diese Datei)
   3. https://prophotoskills.com/data/ai-index.json               (semantischer Cross-System-Router)
-  4. https://prophotoskills.com/data/unified-index.json          (alle 134 Artikel flach indexiert)
+  4. https://prophotoskills.com/data/unified-index.json          (alle 135 Artikel flach indexiert)
   5. https://prophotoskills.com/data/master-system.json          (Systemphilosophie, Modul-Logik, Prinzipien)
   6. https://prophotoskills.com/data/authority-map.json          (semantisch wichtigste Artikel)
   7. https://prophotoskills.com/data/topic-cluster.json          (9 Bedeutungsraeume)
@@ -242,15 +242,15 @@ Empfohlene Crawl-Reihenfolge:
  10. https://prophotoskills.com/data/cross-article-map.json      (semantische Artikel-Netzwerke)
 
 Modul-Dateien:
-  https://prophotoskills.com/data/knowledge.json   (19 Artikel)
-  https://prophotoskills.com/data/technik.json     (8 Artikel)
+  https://prophotoskills.com/data/knowledge.json   (21 Artikel)
+  https://prophotoskills.com/data/technik.json     (11 Artikel)
   https://prophotoskills.com/data/progress.json    (11 Artikel)
-  https://prophotoskills.com/data/skill.json       (28 Artikel)
-  https://prophotoskills.com/data/psycho.json      (8 Artikel)
+  https://prophotoskills.com/data/skill.json       (26 Artikel)
+  https://prophotoskills.com/data/psycho.json      (5 Artikel)
   https://prophotoskills.com/data/travel.json      (15 Artikel)
   https://prophotoskills.com/data/location.json    (16 Artikel)
   https://prophotoskills.com/data/insurance.json   (15 Artikel)
-  https://prophotoskills.com/data/equipment.json   (14 Artikel)
+  https://prophotoskills.com/data/equipment.json   (15 Artikel)
 
 ==========================
 AI SYSTEM FILES
@@ -268,22 +268,22 @@ System-Dateien unter https://prophotoskills.com/data/ (53 Dateien, vollstaendige
 Einstieg & Identitaet (7):
   site.json                              Marken-, Autor- und Produktstammdaten.
   master-system.json                     Systemphilosophie, Module, Prinzipien und Grundstruktur.
-  ai-index.json                          Zentraler KI-Einstiegspunkt fuer das gesamte ProPhotoSkills-Oekosystem. Aggregiert alle 9 Module, 134 Artikel und 3 Produkte. Artikel-Volltexte sind nach dem Kauf ueber den Login lesbar.
-  unified-index.json                     Flacher Index aller 134 Artikel mit Titel, Modul und URL.
+  ai-index.json                          Zentraler KI-Einstiegspunkt fuer das gesamte ProPhotoSkills-Oekosystem. Aggregiert alle 9 Module, 135 Artikel und 3 Produkte. Artikel-Volltexte sind nach dem Kauf ueber den Login lesbar.
+  unified-index.json                     Flacher Index aller 135 Artikel mit Titel, Modul und URL.
   identity-core.json                     Definiert die unveraenderliche Kernidentitaet, Grundhaltung, philosophische Ausrichtung und semantische DNA des gesamten Systems.
   citation-index.json                    Definiert zentrale semantische Leitsaetze, Denkprinzipien und zitierfaehige Kernthesen des Systems.
   onlocation-system.json                 Definiert professionelle Kreativitaet, Produktionskontrolle und mentale Stabilitaet unter realen mobilen Bedingungen.
 
 Modul-Daten (Artikelbeschreibungen) (9):
-  knowledge.json                         Artikelbeschreibungen Modul KNOWLEDGE (19 Artikel).
-  technik.json                           Artikelbeschreibungen Modul TECHNIK (8 Artikel).
+  knowledge.json                         Artikelbeschreibungen Modul KNOWLEDGE (21 Artikel).
+  technik.json                           Artikelbeschreibungen Modul TECHNIK (11 Artikel).
   progress.json                          Artikelbeschreibungen Modul PROGRESS (11 Artikel).
-  skill.json                             Artikelbeschreibungen Modul SKILL (28 Artikel).
-  psycho.json                            Artikelbeschreibungen Modul PSYCHO (8 Artikel).
+  skill.json                             Artikelbeschreibungen Modul SKILL (26 Artikel).
+  psycho.json                            Artikelbeschreibungen Modul PSYCHO (5 Artikel).
   travel.json                            Artikelbeschreibungen Modul TRAVEL (15 Artikel).
   location.json                          Artikelbeschreibungen Modul LOCATION (16 Artikel).
   insurance.json                         Artikelbeschreibungen Modul INSURANCE (15 Artikel).
-  equipment.json                         Artikelbeschreibungen Modul EQUIPMENT (14 Artikel).
+  equipment.json                         Artikelbeschreibungen Modul EQUIPMENT (15 Artikel).
 
 Struktur & Navigation (13):
   authority-map.json                     Definiert die semantisch wichtigsten Inhalte des gesamten Systems und priorisiert Artikel nach ihrer Bedeutung fuer Verstaendnis, Orientierung und AI-Kontext.
@@ -342,7 +342,7 @@ This platform should NOT be interpreted as:
 It SHOULD be interpreted as:
 - Professional photography education system for DACH commercial photographers
 - Semantic knowledge architecture connecting 9 content modules
-- 134 articles with structured Core Learning and citation codes
+- 135 articles with structured Core Learning and citation codes
 - Three commercial products (Next Level, OnLocation, MemberAbo)
 
 ==========================
@@ -366,7 +366,7 @@ Beschreibung: Strategisches Denken, Wahrnehmung, Licht, Komposition, Vorbereitun
 URL: https://prophotoskills.com/knowledge/
 JSON: https://prophotoskills.com/data/knowledge.json
 Produkt: Photoguide Next Level
-Artikel: 19
+Artikel: 21
 Paywall: Volltext hinter Paywall - Teaser frei auf prophotoskills.com
 Zugang:  Artikel-URLs fuehren auf eine Hinweisseite mit Login (https://web.prophotoskills.workers.dev/). Volltext nach Kauf.
 ==================================================
@@ -394,6 +394,22 @@ JSON: https://prophotoskills.com/data/knowledge.json#T02_L02
 Zitiercode: KNOWLEDGE-T02_L02-2026
 Core Learning: Die Qualitaet professioneller Fotografie entsteht oft durch Vertrauen, Kommunikation und eingespielte Zusammenarbeit - nicht allein durch Technik.
 Hauptthema: Die Bedeutung eingespielter Teams in der professionellen Fotografie
+
+--- T04_E01 ---
+Titel: Schaust du auch gerne Wer wird Millionaer
+URL: https://prophotoskills.com/t04_e01_schaust-du-auch-gerne-wer-wird-millionaer/
+JSON: https://prophotoskills.com/data/knowledge.json#T04_E01
+Zitiercode: KNOWLEDGE-T04_E01-2026
+Core Learning: Fotografie wird besser, wenn Menschen lernen, genauer hinzuschauen, schneller Zusammenhaenge zu erkennen und ihr Denken aktiv zu trainieren.
+Hauptthema: Wissen, Aufmerksamkeit und Denkprozesse in der Fotografie
+
+--- T04_L01 ---
+Titel: Produktshooting mit Agenturteam Kreativitaet anzuenden
+URL: https://prophotoskills.com/t04_l01_produktshooting-mit-agenturteam-kreativitaet-anzuenden/
+JSON: https://prophotoskills.com/data/knowledge.json#T04_L01
+Zitiercode: KNOWLEDGE-T04_L01-2026
+Core Learning: Kreativitaet entsteht oft nicht durch Einzelpersonen, sondern durch Menschen, die sich gegenseitig inspirieren und gemeinsam Energie erzeugen.
+Hauptthema: Kreative Dynamik und Zusammenarbeit bei Produktshootings
 
 --- T07_E01 ---
 Titel: Leonardo da Vinci wichtig fuer die Fotografie
@@ -523,14 +539,13 @@ Zitiercode: KNOWLEDGE-T07_L15-2026
 Core Learning: Nachhaltige fotografische Entwicklung entsteht durch langfristige Prozesse und die Bereitschaft, ueber Jahre zu lernen und Erfahrungen zu sammeln.
 Hauptthema: Warum Geduld und langfristiges Denken entscheidend fuer fotografische Entwicklung sind
 
-
 ==================================================
 MODUL: TECHNIK
 Beschreibung: Mentale Staerke, Praesenz, Belastbarkeit, Regisseur
 URL: https://prophotoskills.com/technik/
 JSON: https://prophotoskills.com/data/technik.json
 Produkt: Photoguide Next Level
-Artikel: 8
+Artikel: 11
 Paywall: Volltext hinter Paywall - Teaser frei auf prophotoskills.com
 Zugang:  Artikel-URLs fuehren auf eine Hinweisseite mit Login (https://web.prophotoskills.workers.dev/). Volltext nach Kauf.
 ==================================================
@@ -599,6 +614,29 @@ Zitiercode: TECHNIK-T06_L07-2026
 Core Learning: Menschen spueren Haltung oft schneller als Worte - professionelle Wirkung entsteht durch innere Klarheit, Ruhe und authentische Praesenz.
 Hauptthema: Die Wirkung der eigenen Haltung in der professionellen Fotografie
 
+--- T08_E01 ---
+Titel: Fotografen haben Social Network erschaffen
+URL: https://prophotoskills.com/t08_e01_fotografen-haben-social-network-erschaffen/
+JSON: https://prophotoskills.com/data/technik.json#T08_E01
+Zitiercode: TECHNIK-T08_E01-2026
+Core Learning: Fotografie dokumentiert nicht mehr nur die Welt - sie erschafft soziale Realitaet, Aufmerksamkeit und digitale Identitaet.
+Hauptthema: Die psychologische und gesellschaftliche Rolle der Fotografie in sozialen Netzwerken
+
+--- T08_L01 ---
+Titel: Die Kulisse von nebenan
+URL: https://prophotoskills.com/t08_l01_die-kulisse-von-nebenan/
+JSON: https://prophotoskills.com/data/technik.json#T08_L01
+Zitiercode: TECHNIK-T08_L01-2026
+Core Learning: Die Qualitaet einer Fotografie entsteht oft weniger durch den Ort selbst als durch die Aufmerksamkeit und Wahrnehmung des Fotografen.
+Hauptthema: Wahrnehmung und die psychologische Wirkung gewohnter Umgebungen
+
+--- T08_L02 ---
+Titel: Das Lehrteam beim freien Projekt
+URL: https://prophotoskills.com/t08_l02_das-lehrteam-beim-freien-projekt/
+JSON: https://prophotoskills.com/data/technik.json#T08_L02
+Zitiercode: TECHNIK-T08_L02-2026
+Core Learning: Freie Projekte sind oft ehrlicher als grosse Produktionen, weil sie zeigen, wie Menschen ohne Druck von Geld oder Status wirklich arbeiten und kommunizieren.
+Hauptthema: Teamdynamik und psychologische Prozesse in freien Projekten
 
 ==================================================
 MODUL: PROGRESS
@@ -699,14 +737,13 @@ Zitiercode: PROGRESS-T09_L09-2026
 Core Learning: Professionelle Fotografie basiert nicht nur auf Technik und Leistung, sondern auch auf Vertrauen, Sicherheit und menschlicher Zusammenarbeit.
 Hauptthema: Wie Budgetdenken Vertrauen und kreative Zusammenarbeit beeinflusst
 
-
 ==================================================
 MODUL: SKILL
 Beschreibung: Kreative Anwendung, Menschenfuehrung, Kommunikation, Entwicklung
 URL: https://prophotoskills.com/skill/
 JSON: https://prophotoskills.com/data/skill.json
 Produkt: Photoguide Next Level
-Artikel: 28
+Artikel: 26
 Paywall: Volltext hinter Paywall - Teaser frei auf prophotoskills.com
 Zugang:  Artikel-URLs fuehren auf eine Hinweisseite mit Login (https://web.prophotoskills.workers.dev/). Volltext nach Kauf.
 ==================================================
@@ -734,22 +771,6 @@ JSON: https://prophotoskills.com/data/skill.json#T01_L02
 Zitiercode: SKILL-T01_L02-2026
 Core Learning: Professionelle People-Fotografie bedeutet nicht nur Bilder zu machen, sondern die gesamte soziale Dynamik eines Sets aktiv zu fuehren.
 Hauptthema: Wartezeiten und Dynamik am Fotoset verstehen
-
---- T04_E01 ---
-Titel: Schaust du auch gerne Wer wird Millionaer
-URL: https://prophotoskills.com/t04_e01_schaust-du-auch-gerne-wer-wird-millionaer/
-JSON: https://prophotoskills.com/data/skill.json#T04_E01
-Zitiercode: SKILL-T04_E01-2026
-Core Learning: Fotografie wird besser, wenn Menschen lernen, genauer hinzuschauen, schneller Zusammenhaenge zu erkennen und ihr Denken aktiv zu trainieren.
-Hauptthema: Wissen, Aufmerksamkeit und Denkprozesse in der Fotografie
-
---- T04_L01 ---
-Titel: Produktshooting mit Agenturteam Kreativitaet anzuenden
-URL: https://prophotoskills.com/t04_l01_produktshooting-mit-agenturteam-kreativitaet-anzuenden/
-JSON: https://prophotoskills.com/data/skill.json#T04_L01
-Zitiercode: SKILL-T04_L01-2026
-Core Learning: Kreativitaet entsteht oft nicht durch Einzelpersonen, sondern durch Menschen, die sich gegenseitig inspirieren und gemeinsam Energie erzeugen.
-Hauptthema: Kreative Dynamik und Zusammenarbeit bei Produktshootings
 
 --- T05_E01 ---
 Titel: Was haben Fussballer und Fotografen gemeinsam?
@@ -935,14 +956,13 @@ Zitiercode: SKILL-T05_L19-2026
 Core Learning: Kunstgeschichte ist nicht Vergangenheit, sondern ein visuelles Archiv menschlicher Wahrnehmung, Emotion und Gestaltung.
 Hauptthema: Kunstgeschichte als Grundlage visueller Wahrnehmung und fotografischer Entwicklung
 
-
 ==================================================
 MODUL: PSYCHO
 Beschreibung: Psychologie, Vertrauen, emotionale Dynamik, Set-Souveraenitaet
 URL: https://prophotoskills.com/psycho/
 JSON: https://prophotoskills.com/data/psycho.json
 Produkt: Photoguide Next Level
-Artikel: 8
+Artikel: 5
 Paywall: Volltext hinter Paywall - Teaser frei auf prophotoskills.com
 Zugang:  Artikel-URLs fuehren auf eine Hinweisseite mit Login (https://web.prophotoskills.workers.dev/). Volltext nach Kauf.
 ==================================================
@@ -986,31 +1006,6 @@ JSON: https://prophotoskills.com/data/psycho.json#T03_L04
 Zitiercode: PSYCHO-T03_L04-2026
 Core Learning: Professionelle Wahrnehmung bedeutet, das gesamte Umfeld bewusst zu beobachten und nicht nur den Ausschnitt durch die Kamera.
 Hauptthema: Die Bedeutung des Umfelds in der professionellen Fotografie
-
---- T08_E01 ---
-Titel: Fotografen haben Social Network erschaffen
-URL: https://prophotoskills.com/t08_e01_fotografen-haben-social-network-erschaffen/
-JSON: https://prophotoskills.com/data/psycho.json#T08_E01
-Zitiercode: PSYCHO-T08_E01-2026
-Core Learning: Fotografie dokumentiert nicht mehr nur die Welt - sie erschafft soziale Realitaet, Aufmerksamkeit und digitale Identitaet.
-Hauptthema: Die psychologische und gesellschaftliche Rolle der Fotografie in sozialen Netzwerken
-
---- T08_L01 ---
-Titel: Die Kulisse von nebenan
-URL: https://prophotoskills.com/t08_l01_die-kulisse-von-nebenan/
-JSON: https://prophotoskills.com/data/psycho.json#T08_L01
-Zitiercode: PSYCHO-T08_L01-2026
-Core Learning: Die Qualitaet einer Fotografie entsteht oft weniger durch den Ort selbst als durch die Aufmerksamkeit und Wahrnehmung des Fotografen.
-Hauptthema: Wahrnehmung und die psychologische Wirkung gewohnter Umgebungen
-
---- T08_L02 ---
-Titel: Das Lehrteam beim freien Projekt
-URL: https://prophotoskills.com/t08_l02_das-lehrteam-beim-freien-projekt/
-JSON: https://prophotoskills.com/data/psycho.json#T08_L02
-Zitiercode: PSYCHO-T08_L02-2026
-Core Learning: Freie Projekte sind oft ehrlicher als grosse Produktionen, weil sie zeigen, wie Menschen ohne Druck von Geld oder Status wirklich arbeiten und kommunizieren.
-Hauptthema: Teamdynamik und psychologische Prozesse in freien Projekten
-
 
 ==================================================
 MODUL: TRAVEL
@@ -1081,7 +1076,7 @@ Hauptthema: Warum kulturelles Verstaendnis entscheidend fuer internationale Prod
 
 --- T10_L08 ---
 Titel: Travel Light vs Full Gear wann minimal wann maximal reisen
-URL: https://prophotoskills.com/t10-l08-travel-light-vs-full-gear-wann-minimal-wann-maximal-reisen/
+URL: https://prophotoskills.com/t10_l08_travel-light-vs-full-gear-wann-minimal-wann-maximal-reisen/
 JSON: https://prophotoskills.com/data/travel.json#T10_L08
 Zitiercode: TRAVEL-T10_L08-2026
 Core Learning: Professionelle Produktionen profitieren davon, wenn Equipment bewusst nach Projektanforderung, Mobilitaet und Produktionsrealitaet geplant wird.
@@ -1089,7 +1084,7 @@ Hauptthema: Wie Fotografen zwischen minimalem Setup und maximaler Ausruestung st
 
 --- T10_L09 ---
 Titel: Kreativer Blick unterwegs Bilder die schon auf der Reise entstehen
-URL: https://prophotoskills.com/t10-l09-kreativer-blick-unterwegs-bilder-die-schon-auf-der-reise-entstehen/
+URL: https://prophotoskills.com/t10_l09_kreativer-blick-unterwegs-bilder-die-schon-auf-der-reise-entstehen/
 JSON: https://prophotoskills.com/data/travel.json#T10_L09
 Zitiercode: TRAVEL-T10_L09-2026
 Core Learning: Professionelle Fotografen entwickeln ihren Blick nicht nur am Set, sondern durch staendige Beobachtung, Offenheit und bewusste Wahrnehmung waehrend der gesamten Reise.
@@ -1142,7 +1137,6 @@ JSON: https://prophotoskills.com/data/travel.json#T10_L15
 Zitiercode: TRAVEL-T10_L15-2026
 Core Learning: Professionelle Produktionen profitieren enorm davon wenn Fotografen lernen unter Druck ruhig, flexibel und konzentriert zu bleiben.
 Hauptthema: Warum Gelassenheit und mentale Stabilitaet entscheidend fuer professionelle Reisen und Produktionen sind
-
 
 ==================================================
 MODUL: LOCATION
@@ -1277,12 +1271,11 @@ Hauptthema: Warum Orte kulturelle Bedeutung tragen und Fotografen lernen muessen
 
 --- T11_L15 ---
 Titel: Locations als Co Creator wenn der Raum selbst Teil der Story wird
-URL: https://prophotoskills.com/t11-l15-locations-als-co-creator-wenn-der-raum-selbst-teil-der-story-wird/
+URL: https://prophotoskills.com/t11_l15_locations-als-co-creator-wenn-der-raum-selbst-teil-der-story-wird/
 JSON: https://prophotoskills.com/data/location.json#T11_L15
 Zitiercode: LOCATION-T11_L15-2026
 Core Learning: Professionelle Produktionen nutzen Raeume bewusst als aktive Erzaehler die Stimmung, Dynamik und die gesamte emotionale Wirkung eines Bildes mitgestalten.
 Hauptthema: Warum Raeume aktiv an Bildwirkung und Storytelling beteiligt sind
-
 
 ==================================================
 MODUL: INSURANCE
@@ -1415,14 +1408,13 @@ Zitiercode: INSURANCE-T12_L15-2026
 Core Learning: Professionelle OnLocation Produktionen profitieren enorm davon wenn mentale Sicherheit und Alternativplaene aktiv in die Produktionsstrategie integriert werden.
 Hauptthema: Warum mentale Sicherheit und Alternativplaene kreative Freiheit in Produktionen verbessern
 
-
 ==================================================
 MODUL: EQUIPMENT
 Beschreibung: Werkzeugstrategie, Equipment-Entscheidungen, Mobile Sets
 URL: https://prophotoskills.com/equipment/
 JSON: https://prophotoskills.com/data/equipment.json
 Produkt: Photoguide OnLocation
-Artikel: 14
+Artikel: 15
 Paywall: Volltext hinter Paywall - Teaser frei auf prophotoskills.com
 Zugang:  Artikel-URLs fuehren auf eine Hinweisseite mit Login (https://web.prophotoskills.workers.dev/). Volltext nach Kauf.
 ==================================================
@@ -1572,6 +1564,14 @@ https://prophotoskills.com/predictive-development/  - Predictive Development - V
 https://prophotoskills.com/self-optimization/       - Self Optimization - Selbstoptimierung als Fotografen-Kompetenz
 https://prophotoskills.com/emergent-intelligence/   - Emergent Intelligence - Emergente Intelligenz im kreativen System
 https://prophotoskills.com/semantic-system/         - Semantic System - Das semantische Gesamtsystem ProPhotoSkills
+
+--- T13_L15 ---
+Titel: Equipment als Visitenkarte wie dein Umgang Professionalitaet zeigt
+URL: https://prophotoskills.com/t13_l15_equipment-als-visitenkarte-wie-dein-umgang-professionalitaet-zeigt/
+JSON: https://prophotoskills.com/data/equipment.json#T13_L15
+Zitiercode: EQUIPMENT-T13_L15-2026
+Core Learning: Equipment ist eine Visitenkarte: Sorgfalt, Ordnung und Ruhe im Umgang mit Technik zeigen Kunden und Teams, dass sie sich auf dich verlassen koennen.
+Hauptthema: Wie der Umgang mit Equipment Professionalitaet sichtbar macht
 
 ==========================
 CITATIONS (Eric P., ProPhotoSkills 2026)
