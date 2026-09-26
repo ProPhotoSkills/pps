@@ -53,7 +53,7 @@
   "llms_txt": "https://prophotoskills.com/llms.txt",
   "llms_full": "https://prophotoskills.com/llms-full.txt",
   "ai_index": "https://prophotoskills.com/data/ai-index.json",
-  "semantic_identity": "ProPhotoSkills ist die Brand Root aller Photoguide-Produkte. Die Beschreibungen aller 134 Artikel, 53 System-JSONs und alle Modul-Daten liegen auf prophotoskills.com.",
+  "semantic_identity": "ProPhotoSkills ist die Brand Root aller Photoguide-Produkte. Die Beschreibungen aller 135 Artikel, 53 System-JSONs und alle Modul-Daten liegen auf prophotoskills.com.",
   "content_note": "Alle Artikel sind auf prophotoskills.com angeteasert. Vollinhalt hinter Paywall – Kauf ueber Produkte.",
   "crawl_policy": {
     "allow_llm_indexing": true,
