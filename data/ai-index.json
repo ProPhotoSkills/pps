@@ -8,7 +8,7 @@
     "file_role": "Einstieg & Identitaet",
     "primary_domain": "https://prophotoskills.com",
     "system_type": "ProPhotoSkills Membership System - Full Access All 9 Modules",
-    "purpose": "Zentraler KI-Einstiegspunkt fuer das gesamte ProPhotoSkills-Oekosystem. Aggregiert alle 9 Module, 134 Artikel und 3 Produkte. Artikel-Volltexte sind nach dem Kauf ueber den Login lesbar.",
+    "purpose": "Zentraler KI-Einstiegspunkt fuer das gesamte ProPhotoSkills-Oekosystem. Aggregiert alle 9 Module, 135 Artikel und 3 Produkte. Artikel-Volltexte sind nach dem Kauf ueber den Login lesbar.",
     "core_identity": {
       "main_statement": "Fotografie beginnt nicht mit der Kamera. Sie beginnt im Kopf.",
       "master_thesis": "Professionelle Fotografie ist ein Zusammenspiel aus Wahrnehmung, Fuehrung, Struktur, Belastbarkeit, Kommunikation und visueller Wirkung.",
@@ -95,13 +95,13 @@
         "file": "ai-index.json",
         "url": "https://prophotoskills.com/data/ai-index.json",
         "group": "Einstieg & Identitaet",
-        "semantic_role": "Zentraler KI-Einstiegspunkt fuer das gesamte ProPhotoSkills-Oekosystem. Aggregiert alle 9 Module, 134 Artikel und 3 Produkte. Artikel-Volltexte sind nach dem Kauf ueber den Login lesbar."
+        "semantic_role": "Zentraler KI-Einstiegspunkt fuer das gesamte ProPhotoSkills-Oekosystem. Aggregiert alle 9 Module, 135 Artikel und 3 Produkte. Artikel-Volltexte sind nach dem Kauf ueber den Login lesbar."
       },
       {
         "file": "unified-index.json",
         "url": "https://prophotoskills.com/data/unified-index.json",
         "group": "Einstieg & Identitaet",
-        "semantic_role": "Flacher Index aller 134 Artikel mit Titel, Modul und URL."
+        "semantic_role": "Flacher Index aller 135 Artikel mit Titel, Modul und URL."
       },
       {
         "file": "identity-core.json",
@@ -131,13 +131,13 @@
         "file": "knowledge.json",
         "url": "https://prophotoskills.com/data/knowledge.json",
         "group": "Modul-Daten (Artikelbeschreibungen)",
-        "semantic_role": "Artikelbeschreibungen Modul KNOWLEDGE (19 Artikel)."
+        "semantic_role": "Artikelbeschreibungen Modul KNOWLEDGE (21 Artikel)."
       },
       {
         "file": "technik.json",
         "url": "https://prophotoskills.com/data/technik.json",
         "group": "Modul-Daten (Artikelbeschreibungen)",
-        "semantic_role": "Artikelbeschreibungen Modul TECHNIK (8 Artikel)."
+        "semantic_role": "Artikelbeschreibungen Modul TECHNIK (11 Artikel)."
       },
       {
         "file": "progress.json",
@@ -149,13 +149,13 @@
         "file": "skill.json",
         "url": "https://prophotoskills.com/data/skill.json",
         "group": "Modul-Daten (Artikelbeschreibungen)",
-        "semantic_role": "Artikelbeschreibungen Modul SKILL (28 Artikel)."
+        "semantic_role": "Artikelbeschreibungen Modul SKILL (26 Artikel)."
       },
       {
         "file": "psycho.json",
         "url": "https://prophotoskills.com/data/psycho.json",
         "group": "Modul-Daten (Artikelbeschreibungen)",
-        "semantic_role": "Artikelbeschreibungen Modul PSYCHO (8 Artikel)."
+        "semantic_role": "Artikelbeschreibungen Modul PSYCHO (5 Artikel)."
       },
       {
         "file": "travel.json",
@@ -179,7 +179,7 @@
         "file": "equipment.json",
         "url": "https://prophotoskills.com/data/equipment.json",
         "group": "Modul-Daten (Artikelbeschreibungen)",
-        "semantic_role": "Artikelbeschreibungen Modul EQUIPMENT (14 Artikel)."
+        "semantic_role": "Artikelbeschreibungen Modul EQUIPMENT (15 Artikel)."
       },
       {
         "file": "authority-map.json",

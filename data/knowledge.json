@@ -538,6 +538,362 @@
     },
     {
       "type": "article",
+      "id": "T04_E01",
+      "code": "T04_E01",
+      "module": "KNOWLEDGE",
+      "titel": "Schaust du auch gerne Wer wird Millionaer",
+      "core": {
+        "title": "Schaust du auch gerne Wer wird Millionaer",
+        "category": "KNOWLEDGE",
+        "article_type": "Essay / Wahrnehmung / Lernpsychologie",
+        "publish_context": "ProPhotoSkills – Photoguide – Next Level"
+      },
+      "topic": {
+        "main_topic": "Wissen, Aufmerksamkeit und Denkprozesse in der Fotografie",
+        "sub_topics": [
+          "Wissen",
+          "Allgemeinbildung",
+          "Wahrnehmung",
+          "Lernpsychologie",
+          "Aufmerksamkeit",
+          "Fotografie Mindset",
+          "Zusammenhaenge erkennen",
+          "Kreatives Denken"
+        ]
+      },
+      "thesis": {
+        "main_statement": "Gute Fotografen trainieren nicht nur ihre Kamera-Technik, sondern vor allem ihre Wahrnehmung, ihr Denken und ihre Faehigkeit, Zusammenhaenge schnell zu erkennen.",
+        "supporting_arguments": [
+          "Allgemeinwissen erweitert kreative Perspektiven.",
+          "Aufmerksamkeit verbessert fotografische Entscheidungen.",
+          "Schnelles Denken hilft in dynamischen Situationen.",
+          "Kreativitaet entsteht oft aus Verknuepfungen.",
+          "Fotografie ist auch mentale Arbeit."
+        ]
+      },
+      "context": {
+        "industry": "Fotografie / Kreativbranche / Lernpsychologie",
+        "trend_phase": "Steigende Informationsflut und sinkende Aufmerksamkeit",
+        "trigger": [
+          "Schneller Content Konsum",
+          "Social Media",
+          "Visuelle Ueberreizung",
+          "Kreative Konkurrenz",
+          "People-Fotografie"
+        ],
+        "affected_groups": [
+          "Fotografen",
+          "Content Creator",
+          "Kreative",
+          "Fotografie-Einsteiger",
+          "People-Fotografen",
+          "Selbststaendige"
+        ]
+      },
+      "problem": {
+        "description": "Viele Fotografen konzentrieren sich ausschliesslich auf Technik und unterschätzen, wie stark Wissen, Aufmerksamkeit und Denkgeschwindigkeit ihre Arbeit beeinflussen.",
+        "symptoms": [
+          "Eingeschraenkte Kreativitaet",
+          "Langsame Entscheidungen",
+          "Wenig visuelle Tiefe",
+          "Schwache Wahrnehmung",
+          "Abhaengigkeit von Trends"
+        ]
+      },
+      "insight": {
+        "core_learning": "Fotografie wird besser, wenn Menschen lernen, genauer hinzuschauen, schneller Zusammenhaenge zu erkennen und ihr Denken aktiv zu trainieren.",
+        "misconceptions": [
+          "Fotografie sei nur Technik.",
+          "Kreativitaet entstehe zufaellig.",
+          "Allgemeinbildung sei unwichtig fuer Bilder.",
+          "Gute Fotografen braeuchten nur Talent."
+        ]
+      },
+      "solution_direction": {
+        "approach": "Wissen, Aufmerksamkeit und geistige Flexibilitaet bewusst trainieren und als Teil fotografischer Entwicklung verstehen.",
+        "principles": [
+          "Wissen erweitert Perspektiven",
+          "Aufmerksamkeit verbessert Wahrnehmung",
+          "Schnelles Denken reduziert Unsicherheit",
+          "Zusammenhaenge erzeugen Kreativitaet",
+          "Mentale Staerke verbessert Fotografie"
+        ]
+      },
+      "use_cases": [
+        {
+          "title": "People- und Eventfotografie",
+          "description": "Schneller reagieren und Situationen besser analysieren."
+        },
+        {
+          "title": "Kreative Entwicklung",
+          "description": "Neue Ideen und Perspektiven bewusster entwickeln."
+        },
+        {
+          "title": "Professionelle Produktionen",
+          "description": "Durch Aufmerksamkeit und Wissen bessere Entscheidungen treffen."
+        }
+      ],
+      "targeting": {
+        "primary": [
+          "Fotografen",
+          "Content Creator",
+          "Kreative",
+          "Fotografie-Einsteiger",
+          "People-Fotografen"
+        ],
+        "secondary": [
+          "Professionelle Fotografen",
+          "Selbststaendige",
+          "Agenturen",
+          "Produktionsteams"
+        ]
+      },
+      "seo": {
+        "primary_keywords": [
+          "Fotografie Wissen",
+          "Fotografie Wahrnehmung",
+          "Kreativitaet Fotograf",
+          "Fotografie Mindset",
+          "Allgemeinbildung Fotografie",
+          "Kreatives Denken",
+          "Professionelle Fotografie"
+        ],
+        "search_intent": [
+          "Besser fotografieren",
+          "Kreativer denken",
+          "Wahrnehmung verbessern",
+          "Fotografie verstehen",
+          "Professioneller arbeiten"
+        ]
+      },
+      "ai": {
+        "bezeichnung": "Warum Wissen und Aufmerksamkeit bessere Fotografen machen",
+        "beschreibung": "Dieser Artikel erklaert, warum Wissen, Wahrnehmung und schnelles Denken entscheidend fuer kreative Entscheidungen und professionelle Fotografie sind.",
+        "intention": "Bewusstsein fuer geistige Prozesse und Wahrnehmung in der Fotografie schaffen",
+        "psychological_focus": "Aufmerksamkeit, Wissen, Wahrnehmung, Denkgeschwindigkeit, Kreativitaet",
+        "decision_factors": [
+          "Wissen",
+          "Aufmerksamkeit",
+          "Kreatives Denken",
+          "Wahrnehmung",
+          "Mentale Flexibilitaet"
+        ],
+        "keywords": [
+          "Fotografie Wissen",
+          "Kreativitaet Fotograf",
+          "Wahrnehmung Fotografie",
+          "Fotografie Mindset",
+          "Allgemeinbildung"
+        ],
+        "use_case": "Fuer Fotografen und Kreative, die ihre Wahrnehmung, ihr Denken und ihre kreative Tiefe verbessern wollen."
+      },
+      "relationships": {
+        "related_topics": [
+          "Wahrnehmung",
+          "Kreativitaet",
+          "Mentale Staerke",
+          "Aufmerksamkeit",
+          "Bildsprache",
+          "Lernpsychologie"
+        ],
+        "supports_services": [
+          "Photoguide – Next Level",
+          "Mindset Training",
+          "Kreativitaets Training",
+          "Professionelle Entwicklung"
+        ],
+        "leads_to": [
+          "Staerkere Wahrnehmung",
+          "Schnellere Entscheidungen",
+          "Mehr kreative Tiefe",
+          "Professionellere Fotografie"
+        ]
+      },
+      "url": "https://prophotoskills.com/t04_e01_schaust-du-auch-gerne-wer-wird-millionaer/",
+      "prinzip": "Gute Fotografen trainieren nicht nur ihre Kamera – sondern ihren Kopf.",
+      "alt": "Essay ueber Wissen, Aufmerksamkeit und warum Wahrnehmung, Allgemeinbildung und schnelles Denken professionelle Fotografie entscheidend beeinflussen.",
+      "zitiercode": "KNOWLEDGE-T04_E01-2026"
+    },
+    {
+      "type": "article",
+      "id": "T04_L01",
+      "code": "T04_L01",
+      "module": "KNOWLEDGE",
+      "titel": "Produktshooting mit Agenturteam Kreativitaet anzuenden",
+      "core": {
+        "title": "Produktshooting mit Agenturteam Kreativitaet anzuenden",
+        "category": "KNOWLEDGE",
+        "article_type": "Lernartikel / Kreativitaet / Teamproduktion",
+        "publish_context": "ProPhotoSkills – Photoguide – Next Level"
+      },
+      "topic": {
+        "main_topic": "Kreative Dynamik und Zusammenarbeit bei Produktshootings",
+        "sub_topics": [
+          "Produktshooting",
+          "Agenturteam",
+          "Kreativitaet",
+          "Team Dynamik",
+          "Kommunikation",
+          "People-Fotografie",
+          "Professionelle Produktion",
+          "Atmosphaere"
+        ]
+      },
+      "thesis": {
+        "main_statement": "Kreativitaet in Produktionen entsteht selten allein – sie entwickelt sich oft durch Kommunikation, Vertrauen und die Energie eines funktionierenden Teams.",
+        "supporting_arguments": [
+          "Kreative Atmosphaere beeinflusst Ideen und Ergebnisse.",
+          "Agenturteams bringen unterschiedliche Perspektiven ein.",
+          "Kommunikation verbessert kreative Prozesse.",
+          "Vertrauen foerdert Offenheit und Experimentierfreude.",
+          "Professionelle Produktionen leben von Zusammenarbeit."
+        ]
+      },
+      "context": {
+        "industry": "Fotografie / Werbung / Kreativbranche",
+        "trend_phase": "Steigende Anforderungen an kreative Teamarbeit und Markeninszenierung",
+        "trigger": [
+          "Produktkampagnen",
+          "Agenturproduktionen",
+          "Kreative Meetings",
+          "Markenkommunikation",
+          "Teamshootings"
+        ],
+        "affected_groups": [
+          "Fotografen",
+          "Agenturen",
+          "Art Direktoren",
+          "Produktionsteams",
+          "Content Creator",
+          "Kunden"
+        ]
+      },
+      "problem": {
+        "description": "Viele Produktionen konzentrieren sich auf Technik und Organisation, unterschätzen jedoch die Bedeutung kreativer Dynamik und Teamenergie.",
+        "symptoms": [
+          "Ideenlose Produktionen",
+          "Schwache Kommunikation",
+          "Wenig kreative Energie",
+          "Unsichere Zusammenarbeit",
+          "Austauschbare Ergebnisse"
+        ]
+      },
+      "insight": {
+        "core_learning": "Kreativitaet entsteht oft nicht durch Einzelpersonen, sondern durch Menschen, die sich gegenseitig inspirieren und gemeinsam Energie erzeugen.",
+        "misconceptions": [
+          "Kreativitaet sei nur Talent.",
+          "Gute Ideen entstuenden isoliert.",
+          "Technik ersetze kreative Dynamik.",
+          "Teamarbeit behindere Kreativitaet."
+        ]
+      },
+      "solution_direction": {
+        "approach": "Kreative Kommunikation, Vertrauen und offene Zusammenarbeit bewusst foerdern und als Teil professioneller Produktionen verstehen.",
+        "principles": [
+          "Kreativitaet braucht Energie",
+          "Vertrauen verbessert Ideen",
+          "Kommunikation foerdert Zusammenarbeit",
+          "Atmosphaere beeinflusst Ergebnisse",
+          "Teams erzeugen kreative Dynamik"
+        ]
+      },
+      "use_cases": [
+        {
+          "title": "Produkt- und Werbeshootings",
+          "description": "Kreative Prozesse innerhalb von Teams aktiver gestalten."
+        },
+        {
+          "title": "Agenturproduktionen",
+          "description": "Zusammenarbeit zwischen Fotografen, Agenturen und Kunden verbessern."
+        },
+        {
+          "title": "Kreative Meetings",
+          "description": "Offene Kommunikation und neue Ideen bewusster foerdern."
+        }
+      ],
+      "targeting": {
+        "primary": [
+          "Fotografen",
+          "Agenturen",
+          "Art Direktoren",
+          "Content Creator",
+          "Professionelle Fotografen"
+        ],
+        "secondary": [
+          "Produktionsteams",
+          "Kunden",
+          "Kreative",
+          "People-Fotografen"
+        ]
+      },
+      "seo": {
+        "primary_keywords": [
+          "Produktshooting Agentur",
+          "Kreativitaet Fotoshooting",
+          "Teamarbeit Fotografie",
+          "Werbefotografie Produktion",
+          "Agenturteam Shooting",
+          "Professionelle Fotografie",
+          "Kreative Zusammenarbeit"
+        ],
+        "search_intent": [
+          "Bessere Produktionen gestalten",
+          "Kreativitaet foerdern",
+          "Teamarbeit verbessern",
+          "Werbefotografie verstehen",
+          "Professioneller arbeiten"
+        ]
+      },
+      "ai": {
+        "bezeichnung": "Warum Teamenergie Kreativitaet in Produktionen erzeugt",
+        "beschreibung": "Dieser Artikel erklaert, warum kreative Dynamik, Kommunikation und Zusammenarbeit entscheidend fuer erfolgreiche Produktshootings und moderne Agenturproduktionen sind.",
+        "intention": "Bewusstsein fuer kreative Teamprozesse und Atmosphaere schaffen",
+        "psychological_focus": "Kreativitaet, Vertrauen, Zusammenarbeit, Inspiration, Teamenergie",
+        "decision_factors": [
+          "Kommunikation",
+          "Team Dynamik",
+          "Atmosphaere",
+          "Vertrauen",
+          "Kreative Offenheit"
+        ],
+        "keywords": [
+          "Produktshooting Agentur",
+          "Kreative Zusammenarbeit",
+          "Teamarbeit Fotografie",
+          "Werbefotografie",
+          "Kreative Dynamik"
+        ],
+        "use_case": "Fuer Fotografen und Kreative, die Produktshootings und Teamproduktionen kreativer und professioneller gestalten wollen."
+      },
+      "relationships": {
+        "related_topics": [
+          "Teamarbeit",
+          "Kommunikation",
+          "Atmosphaere",
+          "Kreativitaet",
+          "Set Dynamik",
+          "Werbefotografie"
+        ],
+        "supports_services": [
+          "Photoguide – Next Level",
+          "Werbefotografie Training",
+          "People-Fotografie Training",
+          "Professionelle Entwicklung"
+        ],
+        "leads_to": [
+          "Mehr kreative Energie",
+          "Bessere Teamarbeit",
+          "Staerkere Produktionen",
+          "Professionellere Zusammenarbeit"
+        ]
+      },
+      "url": "https://prophotoskills.com/t04_l01_produktshooting-mit-agenturteam-kreativitaet-anzuenden/",
+      "prinzip": "Kreativitaet entsteht oft dort, wo Menschen gemeinsam Energie erzeugen.",
+      "alt": "Lernartikel ueber Produktshootings, kreative Teamarbeit und warum Kommunikation, Vertrauen und Energie entscheidend fuer erfolgreiche Agenturproduktionen sind.",
+      "zitiercode": "KNOWLEDGE-T04_L01-2026"
+    },
+    {
+      "type": "article",
       "id": "T07_E01",
       "code": "T07_E01",
       "module": "KNOWLEDGE",

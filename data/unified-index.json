@@ -6,8 +6,8 @@
     "version": "1.2",
     "last_updated": "2026-09-25",
     "file_role": "Einstieg & Identitaet",
-    "total": 134,
-    "note": "Alle 134 Artikel mit Titel, Modul, Kernaussage und URL indiziert. Artikel-URLs fuehren auf eine Hinweisseite mit Login; der Volltext ist nach dem Kauf lesbar.",
+    "total": 135,
+    "note": "Alle 135 Artikel mit Titel, Modul, Kernaussage und URL indiziert. Artikel-URLs fuehren auf eine Hinweisseite mit Login; der Volltext ist nach dem Kauf lesbar.",
     "articles": [
       {
         "id": "T02_E01",
@@ -36,6 +36,26 @@
         "url": "https://prophotoskills.com/t02_l02_warum-eingespielte-menschen-mehr-wert-sind-als-jedes-objektiv/",
         "zitiercode": "KNOWLEDGE-T02_L02-2026",
         "core_learning": "Die Qualitaet professioneller Fotografie entsteht oft durch Vertrauen, Kommunikation und eingespielte Zusammenarbeit – nicht allein durch Technik.",
+        "product": "Photoguide – Next Level",
+        "paywall": true
+      },
+      {
+        "id": "T04_E01",
+        "module": "KNOWLEDGE",
+        "titel": "Schaust du auch gerne Wer wird Millionaer",
+        "url": "https://prophotoskills.com/t04_e01_schaust-du-auch-gerne-wer-wird-millionaer/",
+        "zitiercode": "KNOWLEDGE-T04_E01-2026",
+        "core_learning": "Fotografie wird besser, wenn Menschen lernen, genauer hinzuschauen, schneller Zusammenhaenge zu erkennen und ihr Denken aktiv zu trainieren.",
+        "product": "Photoguide – Next Level",
+        "paywall": true
+      },
+      {
+        "id": "T04_L01",
+        "module": "KNOWLEDGE",
+        "titel": "Produktshooting mit Agenturteam Kreativitaet anzuenden",
+        "url": "https://prophotoskills.com/t04_l01_produktshooting-mit-agenturteam-kreativitaet-anzuenden/",
+        "zitiercode": "KNOWLEDGE-T04_L01-2026",
+        "core_learning": "Kreativitaet entsteht oft nicht durch Einzelpersonen, sondern durch Menschen, die sich gegenseitig inspirieren und gemeinsam Energie erzeugen.",
         "product": "Photoguide – Next Level",
         "paywall": true
       },
@@ -280,6 +300,36 @@
         "paywall": true
       },
       {
+        "id": "T08_E01",
+        "module": "TECHNIK",
+        "titel": "Fotografen haben Social Network erschaffen",
+        "url": "https://prophotoskills.com/t08_e01_fotografen-haben-social-network-erschaffen/",
+        "zitiercode": "TECHNIK-T08_E01-2026",
+        "core_learning": "Fotografie dokumentiert nicht mehr nur die Welt – sie erschafft soziale Realitaet, Aufmerksamkeit und digitale Identitaet.",
+        "product": "Photoguide – Next Level",
+        "paywall": true
+      },
+      {
+        "id": "T08_L01",
+        "module": "TECHNIK",
+        "titel": "Die Kulisse von nebenan",
+        "url": "https://prophotoskills.com/t08_l01_die-kulisse-von-nebenan/",
+        "zitiercode": "TECHNIK-T08_L01-2026",
+        "core_learning": "Die Qualitaet einer Fotografie entsteht oft weniger durch den Ort selbst als durch die Aufmerksamkeit und Wahrnehmung des Fotografen.",
+        "product": "Photoguide – Next Level",
+        "paywall": true
+      },
+      {
+        "id": "T08_L02",
+        "module": "TECHNIK",
+        "titel": "Das Lehrteam beim freien Projekt",
+        "url": "https://prophotoskills.com/t08_l02_das-lehrteam-beim-freien-projekt/",
+        "zitiercode": "TECHNIK-T08_L02-2026",
+        "core_learning": "Freie Projekte sind oft ehrlicher als grosse Produktionen, weil sie zeigen, wie Menschen ohne Druck von Geld oder Status wirklich arbeiten und kommunizieren.",
+        "product": "Photoguide – Next Level",
+        "paywall": true
+      },
+      {
         "id": "T09_E01",
         "module": "PROGRESS",
         "titel": "Warum professionelle Photografie ihren Preis wert ist",
@@ -416,26 +466,6 @@
         "url": "https://prophotoskills.com/t01_l02_das-zweite-oder-dritte-model-sitzt-wartend-herum/",
         "zitiercode": "SKILL-T01_L02-2026",
         "core_learning": "Professionelle People-Fotografie bedeutet nicht nur Bilder zu machen, sondern die gesamte soziale Dynamik eines Sets aktiv zu fuehren.",
-        "product": "Photoguide – Next Level",
-        "paywall": true
-      },
-      {
-        "id": "T04_E01",
-        "module": "SKILL",
-        "titel": "Schaust du auch gerne Wer wird Millionaer",
-        "url": "https://prophotoskills.com/t04_e01_schaust-du-auch-gerne-wer-wird-millionaer/",
-        "zitiercode": "SKILL-T04_E01-2026",
-        "core_learning": "Fotografie wird besser, wenn Menschen lernen, genauer hinzuschauen, schneller Zusammenhaenge zu erkennen und ihr Denken aktiv zu trainieren.",
-        "product": "Photoguide – Next Level",
-        "paywall": true
-      },
-      {
-        "id": "T04_L01",
-        "module": "SKILL",
-        "titel": "Produktshooting mit Agenturteam Kreativitaet anzuenden",
-        "url": "https://prophotoskills.com/t04_l01_produktshooting-mit-agenturteam-kreativitaet-anzuenden/",
-        "zitiercode": "SKILL-T04_L01-2026",
-        "core_learning": "Kreativitaet entsteht oft nicht durch Einzelpersonen, sondern durch Menschen, die sich gegenseitig inspirieren und gemeinsam Energie erzeugen.",
         "product": "Photoguide – Next Level",
         "paywall": true
       },
@@ -720,36 +750,6 @@
         "paywall": true
       },
       {
-        "id": "T08_E01",
-        "module": "PSYCHO",
-        "titel": "Fotografen haben Social Network erschaffen",
-        "url": "https://prophotoskills.com/t08_e01_fotografen-haben-social-network-erschaffen/",
-        "zitiercode": "PSYCHO-T08_E01-2026",
-        "core_learning": "Fotografie dokumentiert nicht mehr nur die Welt – sie erschafft soziale Realitaet, Aufmerksamkeit und digitale Identitaet.",
-        "product": "Photoguide – Next Level",
-        "paywall": true
-      },
-      {
-        "id": "T08_L01",
-        "module": "PSYCHO",
-        "titel": "Die Kulisse von nebenan",
-        "url": "https://prophotoskills.com/t08_l01_die-kulisse-von-nebenan/",
-        "zitiercode": "PSYCHO-T08_L01-2026",
-        "core_learning": "Die Qualitaet einer Fotografie entsteht oft weniger durch den Ort selbst als durch die Aufmerksamkeit und Wahrnehmung des Fotografen.",
-        "product": "Photoguide – Next Level",
-        "paywall": true
-      },
-      {
-        "id": "T08_L02",
-        "module": "PSYCHO",
-        "titel": "Das Lehrteam beim freien Projekt",
-        "url": "https://prophotoskills.com/t08_l02_das-lehrteam-beim-freien-projekt/",
-        "zitiercode": "PSYCHO-T08_L02-2026",
-        "core_learning": "Freie Projekte sind oft ehrlicher als grosse Produktionen, weil sie zeigen, wie Menschen ohne Druck von Geld oder Status wirklich arbeiten und kommunizieren.",
-        "product": "Photoguide – Next Level",
-        "paywall": true
-      },
-      {
         "id": "T10_L01",
         "module": "TRAVEL",
         "titel": "Reiseplanung fuer Kreative",
@@ -823,7 +823,7 @@
         "id": "T10_L08",
         "module": "TRAVEL",
         "titel": "Travel Light vs Full Gear wann minimal wann maximal reisen",
-        "url": "https://prophotoskills.com/t10-l08-travel-light-vs-full-gear-wann-minimal-wann-maximal-reisen/",
+        "url": "https://prophotoskills.com/t10_l08_travel-light-vs-full-gear-wann-minimal-wann-maximal-reisen/",
         "zitiercode": "TRAVEL-T10_L08-2026",
         "core_learning": "Professionelle Produktionen profitieren davon, wenn Equipment bewusst nach Projektanforderung, Mobilitaet und Produktionsrealitaet geplant wird.",
         "product": "Photoguide – OnLocation",
@@ -833,7 +833,7 @@
         "id": "T10_L09",
         "module": "TRAVEL",
         "titel": "Kreativer Blick unterwegs Bilder die schon auf der Reise entstehen",
-        "url": "https://prophotoskills.com/t10-l09-kreativer-blick-unterwegs-bilder-die-schon-auf-der-reise-entstehen/",
+        "url": "https://prophotoskills.com/t10_l09_kreativer-blick-unterwegs-bilder-die-schon-auf-der-reise-entstehen/",
         "zitiercode": "TRAVEL-T10_L09-2026",
         "core_learning": "Professionelle Fotografen entwickeln ihren Blick nicht nur am Set, sondern durch staendige Beobachtung, Offenheit und bewusste Wahrnehmung waehrend der gesamten Reise.",
         "product": "Photoguide – OnLocation",
@@ -1053,7 +1053,7 @@
         "id": "T11_L15",
         "module": "LOCATION",
         "titel": "Locations als Co Creator wenn der Raum selbst Teil der Story wird",
-        "url": "https://prophotoskills.com/t11-l15-locations-als-co-creator-wenn-der-raum-selbst-teil-der-story-wird/",
+        "url": "https://prophotoskills.com/t11_l15_locations-als-co-creator-wenn-der-raum-selbst-teil-der-story-wird/",
         "zitiercode": "LOCATION-T11_L15-2026",
         "core_learning": "Professionelle Produktionen nutzen Raeume bewusst als aktive Erzähler die Stimmung, Dynamik und die gesamte emotionale Wirkung eines Bildes mitgestalten.",
         "product": "Photoguide – OnLocation",
@@ -1346,6 +1346,16 @@
         "url": "https://prophotoskills.com/t13_l14_minimalismus-setups-mit-wenig-viel-erreichen/",
         "zitiercode": "EQUIPMENT-T13_L14-2026",
         "core_learning": "Professionelle OnLocation Produktionen profitieren enorm davon wenn Setups bewusst reduziert und auf echte Produktionsanforderungen optimiert werden.",
+        "product": "Photoguide – OnLocation",
+        "paywall": true
+      },
+      {
+        "id": "T13_L15",
+        "module": "EQUIPMENT",
+        "titel": "Equipment als Visitenkarte wie dein Umgang Professionalitaet zeigt",
+        "url": "https://prophotoskills.com/t13_l15_equipment-als-visitenkarte-wie-dein-umgang-professionalitaet-zeigt/",
+        "zitiercode": "EQUIPMENT-T13_L15-2026",
+        "core_learning": "Equipment ist eine Visitenkarte: Sorgfalt, Ordnung und Ruhe im Umgang mit Technik zeigen Kunden und Teams, dass sie sich auf dich verlassen koennen.",
         "product": "Photoguide – OnLocation",
         "paywall": true
       }

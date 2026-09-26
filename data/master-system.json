@@ -7,7 +7,7 @@
     "version": "1.2",
     "last_updated": "2026-09-25",
     "file_role": "Einstieg & Identitaet",
-    "type": "ProPhotoSkills Brand Root – 9 Module, 134 Artikel, 3 Produkte",
+    "type": "ProPhotoSkills Brand Root – 9 Module, 135 Artikel, 3 Produkte",
     "subtype": "Brand Root: Alle Inhalte angeteasert auf prophotoskills.com – Vollzugang ueber Produkte",
     "status": "active",
     "positioning": {
@@ -44,7 +44,7 @@
     "modules": [
       {
         "id": "KNOWLEDGE",
-        "code": "T02-T03-T07",
+        "code": "T02-T04-T07",
         "meaning": "Strategisches Denken, Wahrnehmung, Analyse und Vorbereitung",
         "purpose": "Die unsichtbaren Prozesse professioneller Fotografie verstehen",
         "core_topics": [
@@ -59,7 +59,7 @@
       },
       {
         "id": "TECHNIK",
-        "code": "T06",
+        "code": "T06-T08",
         "meaning": "Selbstoptimierung, mentale Staerke und Praesenz",
         "purpose": "Den Fotografen selbst als Teil der Technik verstehen",
         "core_topics": [
@@ -88,7 +88,7 @@
       },
       {
         "id": "SKILL",
-        "code": "T04-T05",
+        "code": "T01-T05",
         "meaning": "Anwendung, Wahrnehmung und kreative Handlungskompetenz",
         "purpose": "Wissen in professionelle Handlung uebersetzen",
         "core_topics": [
@@ -102,7 +102,7 @@
       },
       {
         "id": "PSYCHO",
-        "code": "T14",
+        "code": "T03",
         "meaning": "Psychologie, Vertrauen und emotionale Dynamik",
         "purpose": "Menschen und emotionale Prozesse verstehen",
         "core_topics": [
