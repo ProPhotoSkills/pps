@@ -5,7 +5,7 @@
   "domain": "https://prophotoskills.com",
   "language": "de",
   "version": "1.2",
-  "last_updated": "2026-09-25",
+  "last_updated": "2026-09-27",
   "file_role": "Einstieg & Identitaet",
   "type": "ProPhotoSkills Brand Root",
   "description": "Professionelle Fotografie Weiterbildung – 9 Module, 135 Artikel, 3 Produkte. Alle Inhalte auf prophotoskills.com.",
@@ -15,12 +15,12 @@
     "note": "Alle Artikel angeteasert auf prophotoskills.com. Vollzugang ueber Produkte.",
     "modules": {
       "KNOWLEDGE": {
-        "articles": 19,
+        "articles": 21,
         "url": "https://prophotoskills.com/knowledge/",
         "product": "Photoguide – Next Level"
       },
       "TECHNIK": {
-        "articles": 8,
+        "articles": 11,
         "url": "https://prophotoskills.com/technik/",
         "product": "Photoguide – Next Level"
       },
@@ -30,12 +30,12 @@
         "product": "Photoguide – Next Level"
       },
       "SKILL": {
-        "articles": 28,
+        "articles": 26,
         "url": "https://prophotoskills.com/skill/",
         "product": "Photoguide – Next Level"
       },
       "PSYCHO": {
-        "articles": 8,
+        "articles": 5,
         "url": "https://prophotoskills.com/psycho/",
         "product": "Photoguide – Next Level"
       },
@@ -55,7 +55,7 @@
         "product": "Photoguide – OnLocation"
       },
       "EQUIPMENT": {
-        "articles": 14,
+        "articles": 15,
         "url": "https://prophotoskills.com/equipment/",
         "product": "Photoguide – OnLocation"
       }
