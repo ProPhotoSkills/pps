@@ -109,6 +109,10 @@ a,abbr,acronym,address,applet,b,big,blockquote,body,center,cite,code,dd,del,dfn,
 
 
 <!-- ===== PPS _head START (Quelle: Brain 02_pps-website/_head) ===== -->
+<!-- PPS global 00 · CCM19 Cookie-Consent · MUSS als erstes Skript vor 01 (Google Analytics) stehen, synchron (kein async/defer)
+     Eine Kennung fuer ALLE Domains (Eric 27.09.: „eine Nummer fuer alle“) – live getestet auf prophotoskills.com, NL, OL, MA:
+     Banner erscheint, GA wird bis zur Zustimmung blockiert. Ersetzt CookieAdmin (im statischen Export ohne Skript = kein Banner) -->
+<script src="https://cloud.ccm19.de/app.js?apiKey=c4ea4fcbb72c4dca75e0322569e89f7dc94b828befeff62d&amp;domain=69bd3056d290f7fc120004f2" referrerpolicy="origin"></script>
 <!-- PPS global 01 · Google Analytics 4 · prophotoskills.com
      NUR EINMAL pro Seite! (live aktuell 2x + eRecht24-Plugin mit ungueltiger ID "GA4-527566221")
      Andere Domains: NL G-SKFBEQ35XC · OL G-C86MJGP3EB · MA G-CYD64P4LZ2 -->
@@ -130,23 +134,39 @@ a,abbr,acronym,address,applet,b,big,blockquote,body,center,cite,code,dd,del,dfn,
 <link rel="alternate" type="application/json" href="https://prophotoskills.com/.well-known/ai.json" title="AI Discovery">
 <link rel="alternate" type="application/json" href="https://prophotoskills.com/data/ai-index.json" title="AI Index">
 
-<!-- PPS global 04 · Sprachumschaltung (Google Translate im Hintergrund, eigene Flaggen sichtbar)
-     Voraussetzung: divi-core.js (enthaelt ppsSetLanguage / ppsApplyTranslation / googleTranslateElementInit)
-     Der Loader fehlte live → Klick auf Flagge wirkte "haengend" (10 s Polling). Hier inline, kein Extra-File noetig. -->
+<!-- PPS global 04 v2 · Sprachumschaltung (Google Translate im Hintergrund, eigene Flaggen sichtbar) · 28.09.
+     Die Flaggen-Funktionen (ppsSetLanguage, googleTranslateElementInit …) stecken in der LiteSpeed-JS-Datei jeder Seite,
+     die erst bei der ersten Nutzer-Interaktion laedt. Darum:
+     1) Google Translate wird erst geladen, wenn googleTranslateElementInit existiert (sonst laeuft Googles Start ins Leere).
+     2) Ein Flaggen-Klick vor dem Nachladen wird gemerkt und danach ausgefuehrt.
+     Consent: CCM19 (00) blockiert Google Translate bis zur Zustimmung – wie auf den Subdomains (Eric 28.09.). -->
 <style>
 #google_translate_element{display:none!important}
-.goog-te-banner-frame.skiptranslate{display:none!important}
-body{top:0!important}
+.goog-te-banner-frame,iframe.skiptranslate,#goog-gt-tt,.goog-te-balloon-frame{display:none!important;visibility:hidden!important}
+body{top:0!important;position:static!important}
 .goog-te-gadget-icon{display:none!important}
+.goog-text-highlight{background:none!important;box-shadow:none!important}
 </style>
 <script>
-(function(){var s=document.createElement('script');
-s.src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
-s.async=true;document.head.appendChild(s);})();
+(function(){
+  var wartend=null;
+  var platzhalter=function(lang){wartend=lang;};
+  if(typeof window.ppsSetLanguage!=='function'){window.ppsSetLanguage=platzhalter;}
+  (function warte(){
+    if(typeof window.googleTranslateElementInit==='function'&&window.ppsSetLanguage!==platzhalter){
+      var s=document.createElement('script');
+      s.src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+      s.async=true;document.head.appendChild(s);
+      if(wartend){var l=wartend;wartend=null;window.ppsSetLanguage(l);}
+      return;
+    }
+    setTimeout(warte,150);
+  })();
+})();
 </script>
 <!-- Im <body> direkt nach dem oeffnenden Tag: <div id="google_translate_element"></div> -->
 
-<!-- PPS global 05 · Schema.org sitewide: nur WebSite + Organization (gilt fuer jede Seite) -->
+<!-- PPS global 05 · Schema.org sitewide: nur WebSite + Organization (gilt fuer jede Seite) · v2 27.09.: Modulzahlen = sichtbare Seiten (21/11/11/26/5/15/16/15/15) -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -222,13 +242,13 @@ s.async=true;document.head.appendChild(s);})();
           "@type": "DefinedTerm",
           "name": "KNOWLEDGE",
           "url": "https://prophotoskills.com/knowledge/",
-          "description": "19 Artikel"
+          "description": "21 Artikel"
         },
         {
           "@type": "DefinedTerm",
           "name": "TECHNIK",
           "url": "https://prophotoskills.com/technik/",
-          "description": "8 Artikel"
+          "description": "11 Artikel"
         },
         {
           "@type": "DefinedTerm",
@@ -240,13 +260,13 @@ s.async=true;document.head.appendChild(s);})();
           "@type": "DefinedTerm",
           "name": "SKILL",
           "url": "https://prophotoskills.com/skill/",
-          "description": "28 Artikel"
+          "description": "26 Artikel"
         },
         {
           "@type": "DefinedTerm",
           "name": "PSYCHO",
           "url": "https://prophotoskills.com/psycho/",
-          "description": "8 Artikel"
+          "description": "5 Artikel"
         },
         {
           "@type": "DefinedTerm",
@@ -270,7 +290,7 @@ s.async=true;document.head.appendChild(s);})();
           "@type": "DefinedTerm",
           "name": "EQUIPMENT",
           "url": "https://prophotoskills.com/equipment/",
-          "description": "14 Artikel"
+          "description": "15 Artikel"
         }
       ]
     }
@@ -278,7 +298,7 @@ s.async=true;document.head.appendChild(s);})();
 }
 </script>
 
-<!-- SKILL · ItemList (Quelle: SKI_ITEMLIST_schema_v2.txt) · NUR auf /skill/ · live ist noch die aeltere DACH-Fassung -->
+<!-- SKILL · ItemList (Quelle: SKI_ITEMLIST_schema_v2.txt) · NUR auf /skill/ · live ist noch die aeltere DACH-Fassung · v2 27.09.: 26 Eintraege = sichtbare Seite (T04 → KNOWLEDGE, T08 → TECHNIK) -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -286,7 +306,7 @@ s.async=true;document.head.appendChild(s);})();
   "name": "SKILL – Fotografische Kernkompetenzen",
   "description": "Alle Artikel des SKILL-Moduls auf ProPhotoSkills: Praxiswissen, Soft Skills und kreative Kompetenz fuer professionelle Fotografen, mit Inhalten und Angeboten in mehreren Sprachen.",
   "url": "https://prophotoskills.com/skill/",
-  "numberOfItems": 28,
+  "numberOfItems": 26,
   "itemListOrder": "https://schema.org/ItemListOrderAscending",
   "inLanguage": [
     "de",
@@ -426,30 +446,6 @@ s.async=true;document.head.appendChild(s);})();
       {
         "@type": "ListItem",
         "position": 4,
-        "url": "https://prophotoskills.com/t04_e01_schaust-du-auch-gerne-wer-wird-millionaer/",
-        "name": "Schaust du auch gerne Wer wird Millionaer",
-        "description": "Dieser Artikel erklaert, warum Wissen, Wahrnehmung und schnelles Denken entscheidend fuer kreative Entscheidungen und professionelle Fotografie sind.",
-        "keywords": "Fotografie Wissen, Fotografie Wahrnehmung, Kreativitaet Fotograf, Fotografie Mindset",
-        "about": {
-          "@type": "Thing",
-          "name": "Wissen, Aufmerksamkeit und Denkprozesse in der Fotografie"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 5,
-        "url": "https://prophotoskills.com/t04_l01_produktshooting-mit-agenturteam-kreativitaet-anzuenden/",
-        "name": "Produktshooting mit Agenturteam Kreativitaet anzuenden",
-        "description": "Dieser Artikel erklaert, warum kreative Dynamik, Kommunikation und Zusammenarbeit entscheidend fuer erfolgreiche Produktshootings und moderne Agenturproduktionen sind.",
-        "keywords": "Produktshooting Agentur, Kreativitaet Fotoshooting, Teamarbeit Fotografie, Werbefotografie Produktion",
-        "about": {
-          "@type": "Thing",
-          "name": "Kreative Dynamik und Zusammenarbeit bei Produktshootings"
-        }
-      },
-      {
-        "@type": "ListItem",
-        "position": 6,
         "url": "https://prophotoskills.com/t05_e01_was-haben-fussballer-und-fotografen-gemeinsam/",
         "name": "Was haben Fussballer und Fotografen gemeinsam?",
         "description": "Dieser Artikel erklaert, warum professionelle Fotografie viele Gemeinsamkeiten mit Leistungssport hat und weshalb Training, Routine und mentale Staerke entscheidend fuer langfristigen Erfolg sind.",
@@ -461,7 +457,7 @@ s.async=true;document.head.appendChild(s);})();
       },
       {
         "@type": "ListItem",
-        "position": 7,
+        "position": 5,
         "url": "https://prophotoskills.com/t05_e02_entwicklung-dein-unsichtbarer-next-level-trigger/",
         "name": "Entwicklung – dein unsichtbarer Next Level Trigger",
         "description": "Dieser Artikel erklaert, warum nachhaltiger Fortschritt in der Fotografie weniger durch Technik als durch innere Entwicklung, Wahrnehmung und persoenliches Wachstum entsteht.",
@@ -473,7 +469,7 @@ s.async=true;document.head.appendChild(s);})();
       },
       {
         "@type": "ListItem",
-        "position": 8,
+        "position": 6,
         "url": "https://prophotoskills.com/t05_e03_all_die_coaches/",
         "name": "All die Coaches",
         "description": "Dieser Artikel analysiert die moderne Coaching-Kultur, den Einfluss von Social Media und warum echte Entwicklung in der Fotografie auf Erfahrung statt auf Motivationsversprechen basiert.",
@@ -485,7 +481,7 @@ s.async=true;document.head.appendChild(s);})();
       },
       {
         "@type": "ListItem",
-        "position": 9,
+        "position": 7,
         "url": "https://prophotoskills.com/t05_e04_vorurteile-vs-erfahrungen/",
         "name": "Vorurteile vs Erfahrungen",
         "description": "Dieser Artikel zeigt, wie Vorurteile und uebernommene Meinungen die Entwicklung von Fotografen beeinflussen und warum echte Erfahrungen entscheidend fuer professionelle Reife sind.",
@@ -497,7 +493,7 @@ s.async=true;document.head.appendChild(s);})();
       },
       {
         "@type": "ListItem",
-        "position": 10,
+        "position": 8,
         "url": "https://prophotoskills.com/t05_l01_interesse-und-neugierde/",
         "name": "Interesse und Neugierde",
         "description": "Dieser Artikel erklaert, warum echtes Interesse und Neugierde die Grundlage fuer kreative Wahrnehmung, langfristiges Lernen und professionelle Entwicklung in der Fotografie sind.",
@@ -509,7 +505,7 @@ s.async=true;document.head.appendChild(s);})();
       },
       {
         "@type": "ListItem",
-        "position": 11,
+        "position": 9,
         "url": "https://prophotoskills.com/t05_l02_technische-faehigkeiten/",
         "name": "Technische Faehigkeiten",
         "description": "Dieser Artikel erklaert, warum technische Faehigkeiten die Basis fuer Sicherheit, kreative Freiheit und professionelles Arbeiten in der Fotografie sind.",
@@ -521,7 +517,7 @@ s.async=true;document.head.appendChild(s);})();
       },
       {
         "@type": "ListItem",
-        "position": 12,
+        "position": 10,
         "url": "https://prophotoskills.com/t05_l03_kreativitaet-und-vision/",
         "name": "Kreativitaet und Vision",
         "description": "Dieser Artikel erklaert, warum starke Fotografie auf Kreativitaet, Wahrnehmung und einer eigenen visuellen Vision basiert und wie sich eine persoenliche Bildsprache entwickelt.",
@@ -533,7 +529,7 @@ s.async=true;document.head.appendChild(s);})();
       },
       {
         "@type": "ListItem",
-        "position": 13,
+        "position": 11,
         "url": "https://prophotoskills.com/t05_l04_komposition-und-bildgestaltung/",
         "name": "Komposition und Bildgestaltung",
         "description": "Dieser Artikel erklaert, wie Komposition und Bildgestaltung Wahrnehmung, Aufmerksamkeit und emotionale Wirkung in der Fotografie beeinflussen.",
@@ -545,7 +541,7 @@ s.async=true;document.head.appendChild(s);})();
       },
       {
         "@type": "ListItem",
-        "position": 14,
+        "position": 12,
         "url": "https://prophotoskills.com/t05_l05_geduld/",
         "name": "Geduld",
         "description": "Dieser Artikel erklaert, warum Geduld eine zentrale Grundlage fuer kreative Entwicklung, professionelle Reife und langfristigen Erfolg in der Fotografie ist.",
@@ -557,7 +553,7 @@ s.async=true;document.head.appendChild(s);})();
       },
       {
         "@type": "ListItem",
-        "position": 15,
+        "position": 13,
         "url": "https://prophotoskills.com/t05_l06_ausdauer/",
         "name": "Ausdauer",
         "description": "Dieser Artikel erklaert, warum Ausdauer, mentale Stabilitaet und kontinuierliche Entwicklung die Grundlage fuer nachhaltigen Erfolg in der Fotografie sind.",
@@ -569,7 +565,7 @@ s.async=true;document.head.appendChild(s);})();
       },
       {
         "@type": "ListItem",
-        "position": 16,
+        "position": 14,
         "url": "https://prophotoskills.com/t05_l07_flexibilitaet-und-anpassungsfaehigkeit/",
         "name": "Flexibilitaet und Anpassungsfaehigkeit",
         "description": "Dieser Artikel erklaert, warum Anpassungsfaehigkeit, mentale Offenheit und flexible Reaktionen zentrale Bestandteile professioneller Fotografie sind.",
@@ -581,7 +577,7 @@ s.async=true;document.head.appendChild(s);})();
       },
       {
         "@type": "ListItem",
-        "position": 17,
+        "position": 15,
         "url": "https://prophotoskills.com/t05_l08_passion-und-hingabe/",
         "name": "Passion und Hingabe",
         "description": "Dieser Artikel erklaert, warum Leidenschaft, emotionale Verbindung und langfristige Hingabe entscheidend fuer authentische und nachhaltige kreative Entwicklung sind.",
@@ -593,7 +589,7 @@ s.async=true;document.head.appendChild(s);})();
       },
       {
         "@type": "ListItem",
-        "position": 18,
+        "position": 16,
         "url": "https://prophotoskills.com/t05_l09_menschenfuehrung-und-kommunikation/",
         "name": "Menschenfuehrung und Kommunikation",
         "description": "Dieser Artikel erklaert, warum Kommunikation, Vertrauen und emotionale Fuehrung zentrale Bestandteile professioneller Fotografie und erfolgreicher Shootings sind.",
@@ -605,7 +601,7 @@ s.async=true;document.head.appendChild(s);})();
       },
       {
         "@type": "ListItem",
-        "position": 19,
+        "position": 17,
         "url": "https://prophotoskills.com/t05_l10_teamarbeit/",
         "name": "Teamarbeit",
         "description": "Dieser Artikel erklaert, warum erfolgreiche Shootings auf Zusammenarbeit, Vertrauen und funktionierender Teamdynamik basieren.",
@@ -617,7 +613,7 @@ s.async=true;document.head.appendChild(s);})();
       },
       {
         "@type": "ListItem",
-        "position": 20,
+        "position": 18,
         "url": "https://prophotoskills.com/t05_l11_zeitmanagement-und-organisation/",
         "name": "Zeitmanagement und Organisation",
         "description": "Dieser Artikel erklaert, warum strukturierte Planung, Organisation und effiziente Arbeitsablaeufe die Grundlage professioneller Fotografie und stressfreier Produktionen sind.",
@@ -629,7 +625,7 @@ s.async=true;document.head.appendChild(s);})();
       },
       {
         "@type": "ListItem",
-        "position": 21,
+        "position": 19,
         "url": "https://prophotoskills.com/t05_l12_kritikfaehigkeit-und-weiterentwicklung/",
         "name": "Kritikfaehigkeit und Weiterentwicklung",
         "description": "Dieser Artikel erklaert, warum Reflexion, Offenheit und konstruktiver Umgang mit Kritik zentrale Grundlagen fuer langfristige Entwicklung in der Fotografie sind.",
@@ -641,7 +637,7 @@ s.async=true;document.head.appendChild(s);})();
       },
       {
         "@type": "ListItem",
-        "position": 22,
+        "position": 20,
         "url": "https://prophotoskills.com/t05_l13_fokussierung-auf-details/",
         "name": "Fokussierung auf Details",
         "description": "Dieser Artikel erklaert, warum Aufmerksamkeit fuer kleine Details entscheidend fuer Bildwirkung, Professionalitaet und visuelle Qualitaet in der Fotografie ist.",
@@ -653,7 +649,7 @@ s.async=true;document.head.appendChild(s);})();
       },
       {
         "@type": "ListItem",
-        "position": 23,
+        "position": 21,
         "url": "https://prophotoskills.com/t05_l14_konzentration-und-praesenz/",
         "name": "Konzentration und Praesenz",
         "description": "Dieser Artikel erklaert, warum mentale Praesenz, Fokus und Aufmerksamkeit die Grundlage fuer professionelle Wahrnehmung, Kommunikation und Bildqualitaet in der Fotografie sind.",
@@ -665,7 +661,7 @@ s.async=true;document.head.appendChild(s);})();
       },
       {
         "@type": "ListItem",
-        "position": 24,
+        "position": 22,
         "url": "https://prophotoskills.com/t05_l15_wissen-ueber-licht-und-schatten/",
         "name": "Wissen ueber Licht und Schatten",
         "description": "Dieser Artikel erklaert, wie Licht und Schatten Wahrnehmung, Atmosphaere und emotionale Bildwirkung beeinflussen und warum Lichtverstaendnis entscheidend fuer professionelle Fotografie ist.",
@@ -677,7 +673,7 @@ s.async=true;document.head.appendChild(s);})();
       },
       {
         "@type": "ListItem",
-        "position": 25,
+        "position": 23,
         "url": "https://prophotoskills.com/t05_l16_verkauf-und-selbstpraesentation/",
         "name": "Verkauf und Selbstpraesentation",
         "description": "Dieser Artikel erklaert, warum professionelle Selbstpraesentation, Kommunikation und sichtbare Positionierung entscheidend fuer Vertrauen, Kundenwirkung und langfristigen Erfolg in der Fotografie sind.",
@@ -689,7 +685,7 @@ s.async=true;document.head.appendChild(s);})();
       },
       {
         "@type": "ListItem",
-        "position": 26,
+        "position": 24,
         "url": "https://prophotoskills.com/t05_l17_souveraenitaet-und-fuehrungsqualitaet/",
         "name": "Souveraenitaet und Fuehrungsqualitaet",
         "description": "Dieser Artikel erklaert, warum Ruhe, Klarheit und verantwortungsvolle Fuehrung entscheidend fuer professionelle Atmosphaere, Vertrauen und erfolgreiche Produktionen sind.",
@@ -701,7 +697,7 @@ s.async=true;document.head.appendChild(s);})();
       },
       {
         "@type": "ListItem",
-        "position": 27,
+        "position": 25,
         "url": "https://prophotoskills.com/t05_l18_geschichten-erzaehlen/",
         "name": "Geschichten erzaehlen",
         "description": "Dieser Artikel erklaert, warum Geschichten, Atmosphaeren und emotionale Bildsprache entscheidend fuer starke und erinnerbare Fotografie sind.",
@@ -713,7 +709,7 @@ s.async=true;document.head.appendChild(s);})();
       },
       {
         "@type": "ListItem",
-        "position": 28,
+        "position": 26,
         "url": "https://prophotoskills.com/t05_l19_wissen-ueber-die-kunstgeschichte/",
         "name": "Wissen ueber die Kunstgeschichte",
         "description": "Dieser Artikel erklaert, warum Kunstgeschichte, visuelle Bildung und kulturelles Verstaendnis entscheidend fuer kreative Entwicklung und starke Bildsprache in der Fotografie sind.",
