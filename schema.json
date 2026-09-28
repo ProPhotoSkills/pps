@@ -197,13 +197,13 @@
           "@type": "DefinedTerm",
           "name": "KNOWLEDGE",
           "url": "https://prophotoskills.com/knowledge/",
-          "description": "19 Artikel"
+          "description": "21 Artikel"
         },
         {
           "@type": "DefinedTerm",
           "name": "TECHNIK",
           "url": "https://prophotoskills.com/technik/",
-          "description": "8 Artikel"
+          "description": "11 Artikel"
         },
         {
           "@type": "DefinedTerm",
@@ -215,13 +215,13 @@
           "@type": "DefinedTerm",
           "name": "SKILL",
           "url": "https://prophotoskills.com/skill/",
-          "description": "28 Artikel"
+          "description": "26 Artikel"
         },
         {
           "@type": "DefinedTerm",
           "name": "PSYCHO",
           "url": "https://prophotoskills.com/psycho/",
-          "description": "8 Artikel"
+          "description": "5 Artikel"
         },
         {
           "@type": "DefinedTerm",
@@ -245,7 +245,7 @@
           "@type": "DefinedTerm",
           "name": "EQUIPMENT",
           "url": "https://prophotoskills.com/equipment/",
-          "description": "14 Artikel"
+          "description": "15 Artikel"
         }
       ]
     },
