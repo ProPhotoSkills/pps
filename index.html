@@ -118,6 +118,10 @@ a,abbr,acronym,address,applet,b,big,blockquote,body,center,cite,code,dd,del,dfn,
 <style id="pps-v6-fix">.et_pb_text_inner h1.pps-h1{font-size:26px;padding-bottom:10px}.et_pb_text_6 .et_pb_text_inner h2.pps-faq-label{font-size:22px}#pps-products{max-width:860px;margin:60px auto 0;padding:0 20px}#pps-products .pps-p-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:20px}#pps-products .pps-p{border:1px solid #e5e5e5;border-top:3px solid #f8e800;padding:18px;background:#fff}#pps-products .pps-p h3{font-size:1.1rem;margin:0 0 6px;padding:0}#pps-products .pps-p .pps-price{font-size:1.3rem;font-weight:700;margin:4px 0 8px;color:#111}#pps-products .pps-p p{font-size:.92rem;color:#555;margin:0 0 10px;line-height:1.5}#pps-products .pps-p a{font-weight:600;color:#111}@media(max-width:767px){#pps-products .pps-p-grid{grid-template-columns:1fr}}</style>
 
 <!-- ===== PPS _head START (Quelle: Brain 02_pps-website/_head) ===== -->
+<!-- PPS global 00 · CCM19 Cookie-Consent · MUSS als erstes Skript vor 01 (Google Analytics) stehen, synchron (kein async/defer)
+     Eine Kennung fuer ALLE Domains (Eric 27.09.: „eine Nummer fuer alle“) – live getestet auf prophotoskills.com, NL, OL, MA:
+     Banner erscheint, GA wird bis zur Zustimmung blockiert. Ersetzt CookieAdmin (im statischen Export ohne Skript = kein Banner) -->
+<script src="https://cloud.ccm19.de/app.js?apiKey=c4ea4fcbb72c4dca75e0322569e89f7dc94b828befeff62d&amp;domain=69bd3056d290f7fc120004f2" referrerpolicy="origin"></script>
 <!-- PPS global 01 · Google Analytics 4 · prophotoskills.com
      NUR EINMAL pro Seite! (live aktuell 2x + eRecht24-Plugin mit ungueltiger ID "GA4-527566221")
      Andere Domains: NL G-SKFBEQ35XC · OL G-C86MJGP3EB · MA G-CYD64P4LZ2 -->
@@ -139,19 +143,35 @@ a,abbr,acronym,address,applet,b,big,blockquote,body,center,cite,code,dd,del,dfn,
 <link rel="alternate" type="application/json" href="https://prophotoskills.com/.well-known/ai.json" title="AI Discovery">
 <link rel="alternate" type="application/json" href="https://prophotoskills.com/data/ai-index.json" title="AI Index">
 
-<!-- PPS global 04 · Sprachumschaltung (Google Translate im Hintergrund, eigene Flaggen sichtbar)
-     Voraussetzung: divi-core.js (enthaelt ppsSetLanguage / ppsApplyTranslation / googleTranslateElementInit)
-     Der Loader fehlte live → Klick auf Flagge wirkte "haengend" (10 s Polling). Hier inline, kein Extra-File noetig. -->
+<!-- PPS global 04 v2 · Sprachumschaltung (Google Translate im Hintergrund, eigene Flaggen sichtbar) · 28.09.
+     Die Flaggen-Funktionen (ppsSetLanguage, googleTranslateElementInit …) stecken in der LiteSpeed-JS-Datei jeder Seite,
+     die erst bei der ersten Nutzer-Interaktion laedt. Darum:
+     1) Google Translate wird erst geladen, wenn googleTranslateElementInit existiert (sonst laeuft Googles Start ins Leere).
+     2) Ein Flaggen-Klick vor dem Nachladen wird gemerkt und danach ausgefuehrt.
+     Consent: CCM19 (00) blockiert Google Translate bis zur Zustimmung – wie auf den Subdomains (Eric 28.09.). -->
 <style>
 #google_translate_element{display:none!important}
-.goog-te-banner-frame.skiptranslate{display:none!important}
-body{top:0!important}
+.goog-te-banner-frame,iframe.skiptranslate,#goog-gt-tt,.goog-te-balloon-frame{display:none!important;visibility:hidden!important}
+body{top:0!important;position:static!important}
 .goog-te-gadget-icon{display:none!important}
+.goog-text-highlight{background:none!important;box-shadow:none!important}
 </style>
 <script>
-(function(){var s=document.createElement('script');
-s.src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
-s.async=true;document.head.appendChild(s);})();
+(function(){
+  var wartend=null;
+  var platzhalter=function(lang){wartend=lang;};
+  if(typeof window.ppsSetLanguage!=='function'){window.ppsSetLanguage=platzhalter;}
+  (function warte(){
+    if(typeof window.googleTranslateElementInit==='function'&&window.ppsSetLanguage!==platzhalter){
+      var s=document.createElement('script');
+      s.src='https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+      s.async=true;document.head.appendChild(s);
+      if(wartend){var l=wartend;wartend=null;window.ppsSetLanguage(l);}
+      return;
+    }
+    setTimeout(warte,150);
+  })();
+})();
 </script>
 <!-- Im <body> direkt nach dem oeffnenden Tag: <div id="google_translate_element"></div> -->
 
@@ -310,13 +330,13 @@ s.async=true;document.head.appendChild(s);})();
           "@type": "DefinedTerm",
           "name": "KNOWLEDGE",
           "url": "https://prophotoskills.com/knowledge/",
-          "description": "19 Artikel"
+          "description": "21 Artikel"
         },
         {
           "@type": "DefinedTerm",
           "name": "TECHNIK",
           "url": "https://prophotoskills.com/technik/",
-          "description": "8 Artikel"
+          "description": "11 Artikel"
         },
         {
           "@type": "DefinedTerm",
@@ -328,13 +348,13 @@ s.async=true;document.head.appendChild(s);})();
           "@type": "DefinedTerm",
           "name": "SKILL",
           "url": "https://prophotoskills.com/skill/",
-          "description": "28 Artikel"
+          "description": "26 Artikel"
         },
         {
           "@type": "DefinedTerm",
           "name": "PSYCHO",
           "url": "https://prophotoskills.com/psycho/",
-          "description": "8 Artikel"
+          "description": "5 Artikel"
         },
         {
           "@type": "DefinedTerm",
@@ -358,7 +378,7 @@ s.async=true;document.head.appendChild(s);})();
           "@type": "DefinedTerm",
           "name": "EQUIPMENT",
           "url": "https://prophotoskills.com/equipment/",
-          "description": "14 Artikel"
+          "description": "15 Artikel"
         }
       ]
     },
