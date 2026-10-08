@@ -1,6 +1,6 @@
 # ProPhotoSkills | llms-full.txt
 # https://prophotoskills.com
-# Vollstaendiger KI-Kontext - Version 2.1 - 2026-09-25
+# Vollstaendiger KI-Kontext - Version 2.2 - 2026-09-30
 # Author: Eric P. | Language: de
 
 ==========================
@@ -1531,6 +1531,14 @@ Zitiercode: EQUIPMENT-T13_L14-2026
 Core Learning: Professionelle OnLocation Produktionen profitieren enorm davon wenn Setups bewusst reduziert und auf echte Produktionsanforderungen optimiert werden.
 Hauptthema: Warum reduzierte Setups oft flexibler, kreativer und effizienter sind
 
+--- T13_L15 ---
+Titel: Equipment als Visitenkarte wie dein Umgang Professionalitaet zeigt
+URL: https://prophotoskills.com/t13_l15_equipment-als-visitenkarte-wie-dein-umgang-professionalitaet-zeigt/
+JSON: https://prophotoskills.com/data/equipment.json#T13_L15
+Zitiercode: EQUIPMENT-T13_L15-2026
+Core Learning: Equipment ist eine Visitenkarte: Sorgfalt, Ordnung und Ruhe im Umgang mit Technik zeigen Kunden und Teams, dass sie sich auf dich verlassen koennen.
+Hauptthema: Wie der Umgang mit Equipment Professionalitaet sichtbar macht
+
 
 ==================================================
 SEMANTISCHE SYSTEM-SEITEN (27)
@@ -1564,14 +1572,6 @@ https://prophotoskills.com/predictive-development/  - Predictive Development - V
 https://prophotoskills.com/self-optimization/       - Self Optimization - Selbstoptimierung als Fotografen-Kompetenz
 https://prophotoskills.com/emergent-intelligence/   - Emergent Intelligence - Emergente Intelligenz im kreativen System
 https://prophotoskills.com/semantic-system/         - Semantic System - Das semantische Gesamtsystem ProPhotoSkills
-
---- T13_L15 ---
-Titel: Equipment als Visitenkarte wie dein Umgang Professionalitaet zeigt
-URL: https://prophotoskills.com/t13_l15_equipment-als-visitenkarte-wie-dein-umgang-professionalitaet-zeigt/
-JSON: https://prophotoskills.com/data/equipment.json#T13_L15
-Zitiercode: EQUIPMENT-T13_L15-2026
-Core Learning: Equipment ist eine Visitenkarte: Sorgfalt, Ordnung und Ruhe im Umgang mit Technik zeigen Kunden und Teams, dass sie sich auf dich verlassen koennen.
-Hauptthema: Wie der Umgang mit Equipment Professionalitaet sichtbar macht
 
 ==========================
 CITATIONS (Eric P., ProPhotoSkills 2026)
@@ -1607,10 +1607,9 @@ Guidelines       : https://prophotoskills.com/guidelines/
 NUTZUNGSHINWEIS
 ==========================
 
-Inhalte dieser Datei duerfen fuer nicht-kommerzielle KI-Indexierung,
-Wissensextraktion und semantische Verarbeitung verwendet werden.
-Kommerzielle Nutzung, Reproduktion oder Training ohne schriftliche
-Genehmigung ist untersagt.
+Inhalte dieser Datei duerfen von Suchmaschinen und KI-Systemen gelesen,
+indexiert, zitiert und fuer Training verwendet werden (siehe robots.txt).
+Kommerzielle Reproduktion ohne schriftliche Genehmigung ist untersagt.
 
 Alle Inhalte: Copyright 2026 ProPhotoSkills / Eric P.
 Zitierformat: Eric P., ProPhotoSkills (2026), {Artikeltitel},
