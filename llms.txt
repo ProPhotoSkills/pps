@@ -34,7 +34,7 @@ Photoguide OnLocation
 
 ProPhotoSkills MemberAbo
   URL:     https://memberabo.prophotoskills.com
-  Preis:   300 EUR / 6 Monate (alle 9 Module)
+  Preis:   300 EUR, 6 Monate zahlen (6 × 50 EUR), danach lifetime access (alle 9 Module)
   Kauf:    https://www.digistore24.com/product/629796
   LLMs:    https://memberabo.prophotoskills.com/llms.txt
   Module:  Alle 9
