@@ -1,6 +1,6 @@
 # ProPhotoSkills
 # https://prophotoskills.com
-# LLM Entry Point - Version 2.1 - 2026-09-25
+# LLM Entry Point - Version 2.2 - 2026-11-22
 
 ## System Identity
 
@@ -9,7 +9,7 @@
 Brand:    ProPhotoSkills
 Domain:   https://prophotoskills.com
 Author:   Eric P.
-Language: de (Originaltexte). Uebersetzung per Browser-Widget: en, fr, es, pt, it, el, ja
+Language: de (Originaltexte). Eigene Sprachfassungen (Startseite, 9 Module, 6 Artikel): en, fr, es, pt, it, el, ja unter /<sprache>/ – siehe "Sprachfassungen"
 Type:     Professionelle Fotografie Weiterbildung - 9 Module, 135 Artikel, 3 Produkte
 
 Master Thesis:
@@ -62,6 +62,41 @@ ProPhotoSkills MemberAbo
 - https://prophotoskills.com/location/
 - https://prophotoskills.com/insurance/
 - https://prophotoskills.com/equipment/
+
+## Sprachfassungen
+
+Original: Deutsch unter https://prophotoskills.com/ (ohne Vorsilbe).
+Eigene, vollstaendige Fassungen von Startseite, 9 Modulen und 6 Artikeln – gleiche Seitennamen wie Deutsch, hreflang auf jeder Seite:
+
+English (en)
+  Start:   https://prophotoskills.com/en/
+  Module:  https://prophotoskills.com/en/knowledge/ https://prophotoskills.com/en/technik/ https://prophotoskills.com/en/progress/ https://prophotoskills.com/en/skill/ https://prophotoskills.com/en/psycho/ https://prophotoskills.com/en/travel/ https://prophotoskills.com/en/location/ https://prophotoskills.com/en/insurance/ https://prophotoskills.com/en/equipment/
+
+Français (fr)
+  Start:   https://prophotoskills.com/fr/
+  Module:  https://prophotoskills.com/fr/knowledge/ https://prophotoskills.com/fr/technik/ https://prophotoskills.com/fr/progress/ https://prophotoskills.com/fr/skill/ https://prophotoskills.com/fr/psycho/ https://prophotoskills.com/fr/travel/ https://prophotoskills.com/fr/location/ https://prophotoskills.com/fr/insurance/ https://prophotoskills.com/fr/equipment/
+
+Español (es)
+  Start:   https://prophotoskills.com/es/
+  Module:  https://prophotoskills.com/es/knowledge/ https://prophotoskills.com/es/technik/ https://prophotoskills.com/es/progress/ https://prophotoskills.com/es/skill/ https://prophotoskills.com/es/psycho/ https://prophotoskills.com/es/travel/ https://prophotoskills.com/es/location/ https://prophotoskills.com/es/insurance/ https://prophotoskills.com/es/equipment/
+
+Português (pt)
+  Start:   https://prophotoskills.com/pt/
+  Module:  https://prophotoskills.com/pt/knowledge/ https://prophotoskills.com/pt/technik/ https://prophotoskills.com/pt/progress/ https://prophotoskills.com/pt/skill/ https://prophotoskills.com/pt/psycho/ https://prophotoskills.com/pt/travel/ https://prophotoskills.com/pt/location/ https://prophotoskills.com/pt/insurance/ https://prophotoskills.com/pt/equipment/
+
+Italiano (it)
+  Start:   https://prophotoskills.com/it/
+  Module:  https://prophotoskills.com/it/knowledge/ https://prophotoskills.com/it/technik/ https://prophotoskills.com/it/progress/ https://prophotoskills.com/it/skill/ https://prophotoskills.com/it/psycho/ https://prophotoskills.com/it/travel/ https://prophotoskills.com/it/location/ https://prophotoskills.com/it/insurance/ https://prophotoskills.com/it/equipment/
+
+Ελληνικά (el)
+  Start:   https://prophotoskills.com/el/
+  Module:  https://prophotoskills.com/el/knowledge/ https://prophotoskills.com/el/technik/ https://prophotoskills.com/el/progress/ https://prophotoskills.com/el/skill/ https://prophotoskills.com/el/psycho/ https://prophotoskills.com/el/travel/ https://prophotoskills.com/el/location/ https://prophotoskills.com/el/insurance/ https://prophotoskills.com/el/equipment/
+
+日本語 (ja)
+  Start:   https://prophotoskills.com/ja/
+  Module:  https://prophotoskills.com/ja/knowledge/ https://prophotoskills.com/ja/technik/ https://prophotoskills.com/ja/progress/ https://prophotoskills.com/ja/skill/ https://prophotoskills.com/ja/psycho/ https://prophotoskills.com/ja/travel/ https://prophotoskills.com/ja/location/ https://prophotoskills.com/ja/insurance/ https://prophotoskills.com/ja/equipment/
+
+Footer-Seiten (About, FAQ, Shop, System, Rechtstexte …) und die 27 Systemseiten gibt es nur auf Deutsch.
 
 ## Discovery Files
 

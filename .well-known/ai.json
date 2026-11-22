@@ -1,9 +1,45 @@
 {
   "name": "ProPhotoSkills",
-  "version": "1.1",
+  "version": "1.2",
   "domain": "https://prophotoskills.com",
   "language": "de",
-  "type": "Brand Root – Professionelle Fotografie Weiterbildung DACH",
+  "languages": [
+    {
+      "code": "de",
+      "url": "https://prophotoskills.com/",
+      "note": "Original"
+    },
+    {
+      "code": "en",
+      "url": "https://prophotoskills.com/en/"
+    },
+    {
+      "code": "fr",
+      "url": "https://prophotoskills.com/fr/"
+    },
+    {
+      "code": "es",
+      "url": "https://prophotoskills.com/es/"
+    },
+    {
+      "code": "pt",
+      "url": "https://prophotoskills.com/pt/"
+    },
+    {
+      "code": "it",
+      "url": "https://prophotoskills.com/it/"
+    },
+    {
+      "code": "el",
+      "url": "https://prophotoskills.com/el/"
+    },
+    {
+      "code": "ja",
+      "url": "https://prophotoskills.com/ja/"
+    }
+  ],
+  "language_note": "Startseite, 9 Module und 6 Artikel in allen 8 Sprachen (gleiche Seitennamen, hreflang); Footer-Seiten und Systemseiten nur Deutsch.",
+  "type": "Brand Root – Professionelle Fotografie Weiterbildung, international",
   "author": {
     "name": "Eric P.",
     "brand": "ProPhotoSkills",
